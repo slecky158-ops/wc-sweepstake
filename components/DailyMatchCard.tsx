@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { DailyMatch } from '@/lib/types';
+import type { LiveState } from '@/lib/live';
 import { getTeam, getEntrantForTeam } from '@/lib/data';
 
 function hostClass(country: string | undefined) {
@@ -9,7 +10,7 @@ function hostClass(country: string | undefined) {
   return '';
 }
 
-export function DailyMatchCard({ match, kind }: { match: DailyMatch; kind: 'yesterday' | 'today' }) {
+export function DailyMatchCard({ match, kind, live }: { match: DailyMatch; kind: 'yesterday' | 'today'; live?: LiveState }) {
   const a = getTeam(match.teamA);
   const b = getTeam(match.teamB);
   const eA = getEntrantForTeam(match.teamA);
@@ -76,7 +77,17 @@ export function DailyMatchCard({ match, kind }: { match: DailyMatch; kind: 'yest
         </div>
 
         <div style={{ width: '16%' }} className="text-center shrink-0">
-          {kind === 'yesterday' && typeof match.scoreA === 'number' && typeof match.scoreB === 'number' ? (
+          {live?.isLive && typeof live.scoreA === 'number' && typeof live.scoreB === 'number' ? (
+            <>
+              <div className="display text-2xl sm:text-4xl text-signal whitespace-nowrap leading-none">
+                {live.scoreA}<span className="text-text-paper-faint mx-1">–</span>{live.scoreB}
+              </div>
+              <div className="mt-1 inline-flex items-center gap-1 px-1.5 py-0.5 bg-signal text-white text-[9px] font-black uppercase tracking-widest rounded">
+                <span className="w-1 h-1 rounded-full bg-white animate-pulse" />
+                {live.status === 'PAUSED' ? 'HT' : live.status === 'EXTRA_TIME' ? 'ET' : live.status === 'PENALTY_SHOOTOUT' ? 'PEN' : (live.minute != null ? `${live.minute}'` : 'LIVE')}
+              </div>
+            </>
+          ) : kind === 'yesterday' && typeof match.scoreA === 'number' && typeof match.scoreB === 'number' ? (
             <div className="display text-2xl sm:text-4xl text-done whitespace-nowrap leading-none">
               {match.scoreA}<span className="text-text-paper-faint mx-1">–</span>{match.scoreB}
             </div>
