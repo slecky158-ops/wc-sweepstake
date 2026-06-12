@@ -4,6 +4,7 @@ import matchesJson from '@/data/matches.json';
 import awardsJson from '@/data/awards.json';
 import rulesJson from '@/data/rules.json';
 import dailyJson from '@/data/daily-current.json';
+import dailyArchiveJson from '@/data/daily-archive.json';
 import type { Team, Entrant, Match, Award, Rules, DailyPayload } from './types';
 
 export const teams: Team[] = teamsJson as Team[];
@@ -12,6 +13,43 @@ export const matches: Match[] = matchesJson as Match[];
 export const awards: Award[] = awardsJson as Award[];
 export const rules: Rules = rulesJson as Rules;
 export const daily: DailyPayload = dailyJson as unknown as DailyPayload;
+
+// ─────────── Daily archive: keyed by YYYYMMDD (date in UK) ───────────
+
+export const dailyArchive: Record<string, DailyPayload> =
+  dailyArchiveJson as unknown as Record<string, DailyPayload>;
+
+/** All archived dates, newest first. */
+export const archiveDatesDesc: string[] = Object.keys(dailyArchive).sort().reverse();
+
+/** "20260612" → "Fri 12 Jun" */
+export function formatArchiveDate(yyyymmdd: string): string {
+  const y = yyyymmdd.slice(0, 4);
+  const m = yyyymmdd.slice(4, 6);
+  const d = yyyymmdd.slice(6, 8);
+  return new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'UTC',
+    weekday: 'short', day: 'numeric', month: 'short',
+  }).format(new Date(`${y}-${m}-${d}T12:00:00Z`));
+}
+
+/** Pick the daily payload to show — by query param or latest. */
+export function pickDaily(requestedDate?: string): { payload: DailyPayload; dateKey: string; isLatest: boolean } {
+  const latestKey = archiveDatesDesc[0];
+  if (requestedDate && dailyArchive[requestedDate]) {
+    return {
+      payload: dailyArchive[requestedDate],
+      dateKey: requestedDate,
+      isLatest: requestedDate === latestKey,
+    };
+  }
+  // Default to the routine's current pointer if it matches archive; otherwise newest archive entry.
+  return {
+    payload: daily,
+    dateKey: latestKey,
+    isLatest: true,
+  };
+}
 
 // ────────────────── Lookups ──────────────────
 
