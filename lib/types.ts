@@ -65,6 +65,7 @@ export interface Award {
   title: string;
   type: AwardKind;
   rule: string;
+  prize: string;                  // e.g. "£5", "£30", "Jersey of winning team..."
   icon: string;
   currentLeader: string | null;   // free-text for now (team/player name)
   winnerEntrant: string | null;   // entrant slug if known
