@@ -6,7 +6,7 @@ import type { LiveState } from '@/lib/live';
 
 export const dynamic = 'force-dynamic';
 
-export default async function MatchesPage() {
+export default async function MatchesPage({ searchParams }: { searchParams: { country?: string; entrant?: string; group?: string } }) {
   // Build matchId → LiveState lookup for every match with a kickoff time.
   const live = await getLiveScores();
   const liveByMatchId: Record<string, LiveState> = {};
@@ -21,7 +21,15 @@ export default async function MatchesPage() {
       <Header eyebrow="All fixtures" title="Matches" />
       <div className="px-5 sm:px-8 pt-5">
         <div className="eyebrow mb-4">{matches.length} fixtures · Group stage + Knockouts</div>
-        <MatchesList matches={matches} teams={teams} entrants={entrants} liveByMatchId={liveByMatchId} />
+        <MatchesList
+          matches={matches}
+          teams={teams}
+          entrants={entrants}
+          liveByMatchId={liveByMatchId}
+          initialCountry={searchParams.country || ''}
+          initialEntrant={searchParams.entrant || ''}
+          initialGroup={searchParams.group || ''}
+        />
       </div>
     </main>
   );
