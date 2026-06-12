@@ -1,9 +1,10 @@
 [
   {
-    "id": "first-place",
-    "title": "1st place team",
+    "id": "winner",
+    "title": "Winner",
     "type": "team",
     "rule": "Final winner.",
+    "prize": "Jersey of winning team with winning goalscorer's name on the back",
     "icon": "trophy",
     "currentLeader": null,
     "winnerEntrant": null
@@ -13,6 +14,7 @@
     "title": "2nd place team",
     "type": "team",
     "rule": "Runner-up.",
+    "prize": "£30",
     "icon": "trophy",
     "currentLeader": null,
     "winnerEntrant": null
@@ -22,15 +24,17 @@
     "title": "3rd place team",
     "type": "team",
     "rule": "3rd-place play-off winner.",
+    "prize": "£15",
     "icon": "trophy",
     "currentLeader": null,
     "winnerEntrant": null
   },
   {
     "id": "top-scorer",
-    "title": "Top scorer (player)",
+    "title": "Top scoring player",
     "type": "player",
     "rule": "Most goals across the tournament.",
+    "prize": "£7.50",
     "icon": "boot",
     "currentLeader": null,
     "winnerEntrant": null
@@ -40,6 +44,7 @@
     "title": "Top scoring team",
     "type": "team",
     "rule": "Most goals scored in the group stage only.",
+    "prize": "£7.50",
     "icon": "boot",
     "currentLeader": null,
     "winnerEntrant": null
@@ -49,6 +54,7 @@
     "title": "Most clean sheets (team)",
     "type": "team",
     "rule": "Most clean sheets across the whole tournament.",
+    "prize": "£7.50",
     "icon": "shield",
     "currentLeader": null,
     "winnerEntrant": null
@@ -58,6 +64,7 @@
     "title": "First red card (by mins played)",
     "type": "team",
     "rule": "Determined by cumulative tournament minutes played at moment of red, so teams playing earlier in the tournament don't benefit.",
+    "prize": "£5",
     "icon": "card",
     "currentLeader": null,
     "winnerEntrant": null
@@ -67,6 +74,7 @@
     "title": "First own goal (by mins played)",
     "type": "team",
     "rule": "Cumulative tournament minutes basis, same logic as the red-card award.",
+    "prize": "£5",
     "icon": "card",
     "currentLeader": null,
     "winnerEntrant": null
@@ -76,25 +84,28 @@
     "title": "Worst team",
     "type": "team",
     "rule": "Lowest points → then worst goal difference → then fewest goals scored.",
+    "prize": "£7.50",
     "icon": "wooden-spoon",
     "currentLeader": null,
     "winnerEntrant": null
   },
   {
     "id": "first-shootout",
-    "title": "First team to lose a shootout",
+    "title": "First team to lose on penalties",
     "type": "team",
     "rule": "Knockout-stage penalty shootout loss.",
+    "prize": "£5",
     "icon": "penalty",
     "currentLeader": null,
     "winnerEntrant": null
   },
   {
-    "id": "designated-injury",
-    "title": "Designated player injured out",
-    "type": "player",
-    "rule": "Player nominated pre-tournament; must be confirmed out for the rest of the tournament.",
-    "icon": "injury",
+    "id": "set-piece-kings",
+    "title": "Set piece kings",
+    "type": "team",
+    "rule": "Team with the most non-penalty set-piece goals (direct free kicks, corners, indirect free kicks).",
+    "prize": "£5",
+    "icon": "boot",
     "currentLeader": null,
     "winnerEntrant": null
   },
@@ -103,6 +114,7 @@
     "title": "Worst disciplined team",
     "type": "team",
     "rule": "Most cards + fouls per 90 (exact weighting to be locked before kickoff).",
+    "prize": "£5",
     "icon": "card",
     "currentLeader": null,
     "winnerEntrant": null
@@ -111,7 +123,8 @@
     "id": "iran-multiplier",
     "title": "Iran Multiplier",
     "type": "modifier",
-    "rule": "If Iran no-shows the tournament, the entrant who drew Iran gets a 1.5x multiplier on all rewards from their OTHER team EXCEPT 1st place.",
+    "rule": "If Iran does not show up to the tournament, the entrant who drew Iran gets a 1.5x multiplier on all rewards earned by their OTHER team, EXCEPT 1st place.",
+    "prize": "1.5× modifier on other team's awards (excl. winner)",
     "icon": "star",
     "currentLeader": null,
     "winnerEntrant": null
@@ -120,26 +133,19 @@
     "id": "trump-bash",
     "title": "Trump bash award",
     "type": "team",
-    "rule": "First team whose NATIONAL TEAM specifically is insulted by Trump. Country-wide insults do NOT count.",
+    "rule": "First team where Trump directly insults their national team — broad insults against the country do NOT count.",
+    "prize": "£5",
     "icon": "megaphone",
     "currentLeader": null,
     "winnerEntrant": null
   },
   {
     "id": "first-missed-pen",
-    "title": "First missed penalty (by mins)",
+    "title": "First missed penalty (by mins played)",
     "type": "team",
-    "rule": "Cumulative tournament minutes basis. Confirm in-play vs shootout scope before kickoff.",
+    "rule": "Cumulative tournament minutes basis. In-play and shootout misses both count unless decided otherwise before kickoff.",
+    "prize": "£5",
     "icon": "penalty",
-    "currentLeader": null,
-    "winnerEntrant": null
-  },
-  {
-    "id": "most-assists",
-    "title": "Most assists (player)",
-    "type": "player",
-    "rule": "Tournament assists leader.",
-    "icon": "boot",
     "currentLeader": null,
     "winnerEntrant": null
   },
@@ -147,8 +153,49 @@
     "id": "shithouse",
     "title": "Shithouse award",
     "type": "team",
-    "rule": "Most wins in which the winning team took fewer shots than their opponent.",
+    "rule": "First team to win a match after receiving a red card prior to the 75th minute.",
+    "prize": "£5",
     "icon": "trophy",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "first-cry-anthem",
+    "title": "First player to cry during the national anthem",
+    "type": "player",
+    "rule": "First player visibly in tears during the pre-match national anthem.",
+    "prize": "£5",
+    "icon": "tear",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "first-cry-kickoff",
+    "title": "First player to cry after kickoff (sad)",
+    "type": "player",
+    "rule": "First player to cry during or after a match in a sad/disappointed way. Tears of joy don't count.",
+    "prize": "£5",
+    "icon": "tear",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "first-child-cry",
+    "title": "First child crying in the crowd",
+    "type": "team",
+    "rule": "First child spotted crying on the broadcast. Award goes to the team whose fans the child is supporting.",
+    "prize": "£5",
+    "icon": "tear",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "first-hattrick",
+    "title": "First hat-trick",
+    "type": "player",
+    "rule": "First player to score three goals in a single match.",
+    "prize": "£5",
+    "icon": "boot",
     "currentLeader": null,
     "winnerEntrant": null
   }
