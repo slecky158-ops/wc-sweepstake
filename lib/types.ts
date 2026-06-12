@@ -103,6 +103,10 @@ export interface DailyMatch {
     fgs: { name: string; odds: string };
   } | null;
   facts?: { home: string; away: string };
+  // Result fields (yesterday matches only)
+  score?: string;          // e.g. "2-0"
+  scoreA?: number;
+  scoreB?: number;
   scorers?: string;
   note?: string;
   analysis?: { lines: string[]; source: string };
