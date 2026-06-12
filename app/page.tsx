@@ -1,34 +1,42 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { DailyMatchCard } from '@/components/DailyMatchCard';
-import { daily, rules } from '@/lib/data';
+import { DateDropdown } from '@/components/DateDropdown';
+import { pickDaily, archiveDatesDesc, formatArchiveDate, rules } from '@/lib/data';
 import { getLiveScores, liveStateFor } from '@/lib/live';
 
 export const dynamic = 'force-dynamic';
 
-export default async function HomePage() {
-  const live = await getLiveScores();
+export default async function HomePage({ searchParams }: { searchParams: { date?: string } }) {
+  const { payload: daily, dateKey, isLatest } = pickDaily(searchParams.date);
+  // Live data only matters for the latest day — past dates show whatever was final.
+  const live = isLatest ? await getLiveScores() : new Map();
+
   return (
     <main className="page-enter">
 
       {/* ═══════ HERO ═══════ */}
       <section className="relative overflow-hidden bg-ink-deep">
-        {/* Faint country-tone watermark behind the brand */}
         <div aria-hidden="true" className="absolute inset-0 opacity-[0.04]">
           <div className="absolute top-0 right-0 w-1/2 h-full" style={{ background: 'linear-gradient(180deg, rgb(var(--gold)), transparent 60%)' }} />
         </div>
 
         <div className="relative z-10 px-5 pt-[max(1.5rem,env(safe-area-inset-top))] pb-5 sm:px-8 sm:pb-6 overflow-hidden">
-          {/* Top row — wordmark + date */}
+          {/* Top row — wordmark + archive dropdown + date */}
           <div className="flex items-start justify-between gap-3 mb-4 sm:mb-5 min-w-0">
             <div className="flex items-center gap-2 min-w-0">
               <span className="eyebrow text-gold shrink-0">FIFA</span>
               <span className="text-gold/30 shrink-0">|</span>
               <span className="eyebrow truncate">Sweepstake</span>
             </div>
-            <div className="text-right shrink-0">
-              <div className="eyebrow mb-0.5">{daily.dateRest}</div>
-              <div className="display text-lg sm:text-xl text-gold leading-none whitespace-nowrap">{daily.dateDay}</div>
+            <div className="flex items-center gap-2 shrink-0">
+              {archiveDatesDesc.length > 1 && (
+                <DateDropdown dates={archiveDatesDesc} activeDate={dateKey} formatLabel={formatArchiveDate} />
+              )}
+              <div className="text-right">
+                <div className="eyebrow mb-0.5">{daily.dateRest}</div>
+                <div className="display text-lg sm:text-xl text-gold leading-none whitespace-nowrap">{daily.dateDay}</div>
+              </div>
             </div>
           </div>
 
@@ -54,7 +62,7 @@ export default async function HomePage() {
           </div>
         </div>
 
-        {/* Bottom band — three host country colours, a la FIFA emblem system */}
+        {/* Bottom band — three host country colours */}
         <div className="grid grid-cols-3 h-1">
           <div style={{ background: 'rgb(var(--can))' }} />
           <div style={{ background: 'rgb(var(--mex))' }} />
@@ -65,29 +73,27 @@ export default async function HomePage() {
       {/* ═══════ BODY ═══════ */}
       <div className="px-5 sm:px-8 pt-8 space-y-10 pb-6">
 
+        {!isLatest && (
+          <div className="paper border-l-4 border-gold p-4 text-sm">
+            <span className="eyebrow eyebrow-on-paper mr-2">Archive</span>
+            <span className="text-text-paper">You're viewing the {daily.dateDay} update.</span>
+            <Link href="/" className="text-gold-deep font-bold ml-2">← Back to today</Link>
+          </div>
+        )}
+
         {/* TODAY */}
-        <Section
-          accent="signal"
-          label="Today"
-          count={daily.todayCount}
-          storyline={daily.todayStoryline}
-        >
+        <Section accent="signal" label="Today" count={daily.todayCount} storyline={daily.todayStoryline}>
           {daily.today.length > 0 ? (
             <div className="space-y-3">
               {daily.today.map(m => <DailyMatchCard key={m.matchId} match={m} kind="today" live={liveStateFor(live, m.teamA, m.teamB, m.kickoffUk)} />)}
             </div>
           ) : (
-            <EmptyState title="Rest day" body="No matches inside today's window (08:00 UK today → 08:00 UK tomorrow)." />
+            <EmptyState title="Rest day" body="No matches inside this day's window (08:00 UK → 08:00 UK)." />
           )}
         </Section>
 
         {/* YESTERDAY */}
-        <Section
-          accent="done"
-          label="Yesterday"
-          count={daily.yesterdayCount}
-          storyline={daily.yesterdayStoryline}
-        >
+        <Section accent="done" label="Yesterday" count={daily.yesterdayCount} storyline={daily.yesterdayStoryline}>
           {daily.yesterday.length > 0 ? (
             <div className="space-y-3">
               {daily.yesterday.map(m => <DailyMatchCard key={m.matchId} match={m} kind="yesterday" live={liveStateFor(live, m.teamA, m.teamB, m.kickoffUk)} />)}
@@ -126,11 +132,7 @@ export default async function HomePage() {
 }
 
 function Section({
-  accent,
-  label,
-  count,
-  storyline,
-  children,
+  accent, label, count, storyline, children,
 }: {
   accent: 'signal' | 'done' | 'info';
   label: string;
