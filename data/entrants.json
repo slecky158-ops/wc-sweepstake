@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Sam L",
+    "slug": "sam-l",
+    "teamA": "MEX",
+    "teamB": "RSA"
+  },
+  {
+    "name": "Calum",
+    "slug": "calum",
+    "teamA": "BRA",
+    "teamB": "CZE"
+  },
+  {
+    "name": "Andrew N",
+    "slug": "andrew-n",
+    "teamA": "SUI",
+    "teamB": "CUW"
+  },
+  {
+    "name": "Tyler",
+    "slug": "tyler",
+    "teamA": "TUR",
+    "teamB": "KSA"
+  },
+  {
+    "name": "Will",
+    "slug": "will",
+    "teamA": "AUS",
+    "teamB": "COD"
+  },
+  {
+    "name": "Andrew R",
+    "slug": "andrew-r",
+    "teamA": "GER",
+    "teamB": "EGY"
+  },
+  {
+    "name": "Joe",
+    "slug": "joe",
+    "teamA": "ARG",
+    "teamB": "PAN"
+  },
+  {
+    "name": "Peter",
+    "slug": "peter",
+    "teamA": "FRA",
+    "teamB": "QAT"
+  },
+  {
+    "name": "Beer",
+    "slug": "beer",
+    "teamA": "USA",
+    "teamB": "JOR"
+  },
+  {
+    "name": "Bank",
+    "slug": "bank",
+    "teamA": "JPN",
+    "teamB": "UZB"
+  },
+  {
+    "name": "Felix",
+    "slug": "felix",
+    "teamA": "AUT",
+    "teamB": "GHA"
+  },
+  {
+    "name": "Ben",
+    "slug": "ben",
+    "teamA": "KOR",
+    "teamB": "NZL"
+  },
+  {
+    "name": "Harry",
+    "slug": "harry",
+    "teamA": "CRO",
+    "teamB": "HAI"
+  },
+  {
+    "name": "Archie",
+    "slug": "archie",
+    "teamA": "NED",
+    "teamB": "IRN"
+  },
+  {
+    "name": "Tom",
+    "slug": "tom",
+    "teamA": "BEL",
+    "teamB": "PAR"
+  },
+  {
+    "name": "Dan",
+    "slug": "dan",
+    "teamA": "POR",
+    "teamB": "SWE"
+  },
+  {
+    "name": "Rebekah",
+    "slug": "rebekah",
+    "teamA": "URU",
+    "teamB": "IRQ"
+  },
+  {
+    "name": "James",
+    "slug": "james",
+    "teamA": "COL",
+    "teamB": "CIV"
+  },
+  {
+    "name": "Sam W",
+    "slug": "sam-w",
+    "teamA": "MAR",
+    "teamB": "TUN"
+  },
+  {
+    "name": "Ned",
+    "slug": "ned",
+    "teamA": "ESP",
+    "teamB": "SCO"
+  },
+  {
+    "name": "Ed",
+    "slug": "ed",
+    "teamA": "ALG",
+    "teamB": "CAN"
+  },
+  {
+    "name": "Jari",
+    "slug": "jari",
+    "teamA": "ECU",
+    "teamB": "CPV"
+  },
+  {
+    "name": "Spoff",
+    "slug": "spoff",
+    "teamA": "ENG",
+    "teamB": "BIH"
+  },
+  {
+    "name": "Austin",
+    "slug": "austin",
+    "teamA": "SEN",
+    "teamB": "NOR"
+  }
+]

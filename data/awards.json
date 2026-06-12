@@ -1,0 +1,155 @@
+[
+  {
+    "id": "first-place",
+    "title": "1st place team",
+    "type": "team",
+    "rule": "Final winner.",
+    "icon": "trophy",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "second-place",
+    "title": "2nd place team",
+    "type": "team",
+    "rule": "Runner-up.",
+    "icon": "trophy",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "third-place",
+    "title": "3rd place team",
+    "type": "team",
+    "rule": "3rd-place play-off winner.",
+    "icon": "trophy",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "top-scorer",
+    "title": "Top scorer (player)",
+    "type": "player",
+    "rule": "Most goals across the tournament.",
+    "icon": "boot",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "top-scoring-team",
+    "title": "Top scoring team",
+    "type": "team",
+    "rule": "Most goals scored in the group stage only.",
+    "icon": "boot",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "most-clean-sheets",
+    "title": "Most clean sheets (team)",
+    "type": "team",
+    "rule": "Most clean sheets across the whole tournament.",
+    "icon": "shield",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "first-red",
+    "title": "First red card (by mins played)",
+    "type": "team",
+    "rule": "Determined by cumulative tournament minutes played at moment of red, so teams playing earlier in the tournament don't benefit.",
+    "icon": "card",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "first-og",
+    "title": "First own goal (by mins played)",
+    "type": "team",
+    "rule": "Cumulative tournament minutes basis, same logic as the red-card award.",
+    "icon": "card",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "worst-team",
+    "title": "Worst team",
+    "type": "team",
+    "rule": "Lowest points → then worst goal difference → then fewest goals scored.",
+    "icon": "wooden-spoon",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "first-shootout",
+    "title": "First team to lose a shootout",
+    "type": "team",
+    "rule": "Knockout-stage penalty shootout loss.",
+    "icon": "penalty",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "designated-injury",
+    "title": "Designated player injured out",
+    "type": "player",
+    "rule": "Player nominated pre-tournament; must be confirmed out for the rest of the tournament.",
+    "icon": "injury",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "worst-disciplined",
+    "title": "Worst disciplined team",
+    "type": "team",
+    "rule": "Most cards + fouls per 90 (exact weighting to be locked before kickoff).",
+    "icon": "card",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "iran-multiplier",
+    "title": "Iran Multiplier",
+    "type": "modifier",
+    "rule": "If Iran no-shows the tournament, the entrant who drew Iran gets a 1.5x multiplier on all rewards from their OTHER team EXCEPT 1st place.",
+    "icon": "star",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "trump-bash",
+    "title": "Trump bash award",
+    "type": "team",
+    "rule": "First team whose NATIONAL TEAM specifically is insulted by Trump. Country-wide insults do NOT count.",
+    "icon": "megaphone",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "first-missed-pen",
+    "title": "First missed penalty (by mins)",
+    "type": "team",
+    "rule": "Cumulative tournament minutes basis. Confirm in-play vs shootout scope before kickoff.",
+    "icon": "penalty",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "most-assists",
+    "title": "Most assists (player)",
+    "type": "player",
+    "rule": "Tournament assists leader.",
+    "icon": "boot",
+    "currentLeader": null,
+    "winnerEntrant": null
+  },
+  {
+    "id": "shithouse",
+    "title": "Shithouse award",
+    "type": "team",
+    "rule": "Most wins in which the winning team took fewer shots than their opponent.",
+    "icon": "trophy",
+    "currentLeader": null,
+    "winnerEntrant": null
+  }
+]

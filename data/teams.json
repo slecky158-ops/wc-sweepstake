@@ -1,0 +1,290 @@
+[
+  {
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "group": "A"
+  },
+  {
+    "code": "KOR",
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "group": "A"
+  },
+  {
+    "code": "CZE",
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "group": "A"
+  },
+  {
+    "code": "RSA",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "group": "A"
+  },
+  {
+    "code": "SUI",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "group": "B"
+  },
+  {
+    "code": "CAN",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "group": "B"
+  },
+  {
+    "code": "QAT",
+    "name": "Qatar",
+    "flag": "🇶🇦",
+    "group": "B"
+  },
+  {
+    "code": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "group": "B"
+  },
+  {
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "group": "C"
+  },
+  {
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "group": "C"
+  },
+  {
+    "code": "SCO",
+    "name": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "group": "C"
+  },
+  {
+    "code": "HAI",
+    "name": "Haiti",
+    "flag": "🇭🇹",
+    "group": "C"
+  },
+  {
+    "code": "USA",
+    "name": "USA",
+    "flag": "🇺🇸",
+    "group": "D"
+  },
+  {
+    "code": "TUR",
+    "name": "Türkiye",
+    "flag": "🇹🇷",
+    "group": "D"
+  },
+  {
+    "code": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "group": "D"
+  },
+  {
+    "code": "PAR",
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "group": "D"
+  },
+  {
+    "code": "GER",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "group": "E"
+  },
+  {
+    "code": "ECU",
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "group": "E"
+  },
+  {
+    "code": "CIV",
+    "name": "Ivory Coast",
+    "flag": "🇨🇮",
+    "group": "E"
+  },
+  {
+    "code": "CUW",
+    "name": "Curaçao",
+    "flag": "🇨🇼",
+    "group": "E"
+  },
+  {
+    "code": "NED",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "group": "F"
+  },
+  {
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "group": "F"
+  },
+  {
+    "code": "SWE",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "group": "F"
+  },
+  {
+    "code": "TUN",
+    "name": "Tunisia",
+    "flag": "🇹🇳",
+    "group": "F"
+  },
+  {
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "group": "G"
+  },
+  {
+    "code": "EGY",
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "group": "G"
+  },
+  {
+    "code": "IRN",
+    "name": "Iran",
+    "flag": "🇮🇷",
+    "group": "G"
+  },
+  {
+    "code": "NZL",
+    "name": "New Zealand",
+    "flag": "🇳🇿",
+    "group": "G"
+  },
+  {
+    "code": "ESP",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "group": "H"
+  },
+  {
+    "code": "URU",
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "group": "H"
+  },
+  {
+    "code": "KSA",
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "group": "H"
+  },
+  {
+    "code": "CPV",
+    "name": "Cape Verde",
+    "flag": "🇨🇻",
+    "group": "H"
+  },
+  {
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "group": "I"
+  },
+  {
+    "code": "NOR",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "group": "I"
+  },
+  {
+    "code": "SEN",
+    "name": "Senegal",
+    "flag": "🇸🇳",
+    "group": "I"
+  },
+  {
+    "code": "IRQ",
+    "name": "Iraq",
+    "flag": "🇮🇶",
+    "group": "I"
+  },
+  {
+    "code": "ARG",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "group": "J"
+  },
+  {
+    "code": "AUT",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "group": "J"
+  },
+  {
+    "code": "ALG",
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "group": "J"
+  },
+  {
+    "code": "JOR",
+    "name": "Jordan",
+    "flag": "🇯🇴",
+    "group": "J"
+  },
+  {
+    "code": "POR",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "group": "K"
+  },
+  {
+    "code": "COL",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "group": "K"
+  },
+  {
+    "code": "COD",
+    "name": "DR Congo",
+    "flag": "🇨🇩",
+    "group": "K"
+  },
+  {
+    "code": "UZB",
+    "name": "Uzbekistan",
+    "flag": "🇺🇿",
+    "group": "K"
+  },
+  {
+    "code": "ENG",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "group": "L"
+  },
+  {
+    "code": "CRO",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "group": "L"
+  },
+  {
+    "code": "GHA",
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "group": "L"
+  },
+  {
+    "code": "PAN",
+    "name": "Panama",
+    "flag": "🇵🇦",
+    "group": "L"
+  }
+]

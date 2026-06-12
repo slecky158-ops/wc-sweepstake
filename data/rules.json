@@ -1,0 +1,39 @@
+{
+  "title": "World Cup 2026 Sweepstake Rules",
+  "entryFee": 10,
+  "currency": "£",
+  "entrants": 24,
+  "potTotal": 240,
+  "draw": "Each entrant gets one team from the Top-24 pot and one team from the Bottom-24 pot.",
+  "awards": [
+    "first-place",
+    "second-place",
+    "third-place",
+    "top-scorer",
+    "top-scoring-team",
+    "most-clean-sheets",
+    "first-red",
+    "first-og",
+    "worst-team",
+    "first-shootout",
+    "designated-injury",
+    "worst-disciplined",
+    "iran-multiplier",
+    "trump-bash",
+    "first-missed-pen",
+    "most-assists",
+    "shithouse"
+  ],
+  "tiebreaker": {
+    "headline": "Combined shots prediction",
+    "detail": "Each entrant guesses the TOTAL combined shots their two teams will take across the entire tournament. The closest guess wins any tied awards or any awards that go unawarded."
+  },
+  "iranMultiplier": "If Iran does not show up to the tournament, the entrant who drew Iran gets a 1.5x multiplier on all rewards earned by their OTHER team, EXCEPT 1st place.",
+  "notes": [
+    "First red card / first OG / first missed penalty are decided by cumulative tournament minutes played, NOT calendar time, to avoid bias toward teams playing earlier.",
+    "Top scoring team is GROUP STAGE ONLY.",
+    "Worst team tiebreakers: fewest points → worst goal difference → fewest goals scored.",
+    "Worst disciplined team formula: most cards + fouls per 90 (exact weighting locked before kickoff).",
+    "Trump bash award: must be aimed at the national team specifically — country-wide insults do not count."
+  ]
+}
