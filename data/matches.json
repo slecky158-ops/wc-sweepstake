@@ -10,8 +10,29 @@
     "teamB": "RSA",
     "venue": null,
     "broadcast": null,
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 0,
+      "scorers": [
+        {
+          "name": "Quiñones",
+          "team": "A",
+          "minute": 9
+        },
+        {
+          "name": "Jiménez",
+          "team": "A",
+          "minute": 67
+        }
+      ],
+      "notes": [
+        "🟥 Sithole 49' (RSA)",
+        "🟥 Zwane 84' (RSA)",
+        "🟥 Montes 90+2' (MEX)",
+        "Three reds — WC opener record"
+      ]
+    },
     "quality": {
       "elo": 1718.0,
       "balance": 70.7,
@@ -29,8 +50,31 @@
     "teamB": "CZE",
     "venue": null,
     "broadcast": null,
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 1,
+      "scorers": [
+        {
+          "name": "Krejčí",
+          "team": "B",
+          "minute": 59
+        },
+        {
+          "name": "Hwang In-beom",
+          "team": "A",
+          "minute": 67
+        },
+        {
+          "name": "Oh Hyeon-gyu",
+          "team": "A",
+          "minute": 80
+        }
+      ],
+      "notes": [
+        "Souček goal ruled out offside 77'"
+      ]
+    },
     "quality": {
       "elo": 1729.0,
       "balance": 85.4,
