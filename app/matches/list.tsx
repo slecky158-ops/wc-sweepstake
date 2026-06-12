@@ -2,12 +2,13 @@
 
 import { useMemo, useState } from 'react';
 import { Match, Team, Entrant } from '@/lib/types';
+import type { LiveState } from '@/lib/live';
 import { MatchCard } from '@/components/MatchCard';
 
 type StatusFilter = 'all' | 'upcoming' | 'completed';
 type StageFilter = 'all' | 'group' | 'knockout';
 
-export function MatchesList({ matches, teams, entrants }: { matches: Match[]; teams: Team[]; entrants: Entrant[] }) {
+export function MatchesList({ matches, teams, entrants, liveByMatchId }: { matches: Match[]; teams: Team[]; entrants: Entrant[]; liveByMatchId?: Record<string, LiveState> }) {
   const [entrantSlug, setEntrantSlug] = useState<string>('');
   const [teamCode, setTeamCode] = useState<string>('');
   const [group, setGroup] = useState<string>('');
@@ -110,7 +111,7 @@ export function MatchesList({ matches, teams, entrants }: { matches: Match[]; te
         <div className="paper p-6 text-center text-text-paper-dim text-sm">No matches match your filters.</div>
       ) : (
         <div className="space-y-3">
-          {filtered.map(m => <MatchCard key={m.id} match={m} />)}
+          {filtered.map(m => <MatchCard key={m.id} match={m} live={liveByMatchId?.[m.id]} />)}
         </div>
       )}
     </div>
