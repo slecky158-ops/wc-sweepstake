@@ -46,7 +46,11 @@ export default function RulesPage() {
                   <h3 className="display text-sm sm:text-base text-text-ink leading-tight">{a.title}</h3>
                   <span className="ml-auto eyebrow">{a.type}</span>
                 </div>
-                <p className="text-[12px] sm:text-[13px] text-text-ink-dim leading-relaxed pl-7">{a.rule}</p>
+                <p className="text-[12px] sm:text-[13px] text-text-ink-dim leading-relaxed pl-7 mb-2">{a.rule}</p>
+                <div className="pl-7">
+                  <span className="eyebrow mr-2">Prize</span>
+                  <span className="text-sm font-bold text-gold">{a.prize}</span>
+                </div>
               </div>
             ))}
           </div>
