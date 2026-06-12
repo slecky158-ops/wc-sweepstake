@@ -63,10 +63,10 @@ export function MatchCard({ match, live }: { match: Match; live?: LiveState }) {
       <div className="px-3 sm:px-4 py-4 sm:py-5 flex items-center gap-0">
         <div style={{ width: '42%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-1.5">
           {a ? (
-            <>
+            <Link href={`/matches?country=${a.code}`} className="flex flex-col items-center gap-1.5 w-full overflow-hidden group">
               <span className="text-2xl sm:text-3xl leading-none" aria-hidden="true">{a.flag}</span>
-              <div className="display text-[13px] sm:text-base text-text-paper truncate w-full leading-tight">{a.name}</div>
-            </>
+              <div className="display text-[13px] sm:text-base text-text-paper truncate w-full leading-tight group-hover:text-gold-deep transition-colors">{a.name}</div>
+            </Link>
           ) : <span className="text-text-paper-faint text-sm">TBD</span>}
           {eA && (
             <Link href={`/entrants/${eA.slug}`} className="block text-[10px] font-bold uppercase tracking-widest text-text-paper-dim hover:text-text-paper truncate w-full">
@@ -97,10 +97,10 @@ export function MatchCard({ match, live }: { match: Match; live?: LiveState }) {
 
         <div style={{ width: '42%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-1.5">
           {b ? (
-            <>
+            <Link href={`/matches?country=${b.code}`} className="flex flex-col items-center gap-1.5 w-full overflow-hidden group">
               <span className="text-2xl sm:text-3xl leading-none" aria-hidden="true">{b.flag}</span>
-              <div className="display text-[13px] sm:text-base text-text-paper truncate w-full leading-tight">{b.name}</div>
-            </>
+              <div className="display text-[13px] sm:text-base text-text-paper truncate w-full leading-tight group-hover:text-gold-deep transition-colors">{b.name}</div>
+            </Link>
           ) : <span className="text-text-paper-faint text-sm">TBD</span>}
           {eB && (
             <Link href={`/entrants/${eB.slug}`} className="block text-[10px] font-bold uppercase tracking-widest text-text-paper-dim hover:text-text-paper truncate w-full">
