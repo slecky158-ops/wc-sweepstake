@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Header } from '@/components/Header';
 import { MatchCard } from '@/components/MatchCard';
@@ -25,16 +26,16 @@ export default function EntrantPage({ params }: { params: { slug: string } }) {
         {/* Teams */}
         <section className="grid grid-cols-2 gap-2 sm:gap-3">
           {[teamA, teamB].map((t, i) => t && (
-            <div key={t.code} className="ink-card p-3 sm:p-4 min-w-0">
+            <Link key={t.code} href={`/matches?country=${t.code}`} className="ink-card p-3 sm:p-4 min-w-0 hover:border-gold transition-colors group">
               <div className="eyebrow mb-2">{i === 0 ? 'Top pot' : 'Bottom pot'}</div>
               <div className="flex items-baseline gap-2 min-w-0">
                 <span className="text-2xl sm:text-3xl leading-none shrink-0" aria-hidden="true">{t.flag}</span>
                 <div className="min-w-0 overflow-hidden">
-                  <div className="display text-base sm:text-2xl text-text-ink truncate leading-tight">{t.name}</div>
-                  <div className="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest text-gold mt-1">Group {t.group}</div>
+                  <div className="display text-base sm:text-2xl text-text-ink truncate leading-tight group-hover:text-gold transition-colors">{t.name}</div>
+                  <div className="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest text-gold mt-1">Gr. {t.group}</div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </section>
 
