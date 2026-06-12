@@ -8,10 +8,17 @@ import { MatchCard } from '@/components/MatchCard';
 type StatusFilter = 'all' | 'upcoming' | 'completed';
 type StageFilter = 'all' | 'group' | 'knockout';
 
-export function MatchesList({ matches, teams, entrants, liveByMatchId }: { matches: Match[]; teams: Team[]; entrants: Entrant[]; liveByMatchId?: Record<string, LiveState> }) {
-  const [entrantSlug, setEntrantSlug] = useState<string>('');
-  const [teamCode, setTeamCode] = useState<string>('');
-  const [group, setGroup] = useState<string>('');
+export function MatchesList({
+  matches, teams, entrants, liveByMatchId,
+  initialCountry = '', initialEntrant = '', initialGroup = '',
+}: {
+  matches: Match[]; teams: Team[]; entrants: Entrant[];
+  liveByMatchId?: Record<string, LiveState>;
+  initialCountry?: string; initialEntrant?: string; initialGroup?: string;
+}) {
+  const [entrantSlug, setEntrantSlug] = useState<string>(initialEntrant);
+  const [teamCode, setTeamCode] = useState<string>(initialCountry);
+  const [group, setGroup] = useState<string>(initialGroup);
   const [status, setStatus] = useState<StatusFilter>('all');
   const [stage, setStage] = useState<StageFilter>('all');
 
