@@ -6,7 +6,7 @@
   "potTotal": 240,
   "draw": "Each entrant gets one team from the Top-24 pot and one team from the Bottom-24 pot.",
   "awards": [
-    "first-place",
+    "winner",
     "second-place",
     "third-place",
     "top-scorer",
@@ -16,13 +16,16 @@
     "first-og",
     "worst-team",
     "first-shootout",
-    "designated-injury",
+    "set-piece-kings",
     "worst-disciplined",
     "iran-multiplier",
     "trump-bash",
     "first-missed-pen",
-    "most-assists",
-    "shithouse"
+    "shithouse",
+    "first-cry-anthem",
+    "first-cry-kickoff",
+    "first-child-cry",
+    "first-hattrick"
   ],
   "tiebreaker": {
     "headline": "Combined shots prediction",
@@ -34,6 +37,8 @@
     "Top scoring team is GROUP STAGE ONLY.",
     "Worst team tiebreakers: fewest points → worst goal difference → fewest goals scored.",
     "Worst disciplined team formula: most cards + fouls per 90 (exact weighting locked before kickoff).",
-    "Trump bash award: must be aimed at the national team specifically — country-wide insults do not count."
+    "Trump bash award: must be aimed at the national team specifically — country-wide insults do not count.",
+    "Shithouse award: red card must occur BEFORE the 75th minute; team must then go on to win the match.",
+    "Subjective tear-related awards (anthem cry / kickoff cry / child cry) are decided by group consensus from broadcast footage."
   ]
 }
