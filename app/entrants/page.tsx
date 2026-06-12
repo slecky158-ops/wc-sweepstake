@@ -10,34 +10,40 @@ export default function EntrantsPage() {
     <main className="page-enter">
       <Header eyebrow={`${entrants.length} sweepstake participants`} title="Entrants" />
       <div className="px-5 sm:px-8 pt-5">
-        <div className="eyebrow mb-4">Tap any entrant to see their fixtures &amp; teams</div>
+        <div className="eyebrow mb-4">Tap an entrant for their fixtures, or a country for matches</div>
         <div className="grid grid-cols-2 gap-2 sm:gap-3">
           {sorted.map((e, i) => {
             const a = getTeam(e.teamA);
             const b = getTeam(e.teamB);
             return (
-              <Link key={e.slug} href={`/entrants/${e.slug}`} className="ink-card p-3 sm:p-4 hover:border-gold transition-colors min-w-0">
-                <div className="flex items-baseline justify-between gap-2 mb-2.5 min-w-0">
-                  <div className="display text-[15px] sm:text-lg text-text-ink truncate min-w-0">{e.name}</div>
+              <div key={e.slug} className="ink-card p-3 sm:p-4 min-w-0 hover:border-gold transition-colors">
+                <Link href={`/entrants/${e.slug}`} className="flex items-baseline justify-between gap-2 mb-2.5 min-w-0 group">
+                  <div className="display text-[15px] sm:text-lg text-text-ink truncate min-w-0 group-hover:text-gold transition-colors">{e.name}</div>
                   <span className="num text-[10px] text-text-ink-faint shrink-0">{String(i + 1).padStart(2, '0')}</span>
-                </div>
+                </Link>
                 <div className="space-y-1.5 text-[13px] sm:text-sm">
                   {a && (
-                    <div className="flex items-baseline gap-1.5 sm:gap-2 min-w-0 overflow-hidden">
+                    <Link
+                      href={`/matches?country=${a.code}`}
+                      className="flex items-baseline gap-1.5 sm:gap-2 min-w-0 overflow-hidden hover:text-gold transition-colors"
+                    >
                       <span className="text-base sm:text-lg leading-none shrink-0" aria-hidden="true">{a.flag}</span>
                       <span className="text-text-ink truncate font-semibold min-w-0">{a.name}</span>
-                      <span className="ml-auto eyebrow shrink-0">G {a.group}</span>
-                    </div>
+                      <span className="ml-auto eyebrow shrink-0">Gr. {a.group}</span>
+                    </Link>
                   )}
                   {b && (
-                    <div className="flex items-baseline gap-1.5 sm:gap-2 min-w-0 overflow-hidden">
+                    <Link
+                      href={`/matches?country=${b.code}`}
+                      className="flex items-baseline gap-1.5 sm:gap-2 min-w-0 overflow-hidden hover:text-gold transition-colors"
+                    >
                       <span className="text-base sm:text-lg leading-none shrink-0" aria-hidden="true">{b.flag}</span>
                       <span className="text-text-ink truncate font-semibold min-w-0">{b.name}</span>
-                      <span className="ml-auto eyebrow shrink-0">G {b.group}</span>
-                    </div>
+                      <span className="ml-auto eyebrow shrink-0">Gr. {b.group}</span>
+                    </Link>
                   )}
                 </div>
-              </Link>
+              </div>
             );
           })}
         </div>
