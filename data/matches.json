@@ -14,23 +14,9 @@
     "result": {
       "scoreA": 2,
       "scoreB": 0,
-      "scorers": [
-        {
-          "name": "Quiñones",
-          "team": "A",
-          "minute": 9
-        },
-        {
-          "name": "Jiménez",
-          "team": "A",
-          "minute": 67
-        }
-      ],
+      "scorers": "Quiñones 9', Jiménez 67' (MEX)",
       "notes": [
-        "🟥 Sithole 49' (RSA)",
-        "🟥 Zwane 84' (RSA)",
-        "🟥 Montes 90+2' (MEX)",
-        "Three reds — WC opener record"
+        "🟥 Sithole 49' (RSA) · 🟥 Zwane 84' (RSA) · 🟥 Montes 90+2' (MEX)"
       ]
     },
     "quality": {
@@ -54,26 +40,8 @@
     "result": {
       "scoreA": 2,
       "scoreB": 1,
-      "scorers": [
-        {
-          "name": "Krejčí",
-          "team": "B",
-          "minute": 59
-        },
-        {
-          "name": "Hwang In-beom",
-          "team": "A",
-          "minute": 67
-        },
-        {
-          "name": "Oh Hyeon-gyu",
-          "team": "A",
-          "minute": 80
-        }
-      ],
-      "notes": [
-        "Souček goal ruled out offside 77'"
-      ]
+      "scorers": "Krejci 59' (CZE) · Hwang 67', Oh 80' (KOR)",
+      "notes": []
     },
     "quality": {
       "elo": 1729.0,

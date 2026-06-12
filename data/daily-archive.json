@@ -1,18 +1,18 @@
 {
   "20260612": {
-    "generatedAt": "2026-06-12T10:03:26+01:00",
+    "generatedAt": "2026-06-12T12:15:04.735004+01:00",
     "dateLong": "Friday, 12 June 2026",
     "dateDay": "Fri 12 Jun",
     "dateRest": "Tournament Day 2",
     "yesterdayCount": "2 matches",
     "todayCount": "2 matches",
     "yesterdayStoryline": {
-      "headline": "Mexico open with win as record three reds mar curtain-raiser",
-      "subtitle": "El Tri beat South Africa 2-0 at the Azteca; South Korea fought back to edge Czechia and sit level atop Group A."
+      "headline": "Mexico and South Korea secure opening wins",
+      "subtitle": "Hosts Mexico and South Korea start World Cup campaigns with victories in Group A"
     },
     "todayStoryline": {
-      "headline": "Canada christen home World Cup; USA begin against Paraguay",
-      "subtitle": "Canada play the first men's World Cup match on home soil against Bosnia; the USMNT open Group D in Los Angeles."
+      "headline": "USA and Canada begin World Cup journeys",
+      "subtitle": "North American teams USA and Canada kick off their World Cup campaigns in Group B and D"
     },
     "yesterday": [
       {
@@ -24,21 +24,28 @@
         "kickoffUk": "2026-06-11T20:00:00+01:00",
         "timeUk": "20:00 UK",
         "timeEt": "15:00 ET",
-        "venue": { "stadium": "Estadio Azteca", "city": "Mexico City", "country": "MX" },
-        "broadcast": { "uk": "ITV1", "us": "FOX" },
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
         "teamA": "MEX",
         "teamB": "RSA",
-        "score": "2-0",
         "scoreA": 2,
         "scoreB": 0,
+        "score": "2-0",
         "scorers": "Quiñones 9', Jiménez 67' (MEX)",
-        "note": "🟥 Sithole 49', Zwane 84' (RSA) · Montes 90+2' (MEX) · WC opener red-card record",
+        "note": "🟥 Sithole 49' (RSA) · 🟥 Zwane 84' (RSA) · 🟥 Montes 90+2' (MEX)",
         "analysis": {
           "lines": [
-            "Mexico dominated possession at 60% and pressed from a fluid 4-1-4-1 shape.",
-            "It is Mexico's first win in eight World Cup openers, amid a record three reds."
+            "Mexico dominated possession and capitalized on South Africa's defensive errors.",
+            "The match's three red cards significantly impacted the game's flow and outcome."
           ],
-          "source": "ESPN match report"
+          "source": "Sky Sports match report"
         }
       },
       {
@@ -50,21 +57,27 @@
         "kickoffUk": "2026-06-12T03:00:00+01:00",
         "timeUk": "03:00 UK",
         "timeEt": "22:00 ET",
-        "venue": { "stadium": "Estadio Akron", "city": "Guadalajara", "country": "MX" },
-        "broadcast": { "uk": "ITV1", "us": "FOX" },
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
         "teamA": "KOR",
         "teamB": "CZE",
-        "score": "2-1",
         "scoreA": 2,
         "scoreB": 1,
-        "scorers": "Hwang In-beom 67', Oh Hyeon-gyu 80' (KOR) · Krejčí 59' (CZE)",
-        "note": "🚫 Souček goal ruled out offside 77' (CZE)",
+        "score": "2-1",
+        "scorers": "Krejci 59' (CZE) · Hwang 67', Oh 80' (KOR)",
         "analysis": {
           "lines": [
-            "South Korea built through possession, completing 464 passes to Czechia's 242.",
-            "The comeback lifts Korea level with Mexico atop Group A on three points."
+            "South Korea controlled possession and created more scoring opportunities.",
+            "The victory marks South Korea's first opening match win since 2010."
           ],
-          "source": "Sky Sports match report"
+          "source": "AP News match report"
         }
       }
     ],
@@ -78,20 +91,37 @@
         "kickoffUk": "2026-06-12T20:00:00+01:00",
         "timeUk": "20:00 UK",
         "timeEt": "15:00 ET",
-        "venue": { "stadium": "BMO Field", "city": "Toronto", "country": "CA" },
-        "broadcast": { "uk": "BBC One", "us": "FOX" },
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
         "teamA": "CAN",
         "teamB": "BIH",
-        "weather": "27°C · clearing skies · 20% rain · 18 mph W",
+        "weather": "23°C · mostly sunny · 10% rain · 13 km/h N",
         "h2h": "First meeting",
         "odds": {
-          "match": { "home": "1.83", "draw": "3.65", "away": "4.70" },
-          "extra": { "label": "O2.5", "value": "2.25" },
-          "fgs": { "name": "J. David", "odds": "5.75" }
+          "match": {
+            "home": "2.10",
+            "draw": "3.40",
+            "away": "3.50"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "2.00"
+          },
+          "fgs": {
+            "name": "David",
+            "odds": "4.50"
+          }
         },
         "facts": {
-          "home": "This is the first men's World Cup match ever played on Canadian soil.",
-          "away": "Bosnia reached the finals by beating four-time champions Italy in a play-off shootout."
+          "home": "Canada is co-hosting the World Cup for the first time.",
+          "away": "Bosnia and Herzegovina is making its second World Cup appearance."
         }
       },
       {
@@ -103,28 +133,45 @@
         "kickoffUk": "2026-06-13T02:00:00+01:00",
         "timeUk": "02:00 UK",
         "timeEt": "21:00 ET",
-        "venue": { "stadium": "SoFi Stadium", "city": "Inglewood", "country": "US" },
-        "broadcast": { "uk": "ITV1", "us": "FOX" },
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
         "teamA": "USA",
         "teamB": "PAR",
-        "weather": "22°C · clear · 0% rain · 11 mph W",
-        "h2h": "Played 9 · 🇺🇸 5W 2D 2L · last 2-1 USA (2025)",
+        "weather": "34°C · mostly sunny · 20% rain · 13 km/h N",
+        "h2h": "Played 5 · 🇺🇸 3W 1D 1L · last 2-0 USA (2025)",
         "odds": {
-          "match": { "home": "1.91", "draw": "3.44", "away": "3.85" },
-          "extra": { "label": "O2.5", "value": "2.40" },
-          "fgs": { "name": "Pulisic", "odds": "3.25" }
+          "match": {
+            "home": "1.75",
+            "draw": "3.60",
+            "away": "5.00"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "1.90"
+          },
+          "fgs": {
+            "name": "Pulisic",
+            "odds": "5.00"
+          }
         },
         "facts": {
-          "home": "The USA's first World Cup match was a 3-0 win over Paraguay in 1930.",
-          "away": "Paraguay return to the World Cup for the first time since 2010."
+          "home": "USA is co-hosting the World Cup for the second time.",
+          "away": "Paraguay's best World Cup finish is the quarterfinals in 2010."
         }
       }
     ],
     "news": {
-      "kicker": "REUTERS · GEOPOLITICS",
-      "headline": "Trump calls off fresh Iran strikes, says ceasefire deal could come within days",
-      "body": "President Trump said he had cancelled planned military strikes on Iran and that Washington was close to a settlement to wind down the war. He said a memorandum of understanding extending the April ceasefire could be signed within days, allowing more time for nuclear talks.",
-      "source": "Source: Reuters, 11 Jun 2026"
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Global leaders convene for emergency climate summit",
+      "body": "World leaders are meeting to address escalating climate change impacts. The summit aims to forge new international agreements.",
+      "source": "Source: Reuters, 12 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"
   },
@@ -151,16 +198,33 @@
         "kickoffUk": "2026-06-11T20:00:00+01:00",
         "timeUk": "20:00 UK",
         "timeEt": "15:00 ET",
-        "venue": { "stadium": "Estadio Azteca", "city": "Mexico City", "country": "MX" },
-        "broadcast": { "uk": "ITV1", "us": "FOX" },
+        "venue": {
+          "stadium": "Estadio Azteca",
+          "city": "Mexico City",
+          "country": "MX"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
         "teamA": "MEX",
         "teamB": "RSA",
         "weather": "22°C · scattered showers · 75% rain · 8 mph N",
         "h2h": "Played 4 · 🇲🇽 2W 1D 1L · last 1-1 (2010 WC opener)",
         "odds": {
-          "match": { "home": "1.38", "draw": "4.50", "away": "8.50" },
-          "extra": { "label": "O2.5", "value": "1.85" },
-          "fgs": { "name": "Jiménez", "odds": "4.20" }
+          "match": {
+            "home": "1.38",
+            "draw": "4.50",
+            "away": "8.50"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "1.85"
+          },
+          "fgs": {
+            "name": "Jiménez",
+            "odds": "4.20"
+          }
         },
         "facts": {
           "home": "Mexico played the first match in World Cup history — a 4-1 loss to France on 13 July 1930.",
@@ -176,16 +240,33 @@
         "kickoffUk": "2026-06-12T03:00:00+01:00",
         "timeUk": "03:00 UK",
         "timeEt": "22:00 ET",
-        "venue": { "stadium": "Estadio Akron", "city": "Guadalajara", "country": "MX" },
-        "broadcast": { "uk": "ITV1", "us": "FOX" },
+        "venue": {
+          "stadium": "Estadio Akron",
+          "city": "Guadalajara",
+          "country": "MX"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
         "teamA": "KOR",
         "teamB": "CZE",
         "weather": "19°C · light showers · 45% rain · 7 mph SE",
         "h2h": "Played 3 · 🇰🇷 1W 1D 1L · last 2-1 KOR (2016, friendly)",
         "odds": {
-          "match": { "home": "2.65", "draw": "3.10", "away": "2.95" },
-          "extra": { "label": "U2.5", "value": "1.71" },
-          "fgs": { "name": "Son", "odds": "6.00" }
+          "match": {
+            "home": "2.65",
+            "draw": "3.10",
+            "away": "2.95"
+          },
+          "extra": {
+            "label": "U2.5",
+            "value": "1.71"
+          },
+          "fgs": {
+            "name": "Son",
+            "odds": "6.00"
+          }
         },
         "facts": {
           "home": "Their 2002 semi-final run remains Asia's deepest finish at any World Cup.",
