@@ -2,10 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { DailyMatchCard } from '@/components/DailyMatchCard';
 import { daily, rules } from '@/lib/data';
+import { getLiveScores, liveStateFor } from '@/lib/live';
 
 export const dynamic = 'force-dynamic';
 
-export default function HomePage() {
+export default async function HomePage() {
+  const live = await getLiveScores();
   return (
     <main className="page-enter">
 
@@ -72,7 +74,7 @@ export default function HomePage() {
         >
           {daily.today.length > 0 ? (
             <div className="space-y-3">
-              {daily.today.map(m => <DailyMatchCard key={m.matchId} match={m} kind="today" />)}
+              {daily.today.map(m => <DailyMatchCard key={m.matchId} match={m} kind="today" live={liveStateFor(live, m.teamA, m.teamB, m.kickoffUk)} />)}
             </div>
           ) : (
             <EmptyState title="Rest day" body="No matches inside today's window (08:00 UK today → 08:00 UK tomorrow)." />
@@ -88,7 +90,7 @@ export default function HomePage() {
         >
           {daily.yesterday.length > 0 ? (
             <div className="space-y-3">
-              {daily.yesterday.map(m => <DailyMatchCard key={m.matchId} match={m} kind="yesterday" />)}
+              {daily.yesterday.map(m => <DailyMatchCard key={m.matchId} match={m} kind="yesterday" live={liveStateFor(live, m.teamA, m.teamB, m.kickoffUk)} />)}
             </div>
           ) : (
             <EmptyState
