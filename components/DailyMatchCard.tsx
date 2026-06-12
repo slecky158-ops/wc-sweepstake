@@ -75,8 +75,14 @@ export function DailyMatchCard({ match, kind }: { match: DailyMatch; kind: 'yest
           )}
         </div>
 
-        <div style={{ width: '16%' }} className="text-center">
-          <div className="text-[11px] sm:text-xs font-black tracking-[0.2em] text-text-paper-faint">VS</div>
+        <div style={{ width: '16%' }} className="text-center shrink-0">
+          {kind === 'yesterday' && typeof match.scoreA === 'number' && typeof match.scoreB === 'number' ? (
+            <div className="display text-2xl sm:text-4xl text-done whitespace-nowrap leading-none">
+              {match.scoreA}<span className="text-text-paper-faint mx-1">–</span>{match.scoreB}
+            </div>
+          ) : (
+            <div className="text-[11px] sm:text-xs font-black tracking-[0.2em] text-text-paper-faint">VS</div>
+          )}
         </div>
 
         <div style={{ width: '42%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-2">
