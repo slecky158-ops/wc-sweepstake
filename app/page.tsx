@@ -31,7 +31,11 @@ export default async function HomePage({ searchParams }: { searchParams: { date?
             </div>
             <div className="flex items-center gap-2 shrink-0">
               {archiveDatesDesc.length > 1 && (
-                <DateDropdown dates={archiveDatesDesc} activeDate={dateKey} formatLabel={formatArchiveDate} />
+                <DateDropdown
+                  options={archiveDatesDesc.map((d) => ({ value: d, label: formatArchiveDate(d) }))}
+                  activeValue={dateKey}
+                  latestValue={archiveDatesDesc[0]}
+                />
               )}
               <div className="text-right">
                 <div className="eyebrow mb-0.5">{daily.dateRest}</div>
