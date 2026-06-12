@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Match } from '@/lib/types';
+import type { LiveState } from '@/lib/live';
 import { getTeam, getEntrantForTeam, formatTimeUK, formatTimeET, formatDateUK } from '@/lib/data';
 
 function hostClass(country: string | undefined) {
@@ -9,7 +10,7 @@ function hostClass(country: string | undefined) {
   return '';
 }
 
-export function MatchCard({ match }: { match: Match }) {
+export function MatchCard({ match, live }: { match: Match; live?: LiveState }) {
   const a = getTeam(match.teamA);
   const b = getTeam(match.teamB);
   const eA = getEntrantForTeam(match.teamA);
@@ -75,8 +76,18 @@ export function MatchCard({ match }: { match: Match }) {
         </div>
 
         <div style={{ width: '16%' }} className="text-center">
-          {completed && match.result ? (
-            <div className="display text-xl sm:text-3xl text-text-paper whitespace-nowrap">
+          {live?.isLive && typeof live.scoreA === 'number' && typeof live.scoreB === 'number' ? (
+            <>
+              <div className="display text-xl sm:text-3xl text-signal whitespace-nowrap leading-none">
+                {live.scoreA}<span className="text-text-paper-faint mx-1">–</span>{live.scoreB}
+              </div>
+              <div className="mt-1 inline-flex items-center gap-1 px-1.5 py-0.5 bg-signal text-white text-[9px] font-black uppercase tracking-widest rounded">
+                <span className="w-1 h-1 rounded-full bg-white animate-pulse" />
+                {live.status === 'PAUSED' ? 'HT' : live.status === 'EXTRA_TIME' ? 'ET' : live.status === 'PENALTY_SHOOTOUT' ? 'PEN' : (live.minute != null ? `${live.minute}'` : 'LIVE')}
+              </div>
+            </>
+          ) : completed && match.result ? (
+            <div className="display text-xl sm:text-3xl text-done whitespace-nowrap">
               {match.result.scoreA}<span className="text-text-paper-faint mx-1">–</span>{match.result.scoreB}
             </div>
           ) : (
