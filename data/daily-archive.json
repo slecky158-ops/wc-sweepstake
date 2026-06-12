@@ -1,0 +1,204 @@
+{
+  "20260612": {
+    "generatedAt": "2026-06-12T10:03:26+01:00",
+    "dateLong": "Friday, 12 June 2026",
+    "dateDay": "Fri 12 Jun",
+    "dateRest": "Tournament Day 2",
+    "yesterdayCount": "2 matches",
+    "todayCount": "2 matches",
+    "yesterdayStoryline": {
+      "headline": "Mexico open with win as record three reds mar curtain-raiser",
+      "subtitle": "El Tri beat South Africa 2-0 at the Azteca; South Korea fought back to edge Czechia and sit level atop Group A."
+    },
+    "todayStoryline": {
+      "headline": "Canada christen home World Cup; USA begin against Paraguay",
+      "subtitle": "Canada play the first men's World Cup match on home soil against Bosnia; the USMNT open Group D in Los Angeles."
+    },
+    "yesterday": [
+      {
+        "matchId": "G052",
+        "rank": 52,
+        "group": "A",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-11T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": { "stadium": "Estadio Azteca", "city": "Mexico City", "country": "MX" },
+        "broadcast": { "uk": "ITV1", "us": "FOX" },
+        "teamA": "MEX",
+        "teamB": "RSA",
+        "score": "2-0",
+        "scoreA": 2,
+        "scoreB": 0,
+        "scorers": "Quiñones 9', Jiménez 67' (MEX)",
+        "note": "🟥 Sithole 49', Zwane 84' (RSA) · Montes 90+2' (MEX) · WC opener red-card record",
+        "analysis": {
+          "lines": [
+            "Mexico dominated possession at 60% and pressed from a fluid 4-1-4-1 shape.",
+            "It is Mexico's first win in eight World Cup openers, amid a record three reds."
+          ],
+          "source": "ESPN match report"
+        }
+      },
+      {
+        "matchId": "G035",
+        "rank": 35,
+        "group": "A",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-12T03:00:00+01:00",
+        "timeUk": "03:00 UK",
+        "timeEt": "22:00 ET",
+        "venue": { "stadium": "Estadio Akron", "city": "Guadalajara", "country": "MX" },
+        "broadcast": { "uk": "ITV1", "us": "FOX" },
+        "teamA": "KOR",
+        "teamB": "CZE",
+        "score": "2-1",
+        "scoreA": 2,
+        "scoreB": 1,
+        "scorers": "Hwang In-beom 67', Oh Hyeon-gyu 80' (KOR) · Krejčí 59' (CZE)",
+        "note": "🚫 Souček goal ruled out offside 77' (CZE)",
+        "analysis": {
+          "lines": [
+            "South Korea built through possession, completing 464 passes to Czechia's 242.",
+            "The comeback lifts Korea level with Mexico atop Group A on three points."
+          ],
+          "source": "Sky Sports match report"
+        }
+      }
+    ],
+    "today": [
+      {
+        "matchId": "G041",
+        "rank": 41,
+        "group": "B",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-12T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": { "stadium": "BMO Field", "city": "Toronto", "country": "CA" },
+        "broadcast": { "uk": "BBC One", "us": "FOX" },
+        "teamA": "CAN",
+        "teamB": "BIH",
+        "weather": "27°C · clearing skies · 20% rain · 18 mph W",
+        "h2h": "First meeting",
+        "odds": {
+          "match": { "home": "1.83", "draw": "3.65", "away": "4.70" },
+          "extra": { "label": "O2.5", "value": "2.25" },
+          "fgs": { "name": "J. David", "odds": "5.75" }
+        },
+        "facts": {
+          "home": "This is the first men's World Cup match ever played on Canadian soil.",
+          "away": "Bosnia reached the finals by beating four-time champions Italy in a play-off shootout."
+        }
+      },
+      {
+        "matchId": "G031",
+        "rank": 31,
+        "group": "D",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-13T02:00:00+01:00",
+        "timeUk": "02:00 UK",
+        "timeEt": "21:00 ET",
+        "venue": { "stadium": "SoFi Stadium", "city": "Inglewood", "country": "US" },
+        "broadcast": { "uk": "ITV1", "us": "FOX" },
+        "teamA": "USA",
+        "teamB": "PAR",
+        "weather": "22°C · clear · 0% rain · 11 mph W",
+        "h2h": "Played 9 · 🇺🇸 5W 2D 2L · last 2-1 USA (2025)",
+        "odds": {
+          "match": { "home": "1.91", "draw": "3.44", "away": "3.85" },
+          "extra": { "label": "O2.5", "value": "2.40" },
+          "fgs": { "name": "Pulisic", "odds": "3.25" }
+        },
+        "facts": {
+          "home": "The USA's first World Cup match was a 3-0 win over Paraguay in 1930.",
+          "away": "Paraguay return to the World Cup for the first time since 2010."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · GEOPOLITICS",
+      "headline": "Trump calls off fresh Iran strikes, says ceasefire deal could come within days",
+      "body": "President Trump said he had cancelled planned military strikes on Iran and that Washington was close to a settlement to wind down the war. He said a memorandum of understanding extending the April ceasefire could be signed within days, allowing more time for nuclear talks.",
+      "source": "Source: Reuters, 11 Jun 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
+  },
+  "20260611": {
+    "generatedAt": "2026-06-11T07:55:00+01:00",
+    "dateLong": "Thursday, 11 June 2026",
+    "dateDay": "Thu 11 Jun",
+    "dateRest": "Tournament Day 1",
+    "yesterdayCount": "Pre-tournament",
+    "todayCount": "2 matches · Group A doubleheader",
+    "yesterdayStoryline": null,
+    "todayStoryline": {
+      "headline": "World Cup 2026 kicks off in Mexico City; Shakira opens at Estadio Azteca",
+      "subtitle": "Mexico face South Africa — a reverse of the 2010 opener that ended 1-1. South Korea v Czechia closes day one in the tournament's first 3am UK kickoff."
+    },
+    "yesterday": [],
+    "today": [
+      {
+        "matchId": "G052",
+        "rank": 52,
+        "group": "A",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-11T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": { "stadium": "Estadio Azteca", "city": "Mexico City", "country": "MX" },
+        "broadcast": { "uk": "ITV1", "us": "FOX" },
+        "teamA": "MEX",
+        "teamB": "RSA",
+        "weather": "22°C · scattered showers · 75% rain · 8 mph N",
+        "h2h": "Played 4 · 🇲🇽 2W 1D 1L · last 1-1 (2010 WC opener)",
+        "odds": {
+          "match": { "home": "1.38", "draw": "4.50", "away": "8.50" },
+          "extra": { "label": "O2.5", "value": "1.85" },
+          "fgs": { "name": "Jiménez", "odds": "4.20" }
+        },
+        "facts": {
+          "home": "Mexico played the first match in World Cup history — a 4-1 loss to France on 13 July 1930.",
+          "away": "South Africa's first match as a unified nation came in 1992 after a 16-year FIFA ban."
+        }
+      },
+      {
+        "matchId": "G035",
+        "rank": 35,
+        "group": "A",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-12T03:00:00+01:00",
+        "timeUk": "03:00 UK",
+        "timeEt": "22:00 ET",
+        "venue": { "stadium": "Estadio Akron", "city": "Guadalajara", "country": "MX" },
+        "broadcast": { "uk": "ITV1", "us": "FOX" },
+        "teamA": "KOR",
+        "teamB": "CZE",
+        "weather": "19°C · light showers · 45% rain · 7 mph SE",
+        "h2h": "Played 3 · 🇰🇷 1W 1D 1L · last 2-1 KOR (2016, friendly)",
+        "odds": {
+          "match": { "home": "2.65", "draw": "3.10", "away": "2.95" },
+          "extra": { "label": "U2.5", "value": "1.71" },
+          "fgs": { "name": "Son", "odds": "6.00" }
+        },
+        "facts": {
+          "home": "Their 2002 semi-final run remains Asia's deepest finish at any World Cup.",
+          "away": "Predecessor Czechoslovakia reached two World Cup finals (1934, 1962) and lost both."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "NPR · GEOPOLITICS",
+      "headline": "Trump warns Iran 'will pay the price' as US strikes follow Apache downing",
+      "body": "The US military completed strikes against Iran in response to a downed Apache helicopter near the Strait of Hormuz, with Trump saying Tehran has stalled ceasefire talks. Israeli operations in southern Lebanon overnight killed at least 13 people.",
+      "source": "Source: NPR / Democracy Now!, 10 Jun 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
+  }
+}
