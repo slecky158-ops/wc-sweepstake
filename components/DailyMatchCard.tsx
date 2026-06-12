@@ -64,8 +64,12 @@ export function DailyMatchCard({ match, kind, live }: { match: DailyMatch; kind:
       {/* Teams — explicit % widths so columns never grow beyond their share. */}
       <div className="px-3 sm:px-5 py-5 sm:py-6 flex items-center gap-0">
         <div style={{ width: '42%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-2">
-          <span className="text-3xl sm:text-4xl leading-none" aria-hidden="true">{a?.flag}</span>
-          <div className="display text-[14px] sm:text-xl text-text-paper truncate w-full leading-tight">{a?.name}</div>
+          {a && (
+            <Link href={`/matches?country=${a.code}`} className="flex flex-col items-center gap-2 w-full overflow-hidden group">
+              <span className="text-3xl sm:text-4xl leading-none" aria-hidden="true">{a.flag}</span>
+              <div className="display text-[14px] sm:text-xl text-text-paper truncate w-full leading-tight group-hover:text-gold-deep transition-colors">{a.name}</div>
+            </Link>
+          )}
           {eA && (
             <Link
               href={`/entrants/${eA.slug}`}
@@ -97,8 +101,12 @@ export function DailyMatchCard({ match, kind, live }: { match: DailyMatch; kind:
         </div>
 
         <div style={{ width: '42%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-2">
-          <span className="text-3xl sm:text-4xl leading-none" aria-hidden="true">{b?.flag}</span>
-          <div className="display text-[14px] sm:text-xl text-text-paper truncate w-full leading-tight">{b?.name}</div>
+          {b && (
+            <Link href={`/matches?country=${b.code}`} className="flex flex-col items-center gap-2 w-full overflow-hidden group">
+              <span className="text-3xl sm:text-4xl leading-none" aria-hidden="true">{b.flag}</span>
+              <div className="display text-[14px] sm:text-xl text-text-paper truncate w-full leading-tight group-hover:text-gold-deep transition-colors">{b.name}</div>
+            </Link>
+          )}
           {eB && (
             <Link
               href={`/entrants/${eB.slug}`}
