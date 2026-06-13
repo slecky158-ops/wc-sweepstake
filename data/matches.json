@@ -92,8 +92,13 @@
     "teamB": "BIH",
     "venue": null,
     "broadcast": null,
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 1,
+      "scorers": "Lukic 21' (BIH) · Larin 78' (CAN)",
+      "notes": []
+    },
     "quality": {
       "elo": 1668.0,
       "balance": 92.1,
@@ -111,8 +116,13 @@
     "teamB": "PAR",
     "venue": null,
     "broadcast": null,
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 4,
+      "scoreB": 1,
+      "scorers": "Bobadilla 7' (OG) · Balogun 31', 45+5' (USA) · Reyna 90+8' (USA) · Maurício 65' (PAR)",
+      "notes": []
+    },
     "quality": {
       "elo": 1749.0,
       "balance": 82.6,
