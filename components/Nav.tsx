@@ -18,7 +18,7 @@ export function Nav() {
 
   return (
     <nav
-      className="fixed bottom-0 inset-x-0 z-20 bg-ink/95 backdrop-blur-md border-t border-ink-line"
+      className="fixed bottom-0 inset-x-0 z-20 bg-paper/95 backdrop-blur-md border-t border-paper-line"
       style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
     >
       <div className="max-w-3xl mx-auto grid grid-cols-5">
@@ -29,7 +29,7 @@ export function Nav() {
               key={href}
               href={href}
               className={`relative flex items-center justify-center py-4 text-[11px] font-bold uppercase tracking-widest transition-colors ${
-                active ? 'text-gold' : 'text-text-ink-faint hover:text-text-ink-dim'
+                active ? 'text-gold-deep' : 'text-text-faint hover:text-text'
               }`}
             >
               {label}
