@@ -3,71 +3,53 @@
 @tailwind utilities;
 
 /* ─────────────────────────────────────────────────────────────────────
-   FIFA WORLD CUP 26™ — design system
-   Built on the official brand DNA:
-   • Ink-dark base (#0a0e1a) with refined trophy gold (#d9a441)
-   • Host-country tones: Canada red, Mexico green, USA blue (per-venue)
-   • Noto Sans typography (FIFA's official secondary font)
-   • Restraint over decoration: bold typography + colour blocks > pills + gradients
+   FIFA WORLD CUP 26™ — design system, LIGHT theme only.
+   Cream/paper background everywhere; dark navy reserved for the hero band.
    ───────────────────────────────────────────────────────────────────── */
 
 @layer base {
   :root {
-    /* INK base — primary surface for the whole experience */
-    --ink: 10 14 26;             /* #0a0e1a */
-    --ink-deep: 5 8 16;          /* #050810 — under-hero, watermarks */
-    --ink-elev: 18 23 38;        /* #121726 — elevated panels on ink */
-    --ink-line: 30 36 54;        /* #1e2436 — hairlines on ink */
+    /* PAGE — light cream base, paper cards floating on top */
+    --bg: 246 244 238;           /* cream #f6f4ee */
+    --bg-deep: 233 229 219;      /* #e9e5db */
+    --paper: 255 255 255;
+    --paper-soft: 250 246 235;
+    --paper-line: 217 211 196;
 
-    /* PAPER — content cards float above ink */
-    --paper: 246 244 238;        /* #f6f4ee — warm white, print-like */
-    --paper-soft: 233 229 219;   /* #e9e5db */
-    --paper-line: 217 211 196;   /* #d9d3c4 */
+    /* TEXT — dark on cream */
+    --text: 10 14 26;
+    --text-soft: 42 46 68;
+    --text-dim: 75 82 102;
+    --text-faint: 132 138 152;
+    --text-line: 217 211 196;
 
-    /* TEXT */
-    --text-on-ink: 234 236 244;
-    --text-on-ink-dim: 162 168 188;
-    --text-on-ink-faint: 110 117 138;
-    --text-on-paper: 10 14 26;
-    --text-on-paper-dim: 75 82 102;
-    --text-on-paper-faint: 132 138 152;
+    /* INK band (kept for the dark navy hero only) */
+    --ink: 10 14 26;
+    --ink-deep: 5 8 16;
+    --ink-elev: 18 23 38;
+    --ink-line: 30 36 54;
+    --text-ink: 234 236 244;
+    --text-ink-dim: 162 168 188;
+    --text-ink-faint: 110 117 138;
 
-    /* TROPHY GOLD — refined, matches the emblem's metallic tone */
+    /* TROPHY GOLD */
     --gold: 217 164 65;          /* #d9a441 */
-    --gold-deep: 168 122 38;     /* #a87a26 */
-    --gold-soft: 245 222 175;    /* warm halo */
+    --gold-deep: 168 122 38;
+    --gold-soft: 245 222 175;
 
-    /* HOST-COUNTRY ACCENTS — per FIFA's 16-city emblem system */
-    --can: 232 54 74;            /* Canada red #e8364a */
+    /* HOST-COUNTRY accents */
+    --can: 232 54 74;
     --can-deep: 183 28 45;
-    --mex: 26 122 62;            /* Mexico green #1a7a3e */
+    --mex: 26 122 62;
     --mex-deep: 14 81 40;
-    --usa: 30 58 138;            /* USA blue #1e3a8a */
+    --usa: 30 58 138;
     --usa-deep: 20 39 95;
 
     /* SEMANTIC */
-    --signal: 232 54 74;         /* red, for "today" / live */
-    --done:   26 122 62;         /* green, for completed / "yesterday" */
-    --info:   30 58 138;         /* blue, for context blocks / "beyond football" */
+    --signal: 232 54 74;
+    --done:   26 122 62;
+    --info:   30 58 138;
 
-    color-scheme: dark;
-  }
-
-  /* Light theme (kept simple — most users see the ink default) */
-  [data-theme='light'] {
-    --ink: 246 244 238;          /* paper becomes the bg */
-    --ink-deep: 233 229 219;
-    --ink-elev: 255 255 255;
-    --ink-line: 217 211 196;
-    --paper: 10 14 26;
-    --paper-soft: 18 23 38;
-    --paper-line: 30 36 54;
-    --text-on-ink: 10 14 26;
-    --text-on-ink-dim: 75 82 102;
-    --text-on-ink-faint: 132 138 152;
-    --text-on-paper: 234 236 244;
-    --text-on-paper-dim: 162 168 188;
-    --text-on-paper-faint: 110 117 138;
     color-scheme: light;
   }
 
@@ -77,53 +59,51 @@
   }
   body {
     @apply font-sans;
-    background: rgb(var(--ink));
-    color: rgb(var(--text-on-ink));
+    background: rgb(var(--bg));
+    color: rgb(var(--text));
     overscroll-behavior-y: none;
-    font-feature-settings: 'ss01' on, 'cv11' on; /* Noto Sans alt forms */
+    font-feature-settings: 'ss01' on, 'cv11' on;
   }
   input, textarea, select, button {
     font: inherit;
     color: inherit;
   }
-
-  /* Selection */
   ::selection {
     background: rgb(var(--gold) / 0.4);
-    color: rgb(var(--text-on-ink));
+    color: rgb(var(--text));
   }
+
+  /* Hide nav + chrome when ?screenshot=1 is passed (for headless captures) */
+  .screenshot-mode nav,
+  .screenshot-mode [data-screenshot-hide] { display: none !important; }
+  .screenshot-mode body > div > div { padding-bottom: 0 !important; }
 }
 
 @layer components {
-  /* Single-source typographic utilities — use these instead of ad-hoc classes */
   .eyebrow {
     @apply uppercase font-bold tracking-[0.18em] text-[10px];
-    color: rgb(var(--text-on-ink-faint));
+    color: rgb(var(--text-faint));
   }
-  .eyebrow-on-paper { color: rgb(var(--text-on-paper-faint)); }
 
   .display {
-    /* Big numeric/display typography à la FIFA */
     @apply font-black tracking-tight tabular-nums;
     letter-spacing: -0.035em;
   }
 
-  /* Cards — paper-on-ink or ink-on-paper, never gradient stacks */
+  /* Cards */
   .paper {
     background: rgb(var(--paper));
-    color: rgb(var(--text-on-paper));
-    border-radius: 6px;
+    color: rgb(var(--text));
+    border-radius: 8px;
     overflow: hidden;
+    box-shadow: 0 2px 6px rgba(19, 21, 39, 0.06), 0 1px 0 rgba(19, 21, 39, 0.04);
+    border: 1px solid rgb(var(--paper-line));
   }
-  .ink-card {
-    background: rgb(var(--ink-elev));
-    border: 1px solid rgb(var(--ink-line));
-    border-radius: 6px;
-    overflow: hidden;
+  .surface {
+    background: rgb(var(--paper));
+    border: 1px solid rgb(var(--paper-line));
+    border-radius: 8px;
   }
-  /* Container that allows children to shrink below their content width — required for
-     truncation/ellipsis to actually clamp in flex + grid layouts. */
-  .shrinkable, .shrinkable * { min-width: 0; }
 
   /* Buttons */
   .btn {
@@ -134,63 +114,50 @@
   }
   .btn-primary {
     background: rgb(var(--gold));
-    color: rgb(var(--ink));
+    color: rgb(var(--text));
   }
   .btn-primary:hover { background: rgb(var(--gold-soft)); }
   .btn-ghost {
     background: transparent;
-    color: rgb(var(--text-on-ink));
-    border: 1px solid rgb(var(--ink-line));
+    color: rgb(var(--text));
+    border: 1px solid rgb(var(--paper-line));
   }
-  .btn-ghost:hover { background: rgb(var(--ink-elev)); }
+  .btn-ghost:hover { background: rgb(var(--paper)); }
 
-  /* Field — for filter selects */
   .field {
     @apply w-full px-3 py-2.5 text-sm font-medium;
-    background: rgb(var(--ink-elev));
-    color: rgb(var(--text-on-ink));
-    border: 1px solid rgb(var(--ink-line));
+    background: rgb(var(--paper));
+    color: rgb(var(--text));
+    border: 1px solid rgb(var(--paper-line));
     border-radius: 4px;
     min-height: 44px;
   }
   .field:focus { outline: none; border-color: rgb(var(--gold)); }
 
-  /* Filter chip — flatter, more confident */
+  /* Filter chips on cream */
   .filter-chip {
     @apply inline-flex items-center px-3 py-1.5 text-[11px] font-bold tracking-wider uppercase
            border transition-colors;
     border-radius: 3px;
-    background: rgb(var(--ink-elev));
-    color: rgb(var(--text-on-ink-dim));
-    border-color: rgb(var(--ink-line));
+    background: rgb(var(--paper));
+    color: rgb(var(--text-dim));
+    border-color: rgb(var(--paper-line));
   }
-  .filter-chip:hover { color: rgb(var(--text-on-ink)); }
+  .filter-chip:hover { color: rgb(var(--text)); border-color: rgb(var(--text-dim)); }
   .filter-chip-active {
     background: rgb(var(--gold));
-    color: rgb(var(--ink));
+    color: rgb(var(--text));
     border-color: rgb(var(--gold));
   }
 
-  /* Host-country accent classes — applied per match based on venue.country */
+  /* Host-country accents (per match) */
   .host-can { --host: var(--can); --host-deep: var(--can-deep); }
   .host-mex { --host: var(--mex); --host-deep: var(--mex-deep); }
   .host-usa { --host: var(--usa); --host-deep: var(--usa-deep); }
 
-  /* Section divider — bold colour block, the FIFA "country band" signature */
-  .section-band {
-    @apply uppercase font-black tracking-[0.16em] text-[11px];
-    background: rgb(var(--host, var(--gold)));
-    color: rgb(var(--ink));
-    padding: 6px 14px;
-    border-radius: 0;
-    display: inline-block;
-  }
-
-  /* Tabular numerics — for scores, ranks, odds */
   .num { font-variant-numeric: tabular-nums; font-weight: 800; }
 }
 
-/* Page transition */
 @keyframes pageFadeIn {
   from { opacity: 0; transform: translateY(6px); }
   to   { opacity: 1; transform: translateY(0); }
