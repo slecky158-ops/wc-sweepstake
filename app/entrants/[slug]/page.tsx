@@ -26,12 +26,12 @@ export default function EntrantPage({ params }: { params: { slug: string } }) {
         {/* Teams */}
         <section className="grid grid-cols-2 gap-2 sm:gap-3">
           {[teamA, teamB].map((t, i) => t && (
-            <Link key={t.code} href={`/matches?country=${t.code}`} className="ink-card p-3 sm:p-4 min-w-0 hover:border-gold transition-colors group">
+            <Link key={t.code} href={`/matches?country=${t.code}`} className="surface p-3 sm:p-4 min-w-0 hover:border-gold transition-colors group">
               <div className="eyebrow mb-2">{i === 0 ? 'Top pot' : 'Bottom pot'}</div>
               <div className="flex items-baseline gap-2 min-w-0">
                 <span className="text-2xl sm:text-3xl leading-none shrink-0" aria-hidden="true">{t.flag}</span>
                 <div className="min-w-0 overflow-hidden">
-                  <div className="display text-base sm:text-2xl text-text-ink truncate leading-tight group-hover:text-gold transition-colors">{t.name}</div>
+                  <div className="display text-base sm:text-2xl text-text truncate leading-tight group-hover:text-gold transition-colors">{t.name}</div>
                   <div className="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest text-gold mt-1">Gr. {t.group}</div>
                 </div>
               </div>
@@ -46,7 +46,7 @@ export default function EntrantPage({ params }: { params: { slug: string } }) {
             <span className="eyebrow">{upcoming.length} match{upcoming.length === 1 ? '' : 'es'}</span>
           </div>
           {upcoming.length > 0 ? (
-            <div className="space-y-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {upcoming.map(m => <MatchCard key={m.id} match={m} />)}
             </div>
           ) : (
@@ -63,7 +63,7 @@ export default function EntrantPage({ params }: { params: { slug: string } }) {
               <h2 className="display text-lg uppercase tracking-tight">Played</h2>
               <span className="eyebrow">{past.length} result{past.length === 1 ? '' : 's'}</span>
             </div>
-            <div className="space-y-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {past.map(m => <MatchCard key={m.id} match={m} />)}
             </div>
           </section>
