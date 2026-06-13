@@ -61,7 +61,7 @@ export function MatchCard({ match, live }: { match: Match; live?: LiveState }) {
 
       {/* Teams — explicit % widths so columns never expand beyond their share. */}
       <div className="px-3 sm:px-4 py-4 sm:py-5 flex items-center gap-0">
-        <div style={{ width: '40%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-1.5">
+        <div style={{ width: '40%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-1.5 px-2">
           {a ? (
             <Link href={`/matches?country=${a.code}`} className="flex flex-col items-center gap-1.5 w-full overflow-hidden group">
               <span className="text-2xl sm:text-3xl leading-none" aria-hidden="true">{a.flag}</span>
@@ -95,7 +95,7 @@ export function MatchCard({ match, live }: { match: Match; live?: LiveState }) {
           )}
         </div>
 
-        <div style={{ width: '40%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-1.5">
+        <div style={{ width: '40%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-1.5 px-2">
           {b ? (
             <Link href={`/matches?country=${b.code}`} className="flex flex-col items-center gap-1.5 w-full overflow-hidden group">
               <span className="text-2xl sm:text-3xl leading-none" aria-hidden="true">{b.flag}</span>
