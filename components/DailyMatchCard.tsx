@@ -63,7 +63,7 @@ export function DailyMatchCard({ match, kind, live }: { match: DailyMatch; kind:
 
       {/* Teams — explicit % widths so columns never grow beyond their share. */}
       <div className="px-3 sm:px-5 py-5 sm:py-6 flex items-center gap-0">
-        <div style={{ width: '42%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-2">
+        <div style={{ width: '40%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-2">
           {a && (
             <Link href={`/matches?country=${a.code}`} className="flex flex-col items-center gap-2 w-full overflow-hidden group">
               <span className="text-3xl sm:text-4xl leading-none" aria-hidden="true">{a.flag}</span>
@@ -80,7 +80,7 @@ export function DailyMatchCard({ match, kind, live }: { match: DailyMatch; kind:
           )}
         </div>
 
-        <div style={{ width: '16%' }} className="text-center shrink-0">
+        <div style={{ width: '20%' }} className="text-center shrink-0">
           {live?.isLive && typeof live.scoreA === 'number' && typeof live.scoreB === 'number' ? (
             <>
               <div className="display text-2xl sm:text-4xl text-signal whitespace-nowrap leading-none">
@@ -100,7 +100,7 @@ export function DailyMatchCard({ match, kind, live }: { match: DailyMatch; kind:
           )}
         </div>
 
-        <div style={{ width: '42%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-2">
+        <div style={{ width: '40%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-2">
           {b && (
             <Link href={`/matches?country=${b.code}`} className="flex flex-col items-center gap-2 w-full overflow-hidden group">
               <span className="text-3xl sm:text-4xl leading-none" aria-hidden="true">{b.flag}</span>
