@@ -52,7 +52,7 @@ export function MatchesList({
     <div className="space-y-5">
 
       {/* Filters */}
-      <div className="ink-card p-4 space-y-4">
+      <div className="surface p-4 space-y-4">
         <div className="grid grid-cols-2 gap-3 min-w-0">
           <label className="block min-w-0">
             <div className="eyebrow mb-1.5">By entrant</div>
@@ -111,13 +111,13 @@ export function MatchesList({
       </div>
 
       <div className="flex items-baseline justify-between">
-        <div className="eyebrow">Showing <span className="text-text-ink num">{filtered.length}</span> of {matches.length}</div>
+        <div className="eyebrow">Showing <span className="text-text num">{filtered.length}</span> of {matches.length}</div>
       </div>
 
       {filtered.length === 0 ? (
         <div className="paper p-6 text-center text-text-paper-dim text-sm">No matches match your filters.</div>
       ) : (
-        <div className="space-y-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {filtered.map(m => <MatchCard key={m.id} match={m} live={liveByMatchId?.[m.id]} />)}
         </div>
       )}
