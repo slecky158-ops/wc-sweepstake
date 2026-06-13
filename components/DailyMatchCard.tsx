@@ -62,7 +62,7 @@ export function DailyMatchCard({ match, kind, live }: { match: DailyMatch; kind:
       </div>
 
       {/* Teams — explicit % widths so columns never grow beyond their share. */}
-      <div className="px-3 sm:px-5 py-5 sm:py-6 flex items-center gap-0">
+      <div className="px-3 sm:px-5 py-5 sm:py-6 flex items-center gap-2 sm:gap-3">
         <div style={{ width: '40%', overflow: 'hidden' }} className="flex flex-col items-center text-center gap-2 px-2">
           {a && (
             <Link href={`/matches?country=${a.code}`} className="flex flex-col items-center gap-2 w-full overflow-hidden group">
