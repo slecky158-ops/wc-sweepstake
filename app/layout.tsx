@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
-import { ThemeProvider } from '@/components/ThemeProvider';
 import { Nav } from '@/components/Nav';
 
 export const metadata: Metadata = {
@@ -21,7 +20,8 @@ export const viewport: Viewport = {
   viewportFit: 'cover',
 };
 
-const themeInitScript = `(function(){try{var s=localStorage.getItem('theme');var m=s==='light'||s==='dark'?s:'dark';document.documentElement.dataset.theme=m;}catch(e){document.documentElement.dataset.theme='dark';}})();`;
+// Adds .screenshot-mode to <html> so screenshot tooling can hide chrome via CSS
+const initScript = `(function(){try{if(location.search.indexOf('screenshot=1')>-1){document.documentElement.classList.add('screenshot-mode');}}catch(e){}})();`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -33,15 +33,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap"
           rel="stylesheet"
         />
-        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+        <script dangerouslySetInnerHTML={{ __html: initScript }} />
       </head>
       <body>
-        <ThemeProvider>
-          <div className="min-h-dvh w-full max-w-3xl mx-auto pb-[max(6rem,env(safe-area-inset-bottom))]">
-            {children}
-          </div>
-          <Nav />
-        </ThemeProvider>
+        <div className="min-h-dvh w-full max-w-3xl mx-auto pb-[max(6rem,env(safe-area-inset-bottom))]">
+          {children}
+        </div>
+        <Nav />
       </body>
     </html>
   );
