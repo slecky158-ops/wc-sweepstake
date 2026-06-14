@@ -338,8 +338,8 @@ Research each match and return ONLY a JSON object with this exact shape (omit an
         "fgs": {{"name": "Lozano", "odds": "5.50"}}
       }},
       "facts": {{
-        "home": "≤22-word SPICY/CONTROVERSIAL angle about the home team — scandal, feud, off-pitch chaos, federation bust-up, doping/corruption saga, banned player, locker-room rift, dramatic qualification controversy, historic embarrassment. Verifiable, not invented. Avoid bland trivia.",
-        "away": "≤22-word SPICY/CONTROVERSIAL angle about the away team — same brief as home."
+        "home": "≤22-word SPICY/CONTROVERSIAL angle about the home team — scandal, feud, off-pitch chaos, federation bust-up, doping/corruption saga, banned player, locker-room rift, dramatic qualification controversy, historic embarrassment. Verifiable, not invented. Avoid bland trivia. REQUIRED — never null, never omitted. If no spicy angle is verifiable, fall back to a genuinely surprising verifiable fact (still ≤22 words).",
+        "away": "≤22-word SPICY/CONTROVERSIAL angle about the away team — same brief as home. REQUIRED — never null."
       }}
     }}
   ],
