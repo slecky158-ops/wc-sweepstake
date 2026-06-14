@@ -144,10 +144,8 @@
     "result": {
       "scoreA": 2,
       "scoreB": 0,
-      "scorers": "Boyle 45' (AUS) · Leckie 70' (AUS)",
-      "notes": [
-        "🟥 Karaman 76' (TUR)"
-      ]
+      "scorers": "Nestory Irankunda 27', Connor Metcalfe 75' (AUS)",
+      "notes": []
     },
     "quality": {
       "elo": 1819.0,
@@ -170,7 +168,7 @@
     "result": {
       "scoreA": 1,
       "scoreB": 1,
-      "scorers": "Almoez Ali 23' (QAT) · Embolo 54' (SUI)",
+      "scorers": "Boualem Khoukhi 90+4' (QAT) · Breel Embolo 17' pen (SUI)",
       "notes": []
     },
     "quality": {
@@ -194,7 +192,7 @@
     "result": {
       "scoreA": 1,
       "scoreB": 1,
-      "scorers": "Neymar 78' (BRA) · En-Nesyri 88' (MAR)",
+      "scorers": "Vinícius Júnior 32' (BRA) · Ismael Saibari 21' (MAR)",
       "notes": []
     },
     "quality": {
@@ -218,8 +216,10 @@
     "result": {
       "scoreA": 0,
       "scoreB": 1,
-      "scorers": "Dykes 60' (SCO)",
-      "notes": []
+      "scorers": "John McGinn 28' (SCO)",
+      "notes": [
+        "🟥 Aaron Hickey 47' (SCO)"
+      ]
     },
     "quality": {
       "elo": 1644.0,

@@ -397,7 +397,8 @@ NO-REPEAT RULES — these are hard rules, not preferences:
 {facts_blocklist}
 """
 
-print("Calling OpenAI (gpt-4o + web_search_preview)…")
+OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-5.5")
+print(f"Calling OpenAI ({OPENAI_MODEL} + web_search_preview)…")
 
 try:
     from openai import OpenAI
@@ -411,7 +412,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 ai_text = ""
 try:
     response = client.responses.create(
-        model="gpt-4o",
+        model=OPENAI_MODEL,
         instructions=system_prompt,
         input=user_prompt,
         tools=[{"type": "web_search_preview"}],
@@ -421,13 +422,45 @@ except Exception as e:
     print(f"ERROR: OpenAI call failed: {e}", file=sys.stderr)
     sys.exit(3)
 
+
+def strip_citations(text: str) -> str:
+    """gpt-5+ inserts inline markdown citations like ([bbc.co.uk](https://...))
+    and bold markers like **1982**. Strip both — site already shows 'Source: …'.
+    """
+    if not isinstance(text, str):
+        return text
+    # Strip markdown link citations: ([domain](url)) or (domain.com)
+    text = re.sub(r"\s*\(\[[^\]]+\]\([^)]+\)\)", "", text)
+    text = re.sub(r"\s*\([^()]*utm_source=openai[^()]*\)", "", text)
+    # Strip bold markers
+    text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
+    # Collapse double spaces
+    text = re.sub(r"  +", " ", text).strip()
+    return text
+
+
+def deep_strip(obj):
+    if isinstance(obj, str):
+        return strip_citations(obj)
+    if isinstance(obj, list):
+        return [deep_strip(x) for x in obj]
+    if isinstance(obj, dict):
+        return {k: deep_strip(v) for k, v in obj.items()}
+    return obj
+
+
 # Parse JSON — Responses API may wrap in markdown fences
 try:
     m = re.search(r"\{.*\}", ai_text, re.DOTALL)
     if not m:
         raise ValueError("no JSON object found in response")
-    ai_data = json.loads(m.group(0))
-    print("  parsed OpenAI JSON")
+    raw = m.group(0)
+    # Pre-strip citations from the raw JSON text so they don't break parsing
+    # (citations are inside string values so JSON is still valid, but we want
+    # them out regardless)
+    ai_data = json.loads(raw)
+    ai_data = deep_strip(ai_data)
+    print(f"  parsed OpenAI JSON ({OPENAI_MODEL})")
 except Exception as e:
     print(f"ERROR: could not parse JSON from OpenAI response: {e}", file=sys.stderr)
     print(f"  raw response begins: {ai_text[:500]}", file=sys.stderr)

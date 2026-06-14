@@ -543,19 +543,19 @@
     "footerNote": "All times converted from official kickoffs"
   },
   "20260614": {
-    "generatedAt": "2026-06-14T16:49:42.651107+01:00",
+    "generatedAt": "2026-06-14T16:55:44.045400+01:00",
     "dateLong": "Sunday, 14 June 2026",
     "dateDay": "Sun 14 Jun",
     "dateRest": "Tournament Day 4",
     "yesterdayCount": "4 matches",
     "todayCount": "4 matches",
     "yesterdayStoryline": {
-      "headline": "Brazil held, Australia march, Scotland sneak past",
-      "subtitle": "Brazil and Morocco share a goal apiece; Australia open with a 2-0 win; Scotland edge Haiti via Dykes."
+      "headline": "Morocco rattle Brazil; Qatar steal a point",
+      "subtitle": "Switzerland paid for wastefulness, Scotland edged Haiti, and Australia punished Türkiye on the counter."
     },
     "todayStoryline": {
-      "headline": "Germany begin amid Curaçao's history-making debut",
-      "subtitle": "Group F opens with Netherlands–Japan; Germany face the smallest nation ever to qualify in Group G."
+      "headline": "Group E opens with sharp contrasts",
+      "subtitle": "Germany face Curaçao's debut, while Netherlands-Japan and Sweden-Tunisia shape a tight Group F."
     },
     "yesterday": [
       {
@@ -581,7 +581,14 @@
         "scoreA": 1,
         "scoreB": 1,
         "score": "1-1",
-        "scorers": "Almoez Ali 23' (QAT) · Embolo 54' (SUI)"
+        "scorers": "Boualem Khoukhi 90+4' (QAT) · Breel Embolo 17' pen (SUI)",
+        "analysis": {
+          "lines": [
+            "Switzerland made most of the running, but wastefulness left Qatar alive deep into stoppage time.",
+            "The draw puts all four Group B teams level after one round."
+          ],
+          "source": "Sky Sports match report"
+        }
       },
       {
         "matchId": "G009",
@@ -606,13 +613,13 @@
         "scoreA": 1,
         "scoreB": 1,
         "score": "1-1",
-        "scorers": "Neymar 78' (BRA) · En-Nesyri 88' (MAR)",
+        "scorers": "Vinícius Júnior 32' (BRA) · Ismael Saibari 21' (MAR)",
         "analysis": {
           "lines": [
-            "Brazil struggled against Morocco's organized defense, resulting in a late equalizer.",
-            "The draw leaves Brazil needing a win in their next game to secure advancement."
+            "Morocco pressed through Brazil's midfield early, forcing Ancelotti's side to chase the match.",
+            "Brazil avoid defeat, but Group C already looks less predictable than expected."
           ],
-          "source": "BBC Sport match report"
+          "source": "Sky Sports match report"
         }
       },
       {
@@ -638,7 +645,15 @@
         "scoreA": 0,
         "scoreB": 1,
         "score": "0-1",
-        "scorers": "Dykes 60' (SCO)"
+        "scorers": "John McGinn 28' (SCO)",
+        "note": "🟥 Aaron Hickey 47' (SCO)",
+        "analysis": {
+          "lines": [
+            "Haiti made the contest direct and awkward, but McGinn punished a rebound before the break.",
+            "Scotland lead Group C while Haiti leave with credit and no points."
+          ],
+          "source": "Sports Mole match report"
+        }
       },
       {
         "matchId": "G017",
@@ -663,14 +678,13 @@
         "scoreA": 2,
         "scoreB": 0,
         "score": "2-0",
-        "scorers": "Boyle 45' (AUS) · Leckie 70' (AUS)",
-        "note": "🟥 Karaman 76' (TUR)",
+        "scorers": "Nestory Irankunda 27', Connor Metcalfe 75' (AUS)",
         "analysis": {
           "lines": [
-            "Australia capitalized on Turkey's defensive lapses to secure a comfortable win.",
-            "This result boosts Australia's chances of advancing from Group D."
+            "Türkiye dominated the ball, but Australia defended compactly and countered with precision.",
+            "The result puts Australia behind the United States on goal difference in Group D."
           ],
-          "source": "BBC Sport match report"
+          "source": "Reuters match report"
         }
       }
     ],
@@ -695,26 +709,11 @@
         },
         "teamA": "GER",
         "teamB": "CUW",
-        "weather": "24°C · sunny spells · 10% rain · 12 mph NE",
+        "weather": "31°C · mostly cloudy",
         "h2h": "First meeting",
-        "odds": {
-          "match": {
-            "home": "1.10",
-            "draw": "7.00",
-            "away": "17.00"
-          },
-          "extra": {
-            "label": "O2.5",
-            "value": "1.40"
-          },
-          "fgs": {
-            "name": "Müller",
-            "odds": "4.00"
-          }
-        },
         "facts": {
-          "home": "Germany are still scarred from their 2018 World Cup group-stage exit — their first since 1938. Mesut Özil quit afterwards accusing the federation of racism over his Erdoğan photo.",
-          "away": "Curaçao is the smallest nation ever to qualify for a men's World Cup — population around 150,000, less than a London borough. Coached by Dutch veteran Dick Advocaat, one of football's most-travelled managers."
+          "home": "Germany's 2006 World Cup summer as hosts later curdled into a bid-scandal investigation around Franz Beckenbauer. A report could not rule out vote-buying, leaving a stain on summer-fairytale nostalgia.",
+          "away": "Curaçao's 2020 rebuild carried a cold cut: Remko Bicentini said he learned through media that Guus Hiddink would take his job. He later fumed big Dutch names arrived lecturing locals."
         }
       },
       {
@@ -737,26 +736,11 @@
         },
         "teamA": "NED",
         "teamB": "JPN",
-        "weather": "20°C · partly cloudy · 20% rain · 14 mph NW",
-        "h2h": "Played 5 · 🇳🇱 3W 1D 1L · last 3-2 NED (2023)",
-        "odds": {
-          "match": {
-            "home": "1.75",
-            "draw": "3.70",
-            "away": "5.00"
-          },
-          "extra": {
-            "label": "U2.5",
-            "value": "1.85"
-          },
-          "fgs": {
-            "name": "Depay",
-            "odds": "4.50"
-          }
-        },
+        "weather": "30°C · thunderstorms",
+        "h2h": "Played 3 · 🇳🇱 2W 1D 0L · last 2-2 Japan (2013)",
         "facts": {
-          "home": "The Netherlands' 2010 World Cup Final remains infamous — Nigel de Jong's chest-high kick on Xabi Alonso a low point. Referee Howard Webb showed a record 14 yellow cards as Spain won 1-0.",
-          "away": "Japan stunned Germany and Spain in 2022, but Kaoru Mitoma's assist for the Spain winner still sparks debate — the ball looked out, even FIFA's millimetre cam couldn't fully settle it."
+          "home": "The Netherlands' Euro 1996 camp imploded when Edgar Davids was sent home after blasting Guus Hiddink in a radio interview. Headlines framed a racial split; the quarter-final exit followed.",
+          "away": "Japan's 1998 debut began with a shock cut: Kazuyoshi Miura was dropped one day after scoring a hat-trick. King Kazu had carried qualifying, then never played a World Cup."
         }
       },
       {
@@ -779,9 +763,11 @@
         },
         "teamA": "CIV",
         "teamB": "ECU",
+        "weather": "24°C · partly sunny with thunderstorms",
+        "h2h": "First meeting",
         "facts": {
-          "home": "Ivory Coast won AFCON 2024 on home soil after firing manager Jean-Louis Gasset mid-tournament following a 4-0 loss to Equatorial Guinea. Interim Emerse Faé led the dramatic comeback to glory.",
-          "away": "Ecuador's 2022 qualification was nearly voided after Chile accused them of fielding Byron Castillo, claiming he was Colombian-born. FIFA fined them and docked future points but let them compete."
+          "home": "Ivory Coast's 2005 qualification party became a peace broadcast when Didier Drogba begged combatants to drop weapons. The plea helped shift mood before the 2007 Bouaké reconciliation match.",
+          "away": "Ecuador's 2015 FIFAgate fallout reached Luis Chiriboga, the federation boss who was later jailed for money-laundering. FIFA then banned him for life and fined him one million Swiss francs."
         }
       },
       {
@@ -804,17 +790,19 @@
         },
         "teamA": "SWE",
         "teamB": "TUN",
+        "weather": "27°C · cloudy",
+        "h2h": "Played 4 · 🇸🇪 2W 1D 1L · last 0-1 Tunisia (2003)",
         "facts": {
-          "home": "Sweden missed the 2022 World Cup and Euro 2024, prompting Zlatan Ibrahimović's retirement at 41 after 121 caps and well-documented friction with coach Janne Andersson, who resigned shortly after.",
-          "away": "Tunisia stunned reigning champions France 1-0 in their 2022 World Cup group-stage finale — only the second time France had lost while holding the title. Tunisia still went home on goal difference."
+          "home": "Sweden's 2018 World Cup defeat to Germany turned ugly when Jimmy Durmaz received racist abuse and death threats. The squad publicly closed ranks, reading an anti-racism statement together.",
+          "away": "Tunisia's 2022 AFCON opener descended into farce when referee Janny Sikazwe blew full-time early, twice. CAF dismissed Tunisia's complaint after players refused a chaotic attempted restart in Limbe."
         }
       }
     ],
     "news": {
       "kicker": "REUTERS · POLITICS",
-      "headline": "UN sanctions on arms sales to Myanmar",
-      "body": "The UN Security Council imposed new sanctions targeting arms sales to Myanmar. The decision aims to curb escalating violence.",
-      "source": "Source: Reuters, 14 Jun 2026"
+      "headline": "Trump to meet Middle East leaders at G7 summit",
+      "body": "U.S. officials said Donald Trump will meet Middle Eastern leaders and attend a Ukraine working session with Volodymyr Zelenskyy during next week's G7 summit in France. They said no bilateral meeting with Zelenskyy was scheduled, though a sideline encounter remained possible.",
+      "source": "Source: Reuters, 13 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"
   }
