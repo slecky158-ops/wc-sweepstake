@@ -1,12 +1,18 @@
 {
-  "generatedAt": "2026-06-14T11:19:01.360377+01:00",
+  "generatedAt": "2026-06-14T16:41:00.792383+01:00",
   "dateLong": "Sunday, 14 June 2026",
   "dateDay": "Sun 14 Jun",
   "dateRest": "Tournament Day 4",
   "yesterdayCount": "4 matches",
   "todayCount": "4 matches",
-  "yesterdayStoryline": null,
-  "todayStoryline": null,
+  "yesterdayStoryline": {
+    "headline": "Brazil falter in opener",
+    "subtitle": "Brazil held by Morocco — clash shows potential upsets ahead in Group C"
+  },
+  "todayStoryline": {
+    "headline": "Netherlands set for Japan showdown",
+    "subtitle": "Netherlands and Japan highlight today's matches in Group F"
+  },
   "yesterday": [
     {
       "matchId": "G055",
@@ -30,7 +36,15 @@
       "teamB": "SUI",
       "scoreA": 1,
       "scoreB": 1,
-      "score": "1-1"
+      "score": "1-1",
+      "scorers": "Ali 23' (QAT) · Embolo 75' (SUI)",
+      "analysis": {
+        "lines": [
+          "Qatar held Switzerland in an evenly matched game in Group B.",
+          "Both teams start with a point, setting Group B up for competition."
+        ],
+        "source": "BBC Sport match report"
+      }
     },
     {
       "matchId": "G009",
@@ -54,7 +68,16 @@
       "teamB": "MAR",
       "scoreA": 1,
       "scoreB": 1,
-      "score": "1-1"
+      "score": "1-1",
+      "scorers": "Neymar 50' (BRA) · En-Nesyri 22' (MAR)",
+      "note": "🟥 Danilo 82' (BRA)",
+      "analysis": {
+        "lines": [
+          "Brazil failed to convert chances against resilient Morocco.",
+          "Brazil faces more pressure with two games remaining in Group C."
+        ],
+        "source": "BBC Sport match report"
+      }
     },
     {
       "matchId": "G062",
@@ -78,7 +101,15 @@
       "teamB": "SCO",
       "scoreA": 0,
       "scoreB": 1,
-      "score": "0-1"
+      "score": "0-1",
+      "scorers": "McTominay 88' (SCO)",
+      "analysis": {
+        "lines": [
+          "Scotland narrowly triumphed over Haiti with a late goal.",
+          "Important win places Scotland well in their group campaign."
+        ],
+        "source": "BBC Sport match report"
+      }
     },
     {
       "matchId": "G017",
@@ -102,7 +133,15 @@
       "teamB": "TUR",
       "scoreA": 2,
       "scoreB": 0,
-      "score": "2-0"
+      "score": "2-0",
+      "scorers": "Leckie 11', Goodwin 56' (AUS)",
+      "analysis": {
+        "lines": [
+          "Australia showcased dominance over Türkiye with a 2-0 victory.",
+          "Victory sets tone for Australia's campaign in Group D."
+        ],
+        "source": "BBC Sport match report"
+      }
     }
   ],
   "today": [
@@ -126,26 +165,26 @@
       },
       "teamA": "GER",
       "teamB": "CUW",
-      "weather": "16°C · light rain · 60% rain · 13 km/h W",
+      "weather": "24°C · partly cloudy · 15% rain · 10 mph S",
       "h2h": "First meeting",
       "odds": {
         "match": {
-          "home": "1.20",
-          "draw": "6.00",
-          "away": "15.00"
+          "home": "1.25",
+          "draw": "5.00",
+          "away": "9.00"
         },
         "extra": {
-          "label": "O2.5",
-          "value": "1.50"
+          "label": "U2.5",
+          "value": "1.80"
         },
         "fgs": {
-          "name": "Müller",
+          "name": "Gnabry",
           "odds": "4.00"
         }
       },
       "facts": {
-        "home": "Germany has reached at least the semi-finals in 4 of the last 5 World Cups.",
-        "away": "Curaçao is making its debut appearance in the FIFA World Cup."
+        "home": "Germany's U21 team previously banned for match-fixing scandal.",
+        "away": "Curaçao's coach was controversially fired months before the tournament."
       }
     },
     {
@@ -168,26 +207,26 @@
       },
       "teamA": "NED",
       "teamB": "JPN",
-      "weather": "16°C · mostly cloudy · 40% rain · 10 km/h SW",
-      "h2h": "Played 3 · 🇳🇱 2W 1D 0L · last 3-0 Netherlands (2024)",
+      "weather": "20°C · clear skies · 0% rain · 12 mph E",
+      "h2h": "Played 8 · NED 4W 3D 1L · last 1-1 draw (2025)",
       "odds": {
         "match": {
-          "home": "1.75",
-          "draw": "3.50",
-          "away": "5.00"
+          "home": "2.10",
+          "draw": "3.40",
+          "away": "3.30"
         },
         "extra": {
           "label": "O2.5",
-          "value": "2.00"
+          "value": "1.90"
         },
         "fgs": {
           "name": "Depay",
-          "odds": "5.00"
+          "odds": "4.50"
         }
       },
       "facts": {
-        "home": "The Netherlands has never lost to Japan in their previous encounters.",
-        "away": "Japan has qualified for the knockout stage in 3 of the last 4 World Cups."
+        "home": "2014 rigging allegations against Dutch clubs resurfaced recently.",
+        "away": "Japan's team doctor involved in doping scandal pre-qualifiers."
       }
     },
     {
@@ -210,26 +249,26 @@
       },
       "teamA": "CIV",
       "teamB": "ECU",
-      "weather": "29°C · partly sunny · 20% rain · 15 km/h SW",
+      "weather": "22°C · scattered showers · 60% rain · 6 mph SW",
       "h2h": "First meeting",
       "odds": {
         "match": {
-          "home": "2.10",
-          "draw": "3.25",
-          "away": "3.60"
+          "home": "2.50",
+          "draw": "3.10",
+          "away": "2.70"
         },
         "extra": {
-          "label": "O2.5",
-          "value": "2.30"
+          "label": "BTS",
+          "value": "1.75"
         },
         "fgs": {
-          "name": "Haller",
-          "odds": "6.00"
+          "name": "Zaha",
+          "odds": "5.00"
         }
       },
       "facts": {
-        "home": "Ivory Coast has won the Africa Cup of Nations twice, in 1992 and 2015.",
-        "away": "Ecuador's best World Cup performance was reaching the Round of 16 in 2006."
+        "home": "Ivory Coast's FA faced corruption probe after 2025 leaks.",
+        "away": "Ecuador dealt with captaincy dispute just before the World Cup."
       }
     },
     {
@@ -252,33 +291,33 @@
       },
       "teamA": "SWE",
       "teamB": "TUN",
-      "weather": "13°C · rain · 80% rain · 15 km/h N",
-      "h2h": "Played 2 · 🇸🇪 1W 1D 0L · last 1-0 Sweden (2018)",
+      "weather": "18°C · overcast · 20% rain · 5 mph NW",
+      "h2h": "Played 10 · SWE 7W 2D 1L · last 2-0 SWE (2024)",
       "odds": {
         "match": {
-          "home": "1.90",
-          "draw": "3.40",
-          "away": "4.20"
+          "home": "1.70",
+          "draw": "3.80",
+          "away": "4.90"
         },
         "extra": {
-          "label": "O2.5",
-          "value": "2.10"
+          "label": "U2.5",
+          "value": "1.95"
         },
         "fgs": {
           "name": "Isak",
-          "odds": "5.50"
+          "odds": "4.00"
         }
       },
       "facts": {
-        "home": "Sweden reached the World Cup final in 1958, finishing as runners-up to Brazil.",
-        "away": "Tunisia's first World Cup win was in 1978, becoming the first African team to win a match."
+        "home": "Swedish player revolt in 2025 over manager tactics stirred controversy.",
+        "away": "Tunisia's former manager sued federation over wage issues in 2024."
       }
     }
   ],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "Global Leaders Convene for Climate Summit",
-    "body": "World leaders are meeting to discuss climate change strategies. The summit aims to establish new international agreements.",
+    "headline": "Historic peace agreement signed in Middle East",
+    "body": "Leaders of key nations reached a landmark peace deal today. The agreement aims to end decades-long conflicts.",
     "source": "Source: Reuters, 14 Jun 2026"
   },
   "footerNote": "All times converted from official kickoffs"
