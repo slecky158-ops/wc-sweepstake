@@ -1,85 +1,13 @@
 {
-  "generatedAt": "2026-06-13T10:50:00.522860+01:00",
-  "dateLong": "Saturday, 13 June 2026",
-  "dateDay": "Sat 13 Jun",
-  "dateRest": "Tournament Day 3",
-  "yesterdayCount": "2 matches",
+  "generatedAt": "2026-06-14T11:19:01.360377+01:00",
+  "dateLong": "Sunday, 14 June 2026",
+  "dateDay": "Sun 14 Jun",
+  "dateRest": "Tournament Day 4",
+  "yesterdayCount": "4 matches",
   "todayCount": "4 matches",
-  "yesterdayStoryline": {
-    "headline": "US dominates Paraguay in opener",
-    "subtitle": "Hosts secure 4-1 victory with Balogun's brace"
-  },
-  "todayStoryline": {
-    "headline": "Brazil faces Morocco challenge",
-    "subtitle": "Seleção seeks strong start against resilient Atlas Lions"
-  },
+  "yesterdayStoryline": null,
+  "todayStoryline": null,
   "yesterday": [
-    {
-      "matchId": "G041",
-      "rank": 41,
-      "group": "B",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-12T20:00:00+01:00",
-      "timeUk": "20:00 UK",
-      "timeEt": "15:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
-      },
-      "teamA": "CAN",
-      "teamB": "BIH",
-      "scoreA": 1,
-      "scoreB": 1,
-      "score": "1-1",
-      "scorers": "Lukic 21' (BIH) · Larin 78' (CAN)",
-      "analysis": {
-        "lines": [
-          "Canada secured their first World Cup point with a late equalizer.",
-          "Bosnia and Herzegovina's early lead was nullified by Larin's impact."
-        ],
-        "source": "The Guardian match report"
-      }
-    },
-    {
-      "matchId": "G031",
-      "rank": 31,
-      "group": "D",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-13T02:00:00+01:00",
-      "timeUk": "02:00 UK",
-      "timeEt": "21:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
-      },
-      "teamA": "USA",
-      "teamB": "PAR",
-      "scoreA": 4,
-      "scoreB": 1,
-      "score": "4-1",
-      "scorers": "Bobadilla 7' (OG) · Balogun 31', 45+5' (USA) · Reyna 90+8' (USA) · Maurício 65' (PAR)",
-      "analysis": {
-        "lines": [
-          "USA's aggressive play led to a commanding 4-1 victory.",
-          "Balogun's double highlighted the hosts' attacking prowess."
-        ],
-        "source": "The Guardian match report"
-      }
-    }
-  ],
-  "today": [
     {
       "matchId": "G055",
       "rank": 55,
@@ -100,27 +28,9 @@
       },
       "teamA": "QAT",
       "teamB": "SUI",
-      "weather": "36°C · clear skies · 0% rain · 13 km/h N",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "2.10",
-          "draw": "3.50",
-          "away": "3.30"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "2.00"
-        },
-        "fgs": {
-          "name": "Almoez Ali",
-          "odds": "5.00"
-        }
-      },
-      "facts": {
-        "home": "Qatar's first World Cup match against a European team.",
-        "away": "Switzerland's first World Cup match in the Middle East."
-      }
+      "scoreA": 1,
+      "scoreB": 1,
+      "score": "1-1"
     },
     {
       "matchId": "G009",
@@ -142,27 +52,9 @@
       },
       "teamA": "BRA",
       "teamB": "MAR",
-      "weather": "27°C · thunderstorms · 80% rain · 10 km/h S",
-      "h2h": "Played 3 · 🇧🇷 2W 1D 0L · last 2-0 BRA (2024)",
-      "odds": {
-        "match": {
-          "home": "1.50",
-          "draw": "4.00",
-          "away": "6.50"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "1.75"
-        },
-        "fgs": {
-          "name": "Neymar",
-          "odds": "4.00"
-        }
-      },
-      "facts": {
-        "home": "Brazil has never lost to an African team in World Cup history.",
-        "away": "Morocco's first World Cup match against Brazil."
-      }
+      "scoreA": 1,
+      "scoreB": 1,
+      "score": "1-1"
     },
     {
       "matchId": "G062",
@@ -184,27 +76,9 @@
       },
       "teamA": "HAI",
       "teamB": "SCO",
-      "weather": "33°C · mostly sunny · 10% rain · 15 km/h E",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "3.80",
-          "draw": "3.40",
-          "away": "2.00"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "2.10"
-        },
-        "fgs": {
-          "name": "Che Adams",
-          "odds": "5.50"
-        }
-      },
-      "facts": {
-        "home": "Haiti's first World Cup appearance since 1974.",
-        "away": "Scotland's first World Cup match outside Europe."
-      }
+      "scoreA": 0,
+      "scoreB": 1,
+      "score": "0-1"
     },
     {
       "matchId": "G017",
@@ -226,34 +100,186 @@
       },
       "teamA": "AUS",
       "teamB": "TUR",
-      "weather": "18°C · cloudy · 20% rain · 10 km/h W",
-      "h2h": "Played 2 · 🇦🇺 1W 0D 1L · last 1-0 AUS (2022)",
+      "scoreA": 2,
+      "scoreB": 0,
+      "score": "2-0"
+    }
+  ],
+  "today": [
+    {
+      "matchId": "G071",
+      "rank": 71,
+      "group": "E",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-14T18:00:00+01:00",
+      "timeUk": "18:00 UK",
+      "timeEt": "13:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "TBC",
+        "us": "TBC"
+      },
+      "teamA": "GER",
+      "teamB": "CUW",
+      "weather": "16°C · light rain · 60% rain · 13 km/h W",
+      "h2h": "First meeting",
       "odds": {
         "match": {
-          "home": "2.50",
-          "draw": "3.20",
-          "away": "2.80"
+          "home": "1.20",
+          "draw": "6.00",
+          "away": "15.00"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "1.50"
+        },
+        "fgs": {
+          "name": "Müller",
+          "odds": "4.00"
+        }
+      },
+      "facts": {
+        "home": "Germany has reached at least the semi-finals in 4 of the last 5 World Cups.",
+        "away": "Curaçao is making its debut appearance in the FIFA World Cup."
+      }
+    },
+    {
+      "matchId": "G005",
+      "rank": 5,
+      "group": "F",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-14T21:00:00+01:00",
+      "timeUk": "21:00 UK",
+      "timeEt": "16:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "TBC",
+        "us": "TBC"
+      },
+      "teamA": "NED",
+      "teamB": "JPN",
+      "weather": "16°C · mostly cloudy · 40% rain · 10 km/h SW",
+      "h2h": "Played 3 · 🇳🇱 2W 1D 0L · last 3-0 Netherlands (2024)",
+      "odds": {
+        "match": {
+          "home": "1.75",
+          "draw": "3.50",
+          "away": "5.00"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "2.00"
+        },
+        "fgs": {
+          "name": "Depay",
+          "odds": "5.00"
+        }
+      },
+      "facts": {
+        "home": "The Netherlands has never lost to Japan in their previous encounters.",
+        "away": "Japan has qualified for the knockout stage in 3 of the last 4 World Cups."
+      }
+    },
+    {
+      "matchId": "G012",
+      "rank": 12,
+      "group": "E",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-15T00:00:00+01:00",
+      "timeUk": "00:00 UK",
+      "timeEt": "19:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "TBC",
+        "us": "TBC"
+      },
+      "teamA": "CIV",
+      "teamB": "ECU",
+      "weather": "29°C · partly sunny · 20% rain · 15 km/h SW",
+      "h2h": "First meeting",
+      "odds": {
+        "match": {
+          "home": "2.10",
+          "draw": "3.25",
+          "away": "3.60"
         },
         "extra": {
           "label": "O2.5",
           "value": "2.30"
         },
         "fgs": {
-          "name": "Hakan Çalhanoğlu",
+          "name": "Haller",
           "odds": "6.00"
         }
       },
       "facts": {
-        "home": "Australia's first World Cup match against a European team since 2014.",
-        "away": "Türkiye's first World Cup match since 2002."
+        "home": "Ivory Coast has won the Africa Cup of Nations twice, in 1992 and 2015.",
+        "away": "Ecuador's best World Cup performance was reaching the Round of 16 in 2006."
+      }
+    },
+    {
+      "matchId": "G027",
+      "rank": 27,
+      "group": "F",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-15T03:00:00+01:00",
+      "timeUk": "03:00 UK",
+      "timeEt": "22:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "TBC",
+        "us": "TBC"
+      },
+      "teamA": "SWE",
+      "teamB": "TUN",
+      "weather": "13°C · rain · 80% rain · 15 km/h N",
+      "h2h": "Played 2 · 🇸🇪 1W 1D 0L · last 1-0 Sweden (2018)",
+      "odds": {
+        "match": {
+          "home": "1.90",
+          "draw": "3.40",
+          "away": "4.20"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "2.10"
+        },
+        "fgs": {
+          "name": "Isak",
+          "odds": "5.50"
+        }
+      },
+      "facts": {
+        "home": "Sweden reached the World Cup final in 1958, finishing as runners-up to Brazil.",
+        "away": "Tunisia's first World Cup win was in 1978, becoming the first African team to win a match."
       }
     }
   ],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "Global leaders convene for climate summit",
-    "body": "World leaders gather to discuss urgent climate action. The summit aims to address rising global temperatures and emissions.",
-    "source": "Source: Reuters, 13 Jun 2026"
+    "headline": "Global Leaders Convene for Climate Summit",
+    "body": "World leaders are meeting to discuss climate change strategies. The summit aims to establish new international agreements.",
+    "source": "Source: Reuters, 14 Jun 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

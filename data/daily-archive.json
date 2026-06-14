@@ -541,5 +541,290 @@
       "source": "Source: Reuters, 13 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260614": {
+    "generatedAt": "2026-06-14T11:19:01.360377+01:00",
+    "dateLong": "Sunday, 14 June 2026",
+    "dateDay": "Sun 14 Jun",
+    "dateRest": "Tournament Day 4",
+    "yesterdayCount": "4 matches",
+    "todayCount": "4 matches",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [
+      {
+        "matchId": "G055",
+        "rank": 55,
+        "group": "B",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-13T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
+        "teamA": "QAT",
+        "teamB": "SUI",
+        "scoreA": 1,
+        "scoreB": 1,
+        "score": "1-1"
+      },
+      {
+        "matchId": "G009",
+        "rank": 9,
+        "group": "C",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-13T23:00:00+01:00",
+        "timeUk": "23:00 UK",
+        "timeEt": "18:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
+        "teamA": "BRA",
+        "teamB": "MAR",
+        "scoreA": 1,
+        "scoreB": 1,
+        "score": "1-1"
+      },
+      {
+        "matchId": "G062",
+        "rank": 62,
+        "group": "C",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-14T02:00:00+01:00",
+        "timeUk": "02:00 UK",
+        "timeEt": "21:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
+        "teamA": "HAI",
+        "teamB": "SCO",
+        "scoreA": 0,
+        "scoreB": 1,
+        "score": "0-1"
+      },
+      {
+        "matchId": "G017",
+        "rank": 17,
+        "group": "D",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-14T05:00:00+01:00",
+        "timeUk": "05:00 UK",
+        "timeEt": "00:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
+        "teamA": "AUS",
+        "teamB": "TUR",
+        "scoreA": 2,
+        "scoreB": 0,
+        "score": "2-0"
+      }
+    ],
+    "today": [
+      {
+        "matchId": "G071",
+        "rank": 71,
+        "group": "E",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-14T18:00:00+01:00",
+        "timeUk": "18:00 UK",
+        "timeEt": "13:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
+        "teamA": "GER",
+        "teamB": "CUW",
+        "weather": "16°C · light rain · 60% rain · 13 km/h W",
+        "h2h": "First meeting",
+        "odds": {
+          "match": {
+            "home": "1.20",
+            "draw": "6.00",
+            "away": "15.00"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "1.50"
+          },
+          "fgs": {
+            "name": "Müller",
+            "odds": "4.00"
+          }
+        },
+        "facts": {
+          "home": "Germany has reached at least the semi-finals in 4 of the last 5 World Cups.",
+          "away": "Curaçao is making its debut appearance in the FIFA World Cup."
+        }
+      },
+      {
+        "matchId": "G005",
+        "rank": 5,
+        "group": "F",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-14T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
+        "teamA": "NED",
+        "teamB": "JPN",
+        "weather": "16°C · mostly cloudy · 40% rain · 10 km/h SW",
+        "h2h": "Played 3 · 🇳🇱 2W 1D 0L · last 3-0 Netherlands (2024)",
+        "odds": {
+          "match": {
+            "home": "1.75",
+            "draw": "3.50",
+            "away": "5.00"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "2.00"
+          },
+          "fgs": {
+            "name": "Depay",
+            "odds": "5.00"
+          }
+        },
+        "facts": {
+          "home": "The Netherlands has never lost to Japan in their previous encounters.",
+          "away": "Japan has qualified for the knockout stage in 3 of the last 4 World Cups."
+        }
+      },
+      {
+        "matchId": "G012",
+        "rank": 12,
+        "group": "E",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-15T00:00:00+01:00",
+        "timeUk": "00:00 UK",
+        "timeEt": "19:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
+        "teamA": "CIV",
+        "teamB": "ECU",
+        "weather": "29°C · partly sunny · 20% rain · 15 km/h SW",
+        "h2h": "First meeting",
+        "odds": {
+          "match": {
+            "home": "2.10",
+            "draw": "3.25",
+            "away": "3.60"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "2.30"
+          },
+          "fgs": {
+            "name": "Haller",
+            "odds": "6.00"
+          }
+        },
+        "facts": {
+          "home": "Ivory Coast has won the Africa Cup of Nations twice, in 1992 and 2015.",
+          "away": "Ecuador's best World Cup performance was reaching the Round of 16 in 2006."
+        }
+      },
+      {
+        "matchId": "G027",
+        "rank": 27,
+        "group": "F",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-15T03:00:00+01:00",
+        "timeUk": "03:00 UK",
+        "timeEt": "22:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "TBC",
+          "us": "TBC"
+        },
+        "teamA": "SWE",
+        "teamB": "TUN",
+        "weather": "13°C · rain · 80% rain · 15 km/h N",
+        "h2h": "Played 2 · 🇸🇪 1W 1D 0L · last 1-0 Sweden (2018)",
+        "odds": {
+          "match": {
+            "home": "1.90",
+            "draw": "3.40",
+            "away": "4.20"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "2.10"
+          },
+          "fgs": {
+            "name": "Isak",
+            "odds": "5.50"
+          }
+        },
+        "facts": {
+          "home": "Sweden reached the World Cup final in 1958, finishing as runners-up to Brazil.",
+          "away": "Tunisia's first World Cup win was in 1978, becoming the first African team to win a match."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Global Leaders Convene for Climate Summit",
+      "body": "World leaders are meeting to discuss climate change strategies. The summit aims to establish new international agreements.",
+      "source": "Source: Reuters, 14 Jun 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
