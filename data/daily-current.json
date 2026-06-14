@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-06-14T16:55:44.045400+01:00",
+  "generatedAt": "2026-06-14T17:03:42.644858+01:00",
   "dateLong": "Sunday, 14 June 2026",
   "dateDay": "Sun 14 Jun",
   "dateRest": "Tournament Day 4",
   "yesterdayCount": "4 matches",
   "todayCount": "4 matches",
   "yesterdayStoryline": {
-    "headline": "Morocco rattle Brazil; Qatar steal a point",
-    "subtitle": "Switzerland paid for wastefulness, Scotland edged Haiti, and Australia punished Türkiye on the counter."
+    "headline": "Late levellers and early shocks reshape groups",
+    "subtitle": "Qatar and Morocco held favourites, Scotland edged Haiti, and Australia punished Türkiye in Vancouver."
   },
   "todayStoryline": {
-    "headline": "Group E opens with sharp contrasts",
-    "subtitle": "Germany face Curaçao's debut, while Netherlands-Japan and Sweden-Tunisia shape a tight Group F."
+    "headline": "Curaçao debut frames Group E start",
+    "subtitle": "Germany open against the smallest World Cup qualifier before Group F tests depth and balance."
   },
   "yesterday": [
     {
@@ -40,8 +40,8 @@
       "scorers": "Boualem Khoukhi 90+4' (QAT) · Breel Embolo 17' pen (SUI)",
       "analysis": {
         "lines": [
-          "Switzerland made most of the running, but wastefulness left Qatar alive deep into stoppage time.",
-          "The draw puts all four Group B teams level after one round."
+          "Switzerland created heavily but failed to settle the match after Embolo's penalty.",
+          "Qatar's late point left Group B level after the opening round."
         ],
         "source": "Sky Sports match report"
       }
@@ -72,8 +72,8 @@
       "scorers": "Vinícius Júnior 32' (BRA) · Ismael Saibari 21' (MAR)",
       "analysis": {
         "lines": [
-          "Morocco pressed through Brazil's midfield early, forcing Ancelotti's side to chase the match.",
-          "Brazil avoid defeat, but Group C already looks less predictable than expected."
+          "Morocco pressed through Brazil's midfield before Vinícius produced the equaliser against the run of play.",
+          "Brazil avoided defeat, but Ancelotti's side opened with clear structural concerns."
         ],
         "source": "Sky Sports match report"
       }
@@ -102,11 +102,10 @@
       "scoreB": 1,
       "score": "0-1",
       "scorers": "John McGinn 28' (SCO)",
-      "note": "🟥 Aaron Hickey 47' (SCO)",
       "analysis": {
         "lines": [
-          "Haiti made the contest direct and awkward, but McGinn punished a rebound before the break.",
-          "Scotland lead Group C while Haiti leave with credit and no points."
+          "Scotland struck from a direct move and then survived Haiti's late pressure.",
+          "The win put Scotland above Brazil and Morocco in Group C."
         ],
         "source": "Sports Mole match report"
       }
@@ -134,13 +133,13 @@
       "scoreA": 2,
       "scoreB": 0,
       "score": "2-0",
-      "scorers": "Nestory Irankunda 27', Connor Metcalfe 75' (AUS)",
+      "scorers": "Nestory Irankunda 27' (AUS), Connor Metcalfe 75' (AUS)",
       "analysis": {
         "lines": [
-          "Türkiye dominated the ball, but Australia defended compactly and countered with precision.",
-          "The result puts Australia behind the United States on goal difference in Group D."
+          "Australia defended deep, rode Patrick Beach's saves, and punished Türkiye turnovers.",
+          "The Socceroos joined the United States on three points in Group D."
         ],
-        "source": "Reuters match report"
+        "source": "Associated Press match report"
       }
     }
   ],
@@ -165,11 +164,26 @@
       },
       "teamA": "GER",
       "teamB": "CUW",
-      "weather": "31°C · mostly cloudy",
+      "weather": "33°C · intermittent clouds",
       "h2h": "First meeting",
+      "odds": {
+        "match": {
+          "home": "1.05",
+          "draw": "20.00",
+          "away": "41.00"
+        },
+        "extra": {
+          "label": "O4.5",
+          "value": "2.10"
+        },
+        "fgs": {
+          "name": "Wirtz",
+          "odds": "1.77"
+        }
+      },
       "facts": {
-        "home": "Germany's 2006 World Cup summer as hosts later curdled into a bid-scandal investigation around Franz Beckenbauer. A report could not rule out vote-buying, leaving a stain on summer-fairytale nostalgia.",
-        "away": "Curaçao's 2020 rebuild carried a cold cut: Remko Bicentini said he learned through media that Guus Hiddink would take his job. He later fumed big Dutch names arrived lecturing locals."
+        "home": "Germany's 2006 World Cup summer later curdled into a bid-scandal probe around Franz Beckenbauer. Investigators could not rule out vote-buying, staining the old Sommermärchen glow deeply.",
+        "away": "Curaçao's 2026 qualification made a nation of about 180,000 smaller than many European cities. Dick Advocaat's return after family leave turned the debut into improbable Dutch-Caribbean theatre again."
       }
     },
     {
@@ -193,10 +207,25 @@
       "teamA": "NED",
       "teamB": "JPN",
       "weather": "30°C · thunderstorms",
-      "h2h": "Played 3 · 🇳🇱 2W 1D 0L · last 2-2 Japan (2013)",
+      "h2h": "Played 3 · 🇳🇱 2W 1D 0L · last 2-2 (2013)",
+      "odds": {
+        "match": {
+          "home": "2.05",
+          "draw": "3.50",
+          "away": "3.70"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "2.00"
+        },
+        "fgs": {
+          "name": "Depay",
+          "odds": "2.90"
+        }
+      },
       "facts": {
-        "home": "The Netherlands' 2010 World Cup Final remains infamous for Nigel de Jong's chest-high kick on Xabi Alonso. Referee Howard Webb showed a record 14 yellow cards as Spain won 1-0.",
-        "away": "Japan's 1998 debut began with a shock cut: Kazuyoshi Miura was dropped one day after scoring a hat-trick. King Kazu had carried qualifying, then never played a World Cup."
+        "home": "The Netherlands' 2010 final is still remembered for Nigel de Jong's chest-high kick on Xabi Alonso. Howard Webb later admitted it should have been red, not merely yellow.",
+        "away": "Japan sacked Vahid Halilhodzic in 2018 barely two months before Russia, despite qualification. He said he did not deserve it, then Akira Nishino took the job suddenly."
       }
     },
     {
@@ -219,11 +248,26 @@
       },
       "teamA": "CIV",
       "teamB": "ECU",
-      "weather": "24°C · partly sunny with thunderstorms",
+      "weather": "24°C · thunderstorms",
       "h2h": "First meeting",
+      "odds": {
+        "match": {
+          "home": "3.20",
+          "draw": "2.90",
+          "away": "2.55"
+        },
+        "extra": {
+          "label": "O1.5",
+          "value": "1.63"
+        },
+        "fgs": {
+          "name": "Valencia",
+          "odds": "3.40"
+        }
+      },
       "facts": {
-        "home": "Ivory Coast's 2005 qualification party became a peace broadcast when Didier Drogba begged combatants to drop weapons. The plea helped shift mood before the 2007 Bouaké reconciliation match.",
-        "away": "Ecuador's 2015 FIFAgate fallout reached Luis Chiriboga, the federation boss who was later jailed for money-laundering. FIFA then banned him for life and fined him one million Swiss francs."
+        "home": "Ivory Coast fired Vahid Halilhodzic in 2010 after an Africa Cup of Nations flop, despite World Cup qualification. Sven-Göran Eriksson then inherited Didier Drogba's golden generation cold overnight.",
+        "away": "Ecuador's 2022 place nearly unravelled when Chile challenged Byron Castillo's eligibility, alleging Colombian birth documents. FIFA kept Ecuador in, but CAS imposed a three-point 2026 qualifying deduction."
       }
     },
     {
@@ -247,18 +291,33 @@
       "teamA": "SWE",
       "teamB": "TUN",
       "weather": "27°C · cloudy",
-      "h2h": "Played 4 · 🇸🇪 2W 1D 1L · last 0-1 Tunisia (2003)",
+      "h2h": "Played 1 · 🇸🇪 0W 1D 0L · last 0-0 (1974)",
+      "odds": {
+        "match": {
+          "home": "1.91",
+          "draw": "3.40",
+          "away": "4.30"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "2.15"
+        },
+        "fgs": {
+          "name": "Gyökeres",
+          "odds": "2.70"
+        }
+      },
       "facts": {
-        "home": "Zlatan Ibrahimović's 2021 Sweden return eventually collapsed into a public feud with coach Janne Andersson, who dropped the 41-year-old. Andersson resigned in 2023 after Sweden missed Euro 2024.",
-        "away": "Tunisia's 2022 AFCON opener descended into farce when referee Janny Sikazwe blew full-time early, twice. CAF dismissed Tunisia's complaint after players refused a chaotic attempted restart in Limbe."
+        "home": "Zlatan Ibrahimović hijacked Sweden's 2018 build-up by teasing a World Cup comeback from retirement. Captain Andreas Granqvist publicly told him to call Janne Andersson and stop the noise.",
+        "away": "Tunisia's 2023 football crisis peaked when federation president Wadie Jary was detained over alleged financial corruption. FIFA later installed a normalisation committee amid governance turmoil back in Tunis."
       }
     }
   ],
   "news": {
-    "kicker": "REUTERS · POLITICS",
-    "headline": "Trump to meet Middle East leaders at G7 summit",
-    "body": "U.S. officials said Donald Trump will meet Middle Eastern leaders and attend a Ukraine working session with Volodymyr Zelenskyy during next week's G7 summit in France. They said no bilateral meeting with Zelenskyy was scheduled, though a sideline encounter remained possible.",
-    "source": "Source: Reuters, 13 Jun 2026"
+    "kicker": "REUTERS · UKRAINE WAR",
+    "headline": "UK says forces intercepted Russian shadow-fleet tanker",
+    "body": "British Prime Minister Keir Starmer said he directed armed forces to intercept a shadow-fleet oil tanker attempting to pass through the English Channel. He framed the operation as a move against networks helping fund Russia's war in Ukraine.",
+    "source": "Source: Reuters, 14 Jun 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

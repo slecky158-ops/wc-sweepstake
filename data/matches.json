@@ -144,7 +144,7 @@
     "result": {
       "scoreA": 2,
       "scoreB": 0,
-      "scorers": "Nestory Irankunda 27', Connor Metcalfe 75' (AUS)",
+      "scorers": "Nestory Irankunda 27' (AUS), Connor Metcalfe 75' (AUS)",
       "notes": []
     },
     "quality": {
@@ -217,9 +217,7 @@
       "scoreA": 0,
       "scoreB": 1,
       "scorers": "John McGinn 28' (SCO)",
-      "notes": [
-        "🟥 Aaron Hickey 47' (SCO)"
-      ]
+      "notes": []
     },
     "quality": {
       "elo": 1644.0,
