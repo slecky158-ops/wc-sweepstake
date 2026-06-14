@@ -294,13 +294,12 @@ today_summary = "\n".join(summary_today(m) for m in today_local) or "(none — r
 system_prompt = (
     "You are a sports editor writing for a World Cup 2026 sweepstake companion site. "
     "Restrained broadcast tone for analysis and storylines — no hype, no exclamation marks. "
-    "BUT the per-team 'facts' field is different: it should be spicy, controversial, scandalous, "
-    "off-pitch chaos, federation/manager bust-ups, doping/match-fixing/tax/corruption sagas, "
-    "player feuds, locker-room rifts, historic embarrassments, banned players, dramatic qualifying "
-    "controversies — gossip-tier and surprising, not boring trivia. Still verifiable from real "
-    "reporting (BBC Sport, Guardian, ESPN, FIFA.com, Reuters, AP, Sky Sports, Athletic). "
-    "Never fabricate — if you cannot verify a spicy angle, fall back to a genuinely surprising "
-    "fact rather than inventing scandal. Always return strict JSON matching the requested shape."
+    "BUT the per-team 'facts' field is different: it should be short, fun, and quirky — "
+    "weird trivia, oddball habits, pet stories, pre-football jobs, training-ground tics, "
+    "tabloid silliness, famous quotes, agent meltdowns over birthday cakes, players caught "
+    "doing strange things on camera. Surprising and amusing, NOT scandal-heavy or grim. "
+    "Verifiable from real reporting (BBC, Guardian, ESPN, Athletic, Sky, FIFA.com, tabloids "
+    "for the silly stuff). Never fabricate. Always return strict JSON matching the requested shape."
 )
 
 user_prompt = f"""Today is {today_long}, Tournament Day {day_number}.
@@ -338,8 +337,8 @@ Research each match and return ONLY a JSON object with this exact shape (omit an
         "fgs": {{"name": "Lozano", "odds": "5.50"}}
       }},
       "facts": {{
-        "home": "Two-sentence SPICY angle (28-35 words total) about the home team. See FACTS RULES below for the strict format. REQUIRED — never null.",
-        "away": "Two-sentence SPICY angle (28-35 words total) about the away team. See FACTS RULES below. REQUIRED — never null."
+        "home": "ONE short fun-trivia line about the home team (10-17 words, one sentence). See FACTS RULES below. REQUIRED — never null.",
+        "away": "ONE short fun-trivia line about the away team (10-17 words, one sentence). See FACTS RULES below. REQUIRED — never null."
       }}
     }}
   ],
@@ -363,29 +362,35 @@ Constraints:
 
 FACTS RULES (apply to every 'facts.home' and 'facts.away'):
 
-0. HARD CONTENT BAN — never write about: racism, racial abuse, race-related controversies, ethnic discrimination, hate speech, religious-identity rows, anti-LGBT incidents, or any hate-crime angle. If the most famous scandal involving a team is in one of those categories, IGNORE IT and pick the next-most-interesting story. Preferred angles instead: financial corruption / federation embezzlement / vote-buying / FIFAgate-style cases; match-fixing or doping bans; player–manager feuds; affairs, marital scandals or other personal-life tabloid stories; brawls, arrests or off-field criminal cases; tactical or selection controversies; locker-room mutinies; dramatic qualification controversies; eligibility disputes; weird historical embarrassments (referee farces, kit mix-ups, comically bad performances).
+0. HARD CONTENT BAN — never write about: racism, racial abuse, race-related controversies, ethnic discrimination, hate speech, religious-identity rows, anti-LGBT incidents, hate crimes. Also AVOID grim/heavy subject matter: deaths, war atrocities, serious assaults. If the most famous angle for a team is in one of those categories, IGNORE IT and pick something fun instead.
 
-1. Use web search. Do not write a fact unless you have located it in a real reporting source (BBC, Guardian, ESPN, Reuters, AP, Athletic, Sky, FIFA.com, national broadsheets). If the search yields nothing for the team, fall back to a SURPRISING fact about their history that you can confirm from search — never invent.
+1. TONE — short, fun, quirky one-liner. Trivia and oddities, not deep scandal. The goal is "did you know…" rather than "in 2019 the federation president was indicted for…". Examples of the vibe we want:
+   - Famous players doing weird things on camera (nose-picking on the touchline, picking grass, falling asleep on the bench)
+   - Pet stories (Memphis Depay's pet lion, Mario Balotelli setting off fireworks)
+   - Pre-football jobs (Jamie Vardy in a factory, players who studied unusual things)
+   - Agent meltdowns over silly things (Yaya Touré's birthday cake)
+   - Training-ground quirks (Kroos's flip phone, a player who eats only one food)
+   - Iconic quotes, viral moments, oddball superstitions, weird tattoos, jersey numbers chosen for strange reasons
+   - Cute trivia: "country X has a population smaller than a London borough", "team X's keeper speaks six languages", "their striker once worked in his dad's ice-cream van"
 
-2. Two short sentences, 28-35 words total combined. Sentence 1 = the spicy hook. Sentence 2 = consequence/colour/payoff.
+2. LENGTH — one sentence, 10-17 words. One line on the card. NEVER more than 17 words.
 
-3. Every fact MUST contain:
-   (a) a specific YEAR (e.g. "2018", "2022", not "recently" or "in 2024" if you can't actually point to an event in 2024), AND
-   (b) at least one named PERSON or specific named EVENT (a manager, a player, a tournament moment) — not a generic "the federation" or "the team".
+3. Use web search. Do not write a fact unless you can locate it in a real reporting source (BBC, Guardian, ESPN, Athletic, Sky, FIFA.com, mainstream tabloids like the Sun/Mail/Bild for the silly stuff). Never fabricate. If you cannot find a fun verifiable angle, fall back to a SURPRISING but verifiable historical trivia point.
 
-4. BAD examples (DO NOT WRITE ANYTHING LIKE THESE — they are vague, generic, or invented):
-   - "Germany was embroiled in a doping scandal with several players under suspicion." (no name, no specific event)
-   - "Japan experienced significant disruption due to a managerial change in early 2026." (false — invented)
-   - "Curaçao faced a managerial fallout in 2026 over tactical disputes." (vague + invented)
-   - "Ecuador saw key player injuries impact their 2026 qualifiers." (not spicy; not specific)
-   - "Tunisia's federation was criticized for allegedly prioritizing European-based players." (no year, no name, generic)
+4. BAD examples (too long, too grim, too vague, or invented):
+   - "Germany was embroiled in a doping scandal with several players under suspicion." (vague, grim)
+   - "Tunisia's 2023 football crisis peaked when federation president Wadie Jary was detained over alleged financial corruption." (too long, too grim — exactly the OLD style we left behind)
+   - "Japan experienced significant disruption due to a managerial change in early 2026." (invented + boring)
 
-5. GOOD examples (THIS is the target style and depth — note none of these touch racism):
-   - GERMANY: "Germany's 2006 World Cup as hosts later curdled into a bid-scandal investigation around Franz Beckenbauer. A report could not rule out vote-buying, leaving a stain on the summer-fairytale nostalgia."
-   - CURAÇAO: "Curaçao is the smallest nation ever to qualify — population ~150,000, less than a London borough. They're coached by Dutch veteran Dick Advocaat, on his eleventh national-team job."
-   - ECUADOR: "Ecuador's 2022 qualification was nearly voided after Chile accused them of fielding Byron Castillo, claiming he was Colombian-born. FIFA fined them but let them compete."
-   - NETHERLANDS: "The Netherlands' 2010 World Cup Final remains infamous for Nigel de Jong's chest-high kick on Xabi Alonso. Referee Howard Webb showed a record 14 yellow cards as Spain won 1-0."
-   - SWEDEN: "Zlatan Ibrahimović's 2021 Sweden return eventually collapsed into a public feud with coach Janne Andersson, who dropped the 41-year-old. Andersson resigned in 2023 after Sweden missed Euro 2024."
+5. GOOD examples (THIS is the new target style — short, fun, one line):
+   - GERMANY: "Joachim Löw was filmed picking his nose on live World Cup TV more than once in 2018."
+   - CURAÇAO: "Curaçao is the smallest nation ever to qualify — population around 150,000, less than a London borough."
+   - NETHERLANDS: "Memphis Depay once kept a pet lion called Trinity until animal-welfare groups convinced him otherwise."
+   - JAPAN: "Japanese fans famously tidy stadiums after their team's games — the squad cleans the dressing room too."
+   - IVORY COAST: "Yaya Touré's agent once publicly complained Manchester City gave his star a 'disrespectfully small' birthday cake."
+   - ECUADOR: "Ecuador play home qualifiers at 2,850m in Quito, leaving visiting teams gasping by halftime."
+   - SWEDEN: "Zlatan Ibrahimović has held a taekwondo black belt since he was 17."
+   - TUNISIA: "Tunisia were the first African nation to win a World Cup match, beating Mexico 3-1 in 1978."
 
 6. NEVER reference an event after {now_uk.year} that you cannot verify from a real published source.
 
