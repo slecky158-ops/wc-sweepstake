@@ -201,6 +201,75 @@ for fd_m in fd_matches:
 
 print(f"Yesterday matches: {len(yesterday_local)} | Today matches: {len(today_local)}")
 
+# ─── Pull previously-used news headlines and per-team facts from archive ──
+# We feed these into the prompt as a blocklist so OpenAI can't repeat
+# yesterday's world-news angle or recycle the same "fun fact" about a team
+# every time it plays. Survives even if the archive grows large — we just
+# truncate to the most recent N entries per dimension.
+
+prev_archive_path = DATA_DIR / "daily-archive.json"
+try:
+    prev_archive = json.loads(prev_archive_path.read_text()) if prev_archive_path.exists() else {}
+except Exception:
+    prev_archive = {}
+
+# Most-recent-first iteration over archive entries (keys are YYYYMMDD strings)
+sorted_keys = sorted(prev_archive.keys(), reverse=True)
+
+previous_news_headlines: list[str] = []
+previous_news_bodies: list[str] = []
+previous_facts_by_team: dict[str, list[str]] = {}
+previous_storyline_headlines: list[str] = []
+
+for k in sorted_keys:
+    entry = prev_archive[k] or {}
+    n = entry.get("news") or {}
+    if n.get("headline"):
+        previous_news_headlines.append(n["headline"])
+    if n.get("body"):
+        previous_news_bodies.append(n["body"])
+    for sk in ("yesterdayStoryline", "todayStoryline"):
+        sl = entry.get(sk) or {}
+        if sl.get("headline"):
+            previous_storyline_headlines.append(sl["headline"])
+    for tm in (entry.get("today") or []):
+        facts = tm.get("facts") or {}
+        if facts.get("home") and tm.get("teamA"):
+            previous_facts_by_team.setdefault(tm["teamA"], []).append(facts["home"])
+        if facts.get("away") and tm.get("teamB"):
+            previous_facts_by_team.setdefault(tm["teamB"], []).append(facts["away"])
+
+# Truncate so prompt stays reasonably small even mid-tournament
+previous_news_headlines = previous_news_headlines[:30]
+previous_news_bodies = previous_news_bodies[:10]
+previous_storyline_headlines = previous_storyline_headlines[:20]
+for code in previous_facts_by_team:
+    previous_facts_by_team[code] = previous_facts_by_team[code][:8]
+
+# Build the per-team-fact blocklist string, only for teams playing today
+todays_team_codes = []
+for m in today_local:
+    todays_team_codes.append(m["teamA"])
+    todays_team_codes.append(m["teamB"])
+
+facts_blocklist_lines = []
+seen_codes: set[str] = set()
+for code in todays_team_codes:
+    if code in seen_codes:
+        continue
+    seen_codes.add(code)
+    used = previous_facts_by_team.get(code) or []
+    if used:
+        nice = TEAMS_BY_CODE.get(code, {}).get("name", code)
+        facts_blocklist_lines.append(f"  {code} ({nice}): " + " | ".join(used))
+facts_blocklist = "\n".join(facts_blocklist_lines) or "  (none — first day for these teams)"
+
+news_blocklist = "\n".join(f"  - {h}" for h in previous_news_headlines) or "  (none yet)"
+storylines_blocklist = "\n".join(f"  - {h}" for h in previous_storyline_headlines) or "  (none yet)"
+
+print(f"  blocklist: {len(previous_news_headlines)} news headlines, "
+      f"{sum(len(v) for v in previous_facts_by_team.values())} prior team angles")
+
 # ─── Ask OpenAI to enrich with storylines / facts / analysis / news ────
 
 def team_name(code: str) -> str:
@@ -224,9 +293,14 @@ today_summary = "\n".join(summary_today(m) for m in today_local) or "(none — r
 
 system_prompt = (
     "You are a sports editor writing for a World Cup 2026 sweepstake companion site. "
-    "Restrained broadcast tone — no hype, no exclamation marks. Paraphrase from reputable sources "
-    "(BBC Sport, Guardian, ESPN, FIFA.com, Reuters). Never fabricate — if you cannot verify "
-    "something, omit it. Always return strict JSON matching the requested shape."
+    "Restrained broadcast tone for analysis and storylines — no hype, no exclamation marks. "
+    "BUT the per-team 'facts' field is different: it should be spicy, controversial, scandalous, "
+    "off-pitch chaos, federation/manager bust-ups, doping/match-fixing/tax/corruption sagas, "
+    "player feuds, locker-room rifts, historic embarrassments, banned players, dramatic qualifying "
+    "controversies — gossip-tier and surprising, not boring trivia. Still verifiable from real "
+    "reporting (BBC Sport, Guardian, ESPN, FIFA.com, Reuters, AP, Sky Sports, Athletic). "
+    "Never fabricate — if you cannot verify a spicy angle, fall back to a genuinely surprising "
+    "fact rather than inventing scandal. Always return strict JSON matching the requested shape."
 )
 
 user_prompt = f"""Today is {today_long}, Tournament Day {day_number}.
@@ -264,8 +338,8 @@ Research each match and return ONLY a JSON object with this exact shape (omit an
         "fgs": {{"name": "Lozano", "odds": "5.50"}}
       }},
       "facts": {{
-        "home": "≤18-word non-obvious fun fact about the home team",
-        "away": "≤18-word non-obvious fun fact about the away team"
+        "home": "≤22-word SPICY/CONTROVERSIAL angle about the home team — scandal, feud, off-pitch chaos, federation bust-up, doping/corruption saga, banned player, locker-room rift, dramatic qualification controversy, historic embarrassment. Verifiable, not invented. Avoid bland trivia.",
+        "away": "≤22-word SPICY/CONTROVERSIAL angle about the away team — same brief as home."
       }}
     }}
   ],
@@ -285,6 +359,17 @@ Constraints:
 - matchId values MUST exactly match the IDs listed above.
 - If yesterdayDetails or todayDetails is empty, return [].
 - If you cannot find verified analysis for a yesterday match, omit the 'analysis' field for that match — never invent.
+
+NO-REPEAT RULES — these are hard rules, not preferences:
+
+1. The world-news headline MUST NOT be the same story as, or a rewording of, any of these previously-used headlines (most-recent first). If today's biggest story IS one of these, pick the next-biggest verifiable non-football story instead:
+{news_blocklist}
+
+2. The yesterday/today storyline headlines should not duplicate these prior storyline headlines (rewording is fine if the underlying event is new; otherwise pick a fresh angle):
+{storylines_blocklist}
+
+3. The per-team 'facts' angles MUST NOT repeat any of these previously-used angles for the SAME team — pick a different scandal/feud/story each time (most-recent first):
+{facts_blocklist}
 """
 
 print("Calling OpenAI (gpt-4o + web_search_preview)…")
