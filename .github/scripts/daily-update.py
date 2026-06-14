@@ -362,6 +362,8 @@ Constraints:
 
 FACTS RULES (apply to every 'facts.home' and 'facts.away'):
 
+0. HARD CONTENT BAN — never write about: racism, racial abuse, race-related controversies, ethnic discrimination, hate speech, religious-identity rows, anti-LGBT incidents, or any hate-crime angle. If the most famous scandal involving a team is in one of those categories, IGNORE IT and pick the next-most-interesting story. Preferred angles instead: financial corruption / federation embezzlement / vote-buying / FIFAgate-style cases; match-fixing or doping bans; player–manager feuds; affairs, marital scandals or other personal-life tabloid stories; brawls, arrests or off-field criminal cases; tactical or selection controversies; locker-room mutinies; dramatic qualification controversies; eligibility disputes; weird historical embarrassments (referee farces, kit mix-ups, comically bad performances).
+
 1. Use web search. Do not write a fact unless you have located it in a real reporting source (BBC, Guardian, ESPN, Reuters, AP, Athletic, Sky, FIFA.com, national broadsheets). If the search yields nothing for the team, fall back to a SURPRISING fact about their history that you can confirm from search — never invent.
 
 2. Two short sentences, 28-35 words total combined. Sentence 1 = the spicy hook. Sentence 2 = consequence/colour/payoff.
@@ -377,11 +379,12 @@ FACTS RULES (apply to every 'facts.home' and 'facts.away'):
    - "Ecuador saw key player injuries impact their 2026 qualifiers." (not spicy; not specific)
    - "Tunisia's federation was criticized for allegedly prioritizing European-based players." (no year, no name, generic)
 
-5. GOOD examples (THIS is the target style and depth):
-   - GERMANY: "Germany are still scarred from their 2018 World Cup group-stage exit — their first since 1938. Mesut Özil quit afterwards accusing the federation of racism over his Erdoğan photo."
-   - CURAÇAO: "Curaçao is the smallest nation ever to qualify — population ~150,000, less than a London borough. They're coached by 77-year-old Dick Advocaat, on his eleventh national-team job."
+5. GOOD examples (THIS is the target style and depth — note none of these touch racism):
+   - GERMANY: "Germany's 2006 World Cup as hosts later curdled into a bid-scandal investigation around Franz Beckenbauer. A report could not rule out vote-buying, leaving a stain on the summer-fairytale nostalgia."
+   - CURAÇAO: "Curaçao is the smallest nation ever to qualify — population ~150,000, less than a London borough. They're coached by Dutch veteran Dick Advocaat, on his eleventh national-team job."
    - ECUADOR: "Ecuador's 2022 qualification was nearly voided after Chile accused them of fielding Byron Castillo, claiming he was Colombian-born. FIFA fined them but let them compete."
-   - JAPAN: "Japan stunned Germany and Spain in 2022, but the Spain assist still sparks debate — the ball looked out of play, even the 'millimetre cam' couldn't fully settle it."
+   - NETHERLANDS: "The Netherlands' 2010 World Cup Final remains infamous for Nigel de Jong's chest-high kick on Xabi Alonso. Referee Howard Webb showed a record 14 yellow cards as Spain won 1-0."
+   - SWEDEN: "Zlatan Ibrahimović's 2021 Sweden return eventually collapsed into a public feud with coach Janne Andersson, who dropped the 41-year-old. Andersson resigned in 2023 after Sweden missed Euro 2024."
 
 6. NEVER reference an event after {now_uk.year} that you cannot verify from a real published source.
 
