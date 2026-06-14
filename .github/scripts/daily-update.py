@@ -359,6 +359,7 @@ Constraints:
 - matchId values MUST exactly match the IDs listed above.
 - If yesterdayDetails or todayDetails is empty, return [].
 - If you cannot find verified analysis for a yesterday match, omit the 'analysis' field for that match — never invent.
+- GROUP LETTERS — when writing storyline headlines/subtitles or yesterday analysis lines, you may ONLY reference group letters that appear in the match summaries above. Do NOT guess group letters from memory of the real-world FIFA draw — our match data is the source of truth and may differ. If you cannot remember which group a team is in, look it up in the summaries above. Never invent a group letter.
 
 FACTS RULES (apply to every 'facts.home' and 'facts.away'):
 
