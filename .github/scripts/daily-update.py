@@ -338,8 +338,8 @@ Research each match and return ONLY a JSON object with this exact shape (omit an
         "fgs": {{"name": "Lozano", "odds": "5.50"}}
       }},
       "facts": {{
-        "home": "≤22-word SPICY/CONTROVERSIAL angle about the home team — scandal, feud, off-pitch chaos, federation bust-up, doping/corruption saga, banned player, locker-room rift, dramatic qualification controversy, historic embarrassment. Verifiable, not invented. Avoid bland trivia. REQUIRED — never null, never omitted. If no spicy angle is verifiable, fall back to a genuinely surprising verifiable fact (still ≤22 words).",
-        "away": "≤22-word SPICY/CONTROVERSIAL angle about the away team — same brief as home. REQUIRED — never null."
+        "home": "Two-sentence SPICY angle (28-35 words total) about the home team. See FACTS RULES below for the strict format. REQUIRED — never null.",
+        "away": "Two-sentence SPICY angle (28-35 words total) about the away team. See FACTS RULES below. REQUIRED — never null."
       }}
     }}
   ],
@@ -359,6 +359,31 @@ Constraints:
 - matchId values MUST exactly match the IDs listed above.
 - If yesterdayDetails or todayDetails is empty, return [].
 - If you cannot find verified analysis for a yesterday match, omit the 'analysis' field for that match — never invent.
+
+FACTS RULES (apply to every 'facts.home' and 'facts.away'):
+
+1. Use web search. Do not write a fact unless you have located it in a real reporting source (BBC, Guardian, ESPN, Reuters, AP, Athletic, Sky, FIFA.com, national broadsheets). If the search yields nothing for the team, fall back to a SURPRISING fact about their history that you can confirm from search — never invent.
+
+2. Two short sentences, 28-35 words total combined. Sentence 1 = the spicy hook. Sentence 2 = consequence/colour/payoff.
+
+3. Every fact MUST contain:
+   (a) a specific YEAR (e.g. "2018", "2022", not "recently" or "in 2024" if you can't actually point to an event in 2024), AND
+   (b) at least one named PERSON or specific named EVENT (a manager, a player, a tournament moment) — not a generic "the federation" or "the team".
+
+4. BAD examples (DO NOT WRITE ANYTHING LIKE THESE — they are vague, generic, or invented):
+   - "Germany was embroiled in a doping scandal with several players under suspicion." (no name, no specific event)
+   - "Japan experienced significant disruption due to a managerial change in early 2026." (false — invented)
+   - "Curaçao faced a managerial fallout in 2026 over tactical disputes." (vague + invented)
+   - "Ecuador saw key player injuries impact their 2026 qualifiers." (not spicy; not specific)
+   - "Tunisia's federation was criticized for allegedly prioritizing European-based players." (no year, no name, generic)
+
+5. GOOD examples (THIS is the target style and depth):
+   - GERMANY: "Germany are still scarred from their 2018 World Cup group-stage exit — their first since 1938. Mesut Özil quit afterwards accusing the federation of racism over his Erdoğan photo."
+   - CURAÇAO: "Curaçao is the smallest nation ever to qualify — population ~150,000, less than a London borough. They're coached by 77-year-old Dick Advocaat, on his eleventh national-team job."
+   - ECUADOR: "Ecuador's 2022 qualification was nearly voided after Chile accused them of fielding Byron Castillo, claiming he was Colombian-born. FIFA fined them but let them compete."
+   - JAPAN: "Japan stunned Germany and Spain in 2022, but the Spain assist still sparks debate — the ball looked out of play, even the 'millimetre cam' couldn't fully settle it."
+
+6. NEVER reference an event after {now_uk.year} that you cannot verify from a real published source.
 
 NO-REPEAT RULES — these are hard rules, not preferences:
 

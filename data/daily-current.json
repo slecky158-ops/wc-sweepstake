@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-06-14T16:41:00.792383+01:00",
+  "generatedAt": "2026-06-14T16:49:42.651107+01:00",
   "dateLong": "Sunday, 14 June 2026",
   "dateDay": "Sun 14 Jun",
   "dateRest": "Tournament Day 4",
   "yesterdayCount": "4 matches",
   "todayCount": "4 matches",
   "yesterdayStoryline": {
-    "headline": "Brazil falter in opener",
-    "subtitle": "Brazil held by Morocco — clash shows potential upsets ahead in Group C"
+    "headline": "Brazil held, Australia march, Scotland sneak past",
+    "subtitle": "Brazil and Morocco share a goal apiece; Australia open with a 2-0 win; Scotland edge Haiti via Dykes."
   },
   "todayStoryline": {
-    "headline": "Netherlands set for Japan showdown",
-    "subtitle": "Netherlands and Japan highlight today's matches in Group F"
+    "headline": "Germany begin amid Curaçao's history-making debut",
+    "subtitle": "Group F opens with Netherlands–Japan; Germany face the smallest nation ever to qualify in Group G."
   },
   "yesterday": [
     {
@@ -37,14 +37,7 @@
       "scoreA": 1,
       "scoreB": 1,
       "score": "1-1",
-      "scorers": "Ali 23' (QAT) · Embolo 75' (SUI)",
-      "analysis": {
-        "lines": [
-          "Qatar held Switzerland in an evenly matched game in Group B.",
-          "Both teams start with a point, setting Group B up for competition."
-        ],
-        "source": "BBC Sport match report"
-      }
+      "scorers": "Almoez Ali 23' (QAT) · Embolo 54' (SUI)"
     },
     {
       "matchId": "G009",
@@ -69,12 +62,11 @@
       "scoreA": 1,
       "scoreB": 1,
       "score": "1-1",
-      "scorers": "Neymar 50' (BRA) · En-Nesyri 22' (MAR)",
-      "note": "🟥 Danilo 82' (BRA)",
+      "scorers": "Neymar 78' (BRA) · En-Nesyri 88' (MAR)",
       "analysis": {
         "lines": [
-          "Brazil failed to convert chances against resilient Morocco.",
-          "Brazil faces more pressure with two games remaining in Group C."
+          "Brazil struggled against Morocco's organized defense, resulting in a late equalizer.",
+          "The draw leaves Brazil needing a win in their next game to secure advancement."
         ],
         "source": "BBC Sport match report"
       }
@@ -102,14 +94,7 @@
       "scoreA": 0,
       "scoreB": 1,
       "score": "0-1",
-      "scorers": "McTominay 88' (SCO)",
-      "analysis": {
-        "lines": [
-          "Scotland narrowly triumphed over Haiti with a late goal.",
-          "Important win places Scotland well in their group campaign."
-        ],
-        "source": "BBC Sport match report"
-      }
+      "scorers": "Dykes 60' (SCO)"
     },
     {
       "matchId": "G017",
@@ -134,11 +119,12 @@
       "scoreA": 2,
       "scoreB": 0,
       "score": "2-0",
-      "scorers": "Leckie 11', Goodwin 56' (AUS)",
+      "scorers": "Boyle 45' (AUS) · Leckie 70' (AUS)",
+      "note": "🟥 Karaman 76' (TUR)",
       "analysis": {
         "lines": [
-          "Australia showcased dominance over Türkiye with a 2-0 victory.",
-          "Victory sets tone for Australia's campaign in Group D."
+          "Australia capitalized on Turkey's defensive lapses to secure a comfortable win.",
+          "This result boosts Australia's chances of advancing from Group D."
         ],
         "source": "BBC Sport match report"
       }
@@ -165,26 +151,26 @@
       },
       "teamA": "GER",
       "teamB": "CUW",
-      "weather": "24°C · partly cloudy · 15% rain · 10 mph S",
+      "weather": "24°C · sunny spells · 10% rain · 12 mph NE",
       "h2h": "First meeting",
       "odds": {
         "match": {
-          "home": "1.25",
-          "draw": "5.00",
-          "away": "9.00"
+          "home": "1.10",
+          "draw": "7.00",
+          "away": "17.00"
         },
         "extra": {
-          "label": "U2.5",
-          "value": "1.80"
+          "label": "O2.5",
+          "value": "1.40"
         },
         "fgs": {
-          "name": "Gnabry",
+          "name": "Müller",
           "odds": "4.00"
         }
       },
       "facts": {
-        "home": "Germany's U21 team previously banned for match-fixing scandal.",
-        "away": "Curaçao's coach was controversially fired months before the tournament."
+        "home": "Germany are still scarred from their 2018 World Cup group-stage exit — their first since 1938. Mesut Özil quit afterwards accusing the federation of racism over his Erdoğan photo.",
+        "away": "Curaçao is the smallest nation ever to qualify for a men's World Cup — population around 150,000, less than a London borough. Coached by Dutch veteran Dick Advocaat, one of football's most-travelled managers."
       }
     },
     {
@@ -207,17 +193,17 @@
       },
       "teamA": "NED",
       "teamB": "JPN",
-      "weather": "20°C · clear skies · 0% rain · 12 mph E",
-      "h2h": "Played 8 · NED 4W 3D 1L · last 1-1 draw (2025)",
+      "weather": "20°C · partly cloudy · 20% rain · 14 mph NW",
+      "h2h": "Played 5 · 🇳🇱 3W 1D 1L · last 3-2 NED (2023)",
       "odds": {
         "match": {
-          "home": "2.10",
-          "draw": "3.40",
-          "away": "3.30"
+          "home": "1.75",
+          "draw": "3.70",
+          "away": "5.00"
         },
         "extra": {
-          "label": "O2.5",
-          "value": "1.90"
+          "label": "U2.5",
+          "value": "1.85"
         },
         "fgs": {
           "name": "Depay",
@@ -225,8 +211,8 @@
         }
       },
       "facts": {
-        "home": "2014 rigging allegations against Dutch clubs resurfaced recently.",
-        "away": "Japan's team doctor involved in doping scandal pre-qualifiers."
+        "home": "The Netherlands' 2010 World Cup Final remains infamous — Nigel de Jong's chest-high kick on Xabi Alonso a low point. Referee Howard Webb showed a record 14 yellow cards as Spain won 1-0.",
+        "away": "Japan stunned Germany and Spain in 2022, but Kaoru Mitoma's assist for the Spain winner still sparks debate — the ball looked out, even FIFA's millimetre cam couldn't fully settle it."
       }
     },
     {
@@ -249,26 +235,9 @@
       },
       "teamA": "CIV",
       "teamB": "ECU",
-      "weather": "22°C · scattered showers · 60% rain · 6 mph SW",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "2.50",
-          "draw": "3.10",
-          "away": "2.70"
-        },
-        "extra": {
-          "label": "BTS",
-          "value": "1.75"
-        },
-        "fgs": {
-          "name": "Zaha",
-          "odds": "5.00"
-        }
-      },
       "facts": {
-        "home": "Ivory Coast's FA faced corruption probe after 2025 leaks.",
-        "away": "Ecuador dealt with captaincy dispute just before the World Cup."
+        "home": "Ivory Coast won AFCON 2024 on home soil after firing manager Jean-Louis Gasset mid-tournament following a 4-0 loss to Equatorial Guinea. Interim Emerse Faé led the dramatic comeback to glory.",
+        "away": "Ecuador's 2022 qualification was nearly voided after Chile accused them of fielding Byron Castillo, claiming he was Colombian-born. FIFA fined them and docked future points but let them compete."
       }
     },
     {
@@ -291,33 +260,16 @@
       },
       "teamA": "SWE",
       "teamB": "TUN",
-      "weather": "18°C · overcast · 20% rain · 5 mph NW",
-      "h2h": "Played 10 · SWE 7W 2D 1L · last 2-0 SWE (2024)",
-      "odds": {
-        "match": {
-          "home": "1.70",
-          "draw": "3.80",
-          "away": "4.90"
-        },
-        "extra": {
-          "label": "U2.5",
-          "value": "1.95"
-        },
-        "fgs": {
-          "name": "Isak",
-          "odds": "4.00"
-        }
-      },
       "facts": {
-        "home": "Swedish player revolt in 2025 over manager tactics stirred controversy.",
-        "away": "Tunisia's former manager sued federation over wage issues in 2024."
+        "home": "Sweden missed the 2022 World Cup and Euro 2024, prompting Zlatan Ibrahimović's retirement at 41 after 121 caps and well-documented friction with coach Janne Andersson, who resigned shortly after.",
+        "away": "Tunisia stunned reigning champions France 1-0 in their 2022 World Cup group-stage finale — only the second time France had lost while holding the title. Tunisia still went home on goal difference."
       }
     }
   ],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "Historic peace agreement signed in Middle East",
-    "body": "Leaders of key nations reached a landmark peace deal today. The agreement aims to end decades-long conflicts.",
+    "headline": "UN sanctions on arms sales to Myanmar",
+    "body": "The UN Security Council imposed new sanctions targeting arms sales to Myanmar. The decision aims to curb escalating violence.",
     "source": "Source: Reuters, 14 Jun 2026"
   },
   "footerNote": "All times converted from official kickoffs"

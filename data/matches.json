@@ -144,8 +144,10 @@
     "result": {
       "scoreA": 2,
       "scoreB": 0,
-      "scorers": "Leckie 11', Goodwin 56' (AUS)",
-      "notes": []
+      "scorers": "Boyle 45' (AUS) · Leckie 70' (AUS)",
+      "notes": [
+        "🟥 Karaman 76' (TUR)"
+      ]
     },
     "quality": {
       "elo": 1819.0,
@@ -168,7 +170,7 @@
     "result": {
       "scoreA": 1,
       "scoreB": 1,
-      "scorers": "Ali 23' (QAT) · Embolo 75' (SUI)",
+      "scorers": "Almoez Ali 23' (QAT) · Embolo 54' (SUI)",
       "notes": []
     },
     "quality": {
@@ -192,10 +194,8 @@
     "result": {
       "scoreA": 1,
       "scoreB": 1,
-      "scorers": "Neymar 50' (BRA) · En-Nesyri 22' (MAR)",
-      "notes": [
-        "🟥 Danilo 82' (BRA)"
-      ]
+      "scorers": "Neymar 78' (BRA) · En-Nesyri 88' (MAR)",
+      "notes": []
     },
     "quality": {
       "elo": 1915.0,
@@ -218,7 +218,7 @@
     "result": {
       "scoreA": 0,
       "scoreB": 1,
-      "scorers": "McTominay 88' (SCO)",
+      "scorers": "Dykes 60' (SCO)",
       "notes": []
     },
     "quality": {
