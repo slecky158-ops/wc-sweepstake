@@ -14,7 +14,7 @@
       "country": "MX"
     },
     "broadcast": {
-      "uk": "BBC One",
+      "uk": "ITV1",
       "us": "FOX"
     },
     "status": "completed",
@@ -62,7 +62,7 @@
     },
     "broadcast": {
       "uk": "ITV1",
-      "us": "FOX"
+      "us": "FS1"
     },
     "status": "completed",
     "result": {
@@ -141,7 +141,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
+      "uk": "BBC One",
       "us": "FOX"
     },
     "status": "completed",
@@ -173,7 +173,7 @@
     },
     "broadcast": {
       "uk": "ITV1",
-      "us": "FOX"
+      "us": "FS1"
     },
     "status": "completed",
     "result": {
@@ -235,7 +235,7 @@
     },
     "broadcast": {
       "uk": "BBC One",
-      "us": "FOX"
+      "us": "FS1"
     },
     "status": "completed",
     "result": {
@@ -265,8 +265,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
+      "uk": "BBC One",
+      "us": "FS1"
     },
     "status": "completed",
     "result": {
@@ -327,7 +327,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
+      "uk": "ITV1",
       "us": "FOX"
     },
     "status": "completed",
@@ -359,7 +359,7 @@
     },
     "broadcast": {
       "uk": "BBC One",
-      "us": "FOX"
+      "us": "FS1"
     },
     "status": "completed",
     "result": {
@@ -389,8 +389,8 @@
       "country": "MX"
     },
     "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
+      "uk": "ITV1",
+      "us": "FS1"
     },
     "status": "completed",
     "result": {
@@ -420,7 +420,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
+      "uk": "ITV1",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -446,7 +446,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
+      "uk": "BBC One",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -473,7 +473,7 @@
     },
     "broadcast": {
       "uk": "ITV1",
-      "us": "FOX"
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -498,8 +498,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
+      "uk": "BBC One",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -524,7 +524,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
+      "uk": "BBC One",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -550,7 +550,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
+      "uk": "BBC One",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -576,7 +576,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
+      "uk": "ITV1",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -602,8 +602,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
+      "uk": "BBC One",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -628,7 +628,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
+      "uk": "BBC One",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -654,7 +654,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
+      "uk": "ITV1",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -681,7 +681,7 @@
     },
     "broadcast": {
       "uk": "ITV1",
-      "us": "FOX"
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -707,7 +707,7 @@
     },
     "broadcast": {
       "uk": "BBC One",
-      "us": "FOX"
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -758,7 +758,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
+      "uk": "ITV1",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -784,8 +784,8 @@
       "country": "CA"
     },
     "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
+      "uk": "ITV1",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -862,7 +862,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
+      "uk": "ITV1",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -915,7 +915,7 @@
     },
     "broadcast": {
       "uk": "ITV1",
-      "us": "FOX"
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -940,7 +940,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
+      "uk": "BBC One",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -993,7 +993,7 @@
     },
     "broadcast": {
       "uk": "BBC One",
-      "us": "FOX"
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1019,7 +1019,7 @@
     },
     "broadcast": {
       "uk": "BBC One",
-      "us": "FOX"
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1044,7 +1044,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
+      "uk": "BBC One",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -1070,8 +1070,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
+      "uk": "ITV1",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1096,8 +1096,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
+      "uk": "BBC One",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1122,8 +1122,8 @@
       "country": "CA"
     },
     "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
+      "uk": "ITV1",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1148,7 +1148,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
+      "uk": "BBC One",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -1226,8 +1226,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
+      "uk": "ITV1",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1330,8 +1330,8 @@
       "country": "MX"
     },
     "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
+      "uk": "ITV1",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1382,8 +1382,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
+      "uk": "ITV4",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1434,8 +1434,8 @@
       "country": "MX"
     },
     "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
+      "uk": "BBC Two",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1460,8 +1460,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
+      "uk": "BBC Two",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1512,8 +1512,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
+      "uk": "BBC Two",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1538,8 +1538,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
+      "uk": "BBC Two",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1564,7 +1564,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
+      "uk": "BBC One",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -1590,7 +1590,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
+      "uk": "ITV1",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -1616,8 +1616,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
+      "uk": "ITV4",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1668,8 +1668,8 @@
       "country": "CA"
     },
     "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
+      "uk": "ITV4",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1694,7 +1694,7 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
+      "uk": "BBC One",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -1720,7 +1720,7 @@
       "country": "MX"
     },
     "broadcast": {
-      "uk": "BBC One",
+      "uk": "ITV1",
       "us": "FOX"
     },
     "status": "scheduled",
@@ -1746,8 +1746,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
+      "uk": "ITV4",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1772,8 +1772,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
+      "uk": "BBC Two",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1850,8 +1850,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
+      "uk": "BBC Two",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1876,8 +1876,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
+      "uk": "BBC Two",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
@@ -1928,8 +1928,8 @@
       "country": "US"
     },
     "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
+      "uk": "ITV4",
+      "us": "FS1"
     },
     "status": "scheduled",
     "result": null,
