@@ -13,7 +13,10 @@
       "city": "Mexico City",
       "country": "MX"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 2,
@@ -57,7 +60,10 @@
       "city": "Guadalajara",
       "country": "MX"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 2,
@@ -103,7 +109,10 @@
       "city": "Toronto",
       "country": "CA"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 1,
@@ -131,7 +140,10 @@
       "city": "Los Angeles",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 4,
@@ -159,7 +171,10 @@
       "city": "Vancouver",
       "country": "CA"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 2,
@@ -187,7 +202,10 @@
       "city": "San Francisco Bay Area",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 1,
@@ -215,7 +233,10 @@
       "city": "New York New Jersey",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 1,
@@ -243,7 +264,10 @@
       "city": "Boston",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 0,
@@ -271,7 +295,10 @@
       "city": "Houston",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 7,
@@ -299,7 +326,10 @@
       "city": "Dallas",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 2,
@@ -327,7 +357,10 @@
       "city": "Philadelphia",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 1,
@@ -355,7 +388,10 @@
       "city": "Monterrey",
       "country": "MX"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "completed",
     "result": {
       "scoreA": 5,
@@ -383,7 +419,10 @@
       "city": "Atlanta",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -406,7 +445,10 @@
       "city": "Seattle",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -429,7 +471,10 @@
       "city": "Miami",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -452,7 +497,10 @@
       "city": "Los Angeles",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -475,7 +523,10 @@
       "city": "New York New Jersey",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -498,7 +549,10 @@
       "city": "Boston",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -521,7 +575,10 @@
       "city": "Kansas City",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -544,7 +601,10 @@
       "city": "San Francisco Bay Area",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -567,7 +627,10 @@
       "city": "Houston",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -590,7 +653,10 @@
       "city": "Dallas",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -613,7 +679,10 @@
       "city": "Toronto",
       "country": "CA"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -636,7 +705,10 @@
       "city": "Mexico City",
       "country": "MX"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -659,7 +731,10 @@
       "city": "Atlanta",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -682,7 +757,10 @@
       "city": "Los Angeles",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -705,7 +783,10 @@
       "city": "Vancouver",
       "country": "CA"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -728,7 +809,10 @@
       "city": "Guadalajara",
       "country": "MX"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -751,7 +835,10 @@
       "city": "Seattle",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -774,7 +861,10 @@
       "city": "Boston",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -797,7 +887,10 @@
       "city": "Philadelphia",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -820,7 +913,10 @@
       "city": "San Francisco Bay Area",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -843,7 +939,10 @@
       "city": "Houston",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -866,7 +965,10 @@
       "city": "Toronto",
       "country": "CA"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -889,7 +991,10 @@
       "city": "Kansas City",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -912,7 +1017,10 @@
       "city": "Monterrey",
       "country": "MX"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -935,7 +1043,10 @@
       "city": "Atlanta",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -958,7 +1069,10 @@
       "city": "Los Angeles",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -981,7 +1095,10 @@
       "city": "Miami",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1004,7 +1121,10 @@
       "city": "Vancouver",
       "country": "CA"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1027,7 +1147,10 @@
       "city": "Dallas",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1050,7 +1173,10 @@
       "city": "Philadelphia",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1073,7 +1199,10 @@
       "city": "New York New Jersey",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1096,7 +1225,10 @@
       "city": "San Francisco Bay Area",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1119,7 +1251,10 @@
       "city": "Houston",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1142,7 +1277,10 @@
       "city": "Boston",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1165,7 +1303,10 @@
       "city": "Toronto",
       "country": "CA"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1188,7 +1329,10 @@
       "city": "Guadalajara",
       "country": "MX"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1211,7 +1355,10 @@
       "city": "Vancouver",
       "country": "CA"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1234,7 +1381,10 @@
       "city": "Seattle",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1257,7 +1407,10 @@
       "city": "Mexico City",
       "country": "MX"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1280,7 +1433,10 @@
       "city": "Monterrey",
       "country": "MX"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1303,7 +1459,10 @@
       "city": "Philadelphia",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1326,7 +1485,10 @@
       "city": "Miami",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1349,7 +1511,10 @@
       "city": "Atlanta",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1372,7 +1537,10 @@
       "city": "Dallas",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1395,7 +1563,10 @@
       "city": "Kansas City",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1418,7 +1589,10 @@
       "city": "Los Angeles",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1441,7 +1615,10 @@
       "city": "San Francisco Bay Area",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1464,7 +1641,10 @@
       "city": "Boston",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1487,7 +1667,10 @@
       "city": "Toronto",
       "country": "CA"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1510,7 +1693,10 @@
       "city": "New York New Jersey",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1533,7 +1719,10 @@
       "city": "Guadalajara",
       "country": "MX"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1556,7 +1745,10 @@
       "city": "Houston",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1579,7 +1771,10 @@
       "city": "Seattle",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1602,7 +1797,10 @@
       "city": "Vancouver",
       "country": "CA"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1625,7 +1823,10 @@
       "city": "Miami",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1648,7 +1849,10 @@
       "city": "Atlanta",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1671,7 +1875,10 @@
       "city": "Kansas City",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1694,7 +1901,10 @@
       "city": "Dallas",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1717,7 +1927,10 @@
       "city": "Philadelphia",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1740,7 +1953,10 @@
       "city": "New York New Jersey",
       "country": "US"
     },
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "scheduled",
     "result": null,
     "quality": {
@@ -1760,7 +1976,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1775,7 +1994,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1790,7 +2012,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1805,7 +2030,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1820,7 +2048,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1835,7 +2066,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1850,7 +2084,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1865,7 +2102,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1880,7 +2120,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1895,7 +2138,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1910,7 +2156,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1925,7 +2174,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1940,7 +2192,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1955,7 +2210,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1970,7 +2228,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -1985,7 +2246,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2000,7 +2264,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2015,7 +2282,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2030,7 +2300,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2045,7 +2318,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2060,7 +2336,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2075,7 +2354,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2090,7 +2372,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2105,7 +2390,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2120,7 +2408,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2135,7 +2426,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2150,7 +2444,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2165,7 +2462,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2180,7 +2480,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2195,7 +2498,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2210,7 +2516,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   },
@@ -2225,7 +2534,10 @@
     "teamA": null,
     "teamB": null,
     "venue": null,
-    "broadcast": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
     "status": "tbd",
     "result": null
   }

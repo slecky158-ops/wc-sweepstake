@@ -29,8 +29,8 @@
         "country": "US"
       },
       "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
+        "uk": "ITV1",
+        "us": "FOX"
       },
       "teamA": "GER",
       "teamB": "CUW",
@@ -61,8 +61,8 @@
         "country": "US"
       },
       "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
+        "uk": "BBC One",
+        "us": "FOX"
       },
       "teamA": "NED",
       "teamB": "JPN",
@@ -93,8 +93,8 @@
         "country": "US"
       },
       "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
+        "uk": "BBC One",
+        "us": "FOX"
       },
       "teamA": "CIV",
       "teamB": "ECU",
@@ -125,8 +125,8 @@
         "country": "MX"
       },
       "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
+        "uk": "BBC One",
+        "us": "FOX"
       },
       "teamA": "SWE",
       "teamB": "TUN",
@@ -159,8 +159,8 @@
         "country": "US"
       },
       "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
+        "uk": "BBC One",
+        "us": "FOX"
       },
       "teamA": "ESP",
       "teamB": "CPV",
@@ -193,8 +193,8 @@
         "country": "US"
       },
       "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
+        "uk": "ITV1",
+        "us": "FOX"
       },
       "teamA": "BEL",
       "teamB": "EGY",
@@ -227,8 +227,8 @@
         "country": "US"
       },
       "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
+        "uk": "ITV1",
+        "us": "FOX"
       },
       "teamA": "KSA",
       "teamB": "URU",
@@ -261,8 +261,8 @@
         "country": "US"
       },
       "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
+        "uk": "ITV1",
+        "us": "FOX"
       },
       "teamA": "IRN",
       "teamB": "NZL",

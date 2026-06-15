@@ -168,7 +168,7 @@ def fd_to_daily(fd_m: dict, *, completed: bool) -> dict | None:
         "timeUk": kickoff_uk.strftime("%H:%M") + " UK",
         "timeEt": kickoff_et.strftime("%H:%M") + " ET",
         "venue": venue,
-        "broadcast": local.get("broadcast") or {"uk": "TBC", "us": "TBC"},
+        "broadcast": local.get("broadcast") or {"uk": "BBC/ITV", "us": "FOX"},
         "teamA": a_code,
         "teamB": b_code,
     }
