@@ -142,13 +142,21 @@ export function DailyMatchCard({ match, kind, live }: { match: DailyMatch; kind:
                 <span className="num">{match.odds.match.draw}</span>
                 <span className="text-text-paper-faint">/</span>
                 <span className="num">{match.odds.match.away}</span>
-                <span className="text-text-paper-faint mx-1">·</span>
-                <span className="text-[10px] font-black uppercase tracking-widest text-text-paper-faint">{match.odds.extra.label}</span>
-                <span className="num">{match.odds.extra.value}</span>
-                <span className="text-text-paper-faint mx-1">·</span>
-                <span className="text-[10px] font-black uppercase tracking-widest text-text-paper-faint">FGS</span>
-                <span>{match.odds.fgs.name}</span>
-                <span className="num">{match.odds.fgs.odds}</span>
+                {match.odds.extra && (
+                  <>
+                    <span className="text-text-paper-faint mx-1">·</span>
+                    <span className="text-[10px] font-black uppercase tracking-widest text-text-paper-faint">{match.odds.extra.label}</span>
+                    <span className="num">{match.odds.extra.value}</span>
+                  </>
+                )}
+                {match.odds.fgs && (
+                  <>
+                    <span className="text-text-paper-faint mx-1">·</span>
+                    <span className="text-[10px] font-black uppercase tracking-widest text-text-paper-faint">FGS</span>
+                    <span>{match.odds.fgs.name}</span>
+                    <span className="num">{match.odds.fgs.odds}</span>
+                  </>
+                )}
               </span>
             </div>
           )}
