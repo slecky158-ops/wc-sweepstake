@@ -96,7 +96,7 @@ NAME_TO_CODE = {
     "Netherlands": "NED", "Japan": "JPN", "Sweden": "SWE", "Tunisia": "TUN",
     "Belgium": "BEL", "Egypt": "EGY", "Iran": "IRN", "New Zealand": "NZL",
     "Spain": "ESP", "Uruguay": "URU", "Saudi Arabia": "KSA",
-    "Cape Verde": "CPV", "Cabo Verde": "CPV",
+    "Cape Verde": "CPV", "Cabo Verde": "CPV", "Cape Verde Islands": "CPV",
     "France": "FRA", "Norway": "NOR", "Senegal": "SEN", "Iraq": "IRQ",
     "Argentina": "ARG", "Austria": "AUT", "Algeria": "ALG", "Jordan": "JOR",
     "Portugal": "POR", "Colombia": "COL", "DR Congo": "COD",

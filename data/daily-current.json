@@ -1,149 +1,19 @@
 {
-  "generatedAt": "2026-06-14T17:03:42.644858+01:00",
-  "dateLong": "Sunday, 14 June 2026",
-  "dateDay": "Sun 14 Jun",
-  "dateRest": "Tournament Day 4",
+  "generatedAt": "2026-06-15T09:34:34.834672+01:00",
+  "dateLong": "Monday, 15 June 2026",
+  "dateDay": "Mon 15 Jun",
+  "dateRest": "Tournament Day 5",
   "yesterdayCount": "4 matches",
   "todayCount": "4 matches",
   "yesterdayStoryline": {
-    "headline": "Late levellers and early shocks reshape groups",
-    "subtitle": "Qatar and Morocco held favourites, Scotland edged Haiti, and Australia punished Türkiye in Vancouver."
+    "headline": "Seven-goal Germany set early Group E marker",
+    "subtitle": "Japan rescued a Group F point, while Ivory Coast and Sweden made opening wins count."
   },
   "todayStoryline": {
-    "headline": "Curaçao debut frames Group E start",
-    "subtitle": "Germany open against the smallest World Cup qualifier before Group F tests depth and balance."
+    "headline": "Groups G and H open across four U.S. venues",
+    "subtitle": "Spain and Uruguay begin Group H, while Belgium and Iran carry Group G expectations."
   },
   "yesterday": [
-    {
-      "matchId": "G055",
-      "rank": 55,
-      "group": "B",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-13T20:00:00+01:00",
-      "timeUk": "20:00 UK",
-      "timeEt": "15:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
-      },
-      "teamA": "QAT",
-      "teamB": "SUI",
-      "scoreA": 1,
-      "scoreB": 1,
-      "score": "1-1",
-      "scorers": "Boualem Khoukhi 90+4' (QAT) · Breel Embolo 17' pen (SUI)",
-      "analysis": {
-        "lines": [
-          "Switzerland created heavily but failed to settle the match after Embolo's penalty.",
-          "Qatar's late point left Group B level after the opening round."
-        ],
-        "source": "Sky Sports match report"
-      }
-    },
-    {
-      "matchId": "G009",
-      "rank": 9,
-      "group": "C",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-13T23:00:00+01:00",
-      "timeUk": "23:00 UK",
-      "timeEt": "18:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
-      },
-      "teamA": "BRA",
-      "teamB": "MAR",
-      "scoreA": 1,
-      "scoreB": 1,
-      "score": "1-1",
-      "scorers": "Vinícius Júnior 32' (BRA) · Ismael Saibari 21' (MAR)",
-      "analysis": {
-        "lines": [
-          "Morocco pressed through Brazil's midfield before Vinícius produced the equaliser against the run of play.",
-          "Brazil avoided defeat, but Ancelotti's side opened with clear structural concerns."
-        ],
-        "source": "Sky Sports match report"
-      }
-    },
-    {
-      "matchId": "G062",
-      "rank": 62,
-      "group": "C",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-14T02:00:00+01:00",
-      "timeUk": "02:00 UK",
-      "timeEt": "21:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
-      },
-      "teamA": "HAI",
-      "teamB": "SCO",
-      "scoreA": 0,
-      "scoreB": 1,
-      "score": "0-1",
-      "scorers": "John McGinn 28' (SCO)",
-      "analysis": {
-        "lines": [
-          "Scotland struck from a direct move and then survived Haiti's late pressure.",
-          "The win put Scotland above Brazil and Morocco in Group C."
-        ],
-        "source": "Sports Mole match report"
-      }
-    },
-    {
-      "matchId": "G017",
-      "rank": 17,
-      "group": "D",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-14T05:00:00+01:00",
-      "timeUk": "05:00 UK",
-      "timeEt": "00:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "TBC",
-        "us": "TBC"
-      },
-      "teamA": "AUS",
-      "teamB": "TUR",
-      "scoreA": 2,
-      "scoreB": 0,
-      "score": "2-0",
-      "scorers": "Nestory Irankunda 27' (AUS), Connor Metcalfe 75' (AUS)",
-      "analysis": {
-        "lines": [
-          "Australia defended deep, rode Patrick Beach's saves, and punished Türkiye turnovers.",
-          "The Socceroos joined the United States on three points in Group D."
-        ],
-        "source": "Associated Press match report"
-      }
-    }
-  ],
-  "today": [
     {
       "matchId": "G071",
       "rank": 71,
@@ -154,9 +24,9 @@
       "timeUk": "18:00 UK",
       "timeEt": "13:00 ET",
       "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
+        "stadium": "NRG Stadium",
+        "city": "Houston",
+        "country": "US"
       },
       "broadcast": {
         "uk": "TBC",
@@ -164,26 +34,16 @@
       },
       "teamA": "GER",
       "teamB": "CUW",
-      "weather": "33°C · intermittent clouds",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "1.05",
-          "draw": "20.00",
-          "away": "41.00"
-        },
-        "extra": {
-          "label": "O4.5",
-          "value": "2.10"
-        },
-        "fgs": {
-          "name": "Wirtz",
-          "odds": "1.77"
-        }
-      },
-      "facts": {
-        "home": "Joachim Löw was filmed picking his nose on live World Cup TV more than once in 2018.",
-        "away": "Curaçao is the smallest nation ever to qualify — population around 150,000, less than a London borough."
+      "scoreA": 7,
+      "scoreB": 1,
+      "score": "7-1",
+      "scorers": "Felix Nmecha 6', Nico Schlotterbeck 38', Kai Havertz 45+5' pen, 88', Jamal Musiala 47', Nathaniel Brown 68', Deniz Undav 78' (GER) · Livano Comenencia 21' (CUR)",
+      "analysis": {
+        "lines": [
+          "Germany finished ruthlessly after Curaçao briefly levelled through a historic first World Cup goal.",
+          "The margin put Germany immediately in control of Group E's goal difference picture."
+        ],
+        "source": "Sky Sports match report"
       }
     },
     {
@@ -196,9 +56,9 @@
       "timeUk": "21:00 UK",
       "timeEt": "16:00 ET",
       "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
+        "stadium": "AT&T Stadium",
+        "city": "Dallas",
+        "country": "US"
       },
       "broadcast": {
         "uk": "TBC",
@@ -206,26 +66,16 @@
       },
       "teamA": "NED",
       "teamB": "JPN",
-      "weather": "30°C · thunderstorms",
-      "h2h": "Played 3 · 🇳🇱 2W 1D 0L · last 2-2 (2013)",
-      "odds": {
-        "match": {
-          "home": "2.05",
-          "draw": "3.50",
-          "away": "3.70"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "2.00"
-        },
-        "fgs": {
-          "name": "Depay",
-          "odds": "2.90"
-        }
-      },
-      "facts": {
-        "home": "Memphis Depay once kept a pet lion called Trinity until animal-welfare groups convinced him otherwise.",
-        "away": "Japanese fans famously tidy stadiums after their team's games — the squad cleans the dressing room too."
+      "scoreA": 2,
+      "scoreB": 2,
+      "score": "2-2",
+      "scorers": "Virgil van Dijk 51', Crysencio Summerville 64' (NED) · Keito Nakamura 57', Daichi Kamada 89' (JPN)",
+      "analysis": {
+        "lines": [
+          "A flat first half gave way to four goals and Japan's late set-piece pressure.",
+          "Both sides left Group F with points but clear defensive lessons."
+        ],
+        "source": "Sky Sports match report"
       }
     },
     {
@@ -238,9 +88,9 @@
       "timeUk": "00:00 UK",
       "timeEt": "19:00 ET",
       "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
+        "stadium": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "US"
       },
       "broadcast": {
         "uk": "TBC",
@@ -248,26 +98,16 @@
       },
       "teamA": "CIV",
       "teamB": "ECU",
-      "weather": "24°C · thunderstorms",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "3.20",
-          "draw": "2.90",
-          "away": "2.55"
-        },
-        "extra": {
-          "label": "O1.5",
-          "value": "1.63"
-        },
-        "fgs": {
-          "name": "Valencia",
-          "odds": "3.40"
-        }
-      },
-      "facts": {
-        "home": "Yaya Touré's agent once publicly complained Manchester City gave his star a 'disrespectfully small' birthday cake.",
-        "away": "Ecuador play home qualifiers at 2,850m in Quito, leaving visiting teams gasping by halftime."
+      "scoreA": 1,
+      "scoreB": 0,
+      "score": "1-0",
+      "scorers": "Amad Diallo 90' (CIV)",
+      "analysis": {
+        "lines": [
+          "Ecuador struck the bar twice early before Ivory Coast's substitutes shifted the rhythm.",
+          "Amad Diallo's 90th-minute winner ended Ecuador's long unbeaten run in Group E."
+        ],
+        "source": "Sky Sports match report"
       }
     },
     {
@@ -280,9 +120,9 @@
       "timeUk": "03:00 UK",
       "timeEt": "22:00 ET",
       "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
+        "stadium": "Estadio BBVA",
+        "city": "Monterrey",
+        "country": "MX"
       },
       "broadcast": {
         "uk": "TBC",
@@ -290,34 +130,162 @@
       },
       "teamA": "SWE",
       "teamB": "TUN",
-      "weather": "27°C · cloudy",
-      "h2h": "Played 1 · 🇸🇪 0W 1D 0L · last 0-0 (1974)",
+      "scoreA": 5,
+      "scoreB": 1,
+      "score": "5-1",
+      "scorers": "Yasin Ayari 7', 90+6', Alexander Isak 30', Viktor Gyokeres 59', Mattias Svanberg 84' (SWE) · Omar Rekik 43' (TUN)",
+      "analysis": {
+        "lines": [
+          "Sweden's front two combined fluently, with Ayari adding two long-range finishes.",
+          "The 5-1 win leaves Sweden top of Group F after the opening round."
+        ],
+        "source": "Sky Sports match report"
+      }
+    }
+  ],
+  "today": [
+    {
+      "matchId": "G063",
+      "rank": 63,
+      "group": "H",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-15T17:00:00+01:00",
+      "timeUk": "17:00 UK",
+      "timeEt": "12:00 ET",
+      "venue": {
+        "stadium": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "TBC",
+        "us": "TBC"
+      },
+      "teamA": "ESP",
+      "teamB": "CPV",
+      "weather": "26°C · mostly cloudy",
+      "h2h": "First meeting",
       "odds": {
         "match": {
-          "home": "1.91",
-          "draw": "3.40",
-          "away": "4.30"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "2.15"
-        },
-        "fgs": {
-          "name": "Gyökeres",
-          "odds": "2.70"
+          "home": "1.08",
+          "draw": "12.00",
+          "away": "21.00"
         }
       },
       "facts": {
-        "home": "Zlatan Ibrahimović has held a taekwondo black belt since he was 17.",
-        "away": "Tunisia were the first African nation to win a World Cup match, beating Mexico 3-1 in 1978."
+        "home": "Lamine Yamal was still doing school homework during Spain’s Euro 2024 camp.",
+        "away": "Cape Verde’s Blue Sharks reached their first World Cup with just over 500,000 people."
+      }
+    },
+    {
+      "matchId": "G022",
+      "rank": 22,
+      "group": "G",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-15T20:00:00+01:00",
+      "timeUk": "20:00 UK",
+      "timeEt": "15:00 ET",
+      "venue": {
+        "stadium": "Lumen Field",
+        "city": "Seattle",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "TBC",
+        "us": "TBC"
+      },
+      "teamA": "BEL",
+      "teamB": "EGY",
+      "weather": "26°C · partly sunny",
+      "h2h": "Played 3 · 🇧🇪 1W 0D 2L · last 1-2 Egypt (2022)",
+      "odds": {
+        "match": {
+          "home": "1.62",
+          "draw": "3.80",
+          "away": "5.75"
+        }
+      },
+      "facts": {
+        "home": "Belgium goalkeeper Thibaut Courtois became an esports-team owner with DUX Gaming.",
+        "away": "Egypt’s Essam El-Hadary saved a World Cup penalty aged 45 in 2018."
+      }
+    },
+    {
+      "matchId": "G040",
+      "rank": 40,
+      "group": "H",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-15T23:00:00+01:00",
+      "timeUk": "23:00 UK",
+      "timeEt": "18:00 ET",
+      "venue": {
+        "stadium": "Hard Rock Stadium",
+        "city": "Miami",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "TBC",
+        "us": "TBC"
+      },
+      "teamA": "KSA",
+      "teamB": "URU",
+      "weather": "29°C · intermittent clouds",
+      "h2h": "Played 3 · 🇸🇦 1W 1D 1L · last 0-1 Uruguay (2018)",
+      "odds": {
+        "match": {
+          "home": "7.00",
+          "draw": "4.20",
+          "away": "1.48"
+        }
+      },
+      "facts": {
+        "home": "Saudi Arabia’s viral 2022 halftime speech asked whether players wanted Messi photos.",
+        "away": "Uruguay squads famously pack mountains of yerba mate for tournament hotel life."
+      }
+    },
+    {
+      "matchId": "G066",
+      "rank": 66,
+      "group": "G",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-16T02:00:00+01:00",
+      "timeUk": "02:00 UK",
+      "timeEt": "21:00 ET",
+      "venue": {
+        "stadium": "SoFi Stadium",
+        "city": "Los Angeles",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "TBC",
+        "us": "TBC"
+      },
+      "teamA": "IRN",
+      "teamB": "NZL",
+      "weather": "18°C · mostly cloudy",
+      "h2h": "First meeting",
+      "odds": {
+        "match": {
+          "home": "1.91",
+          "draw": "3.25",
+          "away": "4.33"
+        }
+      },
+      "facts": {
+        "home": "Iran’s Milad Mohammadi once kissed the ball, then abandoned a somersault throw-in.",
+        "away": "New Zealand exited the 2010 World Cup unbeaten, which still feels backwards."
       }
     }
   ],
   "news": {
-    "kicker": "REUTERS · UKRAINE WAR",
-    "headline": "UK says forces intercepted Russian shadow-fleet tanker",
-    "body": "British Prime Minister Keir Starmer said he directed armed forces to intercept a shadow-fleet oil tanker attempting to pass through the English Channel. He framed the operation as a move against networks helping fund Russia's war in Ukraine.",
-    "source": "Source: Reuters, 14 Jun 2026"
+    "kicker": "REUTERS · DIPLOMACY",
+    "headline": "G7 leaders meet in France after U.S.-Iran deal announcement",
+    "body": "Leaders gathered in Évian-les-Bains for talks expected to cover Iran, Ukraine, trade imbalances and critical minerals. The summit opens as allies assess Washington's new Iran framework and seek common ground on security and economic risks.",
+    "source": "Source: Reuters, 15 Jun 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
