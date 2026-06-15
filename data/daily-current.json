@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-06-15T09:34:34.834672+01:00",
+  "generatedAt": "2026-06-15T13:56:41.396560+01:00",
   "dateLong": "Monday, 15 June 2026",
   "dateDay": "Mon 15 Jun",
   "dateRest": "Tournament Day 5",
   "yesterdayCount": "4 matches",
   "todayCount": "4 matches",
   "yesterdayStoryline": {
-    "headline": "Seven-goal Germany set early Group E marker",
-    "subtitle": "Japan rescued a Group F point, while Ivory Coast and Sweden made opening wins count."
+    "headline": "Germany score seven, Japan salvage late point",
+    "subtitle": "Group E opened with German authority; Group F already looks more congested."
   },
   "todayStoryline": {
-    "headline": "Groups G and H open across four U.S. venues",
-    "subtitle": "Spain and Uruguay begin Group H, while Belgium and Iran carry Group G expectations."
+    "headline": "Spain start Group H, Belgium open Group G",
+    "subtitle": "Four fixtures stretch from Atlanta to Los Angeles, with Uruguay favoured in Miami."
   },
   "yesterday": [
     {
@@ -37,11 +37,11 @@
       "scoreA": 7,
       "scoreB": 1,
       "score": "7-1",
-      "scorers": "Felix Nmecha 6', Nico Schlotterbeck 38', Kai Havertz 45+5' pen, 88', Jamal Musiala 47', Nathaniel Brown 68', Deniz Undav 78' (GER) · Livano Comenencia 21' (CUR)",
+      "scorers": "Felix Nmecha 6' (GER), Nico Schlotterbeck 38' (GER), Kai Havertz 45+5' pen, 88' (GER), Jamal Musiala 47' (GER), Nathaniel Brown 68' (GER), Denis Undav 78' (GER) · Livano Comenencia 21' (CUW)",
       "analysis": {
         "lines": [
-          "Germany finished ruthlessly after Curaçao briefly levelled through a historic first World Cup goal.",
-          "The margin put Germany immediately in control of Group E's goal difference picture."
+          "Germany’s front line found balance after Curaçao briefly levelled through a historic first World Cup goal.",
+          "The margin puts immediate pressure on Ivory Coast and Ecuador in Group E."
         ],
         "source": "Sky Sports match report"
       }
@@ -69,11 +69,11 @@
       "scoreA": 2,
       "scoreB": 2,
       "score": "2-2",
-      "scorers": "Virgil van Dijk 51', Crysencio Summerville 64' (NED) · Keito Nakamura 57', Daichi Kamada 89' (JPN)",
+      "scorers": "Virgil van Dijk 51' (NED), Crysencio Summerville 64' (NED) · Keito Nakamura 57' (JPN), Daichi Kamada 89' (JPN)",
       "analysis": {
         "lines": [
-          "A flat first half gave way to four goals and Japan's late set-piece pressure.",
-          "Both sides left Group F with points but clear defensive lessons."
+          "The match stayed flat before four second-half goals turned it into a late exchange.",
+          "Japan’s point keeps Group F open after the Netherlands failed to manage their lead."
         ],
         "source": "Sky Sports match report"
       }
@@ -104,8 +104,8 @@
       "scorers": "Amad Diallo 90' (CIV)",
       "analysis": {
         "lines": [
-          "Ecuador struck the bar twice early before Ivory Coast's substitutes shifted the rhythm.",
-          "Amad Diallo's 90th-minute winner ended Ecuador's long unbeaten run in Group E."
+          "Ecuador struck the woodwork twice early before Ivory Coast improved after attacking changes.",
+          "Amad’s late winner gives Ivory Coast a useful Group E platform before Germany."
         ],
         "source": "Sky Sports match report"
       }
@@ -133,11 +133,11 @@
       "scoreA": 5,
       "scoreB": 1,
       "score": "5-1",
-      "scorers": "Yasin Ayari 7', 90+6', Alexander Isak 30', Viktor Gyokeres 59', Mattias Svanberg 84' (SWE) · Omar Rekik 43' (TUN)",
+      "scorers": "Yasin Ayari 7', 90+6' (SWE), Alexander Isak 30' (SWE), Viktor Gyökeres 59' (SWE), Mattias Svanberg 84' (SWE) · Omar Rekik 43' (TUN)",
       "analysis": {
         "lines": [
-          "Sweden's front two combined fluently, with Ayari adding two long-range finishes.",
-          "The 5-1 win leaves Sweden top of Group F after the opening round."
+          "Sweden’s forwards combined cleanly and Ayari’s long-range finishing stretched Tunisia throughout.",
+          "The five-goal win sends Sweden top of Group F after one round."
         ],
         "source": "Sky Sports match report"
       }
@@ -168,14 +168,14 @@
       "h2h": "First meeting",
       "odds": {
         "match": {
-          "home": "1.08",
-          "draw": "12.00",
-          "away": "21.00"
+          "home": "1.09",
+          "draw": "16.00",
+          "away": "42.00"
         }
       },
       "facts": {
-        "home": "Lamine Yamal was still doing school homework during Spain’s Euro 2024 camp.",
-        "away": "Cape Verde’s Blue Sharks reached their first World Cup with just over 500,000 people."
+        "home": "Marc Cucurella dyed his famous curls red after promising it for Spain’s Euro win.",
+        "away": "Cape Verde boss Bubista’s nickname simply comes from Boa Vista, his home island."
       }
     },
     {
@@ -198,18 +198,18 @@
       },
       "teamA": "BEL",
       "teamB": "EGY",
-      "weather": "26°C · partly sunny",
-      "h2h": "Played 3 · 🇧🇪 1W 0D 2L · last 1-2 Egypt (2022)",
+      "weather": "30°C · partly sunny",
+      "h2h": "Played 4 · 🇧🇪 1W 0D 3L · last 1-2 Egypt (2022)",
       "odds": {
         "match": {
-          "home": "1.62",
+          "home": "1.65",
           "draw": "3.80",
-          "away": "5.75"
+          "away": "5.50"
         }
       },
       "facts": {
-        "home": "Belgium goalkeeper Thibaut Courtois became an esports-team owner with DUX Gaming.",
-        "away": "Egypt’s Essam El-Hadary saved a World Cup penalty aged 45 in 2018."
+        "home": "Kevin De Bruyne once compared baking a cake to crafting the perfect pass.",
+        "away": "Salah once joked his PlayStation version is stronger than the real Mohamed Salah."
       }
     },
     {
@@ -236,14 +236,14 @@
       "h2h": "Played 3 · 🇸🇦 1W 1D 1L · last 0-1 Uruguay (2018)",
       "odds": {
         "match": {
-          "home": "7.00",
-          "draw": "4.20",
-          "away": "1.48"
+          "home": "7.50",
+          "draw": "4.33",
+          "away": "1.44"
         }
       },
       "facts": {
-        "home": "Saudi Arabia’s viral 2022 halftime speech asked whether players wanted Messi photos.",
-        "away": "Uruguay squads famously pack mountains of yerba mate for tournament hotel life."
+        "home": "Hervé Renard’s lucky white shirt became almost as famous as Saudi Arabia’s upset.",
+        "away": "Luis Suárez’s statue in Salto once ‘left’ a note for Messi’s wedding."
       }
     },
     {
@@ -266,25 +266,25 @@
       },
       "teamA": "IRN",
       "teamB": "NZL",
-      "weather": "18°C · mostly cloudy",
-      "h2h": "First meeting",
+      "weather": "19°C · mostly clear",
+      "h2h": "Played 2 · 🇮🇷 1W 1D 0L",
       "odds": {
         "match": {
-          "home": "1.91",
-          "draw": "3.25",
-          "away": "4.33"
+          "home": "1.85",
+          "draw": "3.40",
+          "away": "4.50"
         }
       },
       "facts": {
-        "home": "Iran’s Milad Mohammadi once kissed the ball, then abandoned a somersault throw-in.",
-        "away": "New Zealand exited the 2010 World Cup unbeaten, which still feels backwards."
+        "home": "Iran’s Team Melli nickname is wonderfully literal: it simply means ‘the national team’.",
+        "away": "New Zealand’s 1982 qualifiers involved 15 matches and about 55,000 travel miles."
       }
     }
   ],
   "news": {
-    "kicker": "REUTERS · DIPLOMACY",
-    "headline": "G7 leaders meet in France after U.S.-Iran deal announcement",
-    "body": "Leaders gathered in Évian-les-Bains for talks expected to cover Iran, Ukraine, trade imbalances and critical minerals. The summit opens as allies assess Washington's new Iran framework and seek common ground on security and economic risks.",
+    "kicker": "REUTERS · TECHNOLOGY",
+    "headline": "Britain announces sweeping social media ban for under-16s",
+    "body": "Prime Minister Keir Starmer said Britain would ban under-16s from social media sites and add restrictions on gaming and livestreaming platforms. The government framed the move as a child-safety measure, while the policy places Britain among the countries tightening rules on young people’s online access.",
     "source": "Source: Reuters, 15 Jun 2026"
   },
   "footerNote": "All times converted from official kickoffs"
