@@ -1157,19 +1157,19 @@
     "footerNote": "All times converted from official kickoffs"
   },
   "20260616": {
-    "generatedAt": "2026-06-16T11:34:06.910996+01:00",
+    "generatedAt": "2026-06-16T13:02:09.060599+01:00",
     "dateLong": "Tuesday, 16 June 2026",
     "dateDay": "Tue 16 Jun",
     "dateRest": "Tournament Day 6",
     "yesterdayCount": "4 matches",
     "todayCount": "4 matches",
     "yesterdayStoryline": {
-      "headline": "Draws leave Groups G and H level",
-      "subtitle": "Cape Verde frustrated Spain, while all eight teams opened with one point."
+      "headline": "Four draws stall Groups G and H",
+      "subtitle": "Spain and Cape Verde stayed scoreless, while three other fixtures were shared."
     },
     "todayStoryline": {
-      "headline": "France-Senegal reprise starts Groups I and J",
-      "subtitle": "Norway and Austria follow before Argentina begin their title defence in Kansas City."
+      "headline": "Groups I and J open with contrasts",
+      "subtitle": "France revisit Senegal history before Argentina begin their title defence in Kansas City."
     },
     "yesterday": [
       {
@@ -1194,15 +1194,7 @@
         "teamB": "CPV",
         "scoreA": 0,
         "scoreB": 0,
-        "score": "0-0",
-        "scorers": "None",
-        "analysis": {
-          "lines": [
-            "Cape Verde defended deep, with Vozinha and Pico Lopes repeatedly denying Spain.",
-            "The draw leaves Group H level after the opening round."
-          ],
-          "source": "Sky Sports match report"
-        }
+        "score": "0-0"
       },
       {
         "matchId": "G022",
@@ -1226,15 +1218,7 @@
         "teamB": "EGY",
         "scoreA": 1,
         "scoreB": 1,
-        "score": "1-1",
-        "scorers": "Mohamed Hany 66' OG (BEL) · Emam Ashour 19' (EGY)",
-        "analysis": {
-          "lines": [
-            "Egypt led through Ashour before Lukaku’s introduction immediately forced Belgium’s equaliser.",
-            "Group G begins evenly, with Belgium still chasing sharper finishing."
-          ],
-          "source": "Sky Sports match report"
-        }
+        "score": "1-1"
       },
       {
         "matchId": "G040",
@@ -1258,15 +1242,7 @@
         "teamB": "URU",
         "scoreA": 1,
         "scoreB": 1,
-        "score": "1-1",
-        "scorers": "Abdulelah Al-Amri 41' (KSA) · Maxi Araújo 80' (URU)",
-        "analysis": {
-          "lines": [
-            "Saudi Arabia protected Al-Amri’s lead until Uruguay’s second-half pressure finally told.",
-            "Al-Owais kept Group H balanced with a string of late saves."
-          ],
-          "source": "Sky Sports match report"
-        }
+        "score": "1-1"
       },
       {
         "matchId": "G066",
@@ -1290,15 +1266,7 @@
         "teamB": "NZL",
         "scoreA": 2,
         "scoreB": 2,
-        "score": "2-2",
-        "scorers": "Ramin Rezaeian 32', Mohammad Mohebbi 64' (IRN) · Elijah Just 7', 55' (NZL)",
-        "analysis": {
-          "lines": [
-            "New Zealand struck early in each half, but Iran twice answered with composed goals.",
-            "All four Group G teams finish matchday one on a point."
-          ],
-          "source": "AP match report"
-        }
+        "score": "2-2"
       }
     ],
     "today": [
@@ -1323,21 +1291,21 @@
         "teamA": "FRA",
         "teamB": "SEN",
         "weather": "26°C · mostly sunny",
-        "h2h": "Played 3 · 🇫🇷 1W 0D 2L · last 0-1 Senegal (2002)",
+        "h2h": "Played 1 · 🇫🇷 0W 0D 1L · last 0-1 Senegal (2002)",
         "odds": {
           "match": {
-            "home": "1.48",
+            "home": "1.50",
             "draw": "4.60",
-            "away": "7.00"
+            "away": "8.20"
           },
           "extra": {
             "label": "O2.5",
-            "value": "1.82"
+            "value": "1.75"
           }
         },
         "facts": {
-          "home": "N’Golo Kanté kept arriving at Chelsea training in his famously modest Mini Cooper.",
-          "away": "Papa Bouba Diop once led Senegal’s shirt-dance celebration around a corner flag."
+          "home": "Griezmann adored Uruguay so much he drank mate and backed Peñarol from afar.",
+          "away": "Mané once asked why anyone needs ten Ferraris, twenty watches or two planes."
         }
       },
       {
@@ -1364,22 +1332,14 @@
         "h2h": "First meeting",
         "odds": {
           "match": {
-            "home": "10.00",
-            "draw": "6.10",
-            "away": "1.20"
-          },
-          "extra": {
-            "label": "O2.5",
-            "value": "1.57"
-          },
-          "fgs": {
-            "name": "Haaland",
-            "odds": "2.90"
+            "home": "16.00",
+            "draw": "7.50",
+            "away": "1.22"
           }
         },
         "facts": {
-          "home": "Iraq’s Lions of Mesopotamia nickname nods to Babylon’s ancient lion symbolism.",
-          "away": "Erling Haaland’s bedtime routine has included blue-light glasses and taped-mouth sleep."
+          "home": "Ahmed Radhi’s 1986 strike remains Iraq’s only World Cup finals goal.",
+          "away": "Haaland once rapped with Flow Kingz before becoming Norway’s striking Viking."
         }
       },
       {
@@ -1402,26 +1362,22 @@
         },
         "teamA": "ARG",
         "teamB": "ALG",
-        "weather": "25°C · partly cloudy",
+        "weather": "26°C · intermittent clouds",
         "h2h": "Played 1 · 🇦🇷 1W 0D 0L · last 4-3 Argentina (2007)",
         "odds": {
           "match": {
-            "home": "1.94",
-            "draw": "2.43",
-            "away": "7.80"
+            "home": "1.47",
+            "draw": "4.65",
+            "away": "8.85"
           },
           "extra": {
             "label": "O2.5",
-            "value": "1.94"
-          },
-          "fgs": {
-            "name": "Messi",
-            "odds": "4.00"
+            "value": "1.99"
           }
         },
         "facts": {
-          "home": "Messi’s enormous dog Hulk once joined backyard rondos with his children.",
-          "away": "Algeria’s 1982 win over West Germany still helped reshape World Cup scheduling."
+          "home": "Messi’s first Barcelona promise was famously scribbled on a restaurant napkin.",
+          "away": "Rabah Madjer’s audacious backheel in 1987 gave its name to a skill."
         }
       },
       {
@@ -1444,12 +1400,12 @@
         },
         "teamA": "AUT",
         "teamB": "JOR",
-        "weather": "16°C · cloudy",
+        "weather": "24°C · clear",
         "h2h": "First meeting",
         "odds": {
           "match": {
-            "home": "1.40",
-            "draw": "5.30",
+            "home": "1.43",
+            "draw": "5.40",
             "away": "9.05"
           },
           "extra": {
@@ -1458,15 +1414,15 @@
           }
         },
         "facts": {
-          "home": "David Alaba celebrated Madrid’s comeback by wildly hoisting a folding chair.",
-          "away": "Jordan’s Al-Nashama nickname roughly means the chivalrous or brave ones."
+          "home": "Austria’s 7-5 win over Switzerland remains the World Cup’s wildest scoreline.",
+          "away": "Musa Al-Taamari is nicknamed the Jordanian Messi, though he dislikes the label."
         }
       }
     ],
     "news": {
-      "kicker": "REUTERS · ECONOMY",
-      "headline": "IMF says no global slowdown in sight, risks remain high",
-      "body": "IMF chief Kristalina Georgieva said the world economy is so far weathering recent Middle East shocks without clear signs of a global slowdown. She warned that renewed conflict or supply disruption could still threaten growth and inflation.",
+      "kicker": "REUTERS · POLITICS",
+      "headline": "European leaders press Trump on Ukraine strategy at G7",
+      "body": "European leaders planned to urge U.S. President Donald Trump at the G7 summit in Evian-les-Bains to rethink his approach to Ukraine. They also warned that any interim Iran deal should not entrench Tehran’s nuclear and missile programmes.",
       "source": "Source: Reuters, 16 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"

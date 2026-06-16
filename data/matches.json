@@ -427,7 +427,7 @@
     "result": {
       "scoreA": 0,
       "scoreB": 0,
-      "scorers": "None",
+      "scorers": "",
       "notes": []
     },
     "quality": {
@@ -458,7 +458,7 @@
     "result": {
       "scoreA": 1,
       "scoreB": 1,
-      "scorers": "Mohamed Hany 66' OG (BEL) · Emam Ashour 19' (EGY)",
+      "scorers": "",
       "notes": []
     },
     "quality": {
@@ -489,7 +489,7 @@
     "result": {
       "scoreA": 1,
       "scoreB": 1,
-      "scorers": "Abdulelah Al-Amri 41' (KSA) · Maxi Araújo 80' (URU)",
+      "scorers": "",
       "notes": []
     },
     "quality": {
@@ -520,7 +520,7 @@
     "result": {
       "scoreA": 2,
       "scoreB": 2,
-      "scorers": "Ramin Rezaeian 32', Mohammad Mohebbi 64' (IRN) · Elijah Just 7', 55' (NZL)",
+      "scorers": "",
       "notes": []
     },
     "quality": {
