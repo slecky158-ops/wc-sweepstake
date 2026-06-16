@@ -1,149 +1,19 @@
 {
-  "generatedAt": "2026-06-15T13:56:41.396560+01:00",
-  "dateLong": "Monday, 15 June 2026",
-  "dateDay": "Mon 15 Jun",
-  "dateRest": "Tournament Day 5",
+  "generatedAt": "2026-06-16T11:34:06.910996+01:00",
+  "dateLong": "Tuesday, 16 June 2026",
+  "dateDay": "Tue 16 Jun",
+  "dateRest": "Tournament Day 6",
   "yesterdayCount": "4 matches",
   "todayCount": "4 matches",
   "yesterdayStoryline": {
-    "headline": "Germany score seven, Japan salvage late point",
-    "subtitle": "Group E opened with German authority; Group F already looks more congested."
+    "headline": "Draws leave Groups G and H level",
+    "subtitle": "Cape Verde frustrated Spain, while all eight teams opened with one point."
   },
   "todayStoryline": {
-    "headline": "Spain start Group H, Belgium open Group G",
-    "subtitle": "Four fixtures stretch from Atlanta to Los Angeles, with Uruguay favoured in Miami."
+    "headline": "France-Senegal reprise starts Groups I and J",
+    "subtitle": "Norway and Austria follow before Argentina begin their title defence in Kansas City."
   },
   "yesterday": [
-    {
-      "matchId": "G071",
-      "rank": 71,
-      "group": "E",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-14T18:00:00+01:00",
-      "timeUk": "18:00 UK",
-      "timeEt": "13:00 ET",
-      "venue": {
-        "stadium": "NRG Stadium",
-        "city": "Houston",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FOX"
-      },
-      "teamA": "GER",
-      "teamB": "CUW",
-      "scoreA": 7,
-      "scoreB": 1,
-      "score": "7-1",
-      "scorers": "Felix Nmecha 6' (GER), Nico Schlotterbeck 38' (GER), Kai Havertz 45+5' pen, 88' (GER), Jamal Musiala 47' (GER), Nathaniel Brown 68' (GER), Denis Undav 78' (GER) · Livano Comenencia 21' (CUW)",
-      "analysis": {
-        "lines": [
-          "Germany’s front line found balance after Curaçao briefly levelled through a historic first World Cup goal.",
-          "The margin puts immediate pressure on Ivory Coast and Ecuador in Group E."
-        ],
-        "source": "Sky Sports match report"
-      }
-    },
-    {
-      "matchId": "G005",
-      "rank": 5,
-      "group": "F",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-14T21:00:00+01:00",
-      "timeUk": "21:00 UK",
-      "timeEt": "16:00 ET",
-      "venue": {
-        "stadium": "AT&T Stadium",
-        "city": "Dallas",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FOX"
-      },
-      "teamA": "NED",
-      "teamB": "JPN",
-      "scoreA": 2,
-      "scoreB": 2,
-      "score": "2-2",
-      "scorers": "Virgil van Dijk 51' (NED), Crysencio Summerville 64' (NED) · Keito Nakamura 57' (JPN), Daichi Kamada 89' (JPN)",
-      "analysis": {
-        "lines": [
-          "The match stayed flat before four second-half goals turned it into a late exchange.",
-          "Japan’s point keeps Group F open after the Netherlands failed to manage their lead."
-        ],
-        "source": "Sky Sports match report"
-      }
-    },
-    {
-      "matchId": "G012",
-      "rank": 12,
-      "group": "E",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-15T00:00:00+01:00",
-      "timeUk": "00:00 UK",
-      "timeEt": "19:00 ET",
-      "venue": {
-        "stadium": "Lincoln Financial Field",
-        "city": "Philadelphia",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "BBC One",
-        "us": "FS1"
-      },
-      "teamA": "CIV",
-      "teamB": "ECU",
-      "scoreA": 1,
-      "scoreB": 0,
-      "score": "1-0",
-      "scorers": "Amad Diallo 90' (CIV)",
-      "analysis": {
-        "lines": [
-          "Ecuador struck the woodwork twice early before Ivory Coast improved after attacking changes.",
-          "Amad’s late winner gives Ivory Coast a useful Group E platform before Germany."
-        ],
-        "source": "Sky Sports match report"
-      }
-    },
-    {
-      "matchId": "G027",
-      "rank": 27,
-      "group": "F",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-15T03:00:00+01:00",
-      "timeUk": "03:00 UK",
-      "timeEt": "22:00 ET",
-      "venue": {
-        "stadium": "Estadio BBVA",
-        "city": "Monterrey",
-        "country": "MX"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FS1"
-      },
-      "teamA": "SWE",
-      "teamB": "TUN",
-      "scoreA": 5,
-      "scoreB": 1,
-      "score": "5-1",
-      "scorers": "Yasin Ayari 7', 90+6' (SWE), Alexander Isak 30' (SWE), Viktor Gyökeres 59' (SWE), Mattias Svanberg 84' (SWE) · Omar Rekik 43' (TUN)",
-      "analysis": {
-        "lines": [
-          "Sweden’s forwards combined cleanly and Ayari’s long-range finishing stretched Tunisia throughout.",
-          "The five-goal win sends Sweden top of Group F after one round."
-        ],
-        "source": "Sky Sports match report"
-      }
-    }
-  ],
-  "today": [
     {
       "matchId": "G063",
       "rank": 63,
@@ -164,18 +34,16 @@
       },
       "teamA": "ESP",
       "teamB": "CPV",
-      "weather": "26°C · mostly cloudy",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "1.09",
-          "draw": "16.00",
-          "away": "42.00"
-        }
-      },
-      "facts": {
-        "home": "Marc Cucurella dyed his famous curls red after promising it for Spain’s Euro win.",
-        "away": "Cape Verde boss Bubista’s nickname simply comes from Boa Vista, his home island."
+      "scoreA": 0,
+      "scoreB": 0,
+      "score": "0-0",
+      "scorers": "None",
+      "analysis": {
+        "lines": [
+          "Cape Verde defended deep, with Vozinha and Pico Lopes repeatedly denying Spain.",
+          "The draw leaves Group H level after the opening round."
+        ],
+        "source": "Sky Sports match report"
       }
     },
     {
@@ -198,18 +66,16 @@
       },
       "teamA": "BEL",
       "teamB": "EGY",
-      "weather": "30°C · partly sunny",
-      "h2h": "Played 4 · 🇧🇪 1W 0D 3L · last 1-2 Egypt (2022)",
-      "odds": {
-        "match": {
-          "home": "1.65",
-          "draw": "3.80",
-          "away": "5.50"
-        }
-      },
-      "facts": {
-        "home": "Kevin De Bruyne once compared baking a cake to crafting the perfect pass.",
-        "away": "Salah once joked his PlayStation version is stronger than the real Mohamed Salah."
+      "scoreA": 1,
+      "scoreB": 1,
+      "score": "1-1",
+      "scorers": "Mohamed Hany 66' OG (BEL) · Emam Ashour 19' (EGY)",
+      "analysis": {
+        "lines": [
+          "Egypt led through Ashour before Lukaku’s introduction immediately forced Belgium’s equaliser.",
+          "Group G begins evenly, with Belgium still chasing sharper finishing."
+        ],
+        "source": "Sky Sports match report"
       }
     },
     {
@@ -232,18 +98,16 @@
       },
       "teamA": "KSA",
       "teamB": "URU",
-      "weather": "29°C · intermittent clouds",
-      "h2h": "Played 3 · 🇸🇦 1W 1D 1L · last 0-1 Uruguay (2018)",
-      "odds": {
-        "match": {
-          "home": "7.50",
-          "draw": "4.33",
-          "away": "1.44"
-        }
-      },
-      "facts": {
-        "home": "Hervé Renard’s lucky white shirt became almost as famous as Saudi Arabia’s upset.",
-        "away": "Luis Suárez’s statue in Salto once ‘left’ a note for Messi’s wedding."
+      "scoreA": 1,
+      "scoreB": 1,
+      "score": "1-1",
+      "scorers": "Abdulelah Al-Amri 41' (KSA) · Maxi Araújo 80' (URU)",
+      "analysis": {
+        "lines": [
+          "Saudi Arabia protected Al-Amri’s lead until Uruguay’s second-half pressure finally told.",
+          "Al-Owais kept Group H balanced with a string of late saves."
+        ],
+        "source": "Sky Sports match report"
       }
     },
     {
@@ -266,26 +130,186 @@
       },
       "teamA": "IRN",
       "teamB": "NZL",
-      "weather": "19°C · mostly clear",
-      "h2h": "Played 2 · 🇮🇷 1W 1D 0L",
+      "scoreA": 2,
+      "scoreB": 2,
+      "score": "2-2",
+      "scorers": "Ramin Rezaeian 32', Mohammad Mohebbi 64' (IRN) · Elijah Just 7', 55' (NZL)",
+      "analysis": {
+        "lines": [
+          "New Zealand struck early in each half, but Iran twice answered with composed goals.",
+          "All four Group G teams finish matchday one on a point."
+        ],
+        "source": "AP match report"
+      }
+    }
+  ],
+  "today": [
+    {
+      "matchId": "G008",
+      "rank": 8,
+      "group": "I",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-16T20:00:00+01:00",
+      "timeUk": "20:00 UK",
+      "timeEt": "15:00 ET",
+      "venue": {
+        "stadium": "MetLife Stadium",
+        "city": "New York New Jersey",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FOX"
+      },
+      "teamA": "FRA",
+      "teamB": "SEN",
+      "weather": "26°C · mostly sunny",
+      "h2h": "Played 3 · 🇫🇷 1W 0D 2L · last 0-1 Senegal (2002)",
       "odds": {
         "match": {
-          "home": "1.85",
-          "draw": "3.40",
-          "away": "4.50"
+          "home": "1.48",
+          "draw": "4.60",
+          "away": "7.00"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "1.82"
         }
       },
       "facts": {
-        "home": "Iran’s Team Melli nickname is wonderfully literal: it simply means ‘the national team’.",
-        "away": "New Zealand’s 1982 qualifiers involved 15 matches and about 55,000 travel miles."
+        "home": "N’Golo Kanté kept arriving at Chelsea training in his famously modest Mini Cooper.",
+        "away": "Papa Bouba Diop once led Senegal’s shirt-dance celebration around a corner flag."
+      }
+    },
+    {
+      "matchId": "G057",
+      "rank": 57,
+      "group": "I",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-16T23:00:00+01:00",
+      "timeUk": "23:00 UK",
+      "timeEt": "18:00 ET",
+      "venue": {
+        "stadium": "Gillette Stadium",
+        "city": "Boston",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FOX"
+      },
+      "teamA": "IRQ",
+      "teamB": "NOR",
+      "weather": "24°C · sunny",
+      "h2h": "First meeting",
+      "odds": {
+        "match": {
+          "home": "10.00",
+          "draw": "6.10",
+          "away": "1.20"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "1.57"
+        },
+        "fgs": {
+          "name": "Haaland",
+          "odds": "2.90"
+        }
+      },
+      "facts": {
+        "home": "Iraq’s Lions of Mesopotamia nickname nods to Babylon’s ancient lion symbolism.",
+        "away": "Erling Haaland’s bedtime routine has included blue-light glasses and taped-mouth sleep."
+      }
+    },
+    {
+      "matchId": "G036",
+      "rank": 36,
+      "group": "J",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-17T02:00:00+01:00",
+      "timeUk": "02:00 UK",
+      "timeEt": "21:00 ET",
+      "venue": {
+        "stadium": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "ITV1",
+        "us": "FOX"
+      },
+      "teamA": "ARG",
+      "teamB": "ALG",
+      "weather": "25°C · partly cloudy",
+      "h2h": "Played 1 · 🇦🇷 1W 0D 0L · last 4-3 Argentina (2007)",
+      "odds": {
+        "match": {
+          "home": "1.94",
+          "draw": "2.43",
+          "away": "7.80"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "1.94"
+        },
+        "fgs": {
+          "name": "Messi",
+          "odds": "4.00"
+        }
+      },
+      "facts": {
+        "home": "Messi’s enormous dog Hulk once joined backyard rondos with his children.",
+        "away": "Algeria’s 1982 win over West Germany still helped reshape World Cup scheduling."
+      }
+    },
+    {
+      "matchId": "G060",
+      "rank": 60,
+      "group": "J",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-17T05:00:00+01:00",
+      "timeUk": "05:00 UK",
+      "timeEt": "00:00 ET",
+      "venue": {
+        "stadium": "Levi's Stadium",
+        "city": "San Francisco Bay Area",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FS1"
+      },
+      "teamA": "AUT",
+      "teamB": "JOR",
+      "weather": "16°C · cloudy",
+      "h2h": "First meeting",
+      "odds": {
+        "match": {
+          "home": "1.40",
+          "draw": "5.30",
+          "away": "9.05"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "1.77"
+        }
+      },
+      "facts": {
+        "home": "David Alaba celebrated Madrid’s comeback by wildly hoisting a folding chair.",
+        "away": "Jordan’s Al-Nashama nickname roughly means the chivalrous or brave ones."
       }
     }
   ],
   "news": {
-    "kicker": "REUTERS · TECHNOLOGY",
-    "headline": "Britain announces sweeping social media ban for under-16s",
-    "body": "Prime Minister Keir Starmer said Britain would ban under-16s from social media sites and add restrictions on gaming and livestreaming platforms. The government framed the move as a child-safety measure, while the policy places Britain among the countries tightening rules on young people’s online access.",
-    "source": "Source: Reuters, 15 Jun 2026"
+    "kicker": "REUTERS · ECONOMY",
+    "headline": "IMF says no global slowdown in sight, risks remain high",
+    "body": "IMF chief Kristalina Georgieva said the world economy is so far weathering recent Middle East shocks without clear signs of a global slowdown. She warned that renewed conflict or supply disruption could still threaten growth and inflation.",
+    "source": "Source: Reuters, 16 Jun 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

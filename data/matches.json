@@ -423,8 +423,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 0,
+      "scorers": "None",
+      "notes": []
+    },
     "quality": {
       "elo": 1869.0,
       "balance": 17.6,
@@ -449,8 +454,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 1,
+      "scorers": "Mohamed Hany 66' OG (BEL) · Emam Ashour 19' (EGY)",
+      "notes": []
+    },
     "quality": {
       "elo": 1791.0,
       "balance": 85.0,
@@ -475,8 +485,13 @@
       "uk": "ITV1",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 1,
+      "scorers": "Abdulelah Al-Amri 41' (KSA) · Maxi Araújo 80' (URU)",
+      "notes": []
+    },
     "quality": {
       "elo": 1772.0,
       "balance": 69.6,
@@ -501,8 +516,13 @@
       "uk": "BBC One",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 2,
+      "scorers": "Ramin Rezaeian 32', Mohammad Mohebbi 64' (IRN) · Elijah Just 7', 55' (NZL)",
+      "notes": []
+    },
     "quality": {
       "elo": 1620.0,
       "balance": 68.6,
