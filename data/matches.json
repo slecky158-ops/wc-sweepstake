@@ -547,8 +547,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 1,
+      "scorers": "Kylian Mbappé 66', 90+6' (FRA) · Bradley Barcola 82' (FRA) · Ibrahim Mbaye 90+5' (SEN)",
+      "notes": []
+    },
     "quality": {
       "elo": 1959.0,
       "balance": 70.3,
@@ -573,8 +578,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 4,
+      "scorers": "Aymen Hussein 39' (IRQ) · Erling Haaland 29', 43' (NOR) · Leo Østigård 76' (NOR) · Aymen Hussein 90+6' OG (NOR)",
+      "notes": []
+    },
     "quality": {
       "elo": 1753.0,
       "balance": 54.0,
@@ -599,8 +609,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 0,
+      "scorers": "Lionel Messi 17', 60', 76' (ARG)",
+      "notes": []
+    },
     "quality": {
       "elo": 1918.0,
       "balance": 43.6,
@@ -625,8 +640,13 @@
       "uk": "BBC One",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 1,
+      "scorers": "Romano Schmid 21' (AUT) · Ali Olwan 50' (JOR) · Yazan Al-Arab 76' OG (AUT) · Marko Arnautović 90+12' pen (AUT)",
+      "notes": []
+    },
     "quality": {
       "elo": 1679.0,
       "balance": 67.4,
