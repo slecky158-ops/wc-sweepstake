@@ -1428,19 +1428,19 @@
     "footerNote": "All times converted from official kickoffs"
   },
   "20260617": {
-    "generatedAt": "2026-06-17T12:22:20.375331+01:00",
+    "generatedAt": "2026-06-17T12:27:10.843705+01:00",
     "dateLong": "Wednesday, 17 June 2026",
     "dateDay": "Wed 17 Jun",
     "dateRest": "Tournament Day 7",
     "yesterdayCount": "4 matches",
     "todayCount": "4 matches",
     "yesterdayStoryline": {
-      "headline": "Messi, Haaland and Mbappé define Day 6",
-      "subtitle": "Groups I and J opened with heavyweight forwards shaping margins and early tables."
+      "headline": "Messi reaches Klose as favourites settle",
+      "subtitle": "Argentina’s captain matched the World Cup scoring record, while Mbappé and Haaland opened with doubles."
     },
     "todayStoryline": {
-      "headline": "Groups K and L move into view",
-      "subtitle": "Portugal and England start as favourites, while Uzbekistan’s debut gives the night a quieter edge."
+      "headline": "Portugal start, England revisit Croatia",
+      "subtitle": "Four openers stretch from Houston to Mexico City, with first meetings framing Group K."
     },
     "yesterday": [
       {
@@ -1469,8 +1469,8 @@
         "scorers": "Kylian Mbappé 66', 90+6' (FRA) · Bradley Barcola 82' (FRA) · Ibrahim Mbaye 90+5' (SEN)",
         "analysis": {
           "lines": [
-            "France needed patience before Mbappé’s second-half finishing broke Senegal’s resistance.",
-            "The win puts France level on points in Group I but behind Norway on goal difference."
+            "Senegal held France for an hour before Mbappé and Barcola punished tiring legs.",
+            "France join Norway on three points in Group I after the opening round."
           ],
           "source": "Sky Sports match report"
         }
@@ -1501,10 +1501,10 @@
         "scorers": "Aymen Hussein 39' (IRQ) · Erling Haaland 29', 43' (NOR) · Leo Østigård 76' (NOR) · Aymen Hussein 90+6' OG (NOR)",
         "analysis": {
           "lines": [
-            "Norway’s direct service gave Haaland early chances, though Iraq briefly exposed space down the right.",
-            "The margin sends Norway top of Group I after the opening round."
+            "Iraq competed well before errors and Haaland’s movement stretched the match away.",
+            "Norway sit level with France at the top of Group I."
           ],
-          "source": "TNT Sports live report"
+          "source": "Sports Mole match report"
         }
       },
       {
@@ -1530,11 +1530,11 @@
         "scoreA": 3,
         "scoreB": 0,
         "score": "3-0",
-        "scorers": "Lionel Messi 17', 60', 76' (ARG)",
+        "scorers": "Lionel Messi 16', 59', 75' (ARG)",
         "analysis": {
           "lines": [
-            "Argentina controlled territory and Messi supplied all three finishes, including two from range.",
-            "The holders lead Group J on goal difference after a clean opening win."
+            "Messi’s hat-trick turned a controlled Argentina performance into a record-equalling night.",
+            "Argentina lead Group J on goal difference after the first fixtures."
           ],
           "source": "AP match report"
         }
@@ -1562,11 +1562,11 @@
         "scoreA": 3,
         "scoreB": 1,
         "score": "3-1",
-        "scorers": "Romano Schmid 21' (AUT) · Ali Olwan 50' (JOR) · Yazan Al-Arab 76' OG (AUT) · Marko Arnautović 90+12' pen (AUT)",
+        "scorers": "Romano Schmid 20' (AUT) · Yazan Al-Arab 75' OG (AUT) · Marko Arnautović 101' pen (AUT) · Ali Olwan 49' (JOR)",
         "analysis": {
           "lines": [
-            "Jordan stayed in the contest after Olwan’s historic equaliser, but set pieces tilted the match.",
-            "Austria join Argentina on three points in Group J, behind only on goal difference."
+            "Jordan threatened after half-time, but Austria’s set-pieces and late penalty decided it.",
+            "Austria trail Argentina on goal difference in Group J."
           ],
           "source": "Cadena SER match report"
         }
@@ -1593,18 +1593,22 @@
         },
         "teamA": "POR",
         "teamB": "COD",
-        "weather": "28°C · thunderstorms",
+        "weather": "29°C · cloudy, thunderstorms possible",
         "h2h": "First meeting",
         "odds": {
           "match": {
-            "home": "1.29",
-            "draw": "5.75",
-            "away": "10.00"
+            "home": "1.33",
+            "draw": "5.69",
+            "away": "13.00"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "1.99"
           }
         },
         "facts": {
-          "home": "Ronaldo’s famous “Siu” celebration started in a 2013 friendly against Chelsea.",
-          "away": "DR Congo arrived in Houston wearing leopard-print suits and matching travel bags."
+          "home": "Pepe’s full name honours scientists Johannes Kepler and Charles Louis Alphonse Laveran.",
+          "away": "Mwepu Ilunga once charged from Zaire’s wall and booted Brazil’s free-kick away."
         }
       },
       {
@@ -1628,17 +1632,17 @@
         "teamA": "ENG",
         "teamB": "CRO",
         "weather": "34°C · partly sunny",
-        "h2h": "Played 11 · 🏴 6W 2D 3L · last 1-0 England (2021)",
+        "h2h": "Played 11 · 🏴 6W 2D 3L · last 1-0 ENG (2021)",
         "odds": {
           "match": {
-            "home": "1.73",
-            "draw": "3.80",
-            "away": "4.75"
+            "home": "1.78",
+            "draw": "3.85",
+            "away": "5.50"
           }
         },
         "facts": {
-          "home": "Bellingham’s “Wolf” celebration came from an England card-game joke with team staff.",
-          "away": "Modrić was filmed herding goats as a five-year-old in a Croatian wolf documentary."
+          "home": "Pickford has kept penalty tips taped to his water bottle for club and country.",
+          "away": "Croatia’s red-and-white checks also decorate the national coat of arms."
         }
       },
       {
@@ -1665,14 +1669,22 @@
         "h2h": "First meeting",
         "odds": {
           "match": {
-            "home": "2.15",
-            "draw": "3.50",
-            "away": "3.30"
+            "home": "2.34",
+            "draw": "3.40",
+            "away": "3.50"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "2.38"
+          },
+          "fgs": {
+            "name": "Antoine Semenyo",
+            "odds": "3.10"
           }
         },
         "facts": {
-          "home": "Asamoah Gyan recorded hiplife albums as “Baby Jet” between Black Stars goals.",
-          "away": "Felipe Baloy scored Panama’s first World Cup goal at 37 against England."
+          "home": "Kevin-Prince Boateng released a rap single under the name PRIN$$ Boateng.",
+          "away": "Panama’s 2018 qualification was celebrated with a presidentially declared national holiday."
         }
       },
       {
@@ -1699,22 +1711,22 @@
         "h2h": "First meeting",
         "odds": {
           "match": {
-            "home": "8.50",
-            "draw": "4.50",
+            "home": "9.65",
+            "draw": "4.78",
             "away": "1.40"
           }
         },
         "facts": {
-          "home": "Uzbekistan’s “White Wolves” hired 2006 Ballon d’Or winner Fabio Cannavaro as coach.",
-          "away": "Valderrama once dyed his famous golden perm bright pink for charity."
+          "home": "Abbosbek Fayzullaev became Uzbekistan’s second AFC Youth Player of the Year.",
+          "away": "René Higuita’s scorpion kick at Wembley remains Colombia’s ultimate goalkeeper party trick."
         }
       }
     ],
     "news": {
-      "kicker": "REUTERS · ECONOMY",
-      "headline": "Oil surge clouds global growth outlook",
-      "body": "Reuters reported that rising inflation and a roughly 30% jump in oil prices are weighing on global growth forecasts. Leaders of major economies are expected to discuss the strain, though a unified public blame line remains unlikely.",
-      "source": "Source: Reuters, 17 Jun 2026"
+      "kicker": "REUTERS · WORLD",
+      "headline": "Qinghai quake kills one, injures four",
+      "body": "A magnitude 6.3 earthquake struck China’s northwestern Qinghai province on Tuesday, killing at least one person and injuring four. Rescue teams searched affected areas after the shallow quake, with thousands of residents potentially exposed to shaking.",
+      "source": "Source: Reuters, 16 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"
   }
