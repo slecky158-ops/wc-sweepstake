@@ -232,6 +232,7 @@ sorted_keys = sorted(prev_archive.keys(), reverse=True)
 previous_news_headlines: list[str] = []
 previous_news_bodies: list[str] = []
 previous_facts_by_team: dict[str, list[str]] = {}
+previous_facts_all: list[tuple[str, str]] = []  # (team_code, fact_text) across all days
 previous_storyline_headlines: list[str] = []
 
 for k in sorted_keys:
@@ -249,8 +250,10 @@ for k in sorted_keys:
         facts = tm.get("facts") or {}
         if facts.get("home") and tm.get("teamA"):
             previous_facts_by_team.setdefault(tm["teamA"], []).append(facts["home"])
+            previous_facts_all.append((tm["teamA"], facts["home"]))
         if facts.get("away") and tm.get("teamB"):
             previous_facts_by_team.setdefault(tm["teamB"], []).append(facts["away"])
+            previous_facts_all.append((tm["teamB"], facts["away"]))
 
 # Truncate so prompt stays reasonably small even mid-tournament
 previous_news_headlines = previous_news_headlines[:30]
@@ -258,6 +261,7 @@ previous_news_bodies = previous_news_bodies[:10]
 previous_storyline_headlines = previous_storyline_headlines[:20]
 for code in previous_facts_by_team:
     previous_facts_by_team[code] = previous_facts_by_team[code][:8]
+previous_facts_all = previous_facts_all[:120]  # cap to keep prompt size sane
 
 # Build the per-team-fact blocklist string, only for teams playing today
 todays_team_codes = []
@@ -280,8 +284,11 @@ facts_blocklist = "\n".join(facts_blocklist_lines) or "  (none — first day for
 news_blocklist = "\n".join(f"  - {h}" for h in previous_news_headlines) or "  (none yet)"
 storylines_blocklist = "\n".join(f"  - {h}" for h in previous_storyline_headlines) or "  (none yet)"
 
+all_facts_blocklist = "\n".join(f"  - [{code}] {txt}" for code, txt in previous_facts_all) or "  (none yet)"
+
 print(f"  blocklist: {len(previous_news_headlines)} news headlines, "
-      f"{sum(len(v) for v in previous_facts_by_team.values())} prior team angles")
+      f"{len(previous_facts_all)} prior facts total, "
+      f"{sum(len(v) for v in previous_facts_by_team.values())} per-team angles")
 
 # ─── Ask OpenAI to enrich with storylines / facts / analysis / news ────
 
@@ -392,12 +399,19 @@ FACTS RULES (apply to every 'facts.home' and 'facts.away'):
 
 3. Use web search. Do not write a fact unless you can locate it in a real reporting source (BBC, Guardian, ESPN, Athletic, Sky, FIFA.com, mainstream tabloids like the Sun/Mail/Bild for the silly stuff). Never fabricate. If you cannot find a fun verifiable angle, fall back to a SURPRISING but verifiable historical trivia point.
 
-4. BAD examples (too long, too grim, too vague, or invented):
+4. NICKNAME BAN — "Team X is nicknamed Y" or "X's nickname is Y" is BANNED as the entire fact. Nicknames are bland filler unless paired with a genuinely surprising story (e.g. how the name came about, who coined it, when it changed). If the only thing you can find about a team is its nickname, dig harder — find an oddity instead. The following are all BANNED fact shapes:
+   - "Sweden's national team are nicknamed 'Blågult', meaning 'blue-yellow'."
+   - "Ivory Coast are nicknamed 'Les Éléphants', a long-standing national-team sobriquet."
+   - "Ecuador are nicknamed 'La Tri' after their yellow, blue and red tricolour flag."
+   - "Tunisia are nicknamed 'Eagles of Carthage', linking modern fans to ancient history."
+   - "Japan's 'Samurai Blue' was officially adopted by the JFA in 2006."
+
+5. BAD examples (too long, too grim, too vague, or invented):
    - "Germany was embroiled in a doping scandal with several players under suspicion." (vague, grim)
    - "Tunisia's 2023 football crisis peaked when federation president Wadie Jary was detained over alleged financial corruption." (too long, too grim — exactly the OLD style we left behind)
    - "Japan experienced significant disruption due to a managerial change in early 2026." (invented + boring)
 
-5. GOOD examples (THIS is the new target style — short, fun, one line):
+6. GOOD examples (THIS is the new target style — short, fun, one line):
    - GERMANY: "Joachim Löw was filmed picking his nose on live World Cup TV more than once in 2018."
    - CURAÇAO: "Curaçao is the smallest nation ever to qualify — population around 150,000, less than a London borough."
    - NETHERLANDS: "Memphis Depay once kept a pet lion called Trinity until animal-welfare groups convinced him otherwise."
@@ -406,8 +420,10 @@ FACTS RULES (apply to every 'facts.home' and 'facts.away'):
    - ECUADOR: "Ecuador play home qualifiers at 2,850m in Quito, leaving visiting teams gasping by halftime."
    - SWEDEN: "Zlatan Ibrahimović has held a taekwondo black belt since he was 17."
    - TUNISIA: "Tunisia were the first African nation to win a World Cup match, beating Mexico 3-1 in 1978."
+   - ARGENTINA: "Messi's enormous dog Hulk once joined backyard rondos with his children."
+   - AUSTRIA: "David Alaba celebrated Madrid's comeback by wildly hoisting a folding chair."
 
-6. NEVER reference an event after {now_uk.year} that you cannot verify from a real published source.
+7. NEVER reference an event after {now_uk.year} that you cannot verify from a real published source.
 
 NO-REPEAT RULES — these are hard rules, not preferences:
 
@@ -417,8 +433,11 @@ NO-REPEAT RULES — these are hard rules, not preferences:
 2. The yesterday/today storyline headlines should not duplicate these prior storyline headlines (rewording is fine if the underlying event is new; otherwise pick a fresh angle):
 {storylines_blocklist}
 
-3. The per-team 'facts' angles MUST NOT repeat any of these previously-used angles for the SAME team — pick a different scandal/feud/story each time (most-recent first):
+3. The per-team 'facts' angles MUST NOT repeat any of these previously-used angles for the SAME team — pick a different story each time (most-recent first):
 {facts_blocklist}
+
+4. ALL-FACTS NO-REPEAT — additionally, no fact you write today may duplicate or be a paraphrase of ANY fact previously used on this site, regardless of which team it was about. If a previous day used "Memphis Depay had a pet lion called Trinity" for Netherlands, you cannot reuse "Player X had a pet lion" for any other team. Read this list before writing:
+{all_facts_blocklist}
 """
 
 OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-5-mini")
