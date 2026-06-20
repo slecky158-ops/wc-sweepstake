@@ -919,8 +919,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 0,
+      "scorers": "Cameron Burgess 11' (OG AUS) · Alex Freeman 43' (USA)",
+      "notes": []
+    },
     "quality": {
       "elo": 1788.0,
       "balance": 93.6,
@@ -945,8 +950,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 1,
+      "scorers": "Ismael Saibari 2' (MAR)",
+      "notes": []
+    },
     "quality": {
       "elo": 1798.0,
       "balance": 88.6,
@@ -971,8 +981,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 0,
+      "scorers": "Matheus Cunha 23', Matheus Cunha 36', Vinícius Júnior 45+1' (BRA)",
+      "notes": []
+    },
     "quality": {
       "elo": 1761.0,
       "balance": 34.1,
@@ -997,8 +1012,13 @@
       "uk": "ITV1",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 1,
+      "scorers": "Matías Galarza 2' (PAR)",
+      "notes": []
+    },
     "quality": {
       "elo": 1780.0,
       "balance": 73.7,

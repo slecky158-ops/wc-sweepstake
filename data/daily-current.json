@@ -1,121 +1,19 @@
 {
-  "generatedAt": "2026-06-19T10:00:00+01:00",
-  "dateLong": "Friday, 19 June 2026",
-  "dateDay": "Fri 19 Jun",
-  "dateRest": "Tournament Day 9",
+  "generatedAt": "2026-06-20T13:16:50.617457+01:00",
+  "dateLong": "Saturday, 20 June 2026",
+  "dateDay": "Sat 20 Jun",
+  "dateRest": "Tournament Day 10",
   "yesterdayCount": "4 matches",
   "todayCount": "4 matches",
   "yesterdayStoryline": {
-    "headline": "David hat-trick powers Canada; late penalty rescues South Africa",
-    "subtitle": "Switzerland dominate Bosnia as Mexico secure early knockout spot in Group A"
+    "headline": "Early shocks in Groups C and D",
+    "subtitle": "Morocco, USA and Brazil secure crucial wins that reshape group order."
   },
   "todayStoryline": {
-    "headline": "Groups C and D resume with four crucial fixtures",
-    "subtitle": "USA seek momentum in Seattle; Brazil aim for Group C control in Philly"
+    "headline": "Crucial second-round tests across Groups E and F",
+    "subtitle": "Netherlands, Germany, Ecuador and Tunisia face defining fixtures for group positions."
   },
   "yesterday": [
-    {
-      "matchId": "G043",
-      "rank": 43,
-      "group": "A",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-18T17:00:00+01:00",
-      "timeUk": "17:00 UK",
-      "timeEt": "12:00 ET",
-      "venue": {
-        "stadium": "Mercedes-Benz Stadium",
-        "city": "Atlanta",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "BBC One",
-        "us": "FOX"
-      },
-      "teamA": "CZE",
-      "teamB": "RSA",
-      "scoreA": 1,
-      "scoreB": 1,
-      "score": "1-1",
-      "scorers": "Michal Sadílek 5' (CZE) · Teboho Mokoena 83' (RSA)"
-    },
-    {
-      "matchId": "G032",
-      "rank": 32,
-      "group": "B",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-18T20:00:00+01:00",
-      "timeUk": "20:00 UK",
-      "timeEt": "15:00 ET",
-      "venue": {
-        "stadium": "SoFi Stadium",
-        "city": "Los Angeles",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FOX"
-      },
-      "teamA": "SUI",
-      "teamB": "BIH",
-      "scoreA": 4,
-      "scoreB": 1,
-      "score": "4-1",
-      "scorers": "Johan Manzambi 74', Ruben Vargas 84', Johan Manzambi 90', Granit Xhaka 90+7' (SUI) · Edin Mahmic 90+3' (BIH)"
-    },
-    {
-      "matchId": "G047",
-      "rank": 47,
-      "group": "B",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-18T23:00:00+01:00",
-      "timeUk": "23:00 UK",
-      "timeEt": "18:00 ET",
-      "venue": {
-        "stadium": "BC Place",
-        "city": "Vancouver",
-        "country": "CA"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FS1"
-      },
-      "teamA": "CAN",
-      "teamB": "QAT",
-      "scoreA": 6,
-      "scoreB": 0,
-      "score": "6-0",
-      "scorers": "Cyle Larin 16', Jonathan David 29', Jonathan David 45+3', Nathan-Dylan Saliba 64', Mohamed Al-Mannai OG 75', Jonathan David 90+2' (CAN) · — (QAT)"
-    },
-    {
-      "matchId": "G014",
-      "rank": 14,
-      "group": "A",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-19T02:00:00+01:00",
-      "timeUk": "02:00 UK",
-      "timeEt": "21:00 ET",
-      "venue": {
-        "stadium": "Estadio Akron",
-        "city": "Guadalajara",
-        "country": "MX"
-      },
-      "broadcast": {
-        "uk": "BBC One",
-        "us": "FOX"
-      },
-      "teamA": "MEX",
-      "teamB": "KOR",
-      "scoreA": 1,
-      "scoreB": 0,
-      "score": "1-0",
-      "scorers": "Luis Romo 50' (MEX) · — (KOR)"
-    }
-  ],
-  "today": [
     {
       "matchId": "G016",
       "rank": 16,
@@ -136,11 +34,10 @@
       },
       "teamA": "USA",
       "teamB": "AUS",
-      "weather": "22°C",
-      "facts": {
-        "home": "The 1994 World Cup in the USA had the highest average attendance, about 69,000 per match.",
-        "away": "Tim Cahill famously shadow‑boxed the corner flag as his trademark goal celebration."
-      }
+      "scoreA": 2,
+      "scoreB": 0,
+      "score": "2-0",
+      "scorers": "Cameron Burgess 11' (OG AUS) · Alex Freeman 43' (USA)"
     },
     {
       "matchId": "G018",
@@ -162,11 +59,10 @@
       },
       "teamA": "SCO",
       "teamB": "MAR",
-      "weather": "23°C",
-      "facts": {
-        "home": "Scotland fans famously belt out 'Flower of Scotland' at every big away match.",
-        "away": "Morocco became the first African and Arab nation to reach a World Cup semi‑final in 2022."
-      }
+      "scoreA": 0,
+      "scoreB": 1,
+      "score": "0-1",
+      "scorers": "Ismael Saibari 2' (MAR)"
     },
     {
       "matchId": "G068",
@@ -188,11 +84,10 @@
       },
       "teamA": "BRA",
       "teamB": "HAI",
-      "weather": "26°C",
-      "facts": {
-        "home": "Pelé was named after Thomas Edison; his parents removed the 'i', recording him as Edson.",
-        "away": "Emmanuel 'Manno' Sanon famously ended Dino Zoff's long World Cup clean‑sheet run in 1974."
-      }
+      "scoreA": 3,
+      "scoreB": 0,
+      "score": "3-0",
+      "scorers": "Matheus Cunha 23', Matheus Cunha 36', Vinícius Júnior 45+1' (BRA)"
     },
     {
       "matchId": "G037",
@@ -214,18 +109,127 @@
       },
       "teamA": "TUR",
       "teamB": "PAR",
-      "weather": "17°C",
+      "scoreA": 0,
+      "scoreB": 1,
+      "score": "0-1",
+      "scorers": "Matías Galarza 2' (PAR)"
+    }
+  ],
+  "today": [
+    {
+      "matchId": "G015",
+      "rank": 15,
+      "group": "F",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-20T18:00:00+01:00",
+      "timeUk": "18:00 UK",
+      "timeEt": "13:00 ET",
+      "venue": {
+        "stadium": "NRG Stadium",
+        "city": "Houston",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FOX"
+      },
+      "teamA": "NED",
+      "teamB": "SWE",
+      "weather": "29°C · mostly cloudy · t-storms possible",
+      "h2h": "Played 20 · NED 9W 4D 7L · last NED 2-0 SWE (2017)",
       "facts": {
-        "home": "Hakan Şükür scored the fastest World Cup goal, after about 11 seconds, in 2002.",
-        "away": "José Luis Chilavert, Paraguay's keeper, was famous for scoring free‑kicks and penalties."
+        "home": "Johan Cruyff first performed the 'Cruyff Turn' at the 1974 World Cup.",
+        "away": "Sweden's national team are nicknamed 'Blågult', literally 'blue-yellow', used affectionately by fans."
+      }
+    },
+    {
+      "matchId": "G011",
+      "rank": 11,
+      "group": "E",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-20T21:00:00+01:00",
+      "timeUk": "21:00 UK",
+      "timeEt": "16:00 ET",
+      "venue": {
+        "stadium": "BMO Field",
+        "city": "Toronto",
+        "country": "CA"
+      },
+      "broadcast": {
+        "uk": "ITV1",
+        "us": "FOX"
+      },
+      "teamA": "GER",
+      "teamB": "CIV",
+      "weather": "22°C · mostly sunny · light cloud",
+      "h2h": "First meeting",
+      "facts": {
+        "home": "Manuel Neuer popularised the 'sweeper-keeper' role, often leaving his area to clear danger.",
+        "away": "Ivory Coast are nicknamed 'Les Éléphants' (The Elephants), a long-standing national team sobriquet."
+      }
+    },
+    {
+      "matchId": "G072",
+      "rank": 72,
+      "group": "E",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-21T01:00:00+01:00",
+      "timeUk": "01:00 UK",
+      "timeEt": "20:00 ET",
+      "venue": {
+        "stadium": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FS1"
+      },
+      "teamA": "ECU",
+      "teamB": "CUW",
+      "weather": "27°C · cloudy · warm evening",
+      "h2h": "First meeting",
+      "facts": {
+        "home": "Ecuador's national team are nicknamed 'La Tri' after their yellow, blue and red tricolour flag.",
+        "away": "Many Curaçao internationals were born in the Netherlands, reflecting the islands’ Dutch ties."
+      }
+    },
+    {
+      "matchId": "G029",
+      "rank": 29,
+      "group": "F",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-21T05:00:00+01:00",
+      "timeUk": "05:00 UK",
+      "timeEt": "00:00 ET",
+      "venue": {
+        "stadium": "Estadio BBVA",
+        "city": "Monterrey",
+        "country": "MX"
+      },
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FS1"
+      },
+      "teamA": "TUN",
+      "teamB": "JPN",
+      "weather": "24°C · cloudy · light showers possible",
+      "h2h": "Played 4 · TUN 1W 0D 3L · last JPN 2-0 (2025)",
+      "facts": {
+        "home": "Tunisia's national team are nicknamed 'Eagles of Carthage', linking modern fans to ancient history.",
+        "away": "Japan's national team are nicknamed 'Samurai Blue', a name officially adopted by the JFA in 2006."
       }
     }
   ],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "U.S. Senate advances emergency foreign‑aid package amid budget talks",
-    "body": "Senators moved forward with a bipartisan bill to approve emergency foreign assistance as budget negotiations continued. The measure would provide short‑term funding while negotiators hammer out a wider fiscal agreement.",
-    "source": "Source: Reuters, 19 Jun 2026"
+    "headline": "Iran says it will not hold nuclear talks while hostilities continue",
+    "body": "Iran has rejected talks on limiting its nuclear activities while military exchanges persist, officials said. The UN urged restraint and called for diplomatic channels to reduce the risk of wider conflict.",
+    "source": "Source: Reuters, 20 Jun 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

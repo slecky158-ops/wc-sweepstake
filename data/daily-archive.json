@@ -2267,5 +2267,240 @@
       "source": "Source: Reuters, 19 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260620": {
+    "generatedAt": "2026-06-20T13:16:50.617457+01:00",
+    "dateLong": "Saturday, 20 June 2026",
+    "dateDay": "Sat 20 Jun",
+    "dateRest": "Tournament Day 10",
+    "yesterdayCount": "4 matches",
+    "todayCount": "4 matches",
+    "yesterdayStoryline": {
+      "headline": "Early shocks in Groups C and D",
+      "subtitle": "Morocco, USA and Brazil secure crucial wins that reshape group order."
+    },
+    "todayStoryline": {
+      "headline": "Crucial second-round tests across Groups E and F",
+      "subtitle": "Netherlands, Germany, Ecuador and Tunisia face defining fixtures for group positions."
+    },
+    "yesterday": [
+      {
+        "matchId": "G016",
+        "rank": 16,
+        "group": "D",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-19T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "Lumen Field",
+          "city": "Seattle",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "USA",
+        "teamB": "AUS",
+        "scoreA": 2,
+        "scoreB": 0,
+        "score": "2-0",
+        "scorers": "Cameron Burgess 11' (OG AUS) · Alex Freeman 43' (USA)"
+      },
+      {
+        "matchId": "G018",
+        "rank": 18,
+        "group": "C",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-19T23:00:00+01:00",
+        "timeUk": "23:00 UK",
+        "timeEt": "18:00 ET",
+        "venue": {
+          "stadium": "Gillette Stadium",
+          "city": "Boston",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "SCO",
+        "teamB": "MAR",
+        "scoreA": 0,
+        "scoreB": 1,
+        "score": "0-1",
+        "scorers": "Ismael Saibari 2' (MAR)"
+      },
+      {
+        "matchId": "G068",
+        "rank": 68,
+        "group": "C",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-20T01:30:00+01:00",
+        "timeUk": "01:30 UK",
+        "timeEt": "20:30 ET",
+        "venue": {
+          "stadium": "Lincoln Financial Field",
+          "city": "Philadelphia",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "BRA",
+        "teamB": "HAI",
+        "scoreA": 3,
+        "scoreB": 0,
+        "score": "3-0",
+        "scorers": "Matheus Cunha 23', Matheus Cunha 36', Vinícius Júnior 45+1' (BRA)"
+      },
+      {
+        "matchId": "G037",
+        "rank": 37,
+        "group": "D",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-20T04:00:00+01:00",
+        "timeUk": "04:00 UK",
+        "timeEt": "23:00 ET",
+        "venue": {
+          "stadium": "Levi's Stadium",
+          "city": "San Francisco Bay Area",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FS1"
+        },
+        "teamA": "TUR",
+        "teamB": "PAR",
+        "scoreA": 0,
+        "scoreB": 1,
+        "score": "0-1",
+        "scorers": "Matías Galarza 2' (PAR)"
+      }
+    ],
+    "today": [
+      {
+        "matchId": "G015",
+        "rank": 15,
+        "group": "F",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-20T18:00:00+01:00",
+        "timeUk": "18:00 UK",
+        "timeEt": "13:00 ET",
+        "venue": {
+          "stadium": "NRG Stadium",
+          "city": "Houston",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "NED",
+        "teamB": "SWE",
+        "weather": "29°C · mostly cloudy · t-storms possible",
+        "h2h": "Played 20 · NED 9W 4D 7L · last NED 2-0 SWE (2017)",
+        "facts": {
+          "home": "Johan Cruyff first performed the 'Cruyff Turn' at the 1974 World Cup.",
+          "away": "Sweden's national team are nicknamed 'Blågult', literally 'blue-yellow', used affectionately by fans."
+        }
+      },
+      {
+        "matchId": "G011",
+        "rank": 11,
+        "group": "E",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-20T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "BMO Field",
+          "city": "Toronto",
+          "country": "CA"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "GER",
+        "teamB": "CIV",
+        "weather": "22°C · mostly sunny · light cloud",
+        "h2h": "First meeting",
+        "facts": {
+          "home": "Manuel Neuer popularised the 'sweeper-keeper' role, often leaving his area to clear danger.",
+          "away": "Ivory Coast are nicknamed 'Les Éléphants' (The Elephants), a long-standing national team sobriquet."
+        }
+      },
+      {
+        "matchId": "G072",
+        "rank": 72,
+        "group": "E",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-21T01:00:00+01:00",
+        "timeUk": "01:00 UK",
+        "timeEt": "20:00 ET",
+        "venue": {
+          "stadium": "Arrowhead Stadium",
+          "city": "Kansas City",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FS1"
+        },
+        "teamA": "ECU",
+        "teamB": "CUW",
+        "weather": "27°C · cloudy · warm evening",
+        "h2h": "First meeting",
+        "facts": {
+          "home": "Ecuador's national team are nicknamed 'La Tri' after their yellow, blue and red tricolour flag.",
+          "away": "Many Curaçao internationals were born in the Netherlands, reflecting the islands’ Dutch ties."
+        }
+      },
+      {
+        "matchId": "G029",
+        "rank": 29,
+        "group": "F",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-21T05:00:00+01:00",
+        "timeUk": "05:00 UK",
+        "timeEt": "00:00 ET",
+        "venue": {
+          "stadium": "Estadio BBVA",
+          "city": "Monterrey",
+          "country": "MX"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FS1"
+        },
+        "teamA": "TUN",
+        "teamB": "JPN",
+        "weather": "24°C · cloudy · light showers possible",
+        "h2h": "Played 4 · TUN 1W 0D 3L · last JPN 2-0 (2025)",
+        "facts": {
+          "home": "Tunisia's national team are nicknamed 'Eagles of Carthage', linking modern fans to ancient history.",
+          "away": "Japan's national team are nicknamed 'Samurai Blue', a name officially adopted by the JFA in 2006."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Iran says it will not hold nuclear talks while hostilities continue",
+      "body": "Iran has rejected talks on limiting its nuclear activities while military exchanges persist, officials said. The UN urged restraint and called for diplomatic channels to reduce the risk of wider conflict.",
+      "source": "Source: Reuters, 20 Jun 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
