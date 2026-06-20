@@ -48,7 +48,20 @@ ET_TZ = timezone(timedelta(hours=-4))  # EDT
 
 TOURNAMENT_START = datetime(2026, 6, 11, tzinfo=UK_TZ)
 
-now_uk = datetime.now(UK_TZ)
+# RUN_AS_OF lets us backfill a past day. Format: 'YYYY-MM-DD' or ISO datetime.
+# Useful when a cron failure leaves a gap that needs re-running with the
+# correct day window. In normal operation it is unset and we use real now.
+_run_as_of = os.environ.get("RUN_AS_OF")
+if _run_as_of:
+    if "T" in _run_as_of:
+        now_uk = datetime.fromisoformat(_run_as_of).astimezone(UK_TZ)
+    else:
+        # date-only: pin to 10:00 UK (safely past the 08:00 day boundary)
+        d = datetime.strptime(_run_as_of, "%Y-%m-%d")
+        now_uk = d.replace(hour=10, minute=0, tzinfo=UK_TZ)
+    print(f"  RUN_AS_OF override active: {now_uk.isoformat()}")
+else:
+    now_uk = datetime.now(UK_TZ)
 today_8am_uk = now_uk.replace(hour=8, minute=0, second=0, microsecond=0)
 yesterday_8am_uk = today_8am_uk - timedelta(days=1)
 tomorrow_8am_uk = today_8am_uk + timedelta(days=1)
@@ -406,7 +419,7 @@ NO-REPEAT RULES — these are hard rules, not preferences:
 {facts_blocklist}
 """
 
-OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-5.5")
+OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-5-mini")
 print(f"Calling OpenAI ({OPENAI_MODEL} + web_search_preview)…")
 
 try:

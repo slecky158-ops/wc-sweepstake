@@ -2036,5 +2036,236 @@
       "source": "Source: Reuters, 17 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260619": {
+    "generatedAt": "2026-06-19T10:00:00+01:00",
+    "dateLong": "Friday, 19 June 2026",
+    "dateDay": "Fri 19 Jun",
+    "dateRest": "Tournament Day 9",
+    "yesterdayCount": "4 matches",
+    "todayCount": "4 matches",
+    "yesterdayStoryline": {
+      "headline": "David hat-trick powers Canada; late penalty rescues South Africa",
+      "subtitle": "Switzerland dominate Bosnia as Mexico secure early knockout spot in Group A"
+    },
+    "todayStoryline": {
+      "headline": "Groups C and D resume with four crucial fixtures",
+      "subtitle": "USA seek momentum in Seattle; Brazil aim for Group C control in Philly"
+    },
+    "yesterday": [
+      {
+        "matchId": "G043",
+        "rank": 43,
+        "group": "A",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-18T17:00:00+01:00",
+        "timeUk": "17:00 UK",
+        "timeEt": "12:00 ET",
+        "venue": {
+          "stadium": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "CZE",
+        "teamB": "RSA",
+        "scoreA": 1,
+        "scoreB": 1,
+        "score": "1-1",
+        "scorers": "Michal Sadílek 5' (CZE) · Teboho Mokoena 83' (RSA)"
+      },
+      {
+        "matchId": "G032",
+        "rank": 32,
+        "group": "B",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-18T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "SoFi Stadium",
+          "city": "Los Angeles",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "SUI",
+        "teamB": "BIH",
+        "scoreA": 4,
+        "scoreB": 1,
+        "score": "4-1",
+        "scorers": "Johan Manzambi 74', Ruben Vargas 84', Johan Manzambi 90', Granit Xhaka 90+7' (SUI) · Edin Mahmic 90+3' (BIH)"
+      },
+      {
+        "matchId": "G047",
+        "rank": 47,
+        "group": "B",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-18T23:00:00+01:00",
+        "timeUk": "23:00 UK",
+        "timeEt": "18:00 ET",
+        "venue": {
+          "stadium": "BC Place",
+          "city": "Vancouver",
+          "country": "CA"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FS1"
+        },
+        "teamA": "CAN",
+        "teamB": "QAT",
+        "scoreA": 6,
+        "scoreB": 0,
+        "score": "6-0",
+        "scorers": "Cyle Larin 16', Jonathan David 29', Jonathan David 45+3', Nathan-Dylan Saliba 64', Mohamed Al-Mannai OG 75', Jonathan David 90+2' (CAN) · — (QAT)"
+      },
+      {
+        "matchId": "G014",
+        "rank": 14,
+        "group": "A",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-19T02:00:00+01:00",
+        "timeUk": "02:00 UK",
+        "timeEt": "21:00 ET",
+        "venue": {
+          "stadium": "Estadio Akron",
+          "city": "Guadalajara",
+          "country": "MX"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "MEX",
+        "teamB": "KOR",
+        "scoreA": 1,
+        "scoreB": 0,
+        "score": "1-0",
+        "scorers": "Luis Romo 50' (MEX) · — (KOR)"
+      }
+    ],
+    "today": [
+      {
+        "matchId": "G016",
+        "rank": 16,
+        "group": "D",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-19T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "Lumen Field",
+          "city": "Seattle",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "USA",
+        "teamB": "AUS",
+        "weather": "22°C",
+        "facts": {
+          "home": "The 1994 World Cup in the USA had the highest average attendance, about 69,000 per match.",
+          "away": "Tim Cahill famously shadow‑boxed the corner flag as his trademark goal celebration."
+        }
+      },
+      {
+        "matchId": "G018",
+        "rank": 18,
+        "group": "C",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-19T23:00:00+01:00",
+        "timeUk": "23:00 UK",
+        "timeEt": "18:00 ET",
+        "venue": {
+          "stadium": "Gillette Stadium",
+          "city": "Boston",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "SCO",
+        "teamB": "MAR",
+        "weather": "23°C",
+        "facts": {
+          "home": "Scotland fans famously belt out 'Flower of Scotland' at every big away match.",
+          "away": "Morocco became the first African and Arab nation to reach a World Cup semi‑final in 2022."
+        }
+      },
+      {
+        "matchId": "G068",
+        "rank": 68,
+        "group": "C",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-20T01:30:00+01:00",
+        "timeUk": "01:30 UK",
+        "timeEt": "20:30 ET",
+        "venue": {
+          "stadium": "Lincoln Financial Field",
+          "city": "Philadelphia",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "BRA",
+        "teamB": "HAI",
+        "weather": "26°C",
+        "facts": {
+          "home": "Pelé was named after Thomas Edison; his parents removed the 'i', recording him as Edson.",
+          "away": "Emmanuel 'Manno' Sanon famously ended Dino Zoff's long World Cup clean‑sheet run in 1974."
+        }
+      },
+      {
+        "matchId": "G037",
+        "rank": 37,
+        "group": "D",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-20T04:00:00+01:00",
+        "timeUk": "04:00 UK",
+        "timeEt": "23:00 ET",
+        "venue": {
+          "stadium": "Levi's Stadium",
+          "city": "San Francisco Bay Area",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FS1"
+        },
+        "teamA": "TUR",
+        "teamB": "PAR",
+        "weather": "17°C",
+        "facts": {
+          "home": "Hakan Şükür scored the fastest World Cup goal, after about 11 seconds, in 2002.",
+          "away": "José Luis Chilavert, Paraguay's keeper, was famous for scoring free‑kicks and penalties."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "U.S. Senate advances emergency foreign‑aid package amid budget talks",
+      "body": "Senators moved forward with a bipartisan bill to approve emergency foreign assistance as budget negotiations continued. The measure would provide short‑term funding while negotiators hammer out a wider fiscal agreement.",
+      "source": "Source: Reuters, 19 Jun 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

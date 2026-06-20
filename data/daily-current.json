@@ -1,149 +1,19 @@
 {
-  "generatedAt": "2026-06-18T12:04:27.172707+01:00",
-  "dateLong": "Thursday, 18 June 2026",
-  "dateDay": "Thu 18 Jun",
-  "dateRest": "Tournament Day 8",
+  "generatedAt": "2026-06-19T10:00:00+01:00",
+  "dateLong": "Friday, 19 June 2026",
+  "dateDay": "Fri 19 Jun",
+  "dateRest": "Tournament Day 9",
   "yesterdayCount": "4 matches",
   "todayCount": "4 matches",
   "yesterdayStoryline": {
-    "headline": "Colombia capitalise as Portugal stumble",
-    "subtitle": "Group K tilted late, while England and Ghana both opened Group L with wins."
+    "headline": "David hat-trick powers Canada; late penalty rescues South Africa",
+    "subtitle": "Switzerland dominate Bosnia as Mexico secure early knockout spot in Group A"
   },
   "todayStoryline": {
-    "headline": "Hosts Canada and Mexico return to centre stage",
-    "subtitle": "Groups A and B resume with home crowds, awkward matchups and little separation."
+    "headline": "Groups C and D resume with four crucial fixtures",
+    "subtitle": "USA seek momentum in Seattle; Brazil aim for Group C control in Philly"
   },
   "yesterday": [
-    {
-      "matchId": "G024",
-      "rank": 24,
-      "group": "K",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-17T18:00:00+01:00",
-      "timeUk": "18:00 UK",
-      "timeEt": "13:00 ET",
-      "venue": {
-        "stadium": "NRG Stadium",
-        "city": "Houston",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "BBC One",
-        "us": "FOX"
-      },
-      "teamA": "POR",
-      "teamB": "COD",
-      "scoreA": 1,
-      "scoreB": 1,
-      "score": "1-1",
-      "scorers": "João Neves 6' (POR) · Yoane Wissa 45+5' (COD)",
-      "analysis": {
-        "lines": [
-          "Portugal led early but control became sterile as DR Congo countered and attacked set pieces.",
-          "The draw left Group K open before Colombia took the lead later."
-        ],
-        "source": "Squawka match report"
-      }
-    },
-    {
-      "matchId": "G003",
-      "rank": 3,
-      "group": "L",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-17T21:00:00+01:00",
-      "timeUk": "21:00 UK",
-      "timeEt": "16:00 ET",
-      "venue": {
-        "stadium": "AT&T Stadium",
-        "city": "Dallas",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FOX"
-      },
-      "teamA": "ENG",
-      "teamB": "CRO",
-      "scoreA": 4,
-      "scoreB": 2,
-      "score": "4-2",
-      "scorers": "Harry Kane 10' pen, 42' (ENG) · Martin Baturina 36' (CRO) · Petar Musa 45+1' (CRO) · Jude Bellingham 47' (ENG) · Marcus Rashford 85' (ENG)",
-      "analysis": {
-        "lines": [
-          "England twice lost first-half leads, then accelerated after Tuchel urged a braver restart.",
-          "Kane levelled Lineker’s World Cup mark as England opened Group L with control."
-        ],
-        "source": "AP match report"
-      }
-    },
-    {
-      "matchId": "G042",
-      "rank": 42,
-      "group": "L",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-18T00:00:00+01:00",
-      "timeUk": "00:00 UK",
-      "timeEt": "19:00 ET",
-      "venue": {
-        "stadium": "BMO Field",
-        "city": "Toronto",
-        "country": "CA"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FS1"
-      },
-      "teamA": "GHA",
-      "teamB": "PAN",
-      "scoreA": 1,
-      "scoreB": 0,
-      "score": "1-0",
-      "scorers": "Caleb Yirenkyi 90+5' (GHA)",
-      "analysis": {
-        "lines": [
-          "Panama dragged Ghana into a tight, physical contest until stoppage time broke it.",
-          "Yirenkyi’s late goal gives Ghana early leverage in Group L."
-        ],
-        "source": "AFP match report"
-      }
-    },
-    {
-      "matchId": "G045",
-      "rank": 45,
-      "group": "K",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-18T03:00:00+01:00",
-      "timeUk": "03:00 UK",
-      "timeEt": "22:00 ET",
-      "venue": {
-        "stadium": "Estadio Azteca",
-        "city": "Mexico City",
-        "country": "MX"
-      },
-      "broadcast": {
-        "uk": "BBC One",
-        "us": "FS1"
-      },
-      "teamA": "UZB",
-      "teamB": "COL",
-      "scoreA": 1,
-      "scoreB": 3,
-      "score": "1-3",
-      "scorers": "Daniel Muñoz 40' (COL) · Abbosbek Fayzullaev 60' (UZB) · Luis Díaz 65' (COL) · Jaminton Campaz 90+9' (COL)",
-      "analysis": {
-        "lines": [
-          "Uzbekistan responded well after halftime, but Díaz’s quality restored Colombia’s edge quickly.",
-          "Colombia finished the night top of Group K after Portugal’s earlier draw."
-        ],
-        "source": "AFP match report"
-      }
-    }
-  ],
-  "today": [
     {
       "matchId": "G043",
       "rank": 43,
@@ -164,23 +34,10 @@
       },
       "teamA": "CZE",
       "teamB": "RSA",
-      "weather": "26°C · thunderstorms",
-      "h2h": "Played 1 · CZE 0W 1D 0L · last 2-2 South Africa (1997)",
-      "odds": {
-        "match": {
-          "home": "1.94",
-          "draw": "3.28",
-          "away": "4.01"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "1.99"
-        }
-      },
-      "facts": {
-        "home": "Petr Čech swapped football gloves for ice-hockey pads with Guildford Phoenix after retiring.",
-        "away": "Tshabalala’s 2010 opener came with a synchronised dance now baked into World Cup folklore."
-      }
+      "scoreA": 1,
+      "scoreB": 1,
+      "score": "1-1",
+      "scorers": "Michal Sadílek 5' (CZE) · Teboho Mokoena 83' (RSA)"
     },
     {
       "matchId": "G032",
@@ -202,23 +59,10 @@
       },
       "teamA": "SUI",
       "teamB": "BIH",
-      "weather": "22°C · mostly sunny",
-      "h2h": "Played 1 · SUI 0W 0D 1L · last 0-2 Bosnia (2016)",
-      "odds": {
-        "match": {
-          "home": "1.61",
-          "draw": "4.20",
-          "away": "6.25"
-        },
-        "extra": {
-          "label": "Embolo anytime",
-          "value": "3.00"
-        }
-      },
-      "facts": {
-        "home": "Shaqiri’s old ‘Alpine Messi’ nickname somehow shared shelf space with ‘magic dwarf’.",
-        "away": "Bosnia boss Sergej Barbarez went from Bundesliga goals to professional poker tables."
-      }
+      "scoreA": 4,
+      "scoreB": 1,
+      "score": "4-1",
+      "scorers": "Johan Manzambi 74', Ruben Vargas 84', Johan Manzambi 90', Granit Xhaka 90+7' (SUI) · Edin Mahmic 90+3' (BIH)"
     },
     {
       "matchId": "G047",
@@ -240,23 +84,10 @@
       },
       "teamA": "CAN",
       "teamB": "QAT",
-      "weather": "22°C · sunny",
-      "h2h": "Played 1 · CAN 1W 0D 0L · last 2-0 Canada (2022)",
-      "odds": {
-        "match": {
-          "home": "1.28",
-          "draw": "5.40",
-          "away": "9.80"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "1.88"
-        }
-      },
-      "facts": {
-        "home": "Alphonso Davies became football’s TikTok king with one-man Brooklyn Nine-Nine sketches.",
-        "away": "Qatar’s 2022 squad once spent a very unusual six months in camp together."
-      }
+      "scoreA": 6,
+      "scoreB": 0,
+      "score": "6-0",
+      "scorers": "Cyle Larin 16', Jonathan David 29', Jonathan David 45+3', Nathan-Dylan Saliba 64', Mohamed Al-Mannai OG 75', Jonathan David 90+2' (CAN) · — (QAT)"
     },
     {
       "matchId": "G014",
@@ -278,30 +109,123 @@
       },
       "teamA": "MEX",
       "teamB": "KOR",
-      "weather": "23°C · cloudy",
-      "h2h": "Last five · MEX 3W 2D 0L · last 2-2 Mexico (2025)",
-      "odds": {
-        "match": {
-          "home": "2.08",
-          "draw": "3.45",
-          "away": "4.35"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "2.44"
-        }
+      "scoreA": 1,
+      "scoreB": 0,
+      "score": "1-0",
+      "scorers": "Luis Romo 50' (MEX) · — (KOR)"
+    }
+  ],
+  "today": [
+    {
+      "matchId": "G016",
+      "rank": 16,
+      "group": "D",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-19T20:00:00+01:00",
+      "timeUk": "20:00 UK",
+      "timeEt": "15:00 ET",
+      "venue": {
+        "stadium": "Lumen Field",
+        "city": "Seattle",
+        "country": "US"
       },
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FOX"
+      },
+      "teamA": "USA",
+      "teamB": "AUS",
+      "weather": "22°C",
       "facts": {
-        "home": "Memo Ochoa once had to outlive a bizarre internet hoax about six fingers.",
-        "away": "Son Heung-min completed military training and reportedly won the best-trainee award."
+        "home": "The 1994 World Cup in the USA had the highest average attendance, about 69,000 per match.",
+        "away": "Tim Cahill famously shadow‑boxed the corner flag as his trademark goal celebration."
+      }
+    },
+    {
+      "matchId": "G018",
+      "rank": 18,
+      "group": "C",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-19T23:00:00+01:00",
+      "timeUk": "23:00 UK",
+      "timeEt": "18:00 ET",
+      "venue": {
+        "stadium": "Gillette Stadium",
+        "city": "Boston",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "ITV1",
+        "us": "FOX"
+      },
+      "teamA": "SCO",
+      "teamB": "MAR",
+      "weather": "23°C",
+      "facts": {
+        "home": "Scotland fans famously belt out 'Flower of Scotland' at every big away match.",
+        "away": "Morocco became the first African and Arab nation to reach a World Cup semi‑final in 2022."
+      }
+    },
+    {
+      "matchId": "G068",
+      "rank": 68,
+      "group": "C",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-20T01:30:00+01:00",
+      "timeUk": "01:30 UK",
+      "timeEt": "20:30 ET",
+      "venue": {
+        "stadium": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "ITV1",
+        "us": "FOX"
+      },
+      "teamA": "BRA",
+      "teamB": "HAI",
+      "weather": "26°C",
+      "facts": {
+        "home": "Pelé was named after Thomas Edison; his parents removed the 'i', recording him as Edson.",
+        "away": "Emmanuel 'Manno' Sanon famously ended Dino Zoff's long World Cup clean‑sheet run in 1974."
+      }
+    },
+    {
+      "matchId": "G037",
+      "rank": 37,
+      "group": "D",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-20T04:00:00+01:00",
+      "timeUk": "04:00 UK",
+      "timeEt": "23:00 ET",
+      "venue": {
+        "stadium": "Levi's Stadium",
+        "city": "San Francisco Bay Area",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "ITV1",
+        "us": "FS1"
+      },
+      "teamA": "TUR",
+      "teamB": "PAR",
+      "weather": "17°C",
+      "facts": {
+        "home": "Hakan Şükür scored the fastest World Cup goal, after about 11 seconds, in 2002.",
+        "away": "José Luis Chilavert, Paraguay's keeper, was famous for scoring free‑kicks and penalties."
       }
     }
   ],
   "news": {
-    "kicker": "REUTERS · ECONOMY",
-    "headline": "G7 seeks critical-minerals shield against China reliance",
-    "body": "G7 leaders worked on a statement aimed at reducing Western dependence on China for critical minerals. The plan under discussion included measures to protect investment and guard against market pressure.",
-    "source": "Source: Reuters, 17 Jun 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "U.S. Senate advances emergency foreign‑aid package amid budget talks",
+    "body": "Senators moved forward with a bipartisan bill to approve emergency foreign assistance as budget negotiations continued. The measure would provide short‑term funding while negotiators hammer out a wider fiscal agreement.",
+    "source": "Source: Reuters, 19 Jun 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

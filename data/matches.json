@@ -795,8 +795,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 1,
+      "scorers": "Michal Sadílek 5' (CZE) · Teboho Mokoena 83' (RSA)",
+      "notes": []
+    },
     "quality": {
       "elo": 1647.0,
       "balance": 91.0,
@@ -821,8 +826,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 4,
+      "scoreB": 1,
+      "scorers": "Johan Manzambi 74', Ruben Vargas 84', Johan Manzambi 90', Granit Xhaka 90+7' (SUI) · Edin Mahmic 90+3' (BIH)",
+      "notes": []
+    },
     "quality": {
       "elo": 1793.0,
       "balance": 72.1,
@@ -847,8 +857,13 @@
       "uk": "ITV1",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 6,
+      "scoreB": 0,
+      "scorers": "Cyle Larin 16', Jonathan David 29', Jonathan David 45+3', Nathan-Dylan Saliba 64', Mohamed Al-Mannai OG 75', Jonathan David 90+2' (CAN) · — (QAT)",
+      "notes": []
+    },
     "quality": {
       "elo": 1620.0,
       "balance": 94.3,
@@ -873,8 +888,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 0,
+      "scorers": "Luis Romo 50' (MEX) · — (KOR)",
+      "notes": []
+    },
     "quality": {
       "elo": 1800.0,
       "balance": 94.3,
