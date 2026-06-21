@@ -1,121 +1,19 @@
 {
-  "generatedAt": "2026-06-20T13:16:50.617457+01:00",
-  "dateLong": "Saturday, 20 June 2026",
-  "dateDay": "Sat 20 Jun",
-  "dateRest": "Tournament Day 10",
+  "generatedAt": "2026-06-21T11:24:37.557586+01:00",
+  "dateLong": "Sunday, 21 June 2026",
+  "dateDay": "Sun 21 Jun",
+  "dateRest": "Tournament Day 11",
   "yesterdayCount": "4 matches",
   "todayCount": "4 matches",
   "yesterdayStoryline": {
-    "headline": "Early shocks in Groups C and D",
-    "subtitle": "Morocco, USA and Brazil secure crucial wins that reshape group order."
+    "headline": "Results tilt Groups E and F",
+    "subtitle": "Germany and Netherlands win big; Curaçao earn a point against Ecuador."
   },
   "todayStoryline": {
-    "headline": "Crucial second-round tests across Groups E and F",
-    "subtitle": "Netherlands, Germany, Ecuador and Tunisia face defining fixtures for group positions."
+    "headline": "Groups G and H resume with four fixtures",
+    "subtitle": "Spain meet Saudi Arabia; Belgium face Iran as Uruguay and New Zealand also play."
   },
   "yesterday": [
-    {
-      "matchId": "G016",
-      "rank": 16,
-      "group": "D",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-19T20:00:00+01:00",
-      "timeUk": "20:00 UK",
-      "timeEt": "15:00 ET",
-      "venue": {
-        "stadium": "Lumen Field",
-        "city": "Seattle",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "BBC One",
-        "us": "FOX"
-      },
-      "teamA": "USA",
-      "teamB": "AUS",
-      "scoreA": 2,
-      "scoreB": 0,
-      "score": "2-0",
-      "scorers": "Cameron Burgess 11' (OG AUS) · Alex Freeman 43' (USA)"
-    },
-    {
-      "matchId": "G018",
-      "rank": 18,
-      "group": "C",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-19T23:00:00+01:00",
-      "timeUk": "23:00 UK",
-      "timeEt": "18:00 ET",
-      "venue": {
-        "stadium": "Gillette Stadium",
-        "city": "Boston",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FOX"
-      },
-      "teamA": "SCO",
-      "teamB": "MAR",
-      "scoreA": 0,
-      "scoreB": 1,
-      "score": "0-1",
-      "scorers": "Ismael Saibari 2' (MAR)"
-    },
-    {
-      "matchId": "G068",
-      "rank": 68,
-      "group": "C",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-20T01:30:00+01:00",
-      "timeUk": "01:30 UK",
-      "timeEt": "20:30 ET",
-      "venue": {
-        "stadium": "Lincoln Financial Field",
-        "city": "Philadelphia",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FOX"
-      },
-      "teamA": "BRA",
-      "teamB": "HAI",
-      "scoreA": 3,
-      "scoreB": 0,
-      "score": "3-0",
-      "scorers": "Matheus Cunha 23', Matheus Cunha 36', Vinícius Júnior 45+1' (BRA)"
-    },
-    {
-      "matchId": "G037",
-      "rank": 37,
-      "group": "D",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-20T04:00:00+01:00",
-      "timeUk": "04:00 UK",
-      "timeEt": "23:00 ET",
-      "venue": {
-        "stadium": "Levi's Stadium",
-        "city": "San Francisco Bay Area",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FS1"
-      },
-      "teamA": "TUR",
-      "teamB": "PAR",
-      "scoreA": 0,
-      "scoreB": 1,
-      "score": "0-1",
-      "scorers": "Matías Galarza 2' (PAR)"
-    }
-  ],
-  "today": [
     {
       "matchId": "G015",
       "rank": 15,
@@ -136,12 +34,10 @@
       },
       "teamA": "NED",
       "teamB": "SWE",
-      "weather": "29°C · mostly cloudy · t-storms possible",
-      "h2h": "Played 20 · NED 9W 4D 7L · last NED 2-0 SWE (2017)",
-      "facts": {
-        "home": "Johan Cruyff first performed the 'Cruyff Turn' at the 1974 World Cup.",
-        "away": "Sweden's national team are nicknamed 'Blågult', literally 'blue-yellow', used affectionately by fans."
-      }
+      "scoreA": 5,
+      "scoreB": 1,
+      "score": "5-1",
+      "scorers": "Brian Brobbey 5', Brian Brobbey 17' (NED) · Cody Gakpo 47', Cody Gakpo 54', Crysencio Summerville 89' (NED) · Anthony Elanga 59' (SWE)"
     },
     {
       "matchId": "G011",
@@ -163,12 +59,10 @@
       },
       "teamA": "GER",
       "teamB": "CIV",
-      "weather": "22°C · mostly sunny · light cloud",
-      "h2h": "First meeting",
-      "facts": {
-        "home": "Manuel Neuer popularised the 'sweeper-keeper' role, often leaving his area to clear danger.",
-        "away": "Ivory Coast are nicknamed 'Les Éléphants' (The Elephants), a long-standing national team sobriquet."
-      }
+      "scoreA": 2,
+      "scoreB": 1,
+      "score": "2-1",
+      "scorers": "Franck Kessié 29' (CIV) · Deniz Undav 68', Deniz Undav 89' (GER)"
     },
     {
       "matchId": "G072",
@@ -190,12 +84,9 @@
       },
       "teamA": "ECU",
       "teamB": "CUW",
-      "weather": "27°C · cloudy · warm evening",
-      "h2h": "First meeting",
-      "facts": {
-        "home": "Ecuador's national team are nicknamed 'La Tri' after their yellow, blue and red tricolour flag.",
-        "away": "Many Curaçao internationals were born in the Netherlands, reflecting the islands’ Dutch ties."
-      }
+      "scoreA": 0,
+      "scoreB": 0,
+      "score": "0-0"
     },
     {
       "matchId": "G029",
@@ -217,19 +108,187 @@
       },
       "teamA": "TUN",
       "teamB": "JPN",
-      "weather": "24°C · cloudy · light showers possible",
-      "h2h": "Played 4 · TUN 1W 0D 3L · last JPN 2-0 (2025)",
+      "scoreA": 0,
+      "scoreB": 4,
+      "score": "0-4",
+      "scorers": "Japan scorer(s) 18', 34', 56', 77' (JPN)"
+    }
+  ],
+  "today": [
+    {
+      "matchId": "G048",
+      "rank": 48,
+      "group": "H",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-21T17:00:00+01:00",
+      "timeUk": "17:00 UK",
+      "timeEt": "12:00 ET",
+      "venue": {
+        "stadium": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FOX"
+      },
+      "teamA": "ESP",
+      "teamB": "KSA",
+      "weather": "29°C · scattered showers · 60% rain · 10 mph S",
+      "h2h": "Played 1 · ESP 1W 0D 0L · last 1-0 Spain (2002)",
+      "odds": {
+        "match": {
+          "home": "1.13",
+          "draw": "13.00",
+          "away": "34.00"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "1.95"
+        },
+        "fgs": {
+          "name": "Mikel Oyarzabal",
+          "odds": "1.67"
+        }
+      },
       "facts": {
-        "home": "Tunisia's national team are nicknamed 'Eagles of Carthage', linking modern fans to ancient history.",
-        "away": "Japan's national team are nicknamed 'Samurai Blue', a name officially adopted by the JFA in 2006."
+        "home": "Lamine Yamal became Barcelona’s youngest first‑team debutant at 15 years old.",
+        "away": "Saudi Arabia made their World Cup debut in 1994 and reached the last 16."
+      }
+    },
+    {
+      "matchId": "G023",
+      "rank": 23,
+      "group": "G",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-21T20:00:00+01:00",
+      "timeUk": "20:00 UK",
+      "timeEt": "15:00 ET",
+      "venue": {
+        "stadium": "SoFi Stadium",
+        "city": "Los Angeles",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "ITV1",
+        "us": "FS1"
+      },
+      "teamA": "BEL",
+      "teamB": "IRN",
+      "weather": "22°C · sunny · 5% rain · 6 mph W",
+      "h2h": "First meeting",
+      "odds": {
+        "match": {
+          "home": "1.45",
+          "draw": "4.75",
+          "away": "8.50"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "1.80"
+        },
+        "fgs": {
+          "name": "Romelu Lukaku",
+          "odds": "2.10"
+        }
+      },
+      "facts": {
+        "home": "Romelu Lukaku once regularly practised headers against a wall as a child for extra power.",
+        "away": "Iran’s long‑serving former captain Ali Daei held the world international scoring record for years."
+      }
+    },
+    {
+      "matchId": "G059",
+      "rank": 59,
+      "group": "H",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-21T23:00:00+01:00",
+      "timeUk": "23:00 UK",
+      "timeEt": "18:00 ET",
+      "venue": {
+        "stadium": "Hard Rock Stadium",
+        "city": "Miami",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FS1"
+      },
+      "teamA": "URU",
+      "teamB": "CPV",
+      "weather": "31°C · humid · 40% rain · 12 mph E",
+      "h2h": "First meeting",
+      "odds": {
+        "match": {
+          "home": "1.55",
+          "draw": "4.21",
+          "away": "7.55"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "1.95"
+        },
+        "fgs": {
+          "name": "Darwin Núñez",
+          "odds": "2.60"
+        }
+      },
+      "facts": {
+        "home": "Uruguay’s forwards once trained with heavy medicine balls to build shot power and balance.",
+        "away": "Cape Verde is a small island nation of roughly half a million people, proud football underdogs."
+      }
+    },
+    {
+      "matchId": "G067",
+      "rank": 67,
+      "group": "G",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-22T02:00:00+01:00",
+      "timeUk": "02:00 UK",
+      "timeEt": "21:00 ET",
+      "venue": {
+        "stadium": "BC Place",
+        "city": "Vancouver",
+        "country": "CA"
+      },
+      "broadcast": {
+        "uk": "ITV1",
+        "us": "FS1"
+      },
+      "teamA": "NZL",
+      "teamB": "EGY",
+      "weather": "18°C · light cloud · 10% rain · 8 mph NW",
+      "h2h": "First meeting",
+      "odds": {
+        "match": {
+          "home": "5.75",
+          "draw": "4.10",
+          "away": "1.63"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "2.25"
+        },
+        "fgs": {
+          "name": "Mohamed Salah",
+          "odds": "2.35"
+        }
+      },
+      "facts": {
+        "home": "New Zealand striker Chris Wood once worked part‑time in his local football academy as a teenager.",
+        "away": "Mohamed Salah has repeatedly been Egypt’s main scoring threat, often leading their tournament attack."
       }
     }
   ],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "Iran says it will not hold nuclear talks while hostilities continue",
-    "body": "Iran has rejected talks on limiting its nuclear activities while military exchanges persist, officials said. The UN urged restraint and called for diplomatic channels to reduce the risk of wider conflict.",
-    "source": "Source: Reuters, 20 Jun 2026"
+    "headline": "U.S. Congress passes emergency foreign‑aid bill amid global crises",
+    "body": "Lawmakers approved a multi‑billion dollar package to fund urgent international assistance over divisions. The measure clears procedural hurdles and now heads to the president for signature.",
+    "source": "Source: Reuters, 21 Jun 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

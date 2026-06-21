@@ -1043,8 +1043,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 5,
+      "scoreB": 1,
+      "scorers": "Brian Brobbey 5', Brian Brobbey 17' (NED) · Cody Gakpo 47', Cody Gakpo 54', Crysencio Summerville 89' (NED) · Anthony Elanga 59' (SWE)",
+      "notes": []
+    },
     "quality": {
       "elo": 1868.0,
       "balance": 77.0,
@@ -1069,8 +1074,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 1,
+      "scorers": "Franck Kessié 29' (CIV) · Deniz Undav 68', Deniz Undav 89' (GER)",
+      "notes": []
+    },
     "quality": {
       "elo": 1866.0,
       "balance": 81.1,
@@ -1095,8 +1105,13 @@
       "uk": "BBC One",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 0,
+      "scorers": "",
+      "notes": []
+    },
     "quality": {
       "elo": 1709.0,
       "balance": 34.6,
@@ -1121,8 +1136,13 @@
       "uk": "BBC One",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 4,
+      "scorers": "Japan scorer(s) 18', 34', 56', 77' (JPN)",
+      "notes": []
+    },
     "quality": {
       "elo": 1784.0,
       "balance": 76.9,
