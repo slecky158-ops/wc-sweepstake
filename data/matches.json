@@ -1167,8 +1167,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 4,
+      "scoreB": 0,
+      "scorers": "Lamine Yamal 10' (ESP) · Mikel Oyarzabal 21', 24' (ESP) · Hassan Al‑Tambakti OG 49' (KSA)",
+      "notes": []
+    },
     "quality": {
       "elo": 1911.0,
       "balance": 29.7,
@@ -1193,8 +1198,15 @@
       "uk": "ITV1",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 0,
+      "scorers": "",
+      "notes": [
+        "🟥 Nathan Ngoy 66' (BEL)"
+      ]
+    },
     "quality": {
       "elo": 1787.0,
       "balance": 83.9,
@@ -1219,8 +1231,13 @@
       "uk": "BBC One",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 2,
+      "scorers": "Kevin Pina 21' (CPV) · Maximiliano Araújo 44' (URU) · Agustín Canobbio 45+6' (URU) · Hélio Varela 61' (CPV)",
+      "notes": []
+    },
     "quality": {
       "elo": 1729.0,
       "balance": 57.4,
@@ -1245,8 +1262,13 @@
       "uk": "ITV1",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 3,
+      "scorers": "Finn Surman 15' (NZL) · Mostafa Zico 52' (EGY) · Mohamed Salah 64' (EGY) · Trezeguet 79' (EGY)",
+      "notes": []
+    },
     "quality": {
       "elo": 1624.0,
       "balance": 67.4,

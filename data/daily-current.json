@@ -1,120 +1,19 @@
 {
-  "generatedAt": "2026-06-21T11:24:37.557586+01:00",
-  "dateLong": "Sunday, 21 June 2026",
-  "dateDay": "Sun 21 Jun",
-  "dateRest": "Tournament Day 11",
+  "generatedAt": "2026-06-22T13:42:03.542470+01:00",
+  "dateLong": "Monday, 22 June 2026",
+  "dateDay": "Mon 22 Jun",
+  "dateRest": "Tournament Day 12",
   "yesterdayCount": "4 matches",
   "todayCount": "4 matches",
   "yesterdayStoryline": {
-    "headline": "Results tilt Groups E and F",
-    "subtitle": "Germany and Netherlands win big; Curaçao earn a point against Ecuador."
+    "headline": "Spain routs Saudi; Group G drama continues",
+    "subtitle": "Spain’s 4-0 statement win reshapes Group H; draws and Egypt’s victory shift Group G dynamics"
   },
   "todayStoryline": {
-    "headline": "Groups G and H resume with four fixtures",
-    "subtitle": "Spain meet Saudi Arabia; Belgium face Iran as Uruguay and New Zealand also play."
+    "headline": "Heavyweights meet in Groups I and J",
+    "subtitle": "Argentina and France face second‑game tests as late kickoffs stretch from Dallas to San Francisco"
   },
   "yesterday": [
-    {
-      "matchId": "G015",
-      "rank": 15,
-      "group": "F",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-20T18:00:00+01:00",
-      "timeUk": "18:00 UK",
-      "timeEt": "13:00 ET",
-      "venue": {
-        "stadium": "NRG Stadium",
-        "city": "Houston",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "BBC One",
-        "us": "FOX"
-      },
-      "teamA": "NED",
-      "teamB": "SWE",
-      "scoreA": 5,
-      "scoreB": 1,
-      "score": "5-1",
-      "scorers": "Brian Brobbey 5', Brian Brobbey 17' (NED) · Cody Gakpo 47', Cody Gakpo 54', Crysencio Summerville 89' (NED) · Anthony Elanga 59' (SWE)"
-    },
-    {
-      "matchId": "G011",
-      "rank": 11,
-      "group": "E",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-20T21:00:00+01:00",
-      "timeUk": "21:00 UK",
-      "timeEt": "16:00 ET",
-      "venue": {
-        "stadium": "BMO Field",
-        "city": "Toronto",
-        "country": "CA"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FOX"
-      },
-      "teamA": "GER",
-      "teamB": "CIV",
-      "scoreA": 2,
-      "scoreB": 1,
-      "score": "2-1",
-      "scorers": "Franck Kessié 29' (CIV) · Deniz Undav 68', Deniz Undav 89' (GER)"
-    },
-    {
-      "matchId": "G072",
-      "rank": 72,
-      "group": "E",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-21T01:00:00+01:00",
-      "timeUk": "01:00 UK",
-      "timeEt": "20:00 ET",
-      "venue": {
-        "stadium": "Arrowhead Stadium",
-        "city": "Kansas City",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "BBC One",
-        "us": "FS1"
-      },
-      "teamA": "ECU",
-      "teamB": "CUW",
-      "scoreA": 0,
-      "scoreB": 0,
-      "score": "0-0"
-    },
-    {
-      "matchId": "G029",
-      "rank": 29,
-      "group": "F",
-      "stage": "group",
-      "round": null,
-      "kickoffUk": "2026-06-21T05:00:00+01:00",
-      "timeUk": "05:00 UK",
-      "timeEt": "00:00 ET",
-      "venue": {
-        "stadium": "Estadio BBVA",
-        "city": "Monterrey",
-        "country": "MX"
-      },
-      "broadcast": {
-        "uk": "BBC One",
-        "us": "FS1"
-      },
-      "teamA": "TUN",
-      "teamB": "JPN",
-      "scoreA": 0,
-      "scoreB": 4,
-      "score": "0-4",
-      "scorers": "Japan scorer(s) 18', 34', 56', 77' (JPN)"
-    }
-  ],
-  "today": [
     {
       "matchId": "G048",
       "rank": 48,
@@ -135,27 +34,10 @@
       },
       "teamA": "ESP",
       "teamB": "KSA",
-      "weather": "29°C · scattered showers · 60% rain · 10 mph S",
-      "h2h": "Played 1 · ESP 1W 0D 0L · last 1-0 Spain (2002)",
-      "odds": {
-        "match": {
-          "home": "1.13",
-          "draw": "13.00",
-          "away": "34.00"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "1.95"
-        },
-        "fgs": {
-          "name": "Mikel Oyarzabal",
-          "odds": "1.67"
-        }
-      },
-      "facts": {
-        "home": "Lamine Yamal became Barcelona’s youngest first‑team debutant at 15 years old.",
-        "away": "Saudi Arabia made their World Cup debut in 1994 and reached the last 16."
-      }
+      "scoreA": 4,
+      "scoreB": 0,
+      "score": "4-0",
+      "scorers": "Lamine Yamal 10' (ESP) · Mikel Oyarzabal 21', 24' (ESP) · Hassan Al‑Tambakti OG 49' (KSA)"
     },
     {
       "matchId": "G023",
@@ -177,27 +59,10 @@
       },
       "teamA": "BEL",
       "teamB": "IRN",
-      "weather": "22°C · sunny · 5% rain · 6 mph W",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "1.45",
-          "draw": "4.75",
-          "away": "8.50"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "1.80"
-        },
-        "fgs": {
-          "name": "Romelu Lukaku",
-          "odds": "2.10"
-        }
-      },
-      "facts": {
-        "home": "Romelu Lukaku once regularly practised headers against a wall as a child for extra power.",
-        "away": "Iran’s long‑serving former captain Ali Daei held the world international scoring record for years."
-      }
+      "scoreA": 0,
+      "scoreB": 0,
+      "score": "0-0",
+      "note": "🟥 Nathan Ngoy 66' (BEL)"
     },
     {
       "matchId": "G059",
@@ -219,27 +84,10 @@
       },
       "teamA": "URU",
       "teamB": "CPV",
-      "weather": "31°C · humid · 40% rain · 12 mph E",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "1.55",
-          "draw": "4.21",
-          "away": "7.55"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "1.95"
-        },
-        "fgs": {
-          "name": "Darwin Núñez",
-          "odds": "2.60"
-        }
-      },
-      "facts": {
-        "home": "Uruguay’s forwards once trained with heavy medicine balls to build shot power and balance.",
-        "away": "Cape Verde is a small island nation of roughly half a million people, proud football underdogs."
-      }
+      "scoreA": 2,
+      "scoreB": 2,
+      "score": "2-2",
+      "scorers": "Kevin Pina 21' (CPV) · Maximiliano Araújo 44' (URU) · Agustín Canobbio 45+6' (URU) · Hélio Varela 61' (CPV)"
     },
     {
       "matchId": "G067",
@@ -261,34 +109,103 @@
       },
       "teamA": "NZL",
       "teamB": "EGY",
-      "weather": "18°C · light cloud · 10% rain · 8 mph NW",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "5.75",
-          "draw": "4.10",
-          "away": "1.63"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "2.25"
-        },
-        "fgs": {
-          "name": "Mohamed Salah",
-          "odds": "2.35"
-        }
+      "scoreA": 1,
+      "scoreB": 3,
+      "score": "1-3",
+      "scorers": "Finn Surman 15' (NZL) · Mostafa Zico 52' (EGY) · Mohamed Salah 64' (EGY) · Trezeguet 79' (EGY)"
+    }
+  ],
+  "today": [
+    {
+      "matchId": "G019",
+      "rank": 19,
+      "group": "J",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-22T18:00:00+01:00",
+      "timeUk": "18:00 UK",
+      "timeEt": "13:00 ET",
+      "venue": {
+        "stadium": "AT&T Stadium",
+        "city": "Dallas",
+        "country": "US"
       },
-      "facts": {
-        "home": "New Zealand striker Chris Wood once worked part‑time in his local football academy as a teenager.",
-        "away": "Mohamed Salah has repeatedly been Egypt’s main scoring threat, often leading their tournament attack."
-      }
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FOX"
+      },
+      "teamA": "ARG",
+      "teamB": "AUT"
+    },
+    {
+      "matchId": "G061",
+      "rank": 61,
+      "group": "I",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-22T22:00:00+01:00",
+      "timeUk": "22:00 UK",
+      "timeEt": "17:00 ET",
+      "venue": {
+        "stadium": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FOX"
+      },
+      "teamA": "FRA",
+      "teamB": "IRQ"
+    },
+    {
+      "matchId": "G006",
+      "rank": 6,
+      "group": "I",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-23T01:00:00+01:00",
+      "timeUk": "01:00 UK",
+      "timeEt": "20:00 ET",
+      "venue": {
+        "stadium": "MetLife Stadium",
+        "city": "New York New Jersey",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "ITV1",
+        "us": "FOX"
+      },
+      "teamA": "NOR",
+      "teamB": "SEN"
+    },
+    {
+      "matchId": "G058",
+      "rank": 58,
+      "group": "J",
+      "stage": "group",
+      "round": null,
+      "kickoffUk": "2026-06-23T04:00:00+01:00",
+      "timeUk": "04:00 UK",
+      "timeEt": "23:00 ET",
+      "venue": {
+        "stadium": "Levi's Stadium",
+        "city": "San Francisco Bay Area",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "ITV1",
+        "us": "FS1"
+      },
+      "teamA": "JOR",
+      "teamB": "ALG"
     }
   ],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "U.S. Congress passes emergency foreign‑aid bill amid global crises",
-    "body": "Lawmakers approved a multi‑billion dollar package to fund urgent international assistance over divisions. The measure clears procedural hurdles and now heads to the president for signature.",
-    "source": "Source: Reuters, 21 Jun 2026"
+    "headline": "South African capital tense after violence in ruling‑party dispute",
+    "body": "Protesters torched buses and clashed with police in Pretoria amid a bitter dispute over the ANC's mayoral selection, causing transport disruption. Authorities moved to restore order, opened investigations and warned of further action as political tensions within the ruling party escalated.",
+    "source": "Source: Reuters, 22 Jun 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
