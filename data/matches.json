@@ -1293,8 +1293,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 0,
+      "scorers": "L. Messi 38' · L. Messi 90+2' (ARG)",
+      "notes": []
+    },
     "quality": {
       "elo": 1954.0,
       "balance": 54.0,
@@ -1319,8 +1324,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 0,
+      "scorers": "K. Mbappé 14', K. Mbappé 54' · O. Dembélé 66' (FRA)",
+      "notes": []
+    },
     "quality": {
       "elo": 1828.0,
       "balance": 32.7,
@@ -1345,8 +1355,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 2,
+      "scorers": "M. Pedersen 43' · E. Haaland 48', E. Haaland 58' (NOR) · I. Sarr 53', I. Sarr 88' (SEN)",
+      "notes": []
+    },
     "quality": {
       "elo": 1885.0,
       "balance": 91.6,
@@ -1371,8 +1386,13 @@
       "uk": "ITV1",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 2,
+      "scorers": "N. Al‑Rashdan 36' (JOR) · N. Benbouali 69', A. Gouiri 82' (ALG)",
+      "notes": []
+    },
     "quality": {
       "elo": 1643.0,
       "balance": 77.9,

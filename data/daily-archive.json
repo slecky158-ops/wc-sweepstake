@@ -3007,5 +3007,296 @@
       "source": "Source: Reuters, 22 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260623": {
+    "generatedAt": "2026-06-23T11:27:28.080516+01:00",
+    "dateLong": "Tuesday, 23 June 2026",
+    "dateDay": "Tue 23 Jun",
+    "dateRest": "Tournament Day 13",
+    "yesterdayCount": "4 matches",
+    "todayCount": "4 matches",
+    "yesterdayStoryline": {
+      "headline": "Messi breaks World Cup scoring record",
+      "subtitle": "Argentina win secures Group J progress; Group I races remain tight"
+    },
+    "todayStoryline": {
+      "headline": "Four crucial group fixtures across K and L",
+      "subtitle": "Portugal and England heavy favourites; two first-time international meetings"
+    },
+    "yesterday": [
+      {
+        "matchId": "G019",
+        "rank": 19,
+        "group": "J",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-22T18:00:00+01:00",
+        "timeUk": "18:00 UK",
+        "timeEt": "13:00 ET",
+        "venue": {
+          "stadium": "AT&T Stadium",
+          "city": "Dallas",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "ARG",
+        "teamB": "AUT",
+        "scoreA": 2,
+        "scoreB": 0,
+        "score": "2-0",
+        "scorers": "L. Messi 38' · L. Messi 90+2' (ARG)",
+        "analysis": {
+          "lines": [
+            "Argentina relied on Messi’s moments of quality rather than sustained dominance.",
+            "The win secures Argentina’s last-32 place and ends Austria’s brief Group J unbeaten run."
+          ],
+          "source": "BBC Sport match report"
+        }
+      },
+      {
+        "matchId": "G061",
+        "rank": 61,
+        "group": "I",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-22T22:00:00+01:00",
+        "timeUk": "22:00 UK",
+        "timeEt": "17:00 ET",
+        "venue": {
+          "stadium": "Lincoln Financial Field",
+          "city": "Philadelphia",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "FRA",
+        "teamB": "IRQ",
+        "scoreA": 3,
+        "scoreB": 0,
+        "score": "3-0",
+        "scorers": "K. Mbappé 14', K. Mbappé 54' · O. Dembélé 66' (FRA)",
+        "analysis": {
+          "lines": [
+            "France controlled long spells despite a prolonged weather delay disrupting momentum.",
+            "Victory guaranteed France a place in the round of 32 and keeps Group I wide open."
+          ],
+          "source": "BBC Sport match report"
+        }
+      },
+      {
+        "matchId": "G006",
+        "rank": 6,
+        "group": "I",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-23T01:00:00+01:00",
+        "timeUk": "01:00 UK",
+        "timeEt": "20:00 ET",
+        "venue": {
+          "stadium": "MetLife Stadium",
+          "city": "New York New Jersey",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "NOR",
+        "teamB": "SEN",
+        "scoreA": 3,
+        "scoreB": 2,
+        "score": "3-2",
+        "scorers": "M. Pedersen 43' · E. Haaland 48', E. Haaland 58' (NOR) · I. Sarr 53', I. Sarr 88' (SEN)",
+        "analysis": {
+          "lines": [
+            "Norway countered sharply after halftime as Haaland’s finishing settled a frantic game.",
+            "The result sends Norway into the last 32 and leaves France-Norway to decide Group I top spot."
+          ],
+          "source": "BBC Sport match report"
+        }
+      },
+      {
+        "matchId": "G058",
+        "rank": 58,
+        "group": "J",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-23T04:00:00+01:00",
+        "timeUk": "04:00 UK",
+        "timeEt": "23:00 ET",
+        "venue": {
+          "stadium": "Levi's Stadium",
+          "city": "San Francisco Bay Area",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FS1"
+        },
+        "teamA": "JOR",
+        "teamB": "ALG",
+        "scoreA": 1,
+        "scoreB": 2,
+        "score": "1-2",
+        "scorers": "N. Al‑Rashdan 36' (JOR) · N. Benbouali 69', A. Gouiri 82' (ALG)",
+        "analysis": {
+          "lines": [
+            "Jordan took an early lead but Algeria’s half‑time changes shifted control in the second half.",
+            "Algeria’s comeback keeps their Group J hopes alive and eliminates Jordan from contention."
+          ],
+          "source": "BBC Sport match report"
+        }
+      }
+    ],
+    "today": [
+      {
+        "matchId": "G046",
+        "rank": 46,
+        "group": "K",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-23T18:00:00+01:00",
+        "timeUk": "18:00 UK",
+        "timeEt": "13:00 ET",
+        "venue": {
+          "stadium": "NRG Stadium",
+          "city": "Houston",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "POR",
+        "teamB": "UZB",
+        "weather": "32°C · mostly sunny",
+        "h2h": "First meeting",
+        "odds": {
+          "match": {
+            "home": "1.22",
+            "draw": "7.00",
+            "away": "15.00"
+          }
+        },
+        "facts": {
+          "home": "Cristiano Ronaldo runs the CR7 museum in Funchal, displaying his trophies and memorabilia.",
+          "away": "Dostonbek Khamdamov once scored after about 11.47 seconds for Uzbekistan U23 in AFC competition."
+        }
+      },
+      {
+        "matchId": "G034",
+        "rank": 34,
+        "group": "L",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-23T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "Gillette Stadium",
+          "city": "Boston",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "ENG",
+        "teamB": "GHA",
+        "weather": "19°C · rain showers",
+        "h2h": "Played 1 · 🇬🇧 0W 1D 0L · last 1-1 ENG (2011)",
+        "odds": {
+          "match": {
+            "home": "1.22",
+            "draw": "7.00",
+            "away": "15.00"
+          }
+        },
+        "facts": {
+          "home": "Jamie Vardy worked in non-league and at a factory before rising to England’s top ranks.",
+          "away": "Ghana’s Asamoah Gyan famously scored a stoppage-time leveller against England at Wembley in 2011."
+        }
+      },
+      {
+        "matchId": "G050",
+        "rank": 50,
+        "group": "L",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T00:00:00+01:00",
+        "timeUk": "00:00 UK",
+        "timeEt": "19:00 ET",
+        "venue": {
+          "stadium": "BMO Field",
+          "city": "Toronto",
+          "country": "CA"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "PAN",
+        "teamB": "CRO",
+        "weather": "23°C · intermittent clouds",
+        "h2h": "First meeting",
+        "odds": {
+          "match": {
+            "home": "7.16",
+            "draw": "4.10",
+            "away": "1.58"
+          }
+        },
+        "facts": {
+          "home": "Panama celebrated its 2018 World Cup qualification with a national holiday-style public celebration.",
+          "away": "Croatia’s midfield culture includes players who once trained with heavy medicine balls for power."
+        }
+      },
+      {
+        "matchId": "G025",
+        "rank": 25,
+        "group": "K",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T03:00:00+01:00",
+        "timeUk": "03:00 UK",
+        "timeEt": "22:00 ET",
+        "venue": {
+          "stadium": "Estadio Akron",
+          "city": "Guadalajara",
+          "country": "MX"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FS1"
+        },
+        "teamA": "COL",
+        "teamB": "COD",
+        "weather": "28°C · mostly sunny then evening thunderstorms",
+        "h2h": "First meeting",
+        "odds": {
+          "match": {
+            "home": "1.50",
+            "draw": "4.33",
+            "away": "8.00"
+          }
+        },
+        "facts": {
+          "home": "Colombia’s René Higuita famously executed the 'scorpion kick' at Wembley, a viral goalkeeper trick.",
+          "away": "DR Congo’s Mwepu Ilunga once charged off the defensive wall to boot away a Brazil free‑kick."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "U.S. federal regulators approve new rules on artificial‑intelligence risk management",
+      "body": "U.S. regulators issued a package of rules aimed at strengthening oversight of high‑risk AI systems, setting safety and transparency requirements for developers and deployers. The framework seeks to limit harms and enforce reporting, while leaving details for later rulemaking.",
+      "source": "Source: Reuters, 23 Jun 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
