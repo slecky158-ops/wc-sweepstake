@@ -36,8 +36,9 @@
     "rule": "Most goals across the tournament.",
     "prize": "£7.50",
     "icon": "boot",
-    "currentLeader": null,
-    "winnerEntrant": null
+    "currentLeader": "🇦🇷 Argentina (player TBC)",
+    "winnerEntrant": null,
+    "leaderEntrant": "joe"
   },
   {
     "id": "top-scoring-team",
@@ -46,8 +47,9 @@
     "rule": "Most goals scored in the group stage only.",
     "prize": "£7.50",
     "icon": "boot",
-    "currentLeader": null,
-    "winnerEntrant": null
+    "currentLeader": "🇩🇪 Germany",
+    "winnerEntrant": null,
+    "leaderEntrant": "andrew-r"
   },
   {
     "id": "most-clean-sheets",
@@ -56,7 +58,17 @@
     "rule": "Most clean sheets across the whole tournament.",
     "prize": "£7.50",
     "icon": "shield",
-    "currentLeader": null,
+    "currentLeader": "🇲🇽 Mexico · 🇦🇷 Argentina · 🇪🇸 Spain (tied)",
+    "winnerEntrant": null
+  },
+  {
+    "id": "most-assists",
+    "title": "Most assists (player)",
+    "type": "player",
+    "rule": "Most assists across the tournament.",
+    "prize": "£5",
+    "icon": "boot",
+    "currentLeader": "Isak (🇸🇪) · Olise (🇫🇷) — tied",
     "winnerEntrant": null
   },
   {
@@ -66,8 +78,8 @@
     "rule": "Determined by cumulative tournament minutes played at moment of red, so teams playing earlier in the tournament don't benefit.",
     "prize": "£5",
     "icon": "card",
-    "currentLeader": null,
-    "winnerEntrant": null
+    "currentLeader": "🇿🇦 South Africa",
+    "winnerEntrant": "sam-l"
   },
   {
     "id": "first-og",
@@ -76,8 +88,8 @@
     "rule": "Cumulative tournament minutes basis, same logic as the red-card award.",
     "prize": "£5",
     "icon": "card",
-    "currentLeader": null,
-    "winnerEntrant": null
+    "currentLeader": "🇵🇾 Paraguay",
+    "winnerEntrant": "tom"
   },
   {
     "id": "worst-team",
@@ -86,8 +98,9 @@
     "rule": "Lowest points → then worst goal difference → then fewest goals scored.",
     "prize": "£7.50",
     "icon": "wooden-spoon",
-    "currentLeader": null,
-    "winnerEntrant": null
+    "currentLeader": "🇹🇳 Tunisia",
+    "winnerEntrant": null,
+    "leaderEntrant": "sam-w"
   },
   {
     "id": "first-shootout",
@@ -106,7 +119,7 @@
     "rule": "Team with the most non-penalty set-piece goals (direct free kicks, corners, indirect free kicks).",
     "prize": "£5",
     "icon": "boot",
-    "currentLeader": null,
+    "currentLeader": "🇩🇿 Algeria · 🇧🇦 Bosnia · 🇨🇦 Canada · 🇨🇿 Czechia (tied)",
     "winnerEntrant": null
   },
   {
@@ -116,8 +129,9 @@
     "rule": "Most cards + fouls per 90 (exact weighting to be locked before kickoff).",
     "prize": "£5",
     "icon": "card",
-    "currentLeader": null,
-    "winnerEntrant": null
+    "currentLeader": "🇿🇦 South Africa",
+    "winnerEntrant": null,
+    "leaderEntrant": "sam-l"
   },
   {
     "id": "iran-multiplier",
@@ -146,8 +160,8 @@
     "rule": "Cumulative tournament minutes basis. In-play and shootout misses both count unless decided otherwise before kickoff.",
     "prize": "£5",
     "icon": "penalty",
-    "currentLeader": null,
-    "winnerEntrant": null
+    "currentLeader": "🇦🇷 Argentina",
+    "winnerEntrant": "joe"
   },
   {
     "id": "shithouse",
@@ -176,8 +190,8 @@
     "rule": "First player to cry during or after a match in a sad/disappointed way. Tears of joy don't count.",
     "prize": "£5",
     "icon": "tear",
-    "currentLeader": null,
-    "winnerEntrant": null
+    "currentLeader": "🇨🇦 Canada",
+    "winnerEntrant": "ed"
   },
   {
     "id": "first-child-cry",
@@ -186,8 +200,8 @@
     "rule": "First child spotted crying on the broadcast. Award goes to the team whose fans the child is supporting.",
     "prize": "£5",
     "icon": "tear",
-    "currentLeader": null,
-    "winnerEntrant": null
+    "currentLeader": "🇧🇪 Belgium",
+    "winnerEntrant": "tom"
   },
   {
     "id": "first-hattrick",
@@ -196,7 +210,7 @@
     "rule": "First player to score three goals in a single match.",
     "prize": "£5",
     "icon": "boot",
-    "currentLeader": null,
-    "winnerEntrant": null
+    "currentLeader": "🇦🇷 Argentina",
+    "winnerEntrant": "joe"
   }
 ]

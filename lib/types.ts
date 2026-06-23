@@ -68,7 +68,8 @@ export interface Award {
   prize: string;                  // e.g. "£5", "£30", "Jersey of winning team..."
   icon: string;
   currentLeader: string | null;   // free-text for now (team/player name)
-  winnerEntrant: string | null;   // entrant slug if known
+  winnerEntrant: string | null;   // entrant slug — only set when the award is decided
+  leaderEntrant?: string | null;  // entrant slug while still live (single-leader case)
 }
 
 // ──────────── Daily payload (sidecar JSON written by the daily routine) ────────────
