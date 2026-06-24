@@ -3298,5 +3298,258 @@
       "source": "Source: Reuters, 23 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260624": {
+    "generatedAt": "2026-06-24T11:12:47.439765+01:00",
+    "dateLong": "Wednesday, 24 June 2026",
+    "dateDay": "Wed 24 Jun",
+    "dateRest": "Tournament Day 14",
+    "yesterdayCount": "4 matches",
+    "todayCount": "6 matches",
+    "yesterdayStoryline": {
+      "headline": "Portugal and Colombia take firm Group K leads",
+      "subtitle": "Ronaldo brace and Muñoz winner push both nations closer to the last 32 in Group K."
+    },
+    "todayStoryline": {
+      "headline": "Key fixtures across Groups B, C and A",
+      "subtitle": "Canada, Bosnia, Morocco, Scotland, Czechia and South Africa face decisive second matches."
+    },
+    "yesterday": [
+      {
+        "matchId": "G046",
+        "rank": 46,
+        "group": "K",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-23T18:00:00+01:00",
+        "timeUk": "18:00 UK",
+        "timeEt": "13:00 ET",
+        "venue": {
+          "stadium": "NRG Stadium",
+          "city": "Houston",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "POR",
+        "teamB": "UZB",
+        "scoreA": 5,
+        "scoreB": 0,
+        "score": "5-0",
+        "scorers": "Cristiano Ronaldo 6', Nuno Mendes 17', Cristiano Ronaldo 39' (POR) · Abduvokhid Nematov 60' og (UZB) · Rafael Leão 87' (POR)"
+      },
+      {
+        "matchId": "G034",
+        "rank": 34,
+        "group": "L",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-23T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "Gillette Stadium",
+          "city": "Boston",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "ENG",
+        "teamB": "GHA",
+        "scoreA": 0,
+        "scoreB": 0,
+        "score": "0-0",
+        "scorers": "No scorers"
+      },
+      {
+        "matchId": "G050",
+        "rank": 50,
+        "group": "L",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T00:00:00+01:00",
+        "timeUk": "00:00 UK",
+        "timeEt": "19:00 ET",
+        "venue": {
+          "stadium": "BMO Field",
+          "city": "Toronto",
+          "country": "CA"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "PAN",
+        "teamB": "CRO",
+        "scoreA": 0,
+        "scoreB": 1,
+        "score": "0-1",
+        "scorers": "Ante Budimir 54' (CRO)"
+      },
+      {
+        "matchId": "G025",
+        "rank": 25,
+        "group": "K",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T03:00:00+01:00",
+        "timeUk": "03:00 UK",
+        "timeEt": "22:00 ET",
+        "venue": {
+          "stadium": "Estadio Akron",
+          "city": "Guadalajara",
+          "country": "MX"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FS1"
+        },
+        "teamA": "COL",
+        "teamB": "COD",
+        "scoreA": 1,
+        "scoreB": 0,
+        "score": "1-0",
+        "scorers": "Daniel Muñoz 76' (COL)"
+      }
+    ],
+    "today": [
+      {
+        "matchId": "G044",
+        "rank": 44,
+        "group": "B",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "BC Place",
+          "city": "Vancouver",
+          "country": "CA"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "SUI",
+        "teamB": "CAN"
+      },
+      {
+        "matchId": "G051",
+        "rank": 51,
+        "group": "B",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "Lumen Field",
+          "city": "Seattle",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV4",
+          "us": "FS1"
+        },
+        "teamA": "BIH",
+        "teamB": "QAT"
+      },
+      {
+        "matchId": "G064",
+        "rank": 64,
+        "group": "C",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T23:00:00+01:00",
+        "timeUk": "23:00 UK",
+        "timeEt": "18:00 ET",
+        "venue": {
+          "stadium": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC Two",
+          "us": "FS1"
+        },
+        "teamA": "MAR",
+        "teamB": "HAI"
+      },
+      {
+        "matchId": "G021",
+        "rank": 21,
+        "group": "C",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T23:00:00+01:00",
+        "timeUk": "23:00 UK",
+        "timeEt": "18:00 ET",
+        "venue": {
+          "stadium": "Hard Rock Stadium",
+          "city": "Miami",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "SCO",
+        "teamB": "BRA"
+      },
+      {
+        "matchId": "G038",
+        "rank": 38,
+        "group": "A",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-25T02:00:00+01:00",
+        "timeUk": "02:00 UK",
+        "timeEt": "21:00 ET",
+        "venue": {
+          "stadium": "Estadio Azteca",
+          "city": "Mexico City",
+          "country": "MX"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "CZE",
+        "teamB": "MEX"
+      },
+      {
+        "matchId": "G049",
+        "rank": 49,
+        "group": "A",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-25T02:00:00+01:00",
+        "timeUk": "02:00 UK",
+        "timeEt": "21:00 ET",
+        "venue": {
+          "stadium": "Estadio BBVA",
+          "city": "Monterrey",
+          "country": "MX"
+        },
+        "broadcast": {
+          "uk": "BBC Two",
+          "us": "FS1"
+        },
+        "teamA": "RSA",
+        "teamB": "KOR"
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "France heatwave triggers major power outage",
+      "body": "A record-breaking heatwave left about 68,000 households without electricity in France's northwestern Finistère department, authorities said. Officials warned stressed infrastructure and high temperatures could cause further outages and disruption across the region.",
+      "source": "Source: Reuters, 24 Jun 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

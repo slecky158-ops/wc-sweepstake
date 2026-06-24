@@ -1417,8 +1417,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 5,
+      "scoreB": 0,
+      "scorers": "Cristiano Ronaldo 6', Nuno Mendes 17', Cristiano Ronaldo 39' (POR) · Abduvokhid Nematov 60' og (UZB) · Rafael Leão 87' (POR)",
+      "notes": []
+    },
     "quality": {
       "elo": 1820.0,
       "balance": 51.6,
@@ -1443,8 +1448,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 0,
+      "scorers": "No scorers",
+      "notes": []
+    },
     "quality": {
       "elo": 1867.0,
       "balance": 55.1,
@@ -1469,8 +1479,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 1,
+      "scorers": "Ante Budimir 54' (CRO)",
+      "notes": []
+    },
     "quality": {
       "elo": 1770.0,
       "balance": 59.4,
@@ -1495,8 +1510,13 @@
       "uk": "ITV1",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 0,
+      "scorers": "Daniel Muñoz 76' (COL)",
+      "notes": []
+    },
     "quality": {
       "elo": 1864.0,
       "balance": 66.1,
