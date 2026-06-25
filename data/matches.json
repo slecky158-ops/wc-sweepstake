@@ -1541,8 +1541,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 1,
+      "scorers": "Rubén Vargas 46' (SUI), Johan Manzambi 57' (SUI) · Promise David 73' (CAN)",
+      "notes": []
+    },
     "quality": {
       "elo": 1765.0,
       "balance": 64.3,
@@ -1567,8 +1572,13 @@
       "uk": "ITV4",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 1,
+      "scorers": "Kerim Alajbegovic 29' (BIH), M. Al Mannai 34' (own goal) (BIH) · H. Al Haydos 42' (QAT) · Ermin Mahmic 80' (BIH)",
+      "notes": []
+    },
     "quality": {
       "elo": 1648.0,
       "balance": 86.4,
@@ -1593,8 +1603,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 3,
+      "scorers": "Hirving Lozano 11', Jesús Angulo 54', Santiago Giménez 81' (MEX)",
+      "notes": []
+    },
     "quality": {
       "elo": 1749.0,
       "balance": 79.7,
@@ -1619,8 +1634,13 @@
       "uk": "BBC Two",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 0,
+      "scorers": "Teboho Mokoena 31' (RSA) · no scorers for KOR",
+      "notes": []
+    },
     "quality": {
       "elo": 1698.0,
       "balance": 76.4,
@@ -1671,8 +1691,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 3,
+      "scorers": "Vinícius Júnior 22', Vinícius Júnior 45+3' (BRA) · Matheus Cunha 68' (BRA)",
+      "notes": []
+    },
     "quality": {
       "elo": 1875.0,
       "balance": 66.7,
@@ -1697,8 +1722,13 @@
       "uk": "BBC Two",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 4,
+      "scoreB": 2,
+      "scorers": "Wilson Isidor 15' (HAI) · Achraf Hakimi 39' (MAR), Soufiane Rahimi 78' (MAR), Gessime Yassine 89' (MAR)",
+      "notes": []
+    },
     "quality": {
       "elo": 1684.0,
       "balance": 56.0,

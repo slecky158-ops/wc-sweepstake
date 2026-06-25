@@ -3551,5 +3551,434 @@
       "source": "Source: Reuters, 24 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260625": {
+    "generatedAt": "2026-06-25T11:10:11.953710+01:00",
+    "dateLong": "Thursday, 25 June 2026",
+    "dateDay": "Thu 25 Jun",
+    "dateRest": "Tournament Day 15",
+    "yesterdayCount": "6 matches",
+    "todayCount": "6 matches",
+    "yesterdayStoryline": {
+      "headline": "Group-stage drama reshuffles B, C and A",
+      "subtitle": "Six matches produced decisive wins and late fightbacks across Groups B, C and A"
+    },
+    "todayStoryline": {
+      "headline": "Heavyweights and underdogs meet across Groups D–F",
+      "subtitle": "Germany and USA headline a six-match slate with knockout hopes at stake"
+    },
+    "yesterday": [
+      {
+        "matchId": "G044",
+        "rank": 44,
+        "group": "B",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "BC Place",
+          "city": "Vancouver",
+          "country": "CA"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "SUI",
+        "teamB": "CAN",
+        "scoreA": 2,
+        "scoreB": 1,
+        "score": "2-1",
+        "scorers": "Rubén Vargas 46' (SUI), Johan Manzambi 57' (SUI) · Promise David 73' (CAN)"
+      },
+      {
+        "matchId": "G051",
+        "rank": 51,
+        "group": "B",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "Lumen Field",
+          "city": "Seattle",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV4",
+          "us": "FS1"
+        },
+        "teamA": "BIH",
+        "teamB": "QAT",
+        "scoreA": 3,
+        "scoreB": 1,
+        "score": "3-1",
+        "scorers": "Kerim Alajbegovic 29' (BIH), M. Al Mannai 34' (own goal) (BIH) · H. Al Haydos 42' (QAT) · Ermin Mahmic 80' (BIH)"
+      },
+      {
+        "matchId": "G064",
+        "rank": 64,
+        "group": "C",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T23:00:00+01:00",
+        "timeUk": "23:00 UK",
+        "timeEt": "18:00 ET",
+        "venue": {
+          "stadium": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC Two",
+          "us": "FS1"
+        },
+        "teamA": "MAR",
+        "teamB": "HAI",
+        "scoreA": 4,
+        "scoreB": 2,
+        "score": "4-2",
+        "scorers": "Wilson Isidor 15' (HAI) · Achraf Hakimi 39' (MAR), Soufiane Rahimi 78' (MAR), Gessime Yassine 89' (MAR)"
+      },
+      {
+        "matchId": "G021",
+        "rank": 21,
+        "group": "C",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-24T23:00:00+01:00",
+        "timeUk": "23:00 UK",
+        "timeEt": "18:00 ET",
+        "venue": {
+          "stadium": "Hard Rock Stadium",
+          "city": "Miami",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "SCO",
+        "teamB": "BRA",
+        "scoreA": 0,
+        "scoreB": 3,
+        "score": "0-3",
+        "scorers": "Vinícius Júnior 22', Vinícius Júnior 45+3' (BRA) · Matheus Cunha 68' (BRA)"
+      },
+      {
+        "matchId": "G038",
+        "rank": 38,
+        "group": "A",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-25T02:00:00+01:00",
+        "timeUk": "02:00 UK",
+        "timeEt": "21:00 ET",
+        "venue": {
+          "stadium": "Estadio Azteca",
+          "city": "Mexico City",
+          "country": "MX"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "CZE",
+        "teamB": "MEX",
+        "scoreA": 0,
+        "scoreB": 3,
+        "score": "0-3",
+        "scorers": "Hirving Lozano 11', Jesús Angulo 54', Santiago Giménez 81' (MEX)"
+      },
+      {
+        "matchId": "G049",
+        "rank": 49,
+        "group": "A",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-25T02:00:00+01:00",
+        "timeUk": "02:00 UK",
+        "timeEt": "21:00 ET",
+        "venue": {
+          "stadium": "Estadio BBVA",
+          "city": "Monterrey",
+          "country": "MX"
+        },
+        "broadcast": {
+          "uk": "BBC Two",
+          "us": "FS1"
+        },
+        "teamA": "RSA",
+        "teamB": "KOR",
+        "scoreA": 1,
+        "scoreB": 0,
+        "score": "1-0",
+        "scorers": "Teboho Mokoena 31' (RSA) · no scorers for KOR"
+      }
+    ],
+    "today": [
+      {
+        "matchId": "G002",
+        "rank": 2,
+        "group": "E",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-25T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "MetLife Stadium",
+          "city": "New York New Jersey",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "ECU",
+        "teamB": "GER",
+        "weather": "29°C · mostly cloudy · 20% rain · 6 mph SSE",
+        "h2h": "Played 5 · ECU 1W 1D 3L · last 1-2 Germany (2025)",
+        "odds": {
+          "match": {
+            "home": "4.10",
+            "draw": "4.00",
+            "away": "1.60"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "1.75"
+          },
+          "fgs": {
+            "name": "G. Musiala",
+            "odds": "6.10"
+          }
+        },
+        "facts": {
+          "home": "Ecuador’s home qualifiers in Quito are famously at high altitude, testing visitors’ lungs.",
+          "away": "Thomas Müller long ago dubbed himself football’s self-styled 'space interpreter' in interviews."
+        }
+      },
+      {
+        "matchId": "G070",
+        "rank": 70,
+        "group": "E",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-25T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "Lincoln Financial Field",
+          "city": "Philadelphia",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC Two",
+          "us": "FS1"
+        },
+        "teamA": "CUW",
+        "teamB": "CIV",
+        "weather": "31°C · hot and humid · 10% rain · 8 mph S",
+        "h2h": "First meeting",
+        "odds": {
+          "match": {
+            "home": "5.80",
+            "draw": "4.10",
+            "away": "1.40"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "1.60"
+          },
+          "fgs": {
+            "name": "N. Kessé",
+            "odds": "7.50"
+          }
+        },
+        "facts": {
+          "home": "Curaçao’s squad includes players developed in Dutch academies across the Netherlands system.",
+          "away": "Ivory Coast once hosted a nationwide open‑tryout programme that uncovered several senior internationals."
+        }
+      },
+      {
+        "matchId": "G033",
+        "rank": 33,
+        "group": "F",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-26T00:00:00+01:00",
+        "timeUk": "00:00 UK",
+        "timeEt": "19:00 ET",
+        "venue": {
+          "stadium": "Arrowhead Stadium",
+          "city": "Kansas City",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "TUN",
+        "teamB": "NED",
+        "weather": "22°C · chance of evening thunderstorms · 55% rain · 10 mph E",
+        "h2h": "Played 12 · TUN 2W 3D 7L · last 0-2 Netherlands (2024)",
+        "odds": {
+          "match": {
+            "home": "4.75",
+            "draw": "3.90",
+            "away": "1.75"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "2.10"
+          },
+          "fgs": {
+            "name": "K. De Vrij",
+            "odds": "6.80"
+          }
+        },
+        "facts": {
+          "home": "Tunisia’s domestic clubs often hold late‑night training sessions to beat daytime heat.",
+          "away": "A number of Dutch internationals began as futsal players, credited for their tight close control."
+        }
+      },
+      {
+        "matchId": "G013",
+        "rank": 13,
+        "group": "F",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-26T00:00:00+01:00",
+        "timeUk": "00:00 UK",
+        "timeEt": "19:00 ET",
+        "venue": {
+          "stadium": "AT&T Stadium",
+          "city": "Dallas",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC Two",
+          "us": "FS1"
+        },
+        "teamA": "JPN",
+        "teamB": "SWE",
+        "weather": "34°C · clear and warm · 5% rain · 6 mph W",
+        "h2h": "Played 11 · JPN 3W 2D 6L · last 2-2 (friendly, 2025)",
+        "odds": {
+          "match": {
+            "home": "2.80",
+            "draw": "3.40",
+            "away": "2.60"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "2.00"
+          },
+          "fgs": {
+            "name": "Kamada",
+            "odds": "8.50"
+          }
+        },
+        "facts": {
+          "home": "Japan’s supporters are noted for tidying stadium areas after matches, widely reported in tournament coverage.",
+          "away": "Sweden forward Alexander Isak once trained in martial arts as a youth, boosting his balance and agility."
+        }
+      },
+      {
+        "matchId": "G010",
+        "rank": 10,
+        "group": "D",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-26T03:00:00+01:00",
+        "timeUk": "03:00 UK",
+        "timeEt": "22:00 ET",
+        "venue": {
+          "stadium": "SoFi Stadium",
+          "city": "Los Angeles",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "TUR",
+        "teamB": "USA",
+        "weather": "17°C · cool evening · 15% rain · 9 mph WNW",
+        "h2h": "Played 7 · TUR 1W 2D 4L · last 1-3 USA (2025)",
+        "odds": {
+          "match": {
+            "home": "3.90",
+            "draw": "3.55",
+            "away": "1.90"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "1.95"
+          },
+          "fgs": {
+            "name": "Christian Pulisic",
+            "odds": "4.80"
+          }
+        },
+        "facts": {
+          "home": "Türkiye’s fans are famed for elaborate choreographed displays at major matches.",
+          "away": "The USA’s 1994 tournament set an attendance benchmark, still referenced in American football coverage."
+        }
+      },
+      {
+        "matchId": "G030",
+        "rank": 30,
+        "group": "D",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-26T03:00:00+01:00",
+        "timeUk": "03:00 UK",
+        "timeEt": "22:00 ET",
+        "venue": {
+          "stadium": "Levi's Stadium",
+          "city": "San Francisco Bay Area",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV4",
+          "us": "FS1"
+        },
+        "teamA": "PAR",
+        "teamB": "AUS",
+        "weather": "16°C · cool and breezy · 5% rain · 12 mph NW",
+        "h2h": "Played 6 · PAR 2W 1D 3L · last 1-0 Paraguay (2024)",
+        "odds": {
+          "match": {
+            "home": "2.40",
+            "draw": "3.30",
+            "away": "2.95"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "2.05"
+          },
+          "fgs": {
+            "name": "Jamie Maclaren",
+            "odds": "9.00"
+          }
+        },
+        "facts": {
+          "home": "Paraguay’s José Luis Chilavert once practised free‑kicks so often he became a goalscoring goalkeeper.",
+          "away": "Australia striker Tim Cahill famously celebrated goals by shadow‑boxing the corner flag during his career."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "U.S. Congress agrees emergency foreign‑aid package amid global crises",
+      "body": "Lawmakers reached a deal to pass a bipartisan emergency foreign‑aid measure addressing multiple international hotspots. The package aims to accelerate humanitarian and defence support while avoiding a near‑term funding lapse.",
+      "source": "Source: Reuters, 25 Jun 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
