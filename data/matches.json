@@ -1665,8 +1665,13 @@
       "uk": "BBC Two",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 2,
+      "scorers": "",
+      "notes": []
+    },
     "quality": {
       "elo": 1640.0,
       "balance": 54.3,
@@ -1753,8 +1758,13 @@
       "uk": "BBC Two",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 1,
+      "scorers": "",
+      "notes": []
+    },
     "quality": {
       "elo": 1826.0,
       "balance": 88.9,
@@ -1779,8 +1789,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 3,
+      "scorers": "",
+      "notes": []
+    },
     "quality": {
       "elo": 1826.0,
       "balance": 65.0,
@@ -1805,8 +1820,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 2,
+      "scorers": "",
+      "notes": []
+    },
     "quality": {
       "elo": 1841.0,
       "balance": 91.1,
@@ -1831,8 +1851,13 @@
       "uk": "ITV4",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 0,
+      "scorers": "",
+      "notes": []
+    },
     "quality": {
       "elo": 1727.0,
       "balance": 89.0,
@@ -1909,8 +1934,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 1,
+      "scorers": "",
+      "notes": []
+    },
     "quality": {
       "elo": 1935.0,
       "balance": 99.1,
