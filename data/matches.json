@@ -1882,8 +1882,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 4,
+      "scorers": "O. Dembélé 7', O. Dembélé 20', T. Aasgaard 21' (NOR) · O. Dembélé 32', D. Doué 90+4' (FRA)",
+      "notes": []
+    },
     "quality": {
       "elo": 1989.0,
       "balance": 78.7,
@@ -1908,8 +1913,15 @@
       "uk": "ITV4",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 5,
+      "scoreB": 0,
+      "scorers": "M. Diarra 4' (SEN) · I. Sarr 56', P. Gueye 59', P. Gueye 71', I. Ndiaye 82' (SEN)",
+      "notes": [
+        "🟥 Rebin Sulaka 13' (IRQ)"
+      ]
+    },
     "quality": {
       "elo": 1724.0,
       "balance": 62.4,
@@ -1965,8 +1977,15 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 1,
+      "scorers": "Á. Baena 42' (ESP)",
+      "notes": [
+        "🟥 Agustín Canobbio 90+5' (URU)"
+      ]
+    },
     "quality": {
       "elo": 2018.0,
       "balance": 60.1,
@@ -1991,8 +2010,13 @@
       "uk": "ITV4",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 0,
+      "scorers": "",
+      "notes": []
+    },
     "quality": {
       "elo": 1623.0,
       "balance": 87.9,
@@ -2017,8 +2041,13 @@
       "uk": "BBC Two",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 1,
+      "scorers": "",
+      "notes": []
+    },
     "quality": {
       "elo": 1734.0,
       "balance": 98.9,
@@ -2043,8 +2072,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 5,
+      "scorers": "",
+      "notes": []
+    },
     "quality": {
       "elo": 1677.0,
       "balance": 52.4,

@@ -4271,5 +4271,379 @@
       "source": "Source: Reuters, 26 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260627": {
+    "generatedAt": "2026-06-27T10:21:48.686901+01:00",
+    "dateLong": "Saturday, 27 June 2026",
+    "dateDay": "Sat 27 Jun",
+    "dateRest": "Tournament Day 17",
+    "yesterdayCount": "6 matches",
+    "todayCount": "6 matches",
+    "yesterdayStoryline": {
+      "headline": "Big wins and tight draws across Groups G–I",
+      "subtitle": "France, Senegal and Spain won as Cape Verde held Saudi Arabia to a draw"
+    },
+    "todayStoryline": {
+      "headline": "Six final group matches decide last-32 draw",
+      "subtitle": "Fixtures in New York, Philadelphia, Miami, Atlanta, Dallas and Kansas City"
+    },
+    "yesterday": [
+      {
+        "matchId": "G004",
+        "rank": 4,
+        "group": "I",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-26T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "Gillette Stadium",
+          "city": "Boston",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "NOR",
+        "teamB": "FRA",
+        "scoreA": 1,
+        "scoreB": 4,
+        "score": "1-4",
+        "scorers": "O. Dembélé 7', O. Dembélé 20', T. Aasgaard 21' (NOR) · O. Dembélé 32', D. Doué 90+4' (FRA)",
+        "analysis": {
+          "lines": [
+            "France dominated a rotated Norway side with a ruthless first-half attacking display.",
+            "The result confirmed France top spot in Group I and Norway progressed in second."
+          ],
+          "source": "BBC Sport match report"
+        }
+      },
+      {
+        "matchId": "G056",
+        "rank": 56,
+        "group": "I",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-26T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "BMO Field",
+          "city": "Toronto",
+          "country": "CA"
+        },
+        "broadcast": {
+          "uk": "ITV4",
+          "us": "FS1"
+        },
+        "teamA": "SEN",
+        "teamB": "IRQ",
+        "scoreA": 5,
+        "scoreB": 0,
+        "score": "5-0",
+        "scorers": "M. Diarra 4' (SEN) · I. Sarr 56', P. Gueye 59', P. Gueye 71', I. Ndiaye 82' (SEN)",
+        "note": "🟥 Rebin Sulaka 13' (IRQ)",
+        "analysis": {
+          "lines": [
+            "Senegal overwhelmed ten‑man Iraq with quick, long‑range strikes after the break.",
+            "A five‑goal rout massively improved Senegal's goal difference and knock‑on tournament chances."
+          ],
+          "source": "BBC Sport match report"
+        }
+      },
+      {
+        "matchId": "G007",
+        "rank": 7,
+        "group": "H",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-27T01:00:00+01:00",
+        "timeUk": "01:00 UK",
+        "timeEt": "20:00 ET",
+        "venue": {
+          "stadium": "Estadio Akron",
+          "city": "Guadalajara",
+          "country": "MX"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "URU",
+        "teamB": "ESP",
+        "scoreA": 0,
+        "scoreB": 1,
+        "score": "0-1",
+        "scorers": "Á. Baena 42' (ESP)",
+        "note": "🟥 Agustín Canobbio 90+5' (URU)",
+        "analysis": {
+          "lines": [
+            "A single Baena strike settled a tense game as Uruguay offered little threat.",
+            "Spain advanced from the group while Uruguay crashed out after another disappointing campaign."
+          ],
+          "source": "BBC Sport match report"
+        }
+      },
+      {
+        "matchId": "G054",
+        "rank": 54,
+        "group": "H",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-27T01:00:00+01:00",
+        "timeUk": "01:00 UK",
+        "timeEt": "20:00 ET",
+        "venue": {
+          "stadium": "NRG Stadium",
+          "city": "Houston",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV4",
+          "us": "FS1"
+        },
+        "teamA": "CPV",
+        "teamB": "KSA",
+        "scoreA": 0,
+        "scoreB": 0,
+        "score": "0-0",
+        "analysis": {
+          "lines": [
+            "Cape Verde and Saudi Arabia cancelled each other out in a cautious encounter.",
+            "The draw sent Cape Verde through to the last 32 while Saudi Arabia were eliminated."
+          ],
+          "source": "BBC Sport match report"
+        }
+      },
+      {
+        "matchId": "G069",
+        "rank": 69,
+        "group": "G",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-27T04:00:00+01:00",
+        "timeUk": "04:00 UK",
+        "timeEt": "23:00 ET",
+        "venue": {
+          "stadium": "BC Place",
+          "city": "Vancouver",
+          "country": "CA"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "NZL",
+        "teamB": "BEL",
+        "scoreA": 1,
+        "scoreB": 5,
+        "score": "1-5",
+        "analysis": {
+          "lines": [
+            "Belgium produced an emphatic attacking display to overwhelm New Zealand.",
+            "The result secured Belgium's place in the last 32 while New Zealand exited."
+          ],
+          "source": "BBC Sport match report"
+        }
+      },
+      {
+        "matchId": "G020",
+        "rank": 20,
+        "group": "G",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-27T04:00:00+01:00",
+        "timeUk": "04:00 UK",
+        "timeEt": "23:00 ET",
+        "venue": {
+          "stadium": "Lumen Field",
+          "city": "Seattle",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC Two",
+          "us": "FS1"
+        },
+        "teamA": "EGY",
+        "teamB": "IRN",
+        "scoreA": 1,
+        "scoreB": 1,
+        "score": "1-1",
+        "analysis": {
+          "lines": [
+            "Egypt and Iran played out a tense draw decided by late VAR intervention.",
+            "Egypt's point helped them reach the knockout stage; Iran await other results."
+          ],
+          "source": "BBC Sport match report"
+        }
+      }
+    ],
+    "today": [
+      {
+        "matchId": "G053",
+        "rank": 53,
+        "group": "L",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-27T22:00:00+01:00",
+        "timeUk": "22:00 UK",
+        "timeEt": "17:00 ET",
+        "venue": {
+          "stadium": "MetLife Stadium",
+          "city": "New York New Jersey",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "PAN",
+        "teamB": "ENG",
+        "weather": "23°C · scattered showers · 60% rain · 10 km/h NW",
+        "facts": {
+          "home": "Panama’s 2018 campaign sparked nationwide street parties and open‑air celebrations.",
+          "away": "England forward Marcus Rashford successfully lobbied to extend child food‑support programmes."
+        }
+      },
+      {
+        "matchId": "G028",
+        "rank": 28,
+        "group": "L",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-27T22:00:00+01:00",
+        "timeUk": "22:00 UK",
+        "timeEt": "17:00 ET",
+        "venue": {
+          "stadium": "Lincoln Financial Field",
+          "city": "Philadelphia",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV4",
+          "us": "FS1"
+        },
+        "teamA": "CRO",
+        "teamB": "GHA",
+        "weather": "25°C · humid · 40% rain · 12 km/h SW",
+        "facts": {
+          "home": "Croatia’s midfield culture often praises gritty, old‑school training methods for toughness.",
+          "away": "Ghana’s fans once unfurled a 1,000‑metre banner during an international at home grounds."
+        }
+      },
+      {
+        "matchId": "G001",
+        "rank": 1,
+        "group": "K",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-28T00:30:00+01:00",
+        "timeUk": "00:30 UK",
+        "timeEt": "19:30 ET",
+        "venue": {
+          "stadium": "Hard Rock Stadium",
+          "city": "Miami",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "COL",
+        "teamB": "POR",
+        "weather": "29°C · clear · 15% rain · 9 km/h E",
+        "facts": {
+          "home": "Colombia’s René Higuita famously performed the scorpion kick at Wembley in 1995.",
+          "away": "Portugal’s Cristiano Ronaldo operates multiple business ventures including hotels and fragrance lines."
+        }
+      },
+      {
+        "matchId": "G039",
+        "rank": 39,
+        "group": "K",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-28T00:30:00+01:00",
+        "timeUk": "00:30 UK",
+        "timeEt": "19:30 ET",
+        "venue": {
+          "stadium": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC Two",
+          "us": "FS1"
+        },
+        "teamA": "COD",
+        "teamB": "UZB",
+        "weather": "27°C · warm, humid · 20% rain · 11 km/h S",
+        "facts": {
+          "home": "DR Congo once caused a viral World Cup moment with a defender clearing a wall kick.",
+          "away": "Uzbekistan’s youth development has repeatedly produced late‑blooming technical midfield talents."
+        }
+      },
+      {
+        "matchId": "G065",
+        "rank": 65,
+        "group": "J",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-28T03:00:00+01:00",
+        "timeUk": "03:00 UK",
+        "timeEt": "22:00 ET",
+        "venue": {
+          "stadium": "AT&T Stadium",
+          "city": "Dallas",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "JOR",
+        "teamB": "ARG",
+        "weather": "32°C · hot · 10% rain · 8 km/h SW",
+        "facts": {
+          "home": "Jordan captain Musa Al‑Taamari is known for tricky footwork and street‑style flair.",
+          "away": "Argentina’s Lionel Messi famously takes his dog Hulk to family rondos in private moments."
+        }
+      },
+      {
+        "matchId": "G026",
+        "rank": 26,
+        "group": "J",
+        "stage": "group",
+        "round": null,
+        "kickoffUk": "2026-06-28T03:00:00+01:00",
+        "timeUk": "03:00 UK",
+        "timeEt": "22:00 ET",
+        "venue": {
+          "stadium": "Arrowhead Stadium",
+          "city": "Kansas City",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC Two",
+          "us": "FS1"
+        },
+        "teamA": "ALG",
+        "teamB": "AUT",
+        "weather": "28°C · warm gusts · 25% rain · 14 km/h W",
+        "facts": {
+          "home": "Algeria’s classic Rabah Madjer backheel remains one of the country's enduring football images.",
+          "away": "Austria once produced a 7–5 World Cup match — still the tournament’s wildest scoreline."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Japan’s prime minister survives no‑confidence vote in lower house",
+      "body": "Prime Minister retains parliamentary support after a fractious no‑confidence motion, averting immediate elections. The decision secures policy continuity while opposition vows renewed challenges ahead.",
+      "source": "Source: Reuters, 27 Jun 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
