@@ -2103,8 +2103,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 0,
+      "scorers": "",
+      "notes": []
+    },
     "quality": {
       "elo": 1986.0,
       "balance": 99.0,
@@ -2129,8 +2134,13 @@
       "uk": "BBC Two",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 1,
+      "scorers": "E. Shomurodov 10' (UZB) · F. Mayele 78' (COD) · Y. Wissa 68' (p), 90+1' (COD)",
+      "notes": []
+    },
     "quality": {
       "elo": 1698.0,
       "balance": 86.4,
@@ -2155,8 +2165,13 @@
       "uk": "BBC Two",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 3,
+      "scorers": "M. Arnautović 28' (AUT) · R. Belghali 45' (ALG) · M. Sabitzer 55' (AUT) · R. Mahrez 60', 90+3' (ALG) · S. Kalajdžič 90+6' (AUT)",
+      "notes": []
+    },
     "quality": {
       "elo": 1757.0,
       "balance": 89.6,
@@ -2181,8 +2196,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 3,
+      "scorers": "G. Lo Celso 19' (ARG) · L. Martínez 31' (pen) (ARG) · M. Al‑Taamari 55' (JOR) · L. Messi 80' (ARG)",
+      "notes": []
+    },
     "quality": {
       "elo": 1840.0,
       "balance": 21.4,
@@ -2207,8 +2227,13 @@
       "uk": "ITV4",
       "us": "FS1"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 1,
+      "scorers": "P. Sucic 31' (CRO) · D. Luckassen 73' (GHA) · N. Vlasic 83' (CRO)",
+      "notes": []
+    },
     "quality": {
       "elo": 1811.0,
       "balance": 71.1,
@@ -2233,8 +2258,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "result": null,
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 2,
+      "scorers": "J. Bellingham 62' (ENG) · H. Kane 67' (ENG)",
+      "notes": []
+    },
     "quality": {
       "elo": 1826.0,
       "balance": 43.4,
