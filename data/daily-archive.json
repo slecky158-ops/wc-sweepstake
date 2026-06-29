@@ -4903,5 +4903,127 @@
       "source": "Source: Reuters, 28 Jun 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260629": {
+    "generatedAt": "2026-06-29T12:52:14.534128+01:00",
+    "dateLong": "Monday, 29 June 2026",
+    "dateDay": "Mon 29 Jun",
+    "dateRest": "Tournament Day 19",
+    "yesterdayCount": "1 match",
+    "todayCount": "3 matches",
+    "yesterdayStoryline": {
+      "headline": "Eustáquio seals stoppage-time winner",
+      "subtitle": "Co-hosts Canada reach last 16 as South Africa exit after a tense knockout game"
+    },
+    "todayStoryline": {
+      "headline": "Heavyweights and dark horses meet in knockouts",
+      "subtitle": "Brazil, Germany and Netherlands face Japan, Paraguay and Morocco in three Round‑of‑32 ties"
+    },
+    "yesterday": [
+      {
+        "matchId": "FD537417",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-06-28T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "RSA",
+        "teamB": "CAN",
+        "scoreA": 0,
+        "scoreB": 1,
+        "score": "0-1",
+        "scorers": "Stephen Eustáquio 90+2' (CAN)",
+        "analysis": {
+          "lines": [
+            "Canada created the clearest chances, dominating set-piece danger and sustained pressure.",
+            "Eustáquio's late finish sends Canada into the last 16, eliminating South Africa."
+          ],
+          "source": "BBC Sport match report"
+        }
+      }
+    ],
+    "today": [
+      {
+        "matchId": "FD537423",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-06-29T18:00:00+01:00",
+        "timeUk": "18:00 UK",
+        "timeEt": "13:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "BRA",
+        "teamB": "JPN"
+      },
+      {
+        "matchId": "FD537415",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-06-29T21:30:00+01:00",
+        "timeUk": "21:30 UK",
+        "timeEt": "16:30 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "GER",
+        "teamB": "PAR"
+      },
+      {
+        "matchId": "FD537418",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-06-30T02:00:00+01:00",
+        "timeUk": "02:00 UK",
+        "timeEt": "21:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "NED",
+        "teamB": "MAR"
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · BUSINESS",
+      "headline": "Alphabet to join the Dow, replacing Verizon",
+      "body": "S&P Dow Jones Indices will add Alphabet to the Dow Jones Industrial Average before trading opens on June 29, 2026. The change increases the index's exposure to large-cap technology firms amid strong investor interest in AI-linked companies.",
+      "source": "Source: Reuters, 29 Jun 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
