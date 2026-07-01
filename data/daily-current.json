@@ -1,98 +1,19 @@
 {
-  "generatedAt": "2026-06-30T11:23:29.465804+01:00",
-  "dateLong": "Tuesday, 30 June 2026",
-  "dateDay": "Tue 30 Jun",
-  "dateRest": "Tournament Day 20",
+  "generatedAt": "2026-07-01T11:36:44.981006+01:00",
+  "dateLong": "Wednesday, 1 July 2026",
+  "dateDay": "Wed 1 Jul",
+  "dateRest": "Tournament Day 21",
   "yesterdayCount": "3 matches",
   "todayCount": "3 matches",
   "yesterdayStoryline": {
-    "headline": "Late drama and penalty shock",
-    "subtitle": "Brazil survive late; Paraguay stun Germany on penalties; Morocco beat Netherlands."
+    "headline": "Haaland stuns late as heavyweights progress",
+    "subtitle": "Norway win with late Haaland strike; France and Mexico advance with comfortable victories"
   },
-  "todayStoryline": null,
+  "todayStoryline": {
+    "headline": "England, Belgium and USA face last‑32 tests",
+    "subtitle": "England meet DR Congo; Belgium play Senegal; USA take on Bosnia in three knockout ties"
+  },
   "yesterday": [
-    {
-      "matchId": "FD537423",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": null,
-      "kickoffUk": "2026-06-29T18:00:00+01:00",
-      "timeUk": "18:00 UK",
-      "timeEt": "13:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "BBC/ITV",
-        "us": "FOX"
-      },
-      "teamA": "BRA",
-      "teamB": "JPN",
-      "scoreA": 2,
-      "scoreB": 1,
-      "score": "2-1",
-      "scorers": "Casemiro 56', Gabriel Martinelli 90+6' (BRA) · Kaishu Sano 29' (JPN)",
-      "analysis": {
-        "lines": [
-          "Brazil dominated possession but were punished by a quick Sano counter in the first half.",
-          "Martinelli's stoppage-time finish spared Brazil and sent them into the last 16."
-        ],
-        "source": "BBC Sport match report"
-      }
-    },
-    {
-      "matchId": "FD537415",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": null,
-      "kickoffUk": "2026-06-29T21:30:00+01:00",
-      "timeUk": "21:30 UK",
-      "timeEt": "16:30 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "BBC/ITV",
-        "us": "FOX"
-      },
-      "teamA": "GER",
-      "teamB": "PAR",
-      "scoreA": 4,
-      "scoreB": 5,
-      "score": "4-5"
-    },
-    {
-      "matchId": "FD537418",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": null,
-      "kickoffUk": "2026-06-30T02:00:00+01:00",
-      "timeUk": "02:00 UK",
-      "timeEt": "21:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "BBC/ITV",
-        "us": "FOX"
-      },
-      "teamA": "NED",
-      "teamB": "MAR",
-      "scoreA": 3,
-      "scoreB": 4,
-      "score": "3-4"
-    }
-  ],
-  "today": [
     {
       "matchId": "FD537424",
       "rank": null,
@@ -112,7 +33,18 @@
         "us": "FOX"
       },
       "teamA": "CIV",
-      "teamB": "NOR"
+      "teamB": "NOR",
+      "scoreA": 1,
+      "scoreB": 2,
+      "score": "1-2",
+      "scorers": "Amad Diallo 74' (CIV) · Antonio Nusa 39', Erling Haaland 86' (NOR)",
+      "analysis": {
+        "lines": [
+          "Ivory Coast dominated possession and created the clearer chances throughout the match.",
+          "Haaland's late finish delivered Norway a dramatic last‑32 victory and a last‑16 tie."
+        ],
+        "source": "BBC Sport match report"
+      }
     },
     {
       "matchId": "FD537416",
@@ -133,7 +65,18 @@
         "us": "FOX"
       },
       "teamA": "FRA",
-      "teamB": "SWE"
+      "teamB": "SWE",
+      "scoreA": 3,
+      "scoreB": 0,
+      "score": "3-0",
+      "scorers": "K Mbappé 45', B Barcola 53', K Mbappé 74' (FRA)",
+      "analysis": {
+        "lines": [
+          "France controlled the game with slick forward movement and clinical finishing.",
+          "Mbappé's brace secures France's place in the last 16 and keeps momentum building."
+        ],
+        "source": "BBC Sport match report"
+      }
     },
     {
       "matchId": "FD537425",
@@ -154,14 +97,91 @@
         "us": "FOX"
       },
       "teamA": "MEX",
-      "teamB": "ECU"
+      "teamB": "ECU",
+      "scoreA": 2,
+      "scoreB": 0,
+      "score": "2-0",
+      "scorers": "Julián Quiñones 22', Raúl Jiménez 31' (MEX)",
+      "note": "🟥 Piero Hincapie 90+4' (ECU)",
+      "analysis": {
+        "lines": [
+          "Mexico started fast, pressing high and scoring twice inside the first half hour.",
+          "The win ends Mexico's long knockout drought and sets up a potential host clash."
+        ],
+        "source": "BBC Sport match report"
+      }
+    }
+  ],
+  "today": [
+    {
+      "matchId": "FD537426",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": null,
+      "kickoffUk": "2026-07-01T17:00:00+01:00",
+      "timeUk": "17:00 UK",
+      "timeEt": "12:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "BBC/ITV",
+        "us": "FOX"
+      },
+      "teamA": "ENG",
+      "teamB": "COD"
+    },
+    {
+      "matchId": "FD537422",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": null,
+      "kickoffUk": "2026-07-01T21:00:00+01:00",
+      "timeUk": "21:00 UK",
+      "timeEt": "16:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "BBC/ITV",
+        "us": "FOX"
+      },
+      "teamA": "BEL",
+      "teamB": "SEN"
+    },
+    {
+      "matchId": "FD537421",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": null,
+      "kickoffUk": "2026-07-02T01:00:00+01:00",
+      "timeUk": "01:00 UK",
+      "timeEt": "20:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "BBC/ITV",
+        "us": "FOX"
+      },
+      "teamA": "USA",
+      "teamB": "BIH"
     }
   ],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "Major global diplomatic meeting focuses on food and energy security",
-    "body": "Leaders met to discuss coordinated responses to rising food and energy prices, seeking supply assurances. The talks aimed to ease market strains and reduce the risk of export restrictions.",
-    "source": "Source: Reuters, 30 Jun 2026"
+    "headline": "UK signals possible intervention in $110bn Paramount‑Warner Bros deal",
+    "body": "Britain says it may intervene on public‑interest grounds over Paramount Skydance’s proposed takeover of Warner Bros Discovery. The culture secretary has given the companies until July 6 to respond before a final decision on a formal probe.",
+    "source": "Source: Reuters, 1 Jul 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
