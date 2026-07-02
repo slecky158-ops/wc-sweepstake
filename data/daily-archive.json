@@ -5379,5 +5379,219 @@
       "source": "Source: Reuters, 1 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260702": {
+    "generatedAt": "2026-07-02T10:51:02.788234+01:00",
+    "dateLong": "Thursday, 2 July 2026",
+    "dateDay": "Thu 2 Jul",
+    "dateRest": "Tournament Day 22",
+    "yesterdayCount": "3 matches",
+    "todayCount": "3 matches",
+    "yesterdayStoryline": {
+      "headline": "Late drama and contentious reviews decide big ties",
+      "subtitle": "England, Belgium and USA all progress after comebacks, VAR checks and a red card"
+    },
+    "todayStoryline": {
+      "headline": "Three last‑32 tests for Iberian and Swiss sides",
+      "subtitle": "Spain, Portugal and Switzerland face Austria, Croatia and Algeria in separate knockout ties today"
+    },
+    "yesterday": [
+      {
+        "matchId": "FD537426",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-01T17:00:00+01:00",
+        "timeUk": "17:00 UK",
+        "timeEt": "12:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "ENG",
+        "teamB": "COD",
+        "scoreA": 2,
+        "scoreB": 1,
+        "score": "2-1",
+        "scorers": "B Cipenga 7' (COD) · H Kane 75', 86' (ENG)"
+      },
+      {
+        "matchId": "FD537422",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-01T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "BEL",
+        "teamB": "SEN",
+        "scoreA": 3,
+        "scoreB": 2,
+        "score": "3-2",
+        "scorers": "H Diarra 25', I Sarr 51' (SEN) · R Lukaku 86', Y Tielemans 89', 125' (BEL)"
+      },
+      {
+        "matchId": "FD537421",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-02T01:00:00+01:00",
+        "timeUk": "01:00 UK",
+        "timeEt": "20:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "USA",
+        "teamB": "BIH",
+        "scoreA": 2,
+        "scoreB": 0,
+        "score": "2-0",
+        "scorers": "F Balogun 45' (USA) · M Tillman 82' (USA)",
+        "note": "🟥 F Balogun 64' (USA)"
+      }
+    ],
+    "today": [
+      {
+        "matchId": "FD537420",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-02T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "ESP",
+        "teamB": "AUT",
+        "odds": {
+          "match": {
+            "home": "1.36",
+            "draw": "4.75",
+            "away": "11.00"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "2.00"
+          },
+          "fgs": null
+        },
+        "facts": {
+          "home": "Spain won the 2010 World Cup, beating the Netherlands in the final.",
+          "away": "Austria finished third at the 1954 World Cup in Switzerland."
+        }
+      },
+      {
+        "matchId": "FD537419",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-03T00:00:00+01:00",
+        "timeUk": "00:00 UK",
+        "timeEt": "19:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "POR",
+        "teamB": "CRO",
+        "odds": {
+          "match": {
+            "home": "1.75",
+            "draw": "3.63",
+            "away": "4.91"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "1.80"
+          },
+          "fgs": null
+        },
+        "facts": {
+          "home": "Portugal finished third at the 1966 World Cup, led by Eusébio.",
+          "away": "Croatia were runners‑up at the 2018 World Cup, losing the final to France."
+        }
+      },
+      {
+        "matchId": "FD537429",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-03T04:00:00+01:00",
+        "timeUk": "04:00 UK",
+        "timeEt": "23:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "SUI",
+        "teamB": "ALG",
+        "odds": {
+          "match": {
+            "home": "1.99",
+            "draw": "3.25",
+            "away": "3.95"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "2.05"
+          },
+          "fgs": null
+        },
+        "facts": {
+          "home": "Switzerland reached the World Cup last eight in 1934 and 1954.",
+          "away": "Algeria famously beat West Germany 2-1 at the 1982 World Cup."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · BUSINESS",
+      "headline": "OPEC+ likely to raise oil output targets from August",
+      "body": "Sources say OPEC+ ministers are expected to approve another monthly increase in output targets when they meet, keeping the group’s phased supply restoration on track. The move would add about 188,000 barrels per day from August, Reuters reports.",
+      "source": "Source: Reuters, 2 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
