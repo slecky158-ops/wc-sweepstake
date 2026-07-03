@@ -1,97 +1,19 @@
 {
-  "generatedAt": "2026-07-02T10:51:02.788234+01:00",
-  "dateLong": "Thursday, 2 July 2026",
-  "dateDay": "Thu 2 Jul",
-  "dateRest": "Tournament Day 22",
+  "generatedAt": "2026-07-03T10:48:39.573434+01:00",
+  "dateLong": "Friday, 3 July 2026",
+  "dateDay": "Fri 3 Jul",
+  "dateRest": "Tournament Day 23",
   "yesterdayCount": "3 matches",
   "todayCount": "3 matches",
   "yesterdayStoryline": {
-    "headline": "Late drama and contentious reviews decide big ties",
-    "subtitle": "England, Belgium and USA all progress after comebacks, VAR checks and a red card"
+    "headline": "European heavyweights advance with clinical displays",
+    "subtitle": "Spain, Portugal and Switzerland all sealed last-16 places with controlled wins"
   },
   "todayStoryline": {
-    "headline": "Three last‑32 tests for Iberian and Swiss sides",
-    "subtitle": "Spain, Portugal and Switzerland face Austria, Croatia and Algeria in separate knockout ties today"
+    "headline": "Three knockout ties promise contrasting tests",
+    "subtitle": "Underdogs and champions meet across North American venues in round‑of‑32"
   },
   "yesterday": [
-    {
-      "matchId": "FD537426",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": null,
-      "kickoffUk": "2026-07-01T17:00:00+01:00",
-      "timeUk": "17:00 UK",
-      "timeEt": "12:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "BBC/ITV",
-        "us": "FOX"
-      },
-      "teamA": "ENG",
-      "teamB": "COD",
-      "scoreA": 2,
-      "scoreB": 1,
-      "score": "2-1",
-      "scorers": "B Cipenga 7' (COD) · H Kane 75', 86' (ENG)"
-    },
-    {
-      "matchId": "FD537422",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": null,
-      "kickoffUk": "2026-07-01T21:00:00+01:00",
-      "timeUk": "21:00 UK",
-      "timeEt": "16:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "BBC/ITV",
-        "us": "FOX"
-      },
-      "teamA": "BEL",
-      "teamB": "SEN",
-      "scoreA": 3,
-      "scoreB": 2,
-      "score": "3-2",
-      "scorers": "H Diarra 25', I Sarr 51' (SEN) · R Lukaku 86', Y Tielemans 89', 125' (BEL)"
-    },
-    {
-      "matchId": "FD537421",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": null,
-      "kickoffUk": "2026-07-02T01:00:00+01:00",
-      "timeUk": "01:00 UK",
-      "timeEt": "20:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "BBC/ITV",
-        "us": "FOX"
-      },
-      "teamA": "USA",
-      "teamB": "BIH",
-      "scoreA": 2,
-      "scoreB": 0,
-      "score": "2-0",
-      "scorers": "F Balogun 45' (USA) · M Tillman 82' (USA)",
-      "note": "🟥 F Balogun 64' (USA)"
-    }
-  ],
-  "today": [
     {
       "matchId": "FD537420",
       "rank": null,
@@ -112,21 +34,16 @@
       },
       "teamA": "ESP",
       "teamB": "AUT",
-      "odds": {
-        "match": {
-          "home": "1.36",
-          "draw": "4.75",
-          "away": "11.00"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "2.00"
-        },
-        "fgs": null
-      },
-      "facts": {
-        "home": "Spain won the 2010 World Cup, beating the Netherlands in the final.",
-        "away": "Austria finished third at the 1954 World Cup in Switzerland."
+      "scoreA": 3,
+      "scoreB": 0,
+      "score": "3-0",
+      "scorers": "Mikel Oyarzabal 36', Pedro Porro 66', Mikel Oyarzabal 89' (ESP)",
+      "analysis": {
+        "lines": [
+          "Spain dominated possession and created the clearer openings throughout the match.",
+          "The win secures Spain a last‑16 tie against Portugal or Croatia."
+        ],
+        "source": "BBC Sport match report"
       }
     },
     {
@@ -149,21 +66,16 @@
       },
       "teamA": "POR",
       "teamB": "CRO",
-      "odds": {
-        "match": {
-          "home": "1.75",
-          "draw": "3.63",
-          "away": "4.91"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "1.80"
-        },
-        "fgs": null
-      },
-      "facts": {
-        "home": "Portugal finished third at the 1966 World Cup, led by Eusébio.",
-        "away": "Croatia were runners‑up at the 2018 World Cup, losing the final to France."
+      "scoreA": 2,
+      "scoreB": 1,
+      "score": "2-1",
+      "scorers": "Ivan Perišić 53' (CRO) · Cristiano Ronaldo 68' (POR) · Gonçalo Ramos 90+4' (POR)",
+      "analysis": {
+        "lines": [
+          "A chaotic tie featured VAR drama, a Ronaldo penalty and a stoppage‑time Ramos header.",
+          "Portugal survive late turmoil to reach a high‑profile last‑16 clash with Spain."
+        ],
+        "source": "BBC Sport match report"
       }
     },
     {
@@ -186,29 +98,152 @@
       },
       "teamA": "SUI",
       "teamB": "ALG",
+      "scoreA": 2,
+      "scoreB": 0,
+      "score": "2-0",
+      "scorers": "Breel Embolo 10', Dan Ndoye 46' (SUI)",
+      "analysis": {
+        "lines": [
+          "Switzerland struck early and doubled advantage immediately after half‑time to control the game.",
+          "The victory ends Switzerland's long knockout hoodoo and sends them into the last 16."
+        ],
+        "source": "BBC Sport match report"
+      }
+    }
+  ],
+  "today": [
+    {
+      "matchId": "FD537428",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": null,
+      "kickoffUk": "2026-07-03T19:00:00+01:00",
+      "timeUk": "19:00 UK",
+      "timeEt": "14:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "BBC/ITV",
+        "us": "FOX"
+      },
+      "teamA": "AUS",
+      "teamB": "EGY",
+      "weather": "35°C · mostly sunny",
+      "h2h": "First meeting",
       "odds": {
         "match": {
-          "home": "1.99",
-          "draw": "3.25",
-          "away": "3.95"
+          "home": "3.64",
+          "draw": "3.06",
+          "away": "2.52"
         },
         "extra": {
           "label": "O2.5",
-          "value": "2.05"
+          "value": "1.80"
         },
-        "fgs": null
+        "fgs": {
+          "name": "Worden",
+          "odds": "9.50"
+        }
       },
       "facts": {
-        "home": "Switzerland reached the World Cup last eight in 1934 and 1954.",
-        "away": "Algeria famously beat West Germany 2-1 at the 1982 World Cup."
+        "home": "A Socceroos youngster once worked as a supermarket shelf‑stacker before turning pro.",
+        "away": "Egypt's squad includes several players who built careers in Portuguese club academies."
+      }
+    },
+    {
+      "matchId": "FD537427",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": null,
+      "kickoffUk": "2026-07-03T23:00:00+01:00",
+      "timeUk": "23:00 UK",
+      "timeEt": "18:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "BBC/ITV",
+        "us": "FOX"
+      },
+      "teamA": "ARG",
+      "teamB": "CPV",
+      "weather": "30°C · intermittent clouds, possible late thunderstorms",
+      "h2h": "First meeting",
+      "odds": {
+        "match": {
+          "home": "1.51",
+          "draw": "3.85",
+          "away": "6.60"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "2.10"
+        },
+        "fgs": {
+          "name": "Messi",
+          "odds": "1.40"
+        }
+      },
+      "facts": {
+        "home": "A number of Argentina's senior players studied at local youth academies while finishing school.",
+        "away": "Cape Verde's 2026 World Cup run marked the nation's first ever finals appearance."
+      }
+    },
+    {
+      "matchId": "FD537430",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": null,
+      "kickoffUk": "2026-07-04T02:30:00+01:00",
+      "timeUk": "02:30 UK",
+      "timeEt": "21:30 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "BBC/ITV",
+        "us": "FOX"
+      },
+      "teamA": "COL",
+      "teamB": "GHA",
+      "weather": "27°C · mostly clear",
+      "h2h": "First meeting",
+      "odds": {
+        "match": {
+          "home": "1.55",
+          "draw": "3.80",
+          "away": "7.00"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "1.95"
+        },
+        "fgs": {
+          "name": "Díaz",
+          "odds": "6.00"
+        }
+      },
+      "facts": {
+        "home": "Colombia's squad includes several players who rose through local street‑football tournaments.",
+        "away": "Ghana's supporters are famed for colourful choreographed displays and drums at away matches."
       }
     }
   ],
   "news": {
-    "kicker": "REUTERS · BUSINESS",
-    "headline": "OPEC+ likely to raise oil output targets from August",
-    "body": "Sources say OPEC+ ministers are expected to approve another monthly increase in output targets when they meet, keeping the group’s phased supply restoration on track. The move would add about 188,000 barrels per day from August, Reuters reports.",
-    "source": "Source: Reuters, 2 Jul 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "U.S. and allies announce new sanctions package over trade‑related disputes",
+    "body": "A coalition of governments unveiled coordinated tariffs and targeted sanctions addressing unfair trade practices. Officials said the measures aim to protect critical industries and level the playing field.",
+    "source": "Source: Reuters, 3 Jul 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
