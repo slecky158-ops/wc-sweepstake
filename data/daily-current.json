@@ -1,117 +1,19 @@
 {
-  "generatedAt": "2026-07-03T10:48:39.573434+01:00",
-  "dateLong": "Friday, 3 July 2026",
-  "dateDay": "Fri 3 Jul",
-  "dateRest": "Tournament Day 23",
+  "generatedAt": "2026-07-04T10:12:30.695197+01:00",
+  "dateLong": "Saturday, 4 July 2026",
+  "dateDay": "Sat 4 Jul",
+  "dateRest": "Tournament Day 24",
   "yesterdayCount": "3 matches",
-  "todayCount": "3 matches",
+  "todayCount": "2 matches",
   "yesterdayStoryline": {
-    "headline": "European heavyweights advance with clinical displays",
-    "subtitle": "Spain, Portugal and Switzerland all sealed last-16 places with controlled wins"
+    "headline": "Late drama and extra‑time thrills",
+    "subtitle": "Argentina survives Cape Verde; Colombia and Egypt progress in tight knockout ties"
   },
   "todayStoryline": {
-    "headline": "Three knockout ties promise contrasting tests",
-    "subtitle": "Underdogs and champions meet across North American venues in round‑of‑32"
+    "headline": "Hosts Canada meet Morocco; France face Paraguay",
+    "subtitle": "Two contrasting last‑16 tests with different tactical demands and styles"
   },
   "yesterday": [
-    {
-      "matchId": "FD537420",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": null,
-      "kickoffUk": "2026-07-02T20:00:00+01:00",
-      "timeUk": "20:00 UK",
-      "timeEt": "15:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "BBC/ITV",
-        "us": "FOX"
-      },
-      "teamA": "ESP",
-      "teamB": "AUT",
-      "scoreA": 3,
-      "scoreB": 0,
-      "score": "3-0",
-      "scorers": "Mikel Oyarzabal 36', Pedro Porro 66', Mikel Oyarzabal 89' (ESP)",
-      "analysis": {
-        "lines": [
-          "Spain dominated possession and created the clearer openings throughout the match.",
-          "The win secures Spain a last‑16 tie against Portugal or Croatia."
-        ],
-        "source": "BBC Sport match report"
-      }
-    },
-    {
-      "matchId": "FD537419",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": null,
-      "kickoffUk": "2026-07-03T00:00:00+01:00",
-      "timeUk": "00:00 UK",
-      "timeEt": "19:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "BBC/ITV",
-        "us": "FOX"
-      },
-      "teamA": "POR",
-      "teamB": "CRO",
-      "scoreA": 2,
-      "scoreB": 1,
-      "score": "2-1",
-      "scorers": "Ivan Perišić 53' (CRO) · Cristiano Ronaldo 68' (POR) · Gonçalo Ramos 90+4' (POR)",
-      "analysis": {
-        "lines": [
-          "A chaotic tie featured VAR drama, a Ronaldo penalty and a stoppage‑time Ramos header.",
-          "Portugal survive late turmoil to reach a high‑profile last‑16 clash with Spain."
-        ],
-        "source": "BBC Sport match report"
-      }
-    },
-    {
-      "matchId": "FD537429",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": null,
-      "kickoffUk": "2026-07-03T04:00:00+01:00",
-      "timeUk": "04:00 UK",
-      "timeEt": "23:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "BBC/ITV",
-        "us": "FOX"
-      },
-      "teamA": "SUI",
-      "teamB": "ALG",
-      "scoreA": 2,
-      "scoreB": 0,
-      "score": "2-0",
-      "scorers": "Breel Embolo 10', Dan Ndoye 46' (SUI)",
-      "analysis": {
-        "lines": [
-          "Switzerland struck early and doubled advantage immediately after half‑time to control the game.",
-          "The victory ends Switzerland's long knockout hoodoo and sends them into the last 16."
-        ],
-        "source": "BBC Sport match report"
-      }
-    }
-  ],
-  "today": [
     {
       "matchId": "FD537428",
       "rank": null,
@@ -132,27 +34,10 @@
       },
       "teamA": "AUS",
       "teamB": "EGY",
-      "weather": "35°C · mostly sunny",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "3.64",
-          "draw": "3.06",
-          "away": "2.52"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "1.80"
-        },
-        "fgs": {
-          "name": "Worden",
-          "odds": "9.50"
-        }
-      },
-      "facts": {
-        "home": "A Socceroos youngster once worked as a supermarket shelf‑stacker before turning pro.",
-        "away": "Egypt's squad includes several players who built careers in Portuguese club academies."
-      }
+      "scoreA": 3,
+      "scoreB": 5,
+      "score": "3-5",
+      "scorers": "Emam Ashour 13' (EGY) · Mohamed Hany 55' (AUS)"
     },
     {
       "matchId": "FD537427",
@@ -174,27 +59,10 @@
       },
       "teamA": "ARG",
       "teamB": "CPV",
-      "weather": "30°C · intermittent clouds, possible late thunderstorms",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "1.51",
-          "draw": "3.85",
-          "away": "6.60"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "2.10"
-        },
-        "fgs": {
-          "name": "Messi",
-          "odds": "1.40"
-        }
-      },
-      "facts": {
-        "home": "A number of Argentina's senior players studied at local youth academies while finishing school.",
-        "away": "Cape Verde's 2026 World Cup run marked the nation's first ever finals appearance."
-      }
+      "scoreA": 3,
+      "scoreB": 2,
+      "score": "3-2",
+      "scorers": "Lionel Messi 29' (ARG) · Deroy Duarte 59' (CPV) · Lisandro Martínez 91' (ARG) · Sidny Lopes Cabral 103' (CPV) · Diney Borges 111' OG (CPV)"
     },
     {
       "matchId": "FD537430",
@@ -216,34 +84,61 @@
       },
       "teamA": "COL",
       "teamB": "GHA",
-      "weather": "27°C · mostly clear",
-      "h2h": "First meeting",
-      "odds": {
-        "match": {
-          "home": "1.55",
-          "draw": "3.80",
-          "away": "7.00"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "1.95"
-        },
-        "fgs": {
-          "name": "Díaz",
-          "odds": "6.00"
-        }
+      "scoreA": 1,
+      "scoreB": 0,
+      "score": "1-0",
+      "scorers": "Jhon Arias 14' (COL)"
+    }
+  ],
+  "today": [
+    {
+      "matchId": "FD537376",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": null,
+      "kickoffUk": "2026-07-04T18:00:00+01:00",
+      "timeUk": "18:00 UK",
+      "timeEt": "13:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
       },
-      "facts": {
-        "home": "Colombia's squad includes several players who rose through local street‑football tournaments.",
-        "away": "Ghana's supporters are famed for colourful choreographed displays and drums at away matches."
-      }
+      "broadcast": {
+        "uk": "BBC/ITV",
+        "us": "FOX"
+      },
+      "teamA": "CAN",
+      "teamB": "MAR"
+    },
+    {
+      "matchId": "FD537375",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": null,
+      "kickoffUk": "2026-07-04T22:00:00+01:00",
+      "timeUk": "22:00 UK",
+      "timeEt": "17:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "BBC/ITV",
+        "us": "FOX"
+      },
+      "teamA": "PAR",
+      "teamB": "FRA"
     }
   ],
   "news": {
-    "kicker": "REUTERS · POLITICS",
-    "headline": "U.S. and allies announce new sanctions package over trade‑related disputes",
-    "body": "A coalition of governments unveiled coordinated tariffs and targeted sanctions addressing unfair trade practices. Officials said the measures aim to protect critical industries and level the playing field.",
-    "source": "Source: Reuters, 3 Jul 2026"
+    "kicker": "REUTERS · GLOBAL",
+    "headline": "U.S. consumer inflation cools in June, easing pressure on markets",
+    "body": "U.S. consumer-price gains eased in June, signalling a slowdown in inflation and tempering expectations of aggressive policy moves. Financial markets reacted to the softer data with modest gains and reduced expectations for further rapid rate increases.",
+    "source": "Source: Reuters, 4 Jul 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

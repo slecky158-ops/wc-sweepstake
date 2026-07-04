@@ -5842,5 +5842,149 @@
       "source": "Source: Reuters, 3 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260704": {
+    "generatedAt": "2026-07-04T10:12:30.695197+01:00",
+    "dateLong": "Saturday, 4 July 2026",
+    "dateDay": "Sat 4 Jul",
+    "dateRest": "Tournament Day 24",
+    "yesterdayCount": "3 matches",
+    "todayCount": "2 matches",
+    "yesterdayStoryline": {
+      "headline": "Late drama and extra‑time thrills",
+      "subtitle": "Argentina survives Cape Verde; Colombia and Egypt progress in tight knockout ties"
+    },
+    "todayStoryline": {
+      "headline": "Hosts Canada meet Morocco; France face Paraguay",
+      "subtitle": "Two contrasting last‑16 tests with different tactical demands and styles"
+    },
+    "yesterday": [
+      {
+        "matchId": "FD537428",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-03T19:00:00+01:00",
+        "timeUk": "19:00 UK",
+        "timeEt": "14:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "AUS",
+        "teamB": "EGY",
+        "scoreA": 3,
+        "scoreB": 5,
+        "score": "3-5",
+        "scorers": "Emam Ashour 13' (EGY) · Mohamed Hany 55' (AUS)"
+      },
+      {
+        "matchId": "FD537427",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-03T23:00:00+01:00",
+        "timeUk": "23:00 UK",
+        "timeEt": "18:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "ARG",
+        "teamB": "CPV",
+        "scoreA": 3,
+        "scoreB": 2,
+        "score": "3-2",
+        "scorers": "Lionel Messi 29' (ARG) · Deroy Duarte 59' (CPV) · Lisandro Martínez 91' (ARG) · Sidny Lopes Cabral 103' (CPV) · Diney Borges 111' OG (CPV)"
+      },
+      {
+        "matchId": "FD537430",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-04T02:30:00+01:00",
+        "timeUk": "02:30 UK",
+        "timeEt": "21:30 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "COL",
+        "teamB": "GHA",
+        "scoreA": 1,
+        "scoreB": 0,
+        "score": "1-0",
+        "scorers": "Jhon Arias 14' (COL)"
+      }
+    ],
+    "today": [
+      {
+        "matchId": "FD537376",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-04T18:00:00+01:00",
+        "timeUk": "18:00 UK",
+        "timeEt": "13:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "CAN",
+        "teamB": "MAR"
+      },
+      {
+        "matchId": "FD537375",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-04T22:00:00+01:00",
+        "timeUk": "22:00 UK",
+        "timeEt": "17:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "PAR",
+        "teamB": "FRA"
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · GLOBAL",
+      "headline": "U.S. consumer inflation cools in June, easing pressure on markets",
+      "body": "U.S. consumer-price gains eased in June, signalling a slowdown in inflation and tempering expectations of aggressive policy moves. Financial markets reacted to the softer data with modest gains and reduced expectations for further rapid rate increases.",
+      "source": "Source: Reuters, 4 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
