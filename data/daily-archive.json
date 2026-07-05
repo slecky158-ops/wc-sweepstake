@@ -5986,5 +5986,146 @@
       "source": "Source: Reuters, 4 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260705": {
+    "generatedAt": "2026-07-05T10:33:07.532190+01:00",
+    "dateLong": "Sunday, 5 July 2026",
+    "dateDay": "Sun 5 Jul",
+    "dateRest": "Tournament Day 25",
+    "yesterdayCount": "2 matches",
+    "todayCount": "2 matches",
+    "yesterdayStoryline": {
+      "headline": "Morocco beat hosts; France win a scrappy tie",
+      "subtitle": "Ounahi brace downs Canada; Mbappé penalty settles an ill‑tempered France–Paraguay match"
+    },
+    "todayStoryline": {
+      "headline": "Brazil and England back in action",
+      "subtitle": "Brazil meet Norway while Mexico host England in two late fixtures"
+    },
+    "yesterday": [
+      {
+        "matchId": "FD537376",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-04T18:00:00+01:00",
+        "timeUk": "18:00 UK",
+        "timeEt": "13:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "CAN",
+        "teamB": "MAR",
+        "scoreA": 0,
+        "scoreB": 3,
+        "score": "0-3",
+        "scorers": "Azzedine Ounahi 50', Azzedine Ounahi 82', Soufiane Rahimi 90+8' (MAR)",
+        "analysis": {
+          "lines": [
+            "Morocco took control after halftime with clinical counters and set-piece quality.",
+            "The win knocks hosts Canada out and sends Morocco into the last eight."
+          ],
+          "source": "BBC Sport match report"
+        }
+      },
+      {
+        "matchId": "FD537375",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-04T22:00:00+01:00",
+        "timeUk": "22:00 UK",
+        "timeEt": "17:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "PAR",
+        "teamB": "FRA",
+        "scoreA": 0,
+        "scoreB": 1,
+        "score": "0-1",
+        "scorers": "Kylian Mbappé 70' (FRA)",
+        "analysis": {
+          "lines": [
+            "France struggled to break Paraguay's low block until a late penalty.",
+            "Mbappé's spot-kick settles the tie and sets up a Morocco quarter-final clash."
+          ],
+          "source": "BBC Sport match report"
+        }
+      }
+    ],
+    "today": [
+      {
+        "matchId": "FD537377",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-05T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "BRA",
+        "teamB": "NOR",
+        "facts": {
+          "home": "Brazil adopted its iconic yellow-green kit after a 1953 national design competition.",
+          "away": "Norway's population is about 5.5 million, relatively small for a top-tier European football nation."
+        }
+      },
+      {
+        "matchId": "FD537378",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-06T01:00:00+01:00",
+        "timeUk": "01:00 UK",
+        "timeEt": "20:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "MEX",
+        "teamB": "ENG",
+        "facts": {
+          "home": "Jorge Campos famously designed and wore flamboyant multicoloured goalkeeper shirts for Mexico in the 1990s.",
+          "away": "England's 1966 World Cup trophy was famously recovered by a dog called Pickles after theft."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Trump delivers July 4 address on National Mall after storm delay",
+      "body": "President Donald Trump delivered a July 4 address on the National Mall after a storm-related evacuation delayed the event. Authorities earlier cleared and sheltered crowds for safety, and the ceremony drew scrutiny over security and crowd management.",
+      "source": "Source: Reuters, 5 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
