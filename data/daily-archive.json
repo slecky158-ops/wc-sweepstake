@@ -6127,5 +6127,125 @@
       "source": "Source: Reuters, 5 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260706": {
+    "generatedAt": "2026-07-06T12:21:18.208892+01:00",
+    "dateLong": "Monday, 6 July 2026",
+    "dateDay": "Mon 6 Jul",
+    "dateRest": "Tournament Day 26",
+    "yesterdayCount": "2 matches",
+    "todayCount": "2 matches",
+    "yesterdayStoryline": {
+      "headline": "Norway's late rally ends Brazil's tournament",
+      "subtitle": "Haaland brace overturns early penalty miss; Neymar's stoppage-time spot proves consolation"
+    },
+    "todayStoryline": {
+      "headline": "Iberian rivals clash; USA face Belgium",
+      "subtitle": "Portugal v Spain meet in last‑16 while the USA take on Belgium in late kick‑off"
+    },
+    "yesterday": [
+      {
+        "matchId": "FD537377",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-05T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "BRA",
+        "teamB": "NOR",
+        "scoreA": 1,
+        "scoreB": 2,
+        "score": "1-2",
+        "scorers": "Erling Haaland 79', Erling Haaland 90' (NOR) · Neymar 90+10' (BRA)"
+      },
+      {
+        "matchId": "FD537378",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-06T02:00:00+01:00",
+        "timeUk": "02:00 UK",
+        "timeEt": "21:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "MEX",
+        "teamB": "ENG",
+        "scoreA": 2,
+        "scoreB": 3,
+        "score": "2-3",
+        "scorers": "Julián Quiñones 42', Raúl Jiménez 69' (MEX) · Jude Bellingham 36', Jude Bellingham 38', Harry Kane 60' (ENG)",
+        "note": "🟥 Jarell Quansah 54' (ENG)"
+      }
+    ],
+    "today": [
+      {
+        "matchId": "FD537379",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-06T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "POR",
+        "teamB": "ESP"
+      },
+      {
+        "matchId": "FD537380",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-07T01:00:00+01:00",
+        "timeUk": "01:00 UK",
+        "timeEt": "20:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "USA",
+        "teamB": "BEL"
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Millions attend funeral processions for Iran's slain supreme leader",
+      "body": "Large funeral processions for Iran's slain supreme leader drew huge crowds in Tehran and other cities. Authorities suspended some services and regional leaders warned the events could complicate diplomatic efforts.",
+      "source": "Source: Reuters, 6 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
