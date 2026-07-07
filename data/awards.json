@@ -58,8 +58,9 @@
     "rule": "Most clean sheets across the whole tournament.",
     "prize": "£7.50",
     "icon": "shield",
-    "currentLeader": "🇪🇸 Spain",
-    "winnerEntrant": "ned"
+    "currentLeader": "🇪🇸 Spain (current leader)",
+    "winnerEntrant": null,
+    "leaderEntrant": "ned"
   },
   {
     "id": "most-assists",
@@ -68,8 +69,9 @@
     "rule": "Most assists across the tournament.",
     "prize": "£5",
     "icon": "boot",
-    "currentLeader": "Olise (🇫🇷 France)",
-    "winnerEntrant": "peter"
+    "currentLeader": "Olise · 🇫🇷 France (current leader)",
+    "winnerEntrant": null,
+    "leaderEntrant": "peter"
   },
   {
     "id": "first-red",
@@ -118,8 +120,9 @@
     "rule": "Team with the most non-penalty set-piece goals (direct free kicks, corners, indirect free kicks).",
     "prize": "£5",
     "icon": "boot",
-    "currentLeader": "🇺🇸 USA",
-    "winnerEntrant": "beer"
+    "currentLeader": "🇺🇸 USA (current leader)",
+    "winnerEntrant": null,
+    "leaderEntrant": "beer"
   },
   {
     "id": "worst-disciplined",
@@ -128,8 +131,9 @@
     "rule": "Most cards + fouls per 90 (exact weighting to be locked before kickoff).",
     "prize": "£5",
     "icon": "card",
-    "currentLeader": "🇶🇦 Qatar",
-    "winnerEntrant": "peter"
+    "currentLeader": "🇶🇦 Qatar (current leader)",
+    "winnerEntrant": null,
+    "leaderEntrant": "peter"
   },
   {
     "id": "iran-multiplier",
