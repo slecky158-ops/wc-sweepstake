@@ -2,8 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { DailyMatchCard } from '@/components/DailyMatchCard';
 import { DateDropdown } from '@/components/DateDropdown';
+import { MarqueeMatch } from '@/components/MarqueeMatch';
+import { ChaseRail } from '@/components/ChaseRail';
+import { KnockoutMap } from '@/components/KnockoutMap';
+import { YesterdayDrama } from '@/components/YesterdayDrama';
 import { pickDaily, archiveDatesDesc, formatArchiveDate, rules } from '@/lib/data';
 import { getLiveScores, liveStateFor } from '@/lib/live';
+import { isKnockoutPhase, pickMarqueeMatch, getStillAliveEntrants } from '@/lib/knockout';
 
 export const dynamic = 'force-dynamic';
 
@@ -83,28 +88,37 @@ export default async function HomePage({ searchParams }: { searchParams: { date?
           </div>
         )}
 
-        <Section accent="signal" label="Today" count={daily.todayCount} storyline={daily.todayStoryline}>
-          {daily.today.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {daily.today.map(m => <DailyMatchCard key={m.matchId} match={m} kind="today" live={liveStateFor(live, m.teamA, m.teamB, m.kickoffUk)} />)}
-            </div>
-          ) : (
-            <EmptyState title="Rest day" body="No matches inside this day's window (08:00 UK → 08:00 UK)." />
-          )}
-        </Section>
+        {isKnockoutPhase() && isLatest ? (
+          <KnockoutMode
+            daily={daily}
+            liveMap={live}
+          />
+        ) : (
+          <>
+            <Section accent="signal" label="Today" count={daily.todayCount} storyline={daily.todayStoryline}>
+              {daily.today.length > 0 ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {daily.today.map(m => <DailyMatchCard key={m.matchId} match={m} kind="today" live={liveStateFor(live, m.teamA, m.teamB, m.kickoffUk)} />)}
+                </div>
+              ) : (
+                <EmptyState title="Rest day" body="No matches inside this day's window (08:00 UK → 08:00 UK)." />
+              )}
+            </Section>
 
-        <Section accent="done" label="Yesterday" count={daily.yesterdayCount} storyline={daily.yesterdayStoryline}>
-          {daily.yesterday.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {daily.yesterday.map(m => <DailyMatchCard key={m.matchId} match={m} kind="yesterday" live={liveStateFor(live, m.teamA, m.teamB, m.kickoffUk)} />)}
-            </div>
-          ) : (
-            <EmptyState
-              title={daily.yesterdayCount === 'Pre-tournament' ? "Tournament hasn't started" : 'Nothing yesterday'}
-              body="World Cup 26 kicks off today. Tomorrow's daily will recap and preview matchday two."
-            />
-          )}
-        </Section>
+            <Section accent="done" label="Yesterday" count={daily.yesterdayCount} storyline={daily.yesterdayStoryline}>
+              {daily.yesterday.length > 0 ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {daily.yesterday.map(m => <DailyMatchCard key={m.matchId} match={m} kind="yesterday" live={liveStateFor(live, m.teamA, m.teamB, m.kickoffUk)} />)}
+                </div>
+              ) : (
+                <EmptyState
+                  title={daily.yesterdayCount === 'Pre-tournament' ? "Tournament hasn't started" : 'Nothing yesterday'}
+                  body="World Cup 26 kicks off today. Tomorrow's daily will recap and preview matchday two."
+                />
+              )}
+            </Section>
+          </>
+        )}
 
         <Section accent="info" label="Beyond Football" count="Last 24h">
           <article className="paper border-l-4 border-info p-5 sm:p-6">
@@ -167,5 +181,37 @@ function EmptyState({ title, body }: { title: string; body: string }) {
       <div className="display text-lg sm:text-xl mb-2 text-text">{title}</div>
       <p className="text-sm text-text-dim leading-relaxed">{body}</p>
     </div>
+  );
+}
+
+function KnockoutMode({
+  daily,
+  liveMap,
+}: {
+  daily: import('@/lib/types').DailyPayload;
+  liveMap: Awaited<ReturnType<typeof getLiveScores>>;
+}) {
+  const marquee = pickMarqueeMatch();
+  const stillAlive = getStillAliveEntrants();
+
+  // If the marquee match is today, pass through its live state + facts from the daily payload
+  const dailyMatch = marquee
+    ? daily.today.find(d => d.matchId === marquee.id) ?? daily.yesterday.find(d => d.matchId === marquee.id)
+    : null;
+  const liveState = marquee && marquee.teamA && marquee.teamB && marquee.kickoffUk
+    ? liveStateFor(liveMap, marquee.teamA, marquee.teamB, marquee.kickoffUk)
+    : undefined;
+  const factHome = dailyMatch?.facts?.home;
+  const factAway = dailyMatch?.facts?.away;
+
+  return (
+    <>
+      {marquee && (
+        <MarqueeMatch match={marquee} live={liveState} factHome={factHome} factAway={factAway} />
+      )}
+      {stillAlive.length > 0 && <ChaseRail entries={stillAlive} />}
+      <KnockoutMap />
+      <YesterdayDrama matches={daily.yesterday} storyline={daily.yesterdayStoryline} />
+    </>
   );
 }

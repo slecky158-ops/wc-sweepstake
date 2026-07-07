@@ -36,7 +36,7 @@
     "rule": "Most goals across the tournament.",
     "prize": "£7.50",
     "icon": "boot",
-    "currentLeader": "🇦🇷 Argentina (player TBC)",
+    "currentLeader": null,
     "winnerEntrant": null,
     "leaderEntrant": "joe"
   },
@@ -47,7 +47,7 @@
     "rule": "Most goals scored in the group stage only.",
     "prize": "£7.50",
     "icon": "boot",
-    "currentLeader": "🇩🇪 Germany",
+    "currentLeader": "🇩🇪 Germany · 🇳🇱 Netherlands · 🇫🇷 France (3-way tie · tiebreaker)",
     "winnerEntrant": null,
     "leaderEntrant": "andrew-r"
   },
@@ -58,8 +58,8 @@
     "rule": "Most clean sheets across the whole tournament.",
     "prize": "£7.50",
     "icon": "shield",
-    "currentLeader": "🇲🇽 Mexico · 🇦🇷 Argentina · 🇪🇸 Spain (tied)",
-    "winnerEntrant": null
+    "currentLeader": "🇪🇸 Spain",
+    "winnerEntrant": "ned"
   },
   {
     "id": "most-assists",
@@ -68,8 +68,8 @@
     "rule": "Most assists across the tournament.",
     "prize": "£5",
     "icon": "boot",
-    "currentLeader": "Isak (🇸🇪) · Olise (🇫🇷) — tied",
-    "winnerEntrant": null
+    "currentLeader": "Olise (🇫🇷 France)",
+    "winnerEntrant": "peter"
   },
   {
     "id": "first-red",
@@ -98,9 +98,8 @@
     "rule": "Lowest points → then worst goal difference → then fewest goals scored.",
     "prize": "£7.50",
     "icon": "wooden-spoon",
-    "currentLeader": "🇹🇳 Tunisia",
-    "winnerEntrant": null,
-    "leaderEntrant": "sam-w"
+    "currentLeader": "🇮🇶 Iraq",
+    "winnerEntrant": "rebekah"
   },
   {
     "id": "first-shootout",
@@ -109,7 +108,7 @@
     "rule": "Knockout-stage penalty shootout loss.",
     "prize": "£5",
     "icon": "penalty",
-    "currentLeader": null,
+    "currentLeader": "🇩🇪 Germany · 🇳🇱 Netherlands (2-way tie · tiebreaker)",
     "winnerEntrant": null
   },
   {
@@ -119,8 +118,8 @@
     "rule": "Team with the most non-penalty set-piece goals (direct free kicks, corners, indirect free kicks).",
     "prize": "£5",
     "icon": "boot",
-    "currentLeader": "🇩🇿 Algeria · 🇧🇦 Bosnia · 🇨🇦 Canada · 🇨🇿 Czechia (tied)",
-    "winnerEntrant": null
+    "currentLeader": "🇺🇸 USA",
+    "winnerEntrant": "beer"
   },
   {
     "id": "worst-disciplined",
@@ -129,9 +128,8 @@
     "rule": "Most cards + fouls per 90 (exact weighting to be locked before kickoff).",
     "prize": "£5",
     "icon": "card",
-    "currentLeader": "🇿🇦 South Africa",
-    "winnerEntrant": null,
-    "leaderEntrant": "sam-l"
+    "currentLeader": "🇶🇦 Qatar",
+    "winnerEntrant": "peter"
   },
   {
     "id": "iran-multiplier",
@@ -140,7 +138,7 @@
     "rule": "If Iran does not show up to the tournament, the entrant who drew Iran gets a 1.5x multiplier on all rewards earned by their OTHER team, EXCEPT 1st place.",
     "prize": "1.5× modifier on other team's awards (excl. winner)",
     "icon": "star",
-    "currentLeader": null,
+    "currentLeader": "Iran showed up — not triggered",
     "winnerEntrant": null
   },
   {
@@ -150,8 +148,8 @@
     "rule": "First team where Trump directly insults their national team — broad insults against the country do NOT count.",
     "prize": "£5",
     "icon": "megaphone",
-    "currentLeader": null,
-    "winnerEntrant": null
+    "currentLeader": "🇧🇪 Belgium",
+    "winnerEntrant": "tom"
   },
   {
     "id": "first-missed-pen",
@@ -160,7 +158,7 @@
     "rule": "Cumulative tournament minutes basis. In-play and shootout misses both count unless decided otherwise before kickoff.",
     "prize": "£5",
     "icon": "penalty",
-    "currentLeader": "🇦🇷 Argentina",
+    "currentLeader": "Messi (🇦🇷 Argentina)",
     "winnerEntrant": "joe"
   },
   {
@@ -210,7 +208,7 @@
     "rule": "First player to score three goals in a single match.",
     "prize": "£5",
     "icon": "boot",
-    "currentLeader": "🇦🇷 Argentina",
+    "currentLeader": "Messi (🇦🇷 Argentina)",
     "winnerEntrant": "joe"
   }
 ]

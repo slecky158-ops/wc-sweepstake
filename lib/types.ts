@@ -56,6 +56,7 @@ export interface Match {
   status: 'scheduled' | 'live' | 'completed' | 'tbd';
   result: MatchResult | null;
   quality?: Quality;
+  weather?: string | null;
 }
 
 export type AwardKind = 'team' | 'player' | 'modifier';
