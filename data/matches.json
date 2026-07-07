@@ -2278,16 +2278,21 @@
     "round": "R32",
     "matchNo": 1,
     "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
+    "kickoffUk": "2026-06-28T20:00:00+01:00",
+    "teamA": "RSA",
+    "teamB": "CAN",
     "venue": null,
     "broadcast": {
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "tbd",
-    "result": null
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 1,
+      "scorers": "",
+      "notes": []
+    }
   },
   {
     "id": "K002",
@@ -2296,16 +2301,21 @@
     "round": "R32",
     "matchNo": 2,
     "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
+    "kickoffUk": "2026-06-29T18:00:00+01:00",
+    "teamA": "BRA",
+    "teamB": "JPN",
     "venue": null,
     "broadcast": {
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "tbd",
-    "result": null
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 1,
+      "scorers": "",
+      "notes": []
+    }
   },
   {
     "id": "K003",
@@ -2314,16 +2324,21 @@
     "round": "R32",
     "matchNo": 3,
     "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
+    "kickoffUk": "2026-06-29T21:30:00+01:00",
+    "teamA": "GER",
+    "teamB": "PAR",
     "venue": null,
     "broadcast": {
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "tbd",
-    "result": null
+    "status": "completed",
+    "result": {
+      "scoreA": 4,
+      "scoreB": 5,
+      "scorers": "",
+      "notes": []
+    }
   },
   {
     "id": "K004",
@@ -2332,16 +2347,21 @@
     "round": "R32",
     "matchNo": 4,
     "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
+    "kickoffUk": "2026-06-30T02:00:00+01:00",
+    "teamA": "NED",
+    "teamB": "MAR",
     "venue": null,
     "broadcast": {
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "tbd",
-    "result": null
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 4,
+      "scorers": "",
+      "notes": []
+    }
   },
   {
     "id": "K005",
@@ -2350,16 +2370,21 @@
     "round": "R32",
     "matchNo": 5,
     "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
+    "kickoffUk": "2026-06-30T18:00:00+01:00",
+    "teamA": "CIV",
+    "teamB": "NOR",
     "venue": null,
     "broadcast": {
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "tbd",
-    "result": null
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 2,
+      "scorers": "",
+      "notes": []
+    }
   },
   {
     "id": "K006",
@@ -2368,212 +2393,10 @@
     "round": "R32",
     "matchNo": 6,
     "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
+    "kickoffUk": "2026-06-30T22:00:00+01:00",
+    "teamA": "FRA",
+    "teamB": "SWE",
     "venue": null,
-    "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
-    },
-    "status": "tbd",
-    "result": null
-  },
-  {
-    "id": "K007",
-    "stage": "knockout",
-    "group": null,
-    "round": "R32",
-    "matchNo": 7,
-    "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
-    "venue": null,
-    "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
-    },
-    "status": "tbd",
-    "result": null
-  },
-  {
-    "id": "K008",
-    "stage": "knockout",
-    "group": null,
-    "round": "R32",
-    "matchNo": 8,
-    "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
-    "venue": null,
-    "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
-    },
-    "status": "tbd",
-    "result": null
-  },
-  {
-    "id": "K009",
-    "stage": "knockout",
-    "group": null,
-    "round": "R32",
-    "matchNo": 9,
-    "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
-    "venue": null,
-    "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
-    },
-    "status": "tbd",
-    "result": null
-  },
-  {
-    "id": "K010",
-    "stage": "knockout",
-    "group": null,
-    "round": "R32",
-    "matchNo": 10,
-    "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
-    "venue": null,
-    "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
-    },
-    "status": "tbd",
-    "result": null
-  },
-  {
-    "id": "K011",
-    "stage": "knockout",
-    "group": null,
-    "round": "R32",
-    "matchNo": 11,
-    "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
-    "venue": null,
-    "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
-    },
-    "status": "tbd",
-    "result": null
-  },
-  {
-    "id": "K012",
-    "stage": "knockout",
-    "group": null,
-    "round": "R32",
-    "matchNo": 12,
-    "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
-    "venue": null,
-    "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
-    },
-    "status": "tbd",
-    "result": null
-  },
-  {
-    "id": "K013",
-    "stage": "knockout",
-    "group": null,
-    "round": "R32",
-    "matchNo": 13,
-    "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
-    "venue": null,
-    "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
-    },
-    "status": "tbd",
-    "result": null
-  },
-  {
-    "id": "K014",
-    "stage": "knockout",
-    "group": null,
-    "round": "R32",
-    "matchNo": 14,
-    "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
-    "venue": null,
-    "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
-    },
-    "status": "tbd",
-    "result": null
-  },
-  {
-    "id": "K015",
-    "stage": "knockout",
-    "group": null,
-    "round": "R32",
-    "matchNo": 15,
-    "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
-    "venue": null,
-    "broadcast": {
-      "uk": "ITV1",
-      "us": "FOX"
-    },
-    "status": "tbd",
-    "result": null
-  },
-  {
-    "id": "K016",
-    "stage": "knockout",
-    "group": null,
-    "round": "R32",
-    "matchNo": 16,
-    "rank": null,
-    "kickoffUk": null,
-    "teamA": null,
-    "teamB": null,
-    "venue": null,
-    "broadcast": {
-      "uk": "BBC One",
-      "us": "FOX"
-    },
-    "status": "tbd",
-    "result": null
-  },
-  {
-    "id": "K017",
-    "stage": "knockout",
-    "group": null,
-    "round": "R16",
-    "matchNo": 1,
-    "rank": null,
-    "kickoffUk": "2026-07-04T20:00:00+01:00",
-    "teamA": "MAR",
-    "teamB": "CAN",
-    "venue": {
-      "stadium": "BMO Field",
-      "city": "Toronto",
-      "country": "CA"
-    },
     "broadcast": {
       "uk": "ITV1",
       "us": "FOX"
@@ -2587,50 +2410,42 @@
     }
   },
   {
-    "id": "K018",
+    "id": "K007",
     "stage": "knockout",
     "group": null,
-    "round": "R16",
-    "matchNo": 2,
+    "round": "R32",
+    "matchNo": 7,
     "rank": null,
-    "kickoffUk": "2026-07-04T23:00:00+01:00",
-    "teamA": "FRA",
-    "teamB": "PAR",
-    "venue": {
-      "stadium": "MetLife Stadium",
-      "city": "New York",
-      "country": "US"
-    },
+    "kickoffUk": "2026-07-01T03:00:00+01:00",
+    "teamA": "MEX",
+    "teamB": "ECU",
+    "venue": null,
     "broadcast": {
       "uk": "BBC One",
       "us": "FOX"
     },
     "status": "completed",
     "result": {
-      "scoreA": 1,
+      "scoreA": 2,
       "scoreB": 0,
       "scorers": "",
       "notes": []
     }
   },
   {
-    "id": "K019",
+    "id": "K008",
     "stage": "knockout",
     "group": null,
-    "round": "R16",
-    "matchNo": 3,
+    "round": "R32",
+    "matchNo": 8,
     "rank": null,
-    "kickoffUk": "2026-07-05T20:00:00+01:00",
-    "teamA": "NOR",
-    "teamB": "BRA",
-    "venue": {
-      "stadium": "SoFi Stadium",
-      "city": "Los Angeles",
-      "country": "US"
-    },
+    "kickoffUk": "2026-07-01T17:00:00+01:00",
+    "teamA": "ENG",
+    "teamB": "COD",
+    "venue": null,
     "broadcast": {
       "uk": "ITV1",
-      "us": "FS1"
+      "us": "FOX"
     },
     "status": "completed",
     "result": {
@@ -2641,20 +2456,16 @@
     }
   },
   {
-    "id": "K020",
+    "id": "K009",
     "stage": "knockout",
     "group": null,
-    "round": "R16",
-    "matchNo": 4,
+    "round": "R32",
+    "matchNo": 9,
     "rank": null,
-    "kickoffUk": "2026-07-05T23:00:00+01:00",
-    "teamA": "ENG",
-    "teamB": "MEX",
-    "venue": {
-      "stadium": "Hard Rock Stadium",
-      "city": "Miami",
-      "country": "US"
-    },
+    "kickoffUk": "2026-07-01T21:00:00+01:00",
+    "teamA": "BEL",
+    "teamB": "SEN",
+    "venue": null,
     "broadcast": {
       "uk": "BBC One",
       "us": "FOX"
@@ -2668,6 +2479,275 @@
     }
   },
   {
+    "id": "K010",
+    "stage": "knockout",
+    "group": null,
+    "round": "R32",
+    "matchNo": 10,
+    "rank": null,
+    "kickoffUk": "2026-07-02T01:00:00+01:00",
+    "teamA": "USA",
+    "teamB": "BIH",
+    "venue": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 0,
+      "scorers": "",
+      "notes": []
+    }
+  },
+  {
+    "id": "K011",
+    "stage": "knockout",
+    "group": null,
+    "round": "R32",
+    "matchNo": 11,
+    "rank": null,
+    "kickoffUk": "2026-07-02T20:00:00+01:00",
+    "teamA": "ESP",
+    "teamB": "AUT",
+    "venue": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 0,
+      "scorers": "",
+      "notes": []
+    }
+  },
+  {
+    "id": "K012",
+    "stage": "knockout",
+    "group": null,
+    "round": "R32",
+    "matchNo": 12,
+    "rank": null,
+    "kickoffUk": "2026-07-03T00:00:00+01:00",
+    "teamA": "POR",
+    "teamB": "CRO",
+    "venue": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 1,
+      "scorers": "",
+      "notes": []
+    }
+  },
+  {
+    "id": "K013",
+    "stage": "knockout",
+    "group": null,
+    "round": "R32",
+    "matchNo": 13,
+    "rank": null,
+    "kickoffUk": "2026-07-03T04:00:00+01:00",
+    "teamA": "SUI",
+    "teamB": "ALG",
+    "venue": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 0,
+      "scorers": "",
+      "notes": []
+    }
+  },
+  {
+    "id": "K014",
+    "stage": "knockout",
+    "group": null,
+    "round": "R32",
+    "matchNo": 14,
+    "rank": null,
+    "kickoffUk": "2026-07-03T19:00:00+01:00",
+    "teamA": "AUS",
+    "teamB": "EGY",
+    "venue": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 5,
+      "scorers": "",
+      "notes": []
+    }
+  },
+  {
+    "id": "K015",
+    "stage": "knockout",
+    "group": null,
+    "round": "R32",
+    "matchNo": 15,
+    "rank": null,
+    "kickoffUk": "2026-07-03T23:00:00+01:00",
+    "teamA": "ARG",
+    "teamB": "CPV",
+    "venue": null,
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
+    "status": "completed",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 2,
+      "scorers": "",
+      "notes": []
+    }
+  },
+  {
+    "id": "K016",
+    "stage": "knockout",
+    "group": null,
+    "round": "R32",
+    "matchNo": 16,
+    "rank": null,
+    "kickoffUk": "2026-07-04T02:30:00+01:00",
+    "teamA": "COL",
+    "teamB": "GHA",
+    "venue": null,
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 0,
+      "scorers": "",
+      "notes": []
+    }
+  },
+  {
+    "id": "K017",
+    "stage": "knockout",
+    "group": null,
+    "round": "R16",
+    "matchNo": 1,
+    "rank": null,
+    "kickoffUk": "2026-07-04T18:00:00+01:00",
+    "teamA": "CAN",
+    "teamB": "MAR",
+    "venue": {
+      "stadium": "BMO Field",
+      "city": "Toronto",
+      "country": "CA"
+    },
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FOX"
+    },
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 3,
+      "scorers": "",
+      "notes": []
+    }
+  },
+  {
+    "id": "K018",
+    "stage": "knockout",
+    "group": null,
+    "round": "R16",
+    "matchNo": 2,
+    "rank": null,
+    "kickoffUk": "2026-07-04T22:00:00+01:00",
+    "teamA": "PAR",
+    "teamB": "FRA",
+    "venue": {
+      "stadium": "MetLife Stadium",
+      "city": "New York",
+      "country": "US"
+    },
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 1,
+      "scorers": "",
+      "notes": []
+    }
+  },
+  {
+    "id": "K019",
+    "stage": "knockout",
+    "group": null,
+    "round": "R16",
+    "matchNo": 3,
+    "rank": null,
+    "kickoffUk": "2026-07-05T21:00:00+01:00",
+    "teamA": "BRA",
+    "teamB": "NOR",
+    "venue": {
+      "stadium": "SoFi Stadium",
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    "broadcast": {
+      "uk": "ITV1",
+      "us": "FS1"
+    },
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 2,
+      "scorers": "",
+      "notes": []
+    }
+  },
+  {
+    "id": "K020",
+    "stage": "knockout",
+    "group": null,
+    "round": "R16",
+    "matchNo": 4,
+    "rank": null,
+    "kickoffUk": "2026-07-06T02:00:00+01:00",
+    "teamA": "MEX",
+    "teamB": "ENG",
+    "venue": {
+      "stadium": "Hard Rock Stadium",
+      "city": "Miami",
+      "country": "US"
+    },
+    "broadcast": {
+      "uk": "BBC One",
+      "us": "FOX"
+    },
+    "status": "completed",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 3,
+      "scorers": "",
+      "notes": []
+    }
+  },
+  {
     "id": "K021",
     "stage": "knockout",
     "group": null,
@@ -2675,8 +2755,8 @@
     "matchNo": 5,
     "rank": null,
     "kickoffUk": "2026-07-06T20:00:00+01:00",
-    "teamA": "ESP",
-    "teamB": "POR",
+    "teamA": "POR",
+    "teamB": "ESP",
     "venue": {
       "stadium": "AT&T Stadium",
       "city": "Dallas",
@@ -2688,9 +2768,9 @@
     },
     "status": "completed",
     "result": {
-      "scoreA": 1,
-      "scoreB": 0,
-      "scorers": "",
+      "scoreA": 0,
+      "scoreB": 1,
+      "scorers": "Mikel Merino 90+1' (ESP)",
       "notes": []
     }
   },
@@ -2701,9 +2781,9 @@
     "round": "R16",
     "matchNo": 6,
     "rank": null,
-    "kickoffUk": "2026-07-06T23:00:00+01:00",
-    "teamA": "BEL",
-    "teamB": "USA",
+    "kickoffUk": "2026-07-07T01:00:00+01:00",
+    "teamA": "USA",
+    "teamB": "BEL",
     "venue": {
       "stadium": "Lumen Field",
       "city": "Seattle",
@@ -2715,9 +2795,9 @@
     },
     "status": "completed",
     "result": {
-      "scoreA": 4,
-      "scoreB": 1,
-      "scorers": "",
+      "scoreA": 1,
+      "scoreB": 4,
+      "scorers": "Charles De Ketelaere 9', 33' (BEL) · Malik Tillman 31' (USA) · Hans Vanaken 57' (BEL) · Romelu Lukaku 90+3' (BEL)",
       "notes": []
     }
   },
@@ -2728,7 +2808,7 @@
     "round": "R16",
     "matchNo": 7,
     "rank": null,
-    "kickoffUk": "2026-07-07T20:00:00+01:00",
+    "kickoffUk": "2026-07-07T17:00:00+01:00",
     "teamA": "ARG",
     "teamB": "EGY",
     "venue": {
@@ -2750,7 +2830,7 @@
     "round": "R16",
     "matchNo": 8,
     "rank": null,
-    "kickoffUk": "2026-07-07T23:00:00+01:00",
+    "kickoffUk": "2026-07-07T21:00:00+01:00",
     "teamA": "SUI",
     "teamB": "COL",
     "venue": {
@@ -2773,8 +2853,8 @@
     "matchNo": 1,
     "rank": null,
     "kickoffUk": "2026-07-09T21:00:00+01:00",
-    "teamA": null,
-    "teamB": null,
+    "teamA": "FRA",
+    "teamB": "MAR",
     "venue": {
       "stadium": "Gillette Stadium",
       "city": "Boston",
@@ -2784,7 +2864,7 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "tbd",
+    "status": "scheduled",
     "weather": "27°C · warm · 20% showers · 12 mph SW"
   },
   {
@@ -2794,9 +2874,9 @@
     "round": "QF",
     "matchNo": 2,
     "rank": null,
-    "kickoffUk": "2026-07-10T23:00:00+01:00",
-    "teamA": null,
-    "teamB": null,
+    "kickoffUk": "2026-07-10T20:00:00+01:00",
+    "teamA": "ESP",
+    "teamB": "BEL",
     "venue": {
       "stadium": "SoFi Stadium",
       "city": "Los Angeles",
@@ -2806,7 +2886,7 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "tbd",
+    "status": "scheduled",
     "weather": "25°C · clear · 0% rain · 6 mph W"
   },
   {
@@ -2817,8 +2897,8 @@
     "matchNo": 3,
     "rank": null,
     "kickoffUk": "2026-07-11T22:00:00+01:00",
-    "teamA": null,
-    "teamB": null,
+    "teamA": "NOR",
+    "teamB": "ENG",
     "venue": {
       "stadium": "Hard Rock Stadium",
       "city": "Miami",
@@ -2828,7 +2908,7 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "tbd",
+    "status": "scheduled",
     "weather": "31°C · hot · 60% storms · 10 mph E"
   },
   {
@@ -2838,7 +2918,7 @@
     "round": "QF",
     "matchNo": 4,
     "rank": null,
-    "kickoffUk": "2026-07-12T03:00:00+01:00",
+    "kickoffUk": "2026-07-12T02:00:00+01:00",
     "teamA": null,
     "teamB": null,
     "venue": {
