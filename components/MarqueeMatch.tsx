@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { getTeam, getEntrantForTeam, formatTimeUK, formatDateUK } from '@/lib/data';
 import type { Match } from '@/lib/types';
 import type { LiveState } from '@/lib/live';
-import { isMatchLive, ROUND_LABEL } from '@/lib/knockout';
+import { isMatchLive, ROUND_LABEL, stakesForMatch } from '@/lib/knockout';
 
 interface Props {
   match: Match;
@@ -28,12 +28,8 @@ export function MarqueeMatch({ match, live, factHome, factAway }: Props) {
     ? (live.status === 'PAUSED' ? 'HT' : live.status === 'EXTRA_TIME' ? 'ET' : live.status === 'PENALTY_SHOOTOUT' ? 'PEN' : (live.minute != null ? `${live.minute}'` : 'LIVE'))
     : null;
 
-  // Prize hint: for F it's £100; for SF it's still £100 (need to win 2 more); leave generic
-  const prizeHint = match.round === 'F' ? '£100 jersey' :
-                    match.round === '3rd' ? '£15 · 3rd place' :
-                    match.round === 'SF' ? '2 wins from £100' :
-                    match.round === 'QF' ? '3 wins from £100' :
-                    '4 wins from £100';
+  const stakeHome = stakesForMatch(match, 'home');
+  const stakeAway = stakesForMatch(match, 'away');
 
   return (
     <article className="marquee">
@@ -99,19 +95,15 @@ export function MarqueeMatch({ match, live, factHome, factAway }: Props) {
 
       {/* Stakes bar */}
       <div className="marquee-stakes">
-        <div className="marquee-stakes-label">Money on the line</div>
+        <div className="marquee-stakes-label">Stakes on the pitch</div>
         <div className="marquee-stakes-grid">
           <div className="marquee-stake marquee-stake--a">
             <div className="marquee-stake-tag">IF {a.code} WIN</div>
-            <div className="marquee-stake-name">
-              {eA ? <>{eA.name} <span className="marquee-stake-hint">→ {prizeHint}</span></> : '—'}
-            </div>
+            <div className="marquee-stake-name">{stakeHome}</div>
           </div>
           <div className="marquee-stake marquee-stake--b">
             <div className="marquee-stake-tag">IF {b.code} WIN</div>
-            <div className="marquee-stake-name">
-              {eB ? <>{eB.name} <span className="marquee-stake-hint">→ {prizeHint}</span></> : '—'}
-            </div>
+            <div className="marquee-stake-name">{stakeAway}</div>
           </div>
         </div>
       </div>

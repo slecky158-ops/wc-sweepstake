@@ -7,20 +7,22 @@ interface Props {
   entries: StillAliveEntrant[];
 }
 
-// Segmented step-bar for the entrant's team's progress
+const STAGES = ['R16', 'QF', 'SF', 'F'] as const;
+
+// Segmented step-bar — each of the 4 knockout stages, filled if the team has ADVANCED past it.
 function StepBar({ entry }: { entry: StillAliveEntrant }) {
-  // 4 segments: R16, QF, SF, F
-  const stages: Array<{ label: string; won: boolean; live: boolean }> = [
-    { label: 'R16', won: entry.currentRound === 'R16' || entry.currentRound === 'QF' || entry.currentRound === 'SF' || entry.currentRound === 'F', live: entry.isPlayingNow && entry.nextRound === 'QF' },
-    { label: 'QF',  won: entry.currentRound === 'QF' || entry.currentRound === 'SF' || entry.currentRound === 'F',  live: entry.isPlayingNow && entry.nextRound === 'SF' },
-    { label: 'SF',  won: entry.currentRound === 'SF' || entry.currentRound === 'F',                                  live: entry.isPlayingNow && entry.nextRound === 'F' },
-    { label: 'F',   won: entry.currentRound === 'F',                                                                  live: entry.isPlayingNow && entry.nextRound === null },
-  ];
+  const wonIdx = entry.furthestWonRound ? STAGES.indexOf(entry.furthestWonRound as (typeof STAGES)[number]) : -1;
+  const liveIdx = entry.isPlayingNow && entry.upcomingRound
+    ? STAGES.indexOf(entry.upcomingRound as (typeof STAGES)[number])
+    : -1;
+
   return (
     <div className="chase-steps">
-      {stages.map(s => (
-        <div key={s.label} className={`chase-step ${s.won ? 'chase-step--won' : ''} ${s.live ? 'chase-step--live' : ''}`} />
-      ))}
+      {STAGES.map((label, i) => {
+        const won = i <= wonIdx;
+        const live = i === liveIdx;
+        return <div key={label} className={`chase-step ${won ? 'chase-step--won' : ''} ${live ? 'chase-step--live' : ''}`} />;
+      })}
     </div>
   );
 }
@@ -29,6 +31,18 @@ function awardsWonBySlug(slug: string): Array<{ title: string; prize: string }> 
   return awards
     .filter(a => a.winnerEntrant === slug)
     .map(a => ({ title: a.title, prize: a.prize }));
+}
+
+// Small human phrase describing where they are in the bracket.
+function progressText(entry: StillAliveEntrant): string {
+  if (entry.isPlayingNow) return 'PLAYING NOW';
+  if (!entry.upcomingRound && entry.furthestWonRound === 'F') return 'CHAMPIONS';
+  if (entry.furthestWonRound && entry.upcomingRound) {
+    return `${ROUND_SHORT[entry.furthestWonRound]} ✓ · ${ROUND_SHORT[entry.upcomingRound]} next`;
+  }
+  if (entry.upcomingRound) return `${ROUND_SHORT[entry.upcomingRound]} up next`;
+  if (entry.furthestWonRound) return `${ROUND_SHORT[entry.furthestWonRound]} ✓`;
+  return 'IN THE HUNT';
 }
 
 export function ChaseRail({ entries }: Props) {
@@ -54,7 +68,7 @@ export function ChaseRail({ entries }: Props) {
               href={`/entrants/${entry.entrant.slug}`}
               className={`chase-card ${entry.isPlayingNow ? 'chase-card--live' : ''}`}
             >
-              <div className="chase-card-badge">UP TO £100</div>
+              <div className="chase-card-badge">THE JERSEY</div>
               {entry.isPlayingNow && (
                 <div className="chase-card-livepill">
                   <span className="chase-card-pulse" />
@@ -68,13 +82,7 @@ export function ChaseRail({ entries }: Props) {
               <div className="chase-card-name">{entry.entrant.name}</div>
               <div className="chase-card-team">{team.name} · {team.code}</div>
               <StepBar entry={entry} />
-              <div className="chase-card-round">
-                {entry.isPlayingNow
-                  ? 'IN PROGRESS'
-                  : entry.currentRound === 'F'
-                    ? 'IN FINAL'
-                    : `${ROUND_SHORT[entry.currentRound]} ✓ · ${entry.nextRound ? ROUND_SHORT[entry.nextRound] + ' next' : 'CHAMPION'}`}
-              </div>
+              <div className="chase-card-round">{progressText(entry)}</div>
               {wins.length > 0 && (
                 <div className="chase-card-wins">
                   {wins.slice(0, 2).map((w, j) => (

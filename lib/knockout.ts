@@ -1,25 +1,26 @@
-import { matches, entrants, getTeam, getEntrantForTeam, getEntrant } from './data';
+import { matches, entrants } from './data';
 import type { Match, KnockoutRound, Entrant } from './types';
 
-// Round ordering for "how far advanced?" computations
+// Round ordering — R32 first, F last
 const ROUND_ORDER: Record<KnockoutRound, number> = {
   'R32': 1, 'R16': 2, 'QF': 3, 'SF': 4, '3rd': 5, 'F': 5,
 };
 
-const PRIZE_BY_ROUND: Record<string, number> = {
-  R32: 0, R16: 0, QF: 15, SF: 30, F: 100, '3rd': 15,
+// Round of a MATCH → how many more wins its winner needs to lift the jersey
+// (i.e. wins remaining AFTER winning this round; 0 = you've just won the Final)
+const WINS_REMAINING_AFTER: Record<KnockoutRound, number> = {
+  R32: 4, R16: 3, QF: 2, SF: 1, F: 0, '3rd': 0,
 };
 
 export interface StillAliveEntrant {
   entrant: Entrant;
   teamCode: string;
-  currentRound: KnockoutRound;   // furthest round they've already won through
-  nextRound: KnockoutRound | null; // where they play next
-  isPlayingNow: boolean;           // has a live match right now
+  furthestWonRound: KnockoutRound | null; // most-advanced round they've WON (null = haven't won any knockout yet)
+  upcomingRound: KnockoutRound | null;    // round of their next scheduled match
+  isPlayingNow: boolean;
   nextMatch: Match | null;
   liveMatch: Match | null;
-  maxPrize: number;                // max cash if their team wins the whole thing (excludes non-progression awards)
-  awardsWon: string[];             // titles of awards already banked (for the pip stack)
+  awardsWon: string[];             // populated at render time from awards.json
 }
 
 /** True if the tournament is in a stage where the bracket is meaningful. */
@@ -52,35 +53,11 @@ export function getEliminatedTeams(): Set<string> {
     if (m.stage !== 'knockout' || !m.result) continue;
     if (!m.teamA || !m.teamB) continue;
     const { scoreA, scoreB } = m.result;
-    if (scoreA === scoreB) continue; // knockouts can't draw (ignore ET/pen for now)
+    if (scoreA === scoreB) continue; // ignore ET/pen for now
     const loser = scoreA > scoreB ? m.teamB : m.teamA;
     dead.add(loser);
   }
   return dead;
-}
-
-/** Which round is a given team currently AT (i.e. next to play, or eliminated)? */
-export function currentRoundForTeam(teamCode: string): { currentRound: KnockoutRound; nextRound: KnockoutRound | null; eliminated: boolean } {
-  const dead = getEliminatedTeams();
-  if (dead.has(teamCode)) {
-    return { currentRound: 'R16', nextRound: null, eliminated: true };
-  }
-  // Find the highest round match this team has already WON through
-  const wins = matches.filter(m =>
-    m.stage === 'knockout' && m.result &&
-    (m.teamA === teamCode || m.teamB === teamCode) &&
-    winnerOf(m) === teamCode,
-  );
-  const highestWinRound = wins
-    .map(m => m.round)
-    .filter((r): r is KnockoutRound => !!r)
-    .sort((a, b) => ROUND_ORDER[b] - ROUND_ORDER[a])[0];
-
-  // Their "current stage" is the next round after their highest win, or R16 if no wins
-  const roundOrderList: KnockoutRound[] = ['R32', 'R16', 'QF', 'SF', 'F'];
-  const idx = highestWinRound ? roundOrderList.indexOf(highestWinRound) : -1;
-  const nextRound = roundOrderList[idx + 1] ?? null;
-  return { currentRound: highestWinRound ?? 'R16', nextRound, eliminated: false };
 }
 
 function winnerOf(m: Match): string | null {
@@ -88,6 +65,32 @@ function winnerOf(m: Match): string | null {
   if (m.result.scoreA > m.result.scoreB) return m.teamA;
   if (m.result.scoreB > m.result.scoreA) return m.teamB;
   return null;
+}
+
+/** Furthest round a team has WON, plus the round of their next scheduled match. */
+export function progressForTeam(teamCode: string): {
+  furthestWonRound: KnockoutRound | null;
+  upcomingRound: KnockoutRound | null;
+  eliminated: boolean;
+} {
+  const dead = getEliminatedTeams();
+  if (dead.has(teamCode)) return { furthestWonRound: null, upcomingRound: null, eliminated: true };
+  const wins = matches.filter(m =>
+    m.stage === 'knockout' && m.result &&
+    (m.teamA === teamCode || m.teamB === teamCode) &&
+    winnerOf(m) === teamCode,
+  );
+  const furthestWonRound = wins
+    .map(m => m.round)
+    .filter((r): r is KnockoutRound => !!r)
+    .sort((a, b) => ROUND_ORDER[b] - ROUND_ORDER[a])[0] ?? null;
+
+  const upcomingMatch = matches
+    .filter(m => m.stage === 'knockout' && !m.result && (m.teamA === teamCode || m.teamB === teamCode))
+    .sort((a, b) => (a.kickoffUk ?? '').localeCompare(b.kickoffUk ?? ''))[0];
+  const upcomingRound = upcomingMatch?.round ?? null;
+
+  return { furthestWonRound, upcomingRound, eliminated: false };
 }
 
 /** True if the given match is happening right now (kicked off within 3h and not completed). */
@@ -98,22 +101,20 @@ export function isMatchLive(m: Match): boolean {
   return ko <= now && now - ko < 3 * 3600 * 1000;
 }
 
-/** List of remaining entrants sorted by "closest to trophy" then max prize. */
+/** List of remaining entrants sorted by "closest to trophy" then playing-now-first. */
 export function getStillAliveEntrants(): StillAliveEntrant[] {
   const eliminated = getEliminatedTeams();
   const list: StillAliveEntrant[] = [];
   for (const e of entrants) {
     for (const teamCode of [e.teamA, e.teamB]) {
       if (eliminated.has(teamCode)) continue;
-      // Only count teams that have made it into the knockout data (i.e. have a knockout match)
       const anyKO = matches.some(m =>
         m.stage === 'knockout' && (m.teamA === teamCode || m.teamB === teamCode),
       );
       if (!anyKO) continue;
 
-      const { currentRound, nextRound } = currentRoundForTeam(teamCode);
+      const { furthestWonRound, upcomingRound } = progressForTeam(teamCode);
 
-      // Next scheduled match for this team
       const upcoming = matches
         .filter(m => m.stage === 'knockout' && !m.result && (m.teamA === teamCode || m.teamB === teamCode))
         .sort((a, b) => (a.kickoffUk ?? '').localeCompare(b.kickoffUk ?? ''))[0] ?? null;
@@ -127,21 +128,20 @@ export function getStillAliveEntrants(): StillAliveEntrant[] {
       list.push({
         entrant: e,
         teamCode,
-        currentRound,
-        nextRound,
+        furthestWonRound,
+        upcomingRound,
         isPlayingNow: !!live,
         nextMatch: upcoming,
         liveMatch: live,
-        maxPrize: 100,       // simplification: any surviving team could win the trophy
-        awardsWon: [],       // populated at render time from awards.json
+        awardsWon: [],
       });
     }
   }
-  // Sort: playing-now first, then by round order (F > SF > QF > R16), then by entrant name
+  // Sort: playing-now first, then by furthest-won round (F best), then by entrant name
   return list.sort((a, b) => {
     if (a.isPlayingNow !== b.isPlayingNow) return a.isPlayingNow ? -1 : 1;
-    const rA = ROUND_ORDER[a.currentRound] ?? 0;
-    const rB = ROUND_ORDER[b.currentRound] ?? 0;
+    const rA = a.furthestWonRound ? ROUND_ORDER[a.furthestWonRound] : 0;
+    const rB = b.furthestWonRound ? ROUND_ORDER[b.furthestWonRound] : 0;
     if (rA !== rB) return rB - rA;
     return a.entrant.name.localeCompare(b.entrant.name);
   });
@@ -163,7 +163,69 @@ export function pickMarqueeMatch(): Match | null {
   return recent ?? null;
 }
 
-/** Human labels for round codes. */
+/** How many wins remain to lift the jersey after winning a match at the given round. */
+export function winsRemainingAfter(round: KnockoutRound | null | undefined): number | null {
+  if (!round) return null;
+  return WINS_REMAINING_AFTER[round] ?? null;
+}
+
+/** Short human phrase for "wins remaining until the jersey" (0 = "the jersey"). */
+export function jerseyProximity(round: KnockoutRound | null | undefined): string {
+  const n = winsRemainingAfter(round);
+  if (n == null) return 'still in it';
+  if (n === 0) return 'lifts the jersey';
+  if (n === 1) return '1 win from the jersey';
+  return `${n} wins from the jersey`;
+}
+
+/**
+ * Per-match, per-team stakes — hand-curated where possible to add
+ * personality (references to open awards, storylines, players).
+ * Falls back to jersey-proximity when no override is set.
+ */
+const STAKES_OVERRIDE: Record<string, { home?: string; away?: string }> = {
+  // R16 — today
+  K023: { // ARG vs EGY
+    home: 'Joe advances to QF · Messi still hunting the golden boot',
+    away: 'Andrew R springs a shock · Salah writes a redemption arc',
+  },
+  K024: { // SUI vs COL
+    home: 'Andrew N reaches his first-ever QF · Sommer eyes a clean sheet',
+    away: 'James → QF · Colombia dark-horse run rolls on',
+  },
+  // QF — this weekend
+  K025: { // FRA vs MAR
+    home: 'Peter → SF · Olise already banked £5 for assists',
+    away: 'Sam W → SF · Morocco fairytale keeps writing itself',
+  },
+  K026: { // ESP vs BEL
+    home: "Ned → SF · already sitting on £7.50 for Spain's clean sheets",
+    away: "Tom → SF · already banked £15 (Trump-bash + child-cry)",
+  },
+  K027: { // NOR vs ENG
+    home: "Austin → SF · Haaland still on for the boot",
+    away: "Spoff → SF · England's first WC SF since 1990",
+  },
+  K028: { // QF4 — teams TBD
+    home: '→ SF · 2 wins from the jersey',
+    away: '→ SF · 2 wins from the jersey',
+  },
+};
+
+/** Return the stakes line for one side of one match. */
+export function stakesForMatch(match: Match, side: 'home' | 'away'): string {
+  const override = STAKES_OVERRIDE[match.id]?.[side];
+  if (override) return override;
+  // Fallback based on round + jersey proximity
+  const roundLabel = match.round === '3rd'
+    ? '3rd place · £15'
+    : match.round === 'F'
+      ? 'lifts the jersey'
+      : jerseyProximity(match.round);
+  return `→ ${roundLabel}`;
+}
+
+/** Human labels. */
 export const ROUND_LABEL: Record<KnockoutRound, string> = {
   R32: 'Round of 32',
   R16: 'Round of 16',
