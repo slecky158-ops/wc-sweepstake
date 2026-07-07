@@ -1,72 +1,19 @@
 {
-  "generatedAt": "2026-07-06T12:21:18.208892+01:00",
-  "dateLong": "Monday, 6 July 2026",
-  "dateDay": "Mon 6 Jul",
-  "dateRest": "Tournament Day 26",
+  "generatedAt": "2026-07-07T11:18:02.369873+01:00",
+  "dateLong": "Tuesday, 7 July 2026",
+  "dateDay": "Tue 7 Jul",
+  "dateRest": "Tournament Day 27",
   "yesterdayCount": "2 matches",
   "todayCount": "2 matches",
   "yesterdayStoryline": {
-    "headline": "Norway's late rally ends Brazil's tournament",
-    "subtitle": "Haaland brace overturns early penalty miss; Neymar's stoppage-time spot proves consolation"
+    "headline": "Late Merino stuns Portugal; Belgium routs hosts",
+    "subtitle": "Merino's stoppage winner sends Spain through; USA eliminated after defensive collapse."
   },
   "todayStoryline": {
-    "headline": "Iberian rivals clash; USA face Belgium",
-    "subtitle": "Portugal v Spain meet in last‑16 while the USA take on Belgium in late kick‑off"
+    "headline": "Messi vs Egypt; Switzerland meet Colombia",
+    "subtitle": "Reigning champions aim to avoid repeat scares; Colombia bring pace to a tricky Swiss defence."
   },
   "yesterday": [
-    {
-      "matchId": "FD537377",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": null,
-      "kickoffUk": "2026-07-05T21:00:00+01:00",
-      "timeUk": "21:00 UK",
-      "timeEt": "16:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "BBC/ITV",
-        "us": "FOX"
-      },
-      "teamA": "BRA",
-      "teamB": "NOR",
-      "scoreA": 1,
-      "scoreB": 2,
-      "score": "1-2",
-      "scorers": "Erling Haaland 79', Erling Haaland 90' (NOR) · Neymar 90+10' (BRA)"
-    },
-    {
-      "matchId": "FD537378",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": null,
-      "kickoffUk": "2026-07-06T02:00:00+01:00",
-      "timeUk": "02:00 UK",
-      "timeEt": "21:00 ET",
-      "venue": {
-        "stadium": "TBC",
-        "city": "TBC",
-        "country": "?"
-      },
-      "broadcast": {
-        "uk": "BBC/ITV",
-        "us": "FOX"
-      },
-      "teamA": "MEX",
-      "teamB": "ENG",
-      "scoreA": 2,
-      "scoreB": 3,
-      "score": "2-3",
-      "scorers": "Julián Quiñones 42', Raúl Jiménez 69' (MEX) · Jude Bellingham 36', Jude Bellingham 38', Harry Kane 60' (ENG)",
-      "note": "🟥 Jarell Quansah 54' (ENG)"
-    }
-  ],
-  "today": [
     {
       "matchId": "FD537379",
       "rank": null,
@@ -86,7 +33,18 @@
         "us": "FOX"
       },
       "teamA": "POR",
-      "teamB": "ESP"
+      "teamB": "ESP",
+      "scoreA": 0,
+      "scoreB": 1,
+      "score": "0-1",
+      "scorers": "Mikel Merino 90+1' (ESP)",
+      "analysis": {
+        "lines": [
+          "Cagey, attritional match dominated by midfield battles and few clear chances.",
+          "Merino's late strike sends Spain to the quarter-finals; Portugal eliminated."
+        ],
+        "source": "BBC Sport match report"
+      }
     },
     {
       "matchId": "FD537380",
@@ -107,14 +65,111 @@
         "us": "FOX"
       },
       "teamA": "USA",
-      "teamB": "BEL"
+      "teamB": "BEL",
+      "scoreA": 1,
+      "scoreB": 4,
+      "score": "1-4",
+      "scorers": "Malik Tillman 31' (USA) · Charles De Ketelaere 9', 33', Hans Vanaken 57', Romelu Lukaku 90+3' (BEL)",
+      "analysis": {
+        "lines": [
+          "Belgium attacked decisively and exposed US defensive naivety with fast transitions.",
+          "A comprehensive win sends Belgium into the last eight; hosts exit disappointingly."
+        ],
+        "source": "BBC Sport match report"
+      }
+    }
+  ],
+  "today": [
+    {
+      "matchId": "FD537381",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": null,
+      "kickoffUk": "2026-07-07T17:00:00+01:00",
+      "timeUk": "17:00 UK",
+      "timeEt": "12:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "BBC/ITV",
+        "us": "FOX"
+      },
+      "teamA": "ARG",
+      "teamB": "EGY",
+      "weather": "31°C · intermittent clouds",
+      "h2h": "Played 1 · 🇦🇷 1W 0D 0L · last 2-0 Argentina (2008)",
+      "odds": {
+        "match": {
+          "home": "1.36",
+          "draw": "4.70",
+          "away": "9.00"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "1.95"
+        },
+        "fgs": {
+          "name": "Messi",
+          "odds": "2.54"
+        }
+      },
+      "facts": {
+        "home": "Lionel Messi has won seven Ballon d'Or awards, the most by any player.",
+        "away": "Egypt were the first African nation to appear at a World Cup, in 1934."
+      }
+    },
+    {
+      "matchId": "FD537382",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": null,
+      "kickoffUk": "2026-07-07T21:00:00+01:00",
+      "timeUk": "21:00 UK",
+      "timeEt": "16:00 ET",
+      "venue": {
+        "stadium": "TBC",
+        "city": "TBC",
+        "country": "?"
+      },
+      "broadcast": {
+        "uk": "BBC/ITV",
+        "us": "FOX"
+      },
+      "teamA": "SUI",
+      "teamB": "COL",
+      "weather": "23°C · partly sunny",
+      "h2h": "Played 1 · 🇨🇭 0W 0D 1L · last 3-1 Colombia (2007)",
+      "odds": {
+        "match": {
+          "home": "3.50",
+          "draw": "3.05",
+          "away": "2.25"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "2.31"
+        },
+        "fgs": {
+          "name": "Luis Díaz",
+          "odds": "5.50"
+        }
+      },
+      "facts": {
+        "home": "Granit Xhaka's brother Taulant represents Albania; they famously met at Euro 2016.",
+        "away": "James Rodríguez won the 2014 World Cup Golden Boot, raising Colombia's international profile."
+      }
     }
   ],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "Millions attend funeral processions for Iran's slain supreme leader",
-    "body": "Large funeral processions for Iran's slain supreme leader drew huge crowds in Tehran and other cities. Authorities suspended some services and regional leaders warned the events could complicate diplomatic efforts.",
-    "source": "Source: Reuters, 6 Jul 2026"
+    "headline": "NATO to unveil arms deals ahead of summit with Trump",
+    "body": "NATO leaders are set to announce defence contracts worth tens of billions in Ankara to show increased European spending. The moves aim to reassure the United States amid President Trump's pressure and bolster support for Ukraine.",
+    "source": "Source: Reuters, 7 Jul 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

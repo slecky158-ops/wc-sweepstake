@@ -6247,5 +6247,180 @@
       "source": "Source: Reuters, 6 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260707": {
+    "generatedAt": "2026-07-07T11:18:02.369873+01:00",
+    "dateLong": "Tuesday, 7 July 2026",
+    "dateDay": "Tue 7 Jul",
+    "dateRest": "Tournament Day 27",
+    "yesterdayCount": "2 matches",
+    "todayCount": "2 matches",
+    "yesterdayStoryline": {
+      "headline": "Late Merino stuns Portugal; Belgium routs hosts",
+      "subtitle": "Merino's stoppage winner sends Spain through; USA eliminated after defensive collapse."
+    },
+    "todayStoryline": {
+      "headline": "Messi vs Egypt; Switzerland meet Colombia",
+      "subtitle": "Reigning champions aim to avoid repeat scares; Colombia bring pace to a tricky Swiss defence."
+    },
+    "yesterday": [
+      {
+        "matchId": "FD537379",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-06T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "POR",
+        "teamB": "ESP",
+        "scoreA": 0,
+        "scoreB": 1,
+        "score": "0-1",
+        "scorers": "Mikel Merino 90+1' (ESP)",
+        "analysis": {
+          "lines": [
+            "Cagey, attritional match dominated by midfield battles and few clear chances.",
+            "Merino's late strike sends Spain to the quarter-finals; Portugal eliminated."
+          ],
+          "source": "BBC Sport match report"
+        }
+      },
+      {
+        "matchId": "FD537380",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-07T01:00:00+01:00",
+        "timeUk": "01:00 UK",
+        "timeEt": "20:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "USA",
+        "teamB": "BEL",
+        "scoreA": 1,
+        "scoreB": 4,
+        "score": "1-4",
+        "scorers": "Malik Tillman 31' (USA) · Charles De Ketelaere 9', 33', Hans Vanaken 57', Romelu Lukaku 90+3' (BEL)",
+        "analysis": {
+          "lines": [
+            "Belgium attacked decisively and exposed US defensive naivety with fast transitions.",
+            "A comprehensive win sends Belgium into the last eight; hosts exit disappointingly."
+          ],
+          "source": "BBC Sport match report"
+        }
+      }
+    ],
+    "today": [
+      {
+        "matchId": "FD537381",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-07T17:00:00+01:00",
+        "timeUk": "17:00 UK",
+        "timeEt": "12:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "ARG",
+        "teamB": "EGY",
+        "weather": "31°C · intermittent clouds",
+        "h2h": "Played 1 · 🇦🇷 1W 0D 0L · last 2-0 Argentina (2008)",
+        "odds": {
+          "match": {
+            "home": "1.36",
+            "draw": "4.70",
+            "away": "9.00"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "1.95"
+          },
+          "fgs": {
+            "name": "Messi",
+            "odds": "2.54"
+          }
+        },
+        "facts": {
+          "home": "Lionel Messi has won seven Ballon d'Or awards, the most by any player.",
+          "away": "Egypt were the first African nation to appear at a World Cup, in 1934."
+        }
+      },
+      {
+        "matchId": "FD537382",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": null,
+        "kickoffUk": "2026-07-07T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "TBC",
+          "city": "TBC",
+          "country": "?"
+        },
+        "broadcast": {
+          "uk": "BBC/ITV",
+          "us": "FOX"
+        },
+        "teamA": "SUI",
+        "teamB": "COL",
+        "weather": "23°C · partly sunny",
+        "h2h": "Played 1 · 🇨🇭 0W 0D 1L · last 3-1 Colombia (2007)",
+        "odds": {
+          "match": {
+            "home": "3.50",
+            "draw": "3.05",
+            "away": "2.25"
+          },
+          "extra": {
+            "label": "O2.5",
+            "value": "2.31"
+          },
+          "fgs": {
+            "name": "Luis Díaz",
+            "odds": "5.50"
+          }
+        },
+        "facts": {
+          "home": "Granit Xhaka's brother Taulant represents Albania; they famously met at Euro 2016.",
+          "away": "James Rodríguez won the 2014 World Cup Golden Boot, raising Colombia's international profile."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "NATO to unveil arms deals ahead of summit with Trump",
+      "body": "NATO leaders are set to announce defence contracts worth tens of billions in Ankara to show increased European spending. The moves aim to reassure the United States amid President Trump's pressure and bolster support for Ukraine.",
+      "source": "Source: Reuters, 7 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
