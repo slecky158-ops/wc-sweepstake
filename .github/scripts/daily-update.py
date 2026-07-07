@@ -148,6 +148,53 @@ def utc_to_uk(utc_str: str) -> datetime:
     return datetime.fromisoformat(utc_str.replace("Z", "+00:00")).astimezone(UK_TZ)
 
 
+# Football-data.org stage strings → our round codes.
+FD_STAGE_TO_ROUND = {
+    "PRELIMINARY_ROUND": "R32", "ROUND_OF_32": "R32",
+    "LAST_16": "R16", "ROUND_OF_16": "R16",
+    "QUARTER_FINALS": "QF", "QUARTER_FINAL": "QF",
+    "SEMI_FINALS": "SF", "SEMI_FINAL": "SF",
+    "3RD_PLACE_FINAL": "3rd", "THIRD_PLACE_FINAL": "3rd", "THIRD_PLACE": "3rd",
+    "FINAL": "F",
+}
+
+
+def find_open_knockout_slot(round_code: str, kickoff_utc: datetime) -> dict | None:
+    """Locate an empty knockout slot in matches.json to fit an incoming
+    football-data match. Prefers same-round + closest kickoff.
+    Returns the slot dict (mutable) or None."""
+    candidates = [
+        m for m in matches_data
+        if m.get("stage") == "knockout"
+        and m.get("round") == round_code
+        and not m.get("teamA") and not m.get("teamB")
+    ]
+    if not candidates:
+        return None
+
+    def score(m: dict) -> tuple[int, int]:
+        # 0 = kickoff matches, 1 = kickoff off by <=24h, 2 = other
+        ko = m.get("kickoffUk")
+        if not ko:
+            return (3, 0)
+        try:
+            slot_utc = datetime.fromisoformat(ko).astimezone(timezone.utc)
+        except Exception:
+            return (3, 0)
+        delta = abs((slot_utc - kickoff_utc.astimezone(timezone.utc)).total_seconds())
+        if delta < 3600:
+            return (0, int(delta))
+        if delta < 24 * 3600:
+            return (1, int(delta))
+        return (2, int(delta))
+
+    candidates.sort(key=score)
+    best = candidates[0]
+    if score(best)[0] > 1:
+        return None  # no reasonably close slot
+    return best
+
+
 def fd_to_daily(fd_m: dict, *, completed: bool) -> dict | None:
     """Convert a football-data match into our DailyMatch shape (without AI extras)."""
     a_code = name_to_code(fd_m.get("homeTeam", {}).get("name"))
@@ -155,9 +202,27 @@ def fd_to_daily(fd_m: dict, *, completed: bool) -> dict | None:
     if not a_code or not b_code:
         print(f"  WARN: unmapped teams {fd_m.get('homeTeam',{}).get('name')} vs {fd_m.get('awayTeam',{}).get('name')}")
         return None
+
     local = MATCH_BY_PAIR.get((a_code, b_code))
     if not local:
-        # Knockout match maybe; build a placeholder
+        # Try to auto-slot into an empty knockout row (K025..K032 that we
+        # pre-created with venue/kickoff/TV but no teams).
+        fd_stage = fd_m.get("stage") or ""
+        round_code = FD_STAGE_TO_ROUND.get(fd_stage)
+        if round_code:
+            kickoff_utc = datetime.fromisoformat(fd_m["utcDate"].replace("Z", "+00:00"))
+            slot = find_open_knockout_slot(round_code, kickoff_utc)
+            if slot:
+                slot["teamA"] = a_code
+                slot["teamB"] = b_code
+                # Update the in-memory pair map so subsequent lookups this run hit
+                MATCH_BY_PAIR[(a_code, b_code)] = slot
+                MATCH_BY_PAIR[(b_code, a_code)] = slot
+                local = slot
+                print(f"  auto-slot: {a_code} vs {b_code} → {slot['id']} ({round_code})")
+
+    if not local:
+        # Truly unrecognised — placeholder
         local = {"id": f"FD{fd_m['id']}", "rank": None, "group": None, "stage": "knockout", "round": None,
                  "venue": None, "broadcast": None}
 
