@@ -6422,5 +6422,92 @@
       "source": "Source: Reuters, 7 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260708": {
+    "generatedAt": "2026-07-08T10:19:30.399623+01:00",
+    "dateLong": "Wednesday, 8 July 2026",
+    "dateDay": "Wed 8 Jul",
+    "dateRest": "Tournament Day 28",
+    "yesterdayCount": "2 matches",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": {
+      "headline": "Late comeback and shootout drama",
+      "subtitle": "Messi inspires Argentina turnaround; Switzerland edge Colombia on penalties to reach quarters."
+    },
+    "todayStoryline": null,
+    "yesterday": [
+      {
+        "matchId": "K023",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "R16",
+        "kickoffUk": "2026-07-07T17:00:00+01:00",
+        "timeUk": "17:00 UK",
+        "timeEt": "12:00 ET",
+        "venue": {
+          "stadium": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "ARG",
+        "teamB": "EGY",
+        "scoreA": 3,
+        "scoreB": 2,
+        "score": "3-2",
+        "scorers": "Y Ibrahim El Hanafi 15' (EGY) · M Zaki Abdelraouf 67' (EGY) · C Romero 79' (ARG) · L Messi 83' (ARG) · E Fernández 90+2' (ARG)",
+        "analysis": {
+          "lines": [
+            "Argentina were two goals down before mounting a dramatic late comeback.",
+            "The win sends Argentina into the quarter-finals to face Switzerland."
+          ],
+          "source": "Sky Sports match report."
+        }
+      },
+      {
+        "matchId": "K024",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "R16",
+        "kickoffUk": "2026-07-07T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "BC Place",
+          "city": "Vancouver",
+          "country": "CA"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "SUI",
+        "teamB": "COL",
+        "scoreA": 4,
+        "scoreB": 3,
+        "score": "4-3",
+        "scorers": "No goals in 120 minutes (decided on penalties)",
+        "analysis": {
+          "lines": [
+            "A cagey, defensive contest produced few clear chances across 120 minutes.",
+            "Switzerland prevailed on penalties, advancing to face Argentina in the quarter-finals."
+          ],
+          "source": "Sky Sports match report."
+        }
+      }
+    ],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · BUSINESS",
+      "headline": "Samsung forecasts 19-fold jump in Q2 operating profit",
+      "body": "Samsung forecast a roughly 19-fold rise in second-quarter operating profit to about 89.4 trillion won. Shares fell and global chip stocks slid as investors questioned whether AI-driven demand is sustainable.",
+      "source": "Source: Reuters, 8 Jul 2026."
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

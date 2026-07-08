@@ -2820,8 +2820,14 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "weather": "31°C · hot/humid · 40% storms · 6 mph SW"
+    "status": "completed",
+    "weather": "31°C · hot/humid · 40% storms · 6 mph SW",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 2,
+      "scorers": "Y Ibrahim El Hanafi 15' (EGY) · M Zaki Abdelraouf 67' (EGY) · C Romero 79' (ARG) · L Messi 83' (ARG) · E Fernández 90+2' (ARG)",
+      "notes": []
+    }
   },
   {
     "id": "K024",
@@ -2842,8 +2848,14 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "weather": "18°C · partly cloudy · 10% rain · 8 mph W"
+    "status": "completed",
+    "weather": "18°C · partly cloudy · 10% rain · 8 mph W",
+    "result": {
+      "scoreA": 4,
+      "scoreB": 3,
+      "scorers": "No goals in 120 minutes (decided on penalties)",
+      "notes": []
+    }
   },
   {
     "id": "K025",
