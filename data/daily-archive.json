@@ -6509,5 +6509,55 @@
       "source": "Source: Reuters, 8 Jul 2026."
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260709": {
+    "generatedAt": "2026-07-09T11:17:44.242902+01:00",
+    "dateLong": "Thursday, 9 July 2026",
+    "dateDay": "Thu 9 Jul",
+    "dateRest": "Tournament Day 29",
+    "yesterdayCount": "Rest day",
+    "todayCount": "1 match",
+    "yesterdayStoryline": null,
+    "todayStoryline": {
+      "headline": "France face Morocco in Boston",
+      "subtitle": "Gillette Stadium kick‑off 21:00 UK / 16:00 ET; heavyweight international test"
+    },
+    "yesterday": [],
+    "today": [
+      {
+        "matchId": "K025",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "QF",
+        "kickoffUk": "2026-07-09T21:00:00+01:00",
+        "timeUk": "21:00 UK",
+        "timeEt": "16:00 ET",
+        "venue": {
+          "stadium": "Gillette Stadium",
+          "city": "Boston",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "FRA",
+        "teamB": "MAR",
+        "weather": "32°C · intermittent clouds",
+        "h2h": "last 2-0 France (2022)",
+        "facts": {
+          "home": "Kylian Mbappé grew up in Bondy, where his father coached local youth club AS Bondy.",
+          "away": "Several Morocco internationals were developed in Dutch academies, reflecting strong diaspora links."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "EU leaders discuss migration policy options",
+      "body": "European Union leaders held talks on new measures to manage migration and asylum flows. The meeting focused on burdensharing and border controls, with no final agreement reached.",
+      "source": "Source: Reuters, 9 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
