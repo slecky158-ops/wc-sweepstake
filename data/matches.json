@@ -2876,8 +2876,14 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "weather": "27°C · warm · 20% showers · 12 mph SW"
+    "status": "completed",
+    "weather": "27°C · warm · 20% showers · 12 mph SW",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 0,
+      "scorers": "",
+      "notes": []
+    }
   },
   {
     "id": "K026",

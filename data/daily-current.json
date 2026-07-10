@@ -1,17 +1,19 @@
 {
-  "generatedAt": "2026-07-09T11:17:44.242902+01:00",
-  "dateLong": "Thursday, 9 July 2026",
-  "dateDay": "Thu 9 Jul",
-  "dateRest": "Tournament Day 29",
-  "yesterdayCount": "Rest day",
+  "generatedAt": "2026-07-10T11:13:26.131098+01:00",
+  "dateLong": "Friday, 10 July 2026",
+  "dateDay": "Fri 10 Jul",
+  "dateRest": "Tournament Day 30",
+  "yesterdayCount": "1 match",
   "todayCount": "1 match",
-  "yesterdayStoryline": null,
-  "todayStoryline": {
-    "headline": "France face Morocco in Boston",
-    "subtitle": "Gillette Stadium kick‑off 21:00 UK / 16:00 ET; heavyweight international test"
+  "yesterdayStoryline": {
+    "headline": "France see off Morocco to reach semi-finals",
+    "subtitle": "Clinical defending and efficient finishing secured a 2-0 quarter-final win in Boston."
   },
-  "yesterday": [],
-  "today": [
+  "todayStoryline": {
+    "headline": "Spain and Belgium meet at SoFi Stadium",
+    "subtitle": "Contrasting styles clash in Los Angeles, kickoff 20:00 UK / 15:00 ET."
+  },
+  "yesterday": [
     {
       "matchId": "K025",
       "rank": null,
@@ -32,19 +34,60 @@
       },
       "teamA": "FRA",
       "teamB": "MAR",
-      "weather": "32°C · intermittent clouds",
-      "h2h": "last 2-0 France (2022)",
+      "scoreA": 2,
+      "scoreB": 0,
+      "score": "2-0"
+    }
+  ],
+  "today": [
+    {
+      "matchId": "K026",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": "QF",
+      "kickoffUk": "2026-07-10T20:00:00+01:00",
+      "timeUk": "20:00 UK",
+      "timeEt": "15:00 ET",
+      "venue": {
+        "stadium": "SoFi Stadium",
+        "city": "Los Angeles",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "ITV1",
+        "us": "FOX"
+      },
+      "teamA": "ESP",
+      "teamB": "BEL",
+      "weather": "27°C · sunny · 10% rain · light breeze.",
+      "h2h": "Played 22 · 🇪🇸 12W 5D 5L · last 0-2 (01/09/2016).",
+      "odds": {
+        "match": {
+          "home": "1.65",
+          "draw": "3.90",
+          "away": "5.25"
+        },
+        "extra": {
+          "label": "O2.5",
+          "value": "1.80"
+        },
+        "fgs": {
+          "name": "Mikel Oyarzabal",
+          "odds": "2.38"
+        }
+      },
       "facts": {
-        "home": "Kylian Mbappé grew up in Bondy, where his father coached local youth club AS Bondy.",
-        "away": "Several Morocco internationals were developed in Dutch academies, reflecting strong diaspora links."
+        "home": "Barcelona’s La Masia produced Spain greats Xavi and Iniesta, shaping modern national success.",
+        "away": "Belgium’s 'golden generation' finished third at the 2018 World Cup, their best ever."
       }
     }
   ],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "EU leaders discuss migration policy options",
-    "body": "European Union leaders held talks on new measures to manage migration and asylum flows. The meeting focused on burdensharing and border controls, with no final agreement reached.",
-    "source": "Source: Reuters, 9 Jul 2026"
+    "headline": "Tanker attacks near Strait of Hormuz disrupt shipping, raise energy concerns",
+    "body": "Multiple commercial tankers were struck near the Strait of Hormuz, prompting maritime warnings and disruption to transit. The incidents have led to tightened US measures on Iranian oil sales and fresh diplomatic concern in the Gulf.",
+    "source": "Source: Reuters, 10 Jul 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
