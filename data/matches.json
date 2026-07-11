@@ -2904,8 +2904,14 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "weather": "25°C · clear · 0% rain · 6 mph W"
+    "status": "completed",
+    "weather": "25°C · clear · 0% rain · 6 mph W",
+    "result": {
+      "scoreA": 2,
+      "scoreB": 1,
+      "scorers": "Fabián Ruiz 30' (ESP) · Charles De Ketelaere 41' (BEL) · Mikel Merino 88' (ESP)",
+      "notes": []
+    }
   },
   {
     "id": "K027",
@@ -2937,8 +2943,8 @@
     "matchNo": 4,
     "rank": null,
     "kickoffUk": "2026-07-12T02:00:00+01:00",
-    "teamA": null,
-    "teamB": null,
+    "teamA": "ARG",
+    "teamB": "SUI",
     "venue": {
       "stadium": "Arrowhead Stadium",
       "city": "Kansas City",

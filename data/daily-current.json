@@ -1,45 +1,19 @@
 {
-  "generatedAt": "2026-07-10T11:13:26.131098+01:00",
-  "dateLong": "Friday, 10 July 2026",
-  "dateDay": "Fri 10 Jul",
-  "dateRest": "Tournament Day 30",
+  "generatedAt": "2026-07-11T09:41:42.326026+01:00",
+  "dateLong": "Saturday, 11 July 2026",
+  "dateDay": "Sat 11 Jul",
+  "dateRest": "Tournament Day 31",
   "yesterdayCount": "1 match",
-  "todayCount": "1 match",
+  "todayCount": "2 matches",
   "yesterdayStoryline": {
-    "headline": "France see off Morocco to reach semi-finals",
-    "subtitle": "Clinical defending and efficient finishing secured a 2-0 quarter-final win in Boston."
+    "headline": "Merino seals late win as Spain reach semis",
+    "subtitle": "88th-minute strike sends Spain past Belgium in a tight quarter-final"
   },
   "todayStoryline": {
-    "headline": "Spain and Belgium meet at SoFi Stadium",
-    "subtitle": "Contrasting styles clash in Los Angeles, kickoff 20:00 UK / 15:00 ET."
+    "headline": "England meet Norway; Argentina face Switzerland",
+    "subtitle": "Two knockout ties scheduled under warm US summer conditions"
   },
   "yesterday": [
-    {
-      "matchId": "K025",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": "QF",
-      "kickoffUk": "2026-07-09T21:00:00+01:00",
-      "timeUk": "21:00 UK",
-      "timeEt": "16:00 ET",
-      "venue": {
-        "stadium": "Gillette Stadium",
-        "city": "Boston",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FOX"
-      },
-      "teamA": "FRA",
-      "teamB": "MAR",
-      "scoreA": 2,
-      "scoreB": 0,
-      "score": "2-0"
-    }
-  ],
-  "today": [
     {
       "matchId": "K026",
       "rank": null,
@@ -60,34 +34,68 @@
       },
       "teamA": "ESP",
       "teamB": "BEL",
-      "weather": "27°C · sunny · 10% rain · light breeze.",
-      "h2h": "Played 22 · 🇪🇸 12W 5D 5L · last 0-2 (01/09/2016).",
-      "odds": {
-        "match": {
-          "home": "1.65",
-          "draw": "3.90",
-          "away": "5.25"
-        },
-        "extra": {
-          "label": "O2.5",
-          "value": "1.80"
-        },
-        "fgs": {
-          "name": "Mikel Oyarzabal",
-          "odds": "2.38"
-        }
-      },
-      "facts": {
-        "home": "Barcelona’s La Masia produced Spain greats Xavi and Iniesta, shaping modern national success.",
-        "away": "Belgium’s 'golden generation' finished third at the 2018 World Cup, their best ever."
+      "scoreA": 2,
+      "scoreB": 1,
+      "score": "2-1",
+      "scorers": "Fabián Ruiz 30' (ESP) · Charles De Ketelaere 41' (BEL) · Mikel Merino 88' (ESP)",
+      "analysis": {
+        "lines": [
+          "Spain controlled possession but struggled for clear chances until a late rebound.",
+          "Merino's 88th-minute finish sends Spain into the semi-finals to face France next."
+        ],
+        "source": "BBC Sport match report"
       }
+    }
+  ],
+  "today": [
+    {
+      "matchId": "K027",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": "QF",
+      "kickoffUk": "2026-07-11T22:00:00+01:00",
+      "timeUk": "22:00 UK",
+      "timeEt": "17:00 ET",
+      "venue": {
+        "stadium": "Hard Rock Stadium",
+        "city": "Miami",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "BBC One",
+        "us": "FOX"
+      },
+      "teamA": "NOR",
+      "teamB": "ENG"
+    },
+    {
+      "matchId": "K028",
+      "rank": null,
+      "group": null,
+      "stage": "knockout",
+      "round": "QF",
+      "kickoffUk": "2026-07-12T02:00:00+01:00",
+      "timeUk": "02:00 UK",
+      "timeEt": "21:00 ET",
+      "venue": {
+        "stadium": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "US"
+      },
+      "broadcast": {
+        "uk": "ITV1",
+        "us": "FOX"
+      },
+      "teamA": "ARG",
+      "teamB": "SUI"
     }
   ],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "Tanker attacks near Strait of Hormuz disrupt shipping, raise energy concerns",
-    "body": "Multiple commercial tankers were struck near the Strait of Hormuz, prompting maritime warnings and disruption to transit. The incidents have led to tightened US measures on Iranian oil sales and fresh diplomatic concern in the Gulf.",
-    "source": "Source: Reuters, 10 Jul 2026"
+    "headline": "WHO warns Ebola outbreak remains active in DRC and Uganda",
+    "body": "The World Health Organization said the Bundibugyo ebolavirus outbreak in the Democratic Republic of Congo and Uganda remains active, with new confirmed cases reported. WHO flagged containment challenges including insecurity and limited vaccine options, urging accelerated international support and surveillance.",
+    "source": "Source: Reuters, 11 Jul 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
