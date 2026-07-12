@@ -2932,8 +2932,14 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "scheduled",
-    "weather": "31°C · hot · 60% storms · 10 mph E"
+    "status": "completed",
+    "weather": "31°C · hot · 60% storms · 10 mph E",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 2,
+      "scorers": "Andreas Schjelderup 36' (NOR) · Jude Bellingham 45+2', Jude Bellingham 93' (ENG)",
+      "notes": []
+    }
   },
   {
     "id": "K028",
@@ -2954,8 +2960,16 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "tbd",
-    "weather": "26°C · warm · 5% rain · 8 mph N"
+    "status": "completed",
+    "weather": "26°C · warm · 5% rain · 8 mph N",
+    "result": {
+      "scoreA": 3,
+      "scoreB": 1,
+      "scorers": "Alexis Mac Allister 10', Julián Álvarez 112', Lautaro Martínez 120+1' (ARG) · Dan Ndoye 67' (SUI)",
+      "notes": [
+        "🟥 Breel Embolo 72' (SUI)"
+      ]
+    }
   },
   {
     "id": "K029",

@@ -6753,5 +6753,96 @@
       "source": "Source: Reuters, 11 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260712": {
+    "generatedAt": "2026-07-12T09:57:17.618748+01:00",
+    "dateLong": "Sunday, 12 July 2026",
+    "dateDay": "Sun 12 Jul",
+    "dateRest": "Tournament Day 32",
+    "yesterdayCount": "2 matches",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": {
+      "headline": "Bellingham brace, Argentina survive to reach semis",
+      "subtitle": "England edged Norway after extra time; Argentina beat Switzerland via extra-time heroics and a contentious red card"
+    },
+    "todayStoryline": {
+      "headline": "Tournament rest day",
+      "subtitle": "No fixtures today; teams recover and prepare for semi-finals on Wednesday"
+    },
+    "yesterday": [
+      {
+        "matchId": "K027",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "QF",
+        "kickoffUk": "2026-07-11T22:00:00+01:00",
+        "timeUk": "22:00 UK",
+        "timeEt": "17:00 ET",
+        "venue": {
+          "stadium": "Hard Rock Stadium",
+          "city": "Miami",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "NOR",
+        "teamB": "ENG",
+        "scoreA": 1,
+        "scoreB": 2,
+        "score": "1-2",
+        "scorers": "Andreas Schjelderup 36' (NOR) · Jude Bellingham 45+2', Jude Bellingham 93' (ENG)",
+        "analysis": {
+          "lines": [
+            "England dominated possession but Norway struck on a rare counter through Schjelderup.",
+            "Bellingham's late equaliser and extra-time winner sent England into the semi-finals."
+          ],
+          "source": "BBC Sport match report"
+        }
+      },
+      {
+        "matchId": "K028",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "QF",
+        "kickoffUk": "2026-07-12T02:00:00+01:00",
+        "timeUk": "02:00 UK",
+        "timeEt": "21:00 ET",
+        "venue": {
+          "stadium": "Arrowhead Stadium",
+          "city": "Kansas City",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "ARG",
+        "teamB": "SUI",
+        "scoreA": 3,
+        "scoreB": 1,
+        "score": "3-1",
+        "scorers": "Alexis Mac Allister 10', Julián Álvarez 112', Lautaro Martínez 120+1' (ARG) · Dan Ndoye 67' (SUI)",
+        "note": "🟥 Breel Embolo 72' (SUI)",
+        "analysis": {
+          "lines": [
+            "Mac Allister's early header put Argentina ahead before Switzerland levelled through Ndoye.",
+            "Embolo's second yellow and Álvarez's extra-time strike decided the tie and Argentina progressed."
+          ],
+          "source": "BBC Sport match report"
+        }
+      }
+    ],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Iran declares Strait of Hormuz closed after vessel struck",
+      "body": "Iran said it had closed the Strait of Hormuz after a ship on an unauthorised route was struck, warning of a severe response to any retaliation. Talks with mediators and diplomatic contacts continued as regional tensions rose, Reuters reported.",
+      "source": "Source: Reuters, 12 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

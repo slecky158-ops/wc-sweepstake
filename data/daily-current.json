@@ -1,53 +1,19 @@
 {
-  "generatedAt": "2026-07-11T09:41:42.326026+01:00",
-  "dateLong": "Saturday, 11 July 2026",
-  "dateDay": "Sat 11 Jul",
-  "dateRest": "Tournament Day 31",
-  "yesterdayCount": "1 match",
-  "todayCount": "2 matches",
+  "generatedAt": "2026-07-12T09:57:17.618748+01:00",
+  "dateLong": "Sunday, 12 July 2026",
+  "dateDay": "Sun 12 Jul",
+  "dateRest": "Tournament Day 32",
+  "yesterdayCount": "2 matches",
+  "todayCount": "Rest day",
   "yesterdayStoryline": {
-    "headline": "Merino seals late win as Spain reach semis",
-    "subtitle": "88th-minute strike sends Spain past Belgium in a tight quarter-final"
+    "headline": "Bellingham brace, Argentina survive to reach semis",
+    "subtitle": "England edged Norway after extra time; Argentina beat Switzerland via extra-time heroics and a contentious red card"
   },
   "todayStoryline": {
-    "headline": "England meet Norway; Argentina face Switzerland",
-    "subtitle": "Two knockout ties scheduled under warm US summer conditions"
+    "headline": "Tournament rest day",
+    "subtitle": "No fixtures today; teams recover and prepare for semi-finals on Wednesday"
   },
   "yesterday": [
-    {
-      "matchId": "K026",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": "QF",
-      "kickoffUk": "2026-07-10T20:00:00+01:00",
-      "timeUk": "20:00 UK",
-      "timeEt": "15:00 ET",
-      "venue": {
-        "stadium": "SoFi Stadium",
-        "city": "Los Angeles",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FOX"
-      },
-      "teamA": "ESP",
-      "teamB": "BEL",
-      "scoreA": 2,
-      "scoreB": 1,
-      "score": "2-1",
-      "scorers": "Fabián Ruiz 30' (ESP) · Charles De Ketelaere 41' (BEL) · Mikel Merino 88' (ESP)",
-      "analysis": {
-        "lines": [
-          "Spain controlled possession but struggled for clear chances until a late rebound.",
-          "Merino's 88th-minute finish sends Spain into the semi-finals to face France next."
-        ],
-        "source": "BBC Sport match report"
-      }
-    }
-  ],
-  "today": [
     {
       "matchId": "K027",
       "rank": null,
@@ -67,7 +33,18 @@
         "us": "FOX"
       },
       "teamA": "NOR",
-      "teamB": "ENG"
+      "teamB": "ENG",
+      "scoreA": 1,
+      "scoreB": 2,
+      "score": "1-2",
+      "scorers": "Andreas Schjelderup 36' (NOR) · Jude Bellingham 45+2', Jude Bellingham 93' (ENG)",
+      "analysis": {
+        "lines": [
+          "England dominated possession but Norway struck on a rare counter through Schjelderup.",
+          "Bellingham's late equaliser and extra-time winner sent England into the semi-finals."
+        ],
+        "source": "BBC Sport match report"
+      }
     },
     {
       "matchId": "K028",
@@ -88,14 +65,27 @@
         "us": "FOX"
       },
       "teamA": "ARG",
-      "teamB": "SUI"
+      "teamB": "SUI",
+      "scoreA": 3,
+      "scoreB": 1,
+      "score": "3-1",
+      "scorers": "Alexis Mac Allister 10', Julián Álvarez 112', Lautaro Martínez 120+1' (ARG) · Dan Ndoye 67' (SUI)",
+      "note": "🟥 Breel Embolo 72' (SUI)",
+      "analysis": {
+        "lines": [
+          "Mac Allister's early header put Argentina ahead before Switzerland levelled through Ndoye.",
+          "Embolo's second yellow and Álvarez's extra-time strike decided the tie and Argentina progressed."
+        ],
+        "source": "BBC Sport match report"
+      }
     }
   ],
+  "today": [],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "WHO warns Ebola outbreak remains active in DRC and Uganda",
-    "body": "The World Health Organization said the Bundibugyo ebolavirus outbreak in the Democratic Republic of Congo and Uganda remains active, with new confirmed cases reported. WHO flagged containment challenges including insecurity and limited vaccine options, urging accelerated international support and surveillance.",
-    "source": "Source: Reuters, 11 Jul 2026"
+    "headline": "Iran declares Strait of Hormuz closed after vessel struck",
+    "body": "Iran said it had closed the Strait of Hormuz after a ship on an unauthorised route was struck, warning of a severe response to any retaliation. Talks with mediators and diplomatic contacts continued as regional tensions rose, Reuters reported.",
+    "source": "Source: Reuters, 12 Jul 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
