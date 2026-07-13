@@ -6844,5 +6844,24 @@
       "source": "Source: Reuters, 12 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260713": {
+    "generatedAt": "2026-07-13T11:15:23.627862+01:00",
+    "dateLong": "Monday, 13 July 2026",
+    "dateDay": "Mon 13 Jul",
+    "dateRest": "Tournament Day 33",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Europe records over 10,000 excess deaths during heatwave",
+      "body": "EuroMOMO data show more than 10,000 excess deaths across western Europe during a late‑June heatwave, mostly among people aged 65 and over. Health officials said extreme heat was the likely cause, with France and Belgium recording the highest excess mortality.",
+      "source": "Source: Reuters, 13 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
