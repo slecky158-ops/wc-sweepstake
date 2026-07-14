@@ -6863,5 +6863,55 @@
       "source": "Source: Reuters, 13 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260714": {
+    "generatedAt": "2026-07-14T09:58:21.867324+01:00",
+    "dateLong": "Tuesday, 14 July 2026",
+    "dateDay": "Tue 14 Jul",
+    "dateRest": "Tournament Day 34",
+    "yesterdayCount": "Rest day",
+    "todayCount": "1 match",
+    "yesterdayStoryline": null,
+    "todayStoryline": {
+      "headline": "France face Spain in Dallas",
+      "subtitle": "Semi-final at AT&T Stadium; kick-off 20:00 UK / 15:00 ET."
+    },
+    "yesterday": [],
+    "today": [
+      {
+        "matchId": "K029",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "SF",
+        "kickoffUk": "2026-07-14T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "AT&T Stadium",
+          "city": "Dallas",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "FRA",
+        "teamB": "ESP",
+        "weather": "29°C · intermittent clouds",
+        "h2h": "Played 38 · 🇫🇷 13W 7D 18L · last 5-4 Spain (2025)",
+        "facts": {
+          "home": "Didier Deschamps won the World Cup both as player (1998) and coach (2018).",
+          "away": "Spain’s possession 'tiki-taka' style dominated world football from 2008 through 2012."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "WORLD",
+      "headline": "World news pending",
+      "body": "Today's update could not fetch a non-football world headline.",
+      "source": "Source: pending, 14 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

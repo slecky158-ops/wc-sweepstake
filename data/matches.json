@@ -2979,8 +2979,8 @@
     "matchNo": 1,
     "rank": null,
     "kickoffUk": "2026-07-14T20:00:00+01:00",
-    "teamA": null,
-    "teamB": null,
+    "teamA": "FRA",
+    "teamB": "ESP",
     "venue": {
       "stadium": "AT&T Stadium",
       "city": "Dallas",
