@@ -2990,7 +2990,13 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "tbd"
+    "status": "completed",
+    "result": {
+      "scoreA": 0,
+      "scoreB": 2,
+      "scorers": "Mikel Oyarzabal 22' (ESP) · Pedro Porro 58' (ESP)",
+      "notes": []
+    }
   },
   {
     "id": "K030",
@@ -3000,8 +3006,8 @@
     "matchNo": 2,
     "rank": null,
     "kickoffUk": "2026-07-15T20:00:00+01:00",
-    "teamA": null,
-    "teamB": null,
+    "teamA": "ENG",
+    "teamB": "ARG",
     "venue": {
       "stadium": "Mercedes-Benz Stadium",
       "city": "Atlanta",

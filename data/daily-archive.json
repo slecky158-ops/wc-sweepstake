@@ -6913,5 +6913,91 @@
       "source": "Source: pending, 14 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260715": {
+    "generatedAt": "2026-07-15T10:04:14.862225+01:00",
+    "dateLong": "Wednesday, 15 July 2026",
+    "dateDay": "Wed 15 Jul",
+    "dateRest": "Tournament Day 35",
+    "yesterdayCount": "1 match",
+    "todayCount": "1 match",
+    "yesterdayStoryline": {
+      "headline": "Spain silence France to reach the final",
+      "subtitle": "Oyarzabal penalty and Porro strike secure a 2-0 semi-final win in Dallas"
+    },
+    "todayStoryline": {
+      "headline": "England meet Argentina in Atlanta",
+      "subtitle": "High-stakes semi at Mercedes‑Benz Stadium; winner advances to the World Cup final"
+    },
+    "yesterday": [
+      {
+        "matchId": "K029",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "SF",
+        "kickoffUk": "2026-07-14T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "AT&T Stadium",
+          "city": "Dallas",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "FRA",
+        "teamB": "ESP",
+        "scoreA": 0,
+        "scoreB": 2,
+        "score": "0-2",
+        "scorers": "Mikel Oyarzabal 22' (ESP) · Pedro Porro 58' (ESP)",
+        "analysis": {
+          "lines": [
+            "Spain controlled possession and smothered France with calm midfield dominance.",
+            "The victory sends Spain into the final and leaves France heading to the third-place game."
+          ],
+          "source": "BBC Sport match report"
+        }
+      }
+    ],
+    "today": [
+      {
+        "matchId": "K030",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "SF",
+        "kickoffUk": "2026-07-15T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "ENG",
+        "teamB": "ARG",
+        "weather": "29°C · partly sunny · low chance of showers.",
+        "h2h": "Played 14 · ENG 6W 6D 2L · last 3-2 ENG (2005).",
+        "facts": {
+          "home": "Geoff Hurst remains the only player to score a World Cup final hat-trick, 1966.",
+          "away": "Argentina won their first World Cup at home in 1978, beating Netherlands 3-1."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "China Q2 growth slows, misses forecasts",
+      "body": "Official data showed China’s economy grew about 4.3% year-on-year in the second quarter, below market expectations. Economists said weaker domestic demand and global trade shocks could prompt targeted stimulus.",
+      "source": "Source: Reuters, 15 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
