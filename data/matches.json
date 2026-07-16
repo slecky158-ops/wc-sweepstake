@@ -3017,7 +3017,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "tbd"
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 2,
+      "scorers": "Anthony Gordon 55' (ENG) · Enzo Fernández 85' (ARG), Lautaro Martínez 90+2' (ARG)",
+      "notes": []
+    }
   },
   {
     "id": "K031",

@@ -1,53 +1,19 @@
 {
-  "generatedAt": "2026-07-15T10:04:14.862225+01:00",
-  "dateLong": "Wednesday, 15 July 2026",
-  "dateDay": "Wed 15 Jul",
-  "dateRest": "Tournament Day 35",
+  "generatedAt": "2026-07-16T10:07:23.986080+01:00",
+  "dateLong": "Thursday, 16 July 2026",
+  "dateDay": "Thu 16 Jul",
+  "dateRest": "Tournament Day 36",
   "yesterdayCount": "1 match",
-  "todayCount": "1 match",
+  "todayCount": "Rest day",
   "yesterdayStoryline": {
-    "headline": "Spain silence France to reach the final",
-    "subtitle": "Oyarzabal penalty and Porro strike secure a 2-0 semi-final win in Dallas"
+    "headline": "Holders stage late turnaround in Atlanta",
+    "subtitle": "Enzo Fernández and Lautaro Martínez erase England lead to reach the final"
   },
   "todayStoryline": {
-    "headline": "England meet Argentina in Atlanta",
-    "subtitle": "High-stakes semi at Mercedes‑Benz Stadium; winner advances to the World Cup final"
+    "headline": "Full day of rest for remaining teams",
+    "subtitle": "No fixtures scheduled; squads recover and prepare for the final stages"
   },
   "yesterday": [
-    {
-      "matchId": "K029",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": "SF",
-      "kickoffUk": "2026-07-14T20:00:00+01:00",
-      "timeUk": "20:00 UK",
-      "timeEt": "15:00 ET",
-      "venue": {
-        "stadium": "AT&T Stadium",
-        "city": "Dallas",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "BBC One",
-        "us": "FOX"
-      },
-      "teamA": "FRA",
-      "teamB": "ESP",
-      "scoreA": 0,
-      "scoreB": 2,
-      "score": "0-2",
-      "scorers": "Mikel Oyarzabal 22' (ESP) · Pedro Porro 58' (ESP)",
-      "analysis": {
-        "lines": [
-          "Spain controlled possession and smothered France with calm midfield dominance.",
-          "The victory sends Spain into the final and leaves France heading to the third-place game."
-        ],
-        "source": "BBC Sport match report"
-      }
-    }
-  ],
-  "today": [
     {
       "matchId": "K030",
       "rank": null,
@@ -68,19 +34,25 @@
       },
       "teamA": "ENG",
       "teamB": "ARG",
-      "weather": "29°C · partly sunny · low chance of showers.",
-      "h2h": "Played 14 · ENG 6W 6D 2L · last 3-2 ENG (2005).",
-      "facts": {
-        "home": "Geoff Hurst remains the only player to score a World Cup final hat-trick, 1966.",
-        "away": "Argentina won their first World Cup at home in 1978, beating Netherlands 3-1."
+      "scoreA": 1,
+      "scoreB": 2,
+      "score": "1-2",
+      "scorers": "Anthony Gordon 55' (ENG) · Enzo Fernández 85' (ARG), Lautaro Martínez 90+2' (ARG)",
+      "analysis": {
+        "lines": [
+          "England led after Anthony Gordon’s second‑half strike but then sat deep defensively.",
+          "Argentina’s late pressure produced two goals, sending the holders through to the final."
+        ],
+        "source": "BBC Sport match report"
       }
     }
   ],
+  "today": [],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "China Q2 growth slows, misses forecasts",
-    "body": "Official data showed China’s economy grew about 4.3% year-on-year in the second quarter, below market expectations. Economists said weaker domestic demand and global trade shocks could prompt targeted stimulus.",
-    "source": "Source: Reuters, 15 Jul 2026"
+    "headline": "Trump to address nation on declassified election intelligence",
+    "body": "President Donald Trump is scheduled to deliver a national address on July 16 about recently declassified intelligence related to the 2020 election and voting‑system vulnerabilities. The announcement has prompted scrutiny from lawmakers and election‑security experts ahead of the speech.",
+    "source": "Source: Reuters, 16 Jul 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

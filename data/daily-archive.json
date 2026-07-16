@@ -6999,5 +6999,63 @@
       "source": "Source: Reuters, 15 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260716": {
+    "generatedAt": "2026-07-16T10:07:23.986080+01:00",
+    "dateLong": "Thursday, 16 July 2026",
+    "dateDay": "Thu 16 Jul",
+    "dateRest": "Tournament Day 36",
+    "yesterdayCount": "1 match",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": {
+      "headline": "Holders stage late turnaround in Atlanta",
+      "subtitle": "Enzo Fernández and Lautaro Martínez erase England lead to reach the final"
+    },
+    "todayStoryline": {
+      "headline": "Full day of rest for remaining teams",
+      "subtitle": "No fixtures scheduled; squads recover and prepare for the final stages"
+    },
+    "yesterday": [
+      {
+        "matchId": "K030",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "SF",
+        "kickoffUk": "2026-07-15T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "ENG",
+        "teamB": "ARG",
+        "scoreA": 1,
+        "scoreB": 2,
+        "score": "1-2",
+        "scorers": "Anthony Gordon 55' (ENG) · Enzo Fernández 85' (ARG), Lautaro Martínez 90+2' (ARG)",
+        "analysis": {
+          "lines": [
+            "England led after Anthony Gordon’s second‑half strike but then sat deep defensively.",
+            "Argentina’s late pressure produced two goals, sending the holders through to the final."
+          ],
+          "source": "BBC Sport match report"
+        }
+      }
+    ],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Trump to address nation on declassified election intelligence",
+      "body": "President Donald Trump is scheduled to deliver a national address on July 16 about recently declassified intelligence related to the 2020 election and voting‑system vulnerabilities. The announcement has prompted scrutiny from lawmakers and election‑security experts ahead of the speech.",
+      "source": "Source: Reuters, 16 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
