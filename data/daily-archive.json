@@ -7057,5 +7057,27 @@
       "source": "Source: Reuters, 16 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260717": {
+    "generatedAt": "2026-07-17T10:02:19.486475+01:00",
+    "dateLong": "Friday, 17 July 2026",
+    "dateDay": "Fri 17 Jul",
+    "dateRest": "Tournament Day 37",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": {
+      "headline": "Teams take day off for recovery",
+      "subtitle": "Squads focus on light training, medical recovery and travel before next fixtures."
+    },
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Andy Burnham to be made UK Labour leader on way to becoming prime minister",
+      "body": "Andy Burnham is set to be declared leader of Britain’s governing Labour Party, clearing the path to become prime minister. The move follows broad support within Labour and positions him to take office ahead of the next general election.",
+      "source": "Source: Reuters, 17 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
