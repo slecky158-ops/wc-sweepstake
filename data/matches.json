@@ -3033,8 +3033,8 @@
     "matchNo": 1,
     "rank": null,
     "kickoffUk": "2026-07-18T22:00:00+01:00",
-    "teamA": null,
-    "teamB": null,
+    "teamA": "FRA",
+    "teamB": "ENG",
     "venue": {
       "stadium": "Hard Rock Stadium",
       "city": "Miami",

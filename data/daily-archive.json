@@ -7079,5 +7079,66 @@
       "source": "Source: Reuters, 17 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260718": {
+    "generatedAt": "2026-07-18T09:41:13.732362+01:00",
+    "dateLong": "Saturday, 18 July 2026",
+    "dateDay": "Sat 18 Jul",
+    "dateRest": "Tournament Day 38",
+    "yesterdayCount": "Rest day",
+    "todayCount": "1 match",
+    "yesterdayStoryline": null,
+    "todayStoryline": {
+      "headline": "France face England in Miami bronze final",
+      "subtitle": "Deschamps to bow out as both sides seek consolation after semi-final defeats"
+    },
+    "yesterday": [],
+    "today": [
+      {
+        "matchId": "K031",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "3rd",
+        "kickoffUk": "2026-07-18T22:00:00+01:00",
+        "timeUk": "22:00 UK",
+        "timeEt": "17:00 ET",
+        "venue": {
+          "stadium": "Hard Rock Stadium",
+          "city": "Miami",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "FRA",
+        "teamB": "ENG",
+        "weather": "31°C · intermittent clouds",
+        "h2h": "Played 32 · 🇫🇷 10W 5D 17L · last 2-1 FRA (10 Dec 2022)",
+        "odds": {
+          "match": {
+            "home": "1.91",
+            "draw": "4.20",
+            "away": "4.10"
+          },
+          "fgs": {
+            "name": "Kylian Mbappé",
+            "odds": "4.00"
+          }
+        },
+        "facts": {
+          "home": "Didier Deschamps will manage his final France match, ending a 14-year tenure.",
+          "away": "England have never won a World Cup third-place play-off, losing both previous attempts."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Major US networks decline to air Trump speech live",
+      "body": "ABC, NBC and CNN chose not to broadcast President Trump’s primetime election-security address on their main channels, offering streaming coverage instead. The decision sparked debate over editorial judgement and whether networks should carry contentious presidential remarks live.",
+      "source": "Source: Reuters, 18 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
