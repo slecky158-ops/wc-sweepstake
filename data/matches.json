@@ -3044,7 +3044,13 @@
       "uk": "ITV1",
       "us": "FOX"
     },
-    "status": "tbd"
+    "status": "completed",
+    "result": {
+      "scoreA": 4,
+      "scoreB": 6,
+      "scorers": "",
+      "notes": []
+    }
   },
   {
     "id": "K032",
@@ -3054,8 +3060,8 @@
     "matchNo": 1,
     "rank": null,
     "kickoffUk": "2026-07-19T20:00:00+01:00",
-    "teamA": null,
-    "teamB": null,
+    "teamA": "ESP",
+    "teamB": "ARG",
     "venue": {
       "stadium": "MetLife Stadium",
       "city": "New York",

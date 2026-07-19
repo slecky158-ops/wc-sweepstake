@@ -7140,5 +7140,82 @@
       "source": "Source: Reuters, 18 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260719": {
+    "generatedAt": "2026-07-19T10:00:41.561242+01:00",
+    "dateLong": "Sunday, 19 July 2026",
+    "dateDay": "Sun 19 Jul",
+    "dateRest": "Tournament Day 39",
+    "yesterdayCount": "1 match",
+    "todayCount": "1 match",
+    "yesterdayStoryline": {
+      "headline": "Saka hat-trick seals England’s 6-4 win in ten-goal thriller",
+      "subtitle": "Three Lions take bronze after chaotic match against France in Miami."
+    },
+    "todayStoryline": {
+      "headline": "Spain meet Argentina in MetLife final",
+      "subtitle": "Kickoff 20:00 UK / 15:00 ET as champions defend title in New Jersey."
+    },
+    "yesterday": [
+      {
+        "matchId": "K031",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "3rd",
+        "kickoffUk": "2026-07-18T22:00:00+01:00",
+        "timeUk": "22:00 UK",
+        "timeEt": "17:00 ET",
+        "venue": {
+          "stadium": "Hard Rock Stadium",
+          "city": "Miami",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "ITV1",
+          "us": "FOX"
+        },
+        "teamA": "FRA",
+        "teamB": "ENG",
+        "scoreA": 4,
+        "scoreB": 6,
+        "score": "4-6"
+      }
+    ],
+    "today": [
+      {
+        "matchId": "K032",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "F",
+        "kickoffUk": "2026-07-19T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "MetLife Stadium",
+          "city": "New York",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "ESP",
+        "teamB": "ARG",
+        "weather": "27°C · mostly sunny",
+        "facts": {
+          "home": "Spain’s squad trains at the RFEF Ciudad del Fútbol in Las Rozas near Madrid.",
+          "away": "Alfredo Di Stéfano, Argentina-born legend, never played at a World Cup finals tournament."
+        }
+      }
+    ],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Major diplomatic meeting addresses food and energy security",
+      "body": "Leaders met to discuss coordinated responses to rising food and energy risks. Talks focused on supply resilience and emergency measures.",
+      "source": "Source: Reuters, 19 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
