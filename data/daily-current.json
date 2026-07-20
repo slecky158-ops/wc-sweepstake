@@ -1,45 +1,19 @@
 {
-  "generatedAt": "2026-07-19T10:00:41.561242+01:00",
-  "dateLong": "Sunday, 19 July 2026",
-  "dateDay": "Sun 19 Jul",
-  "dateRest": "Tournament Day 39",
+  "generatedAt": "2026-07-20T10:48:52.247785+01:00",
+  "dateLong": "Monday, 20 July 2026",
+  "dateDay": "Mon 20 Jul",
+  "dateRest": "Tournament Day 40",
   "yesterdayCount": "1 match",
-  "todayCount": "1 match",
+  "todayCount": "Rest day",
   "yesterdayStoryline": {
-    "headline": "Saka hat-trick seals England’s 6-4 win in ten-goal thriller",
-    "subtitle": "Three Lions take bronze after chaotic match against France in Miami."
+    "headline": "Torres extra-time strike crowns Spain world champions",
+    "subtitle": "Spain defeat Argentina 1-0 after extra time to claim second World Cup"
   },
   "todayStoryline": {
-    "headline": "Spain meet Argentina in MetLife final",
-    "subtitle": "Kickoff 20:00 UK / 15:00 ET as champions defend title in New Jersey."
+    "headline": "Players granted recovery day",
+    "subtitle": "No fixtures scheduled; squads rest, recover and begin post-tournament routines"
   },
   "yesterday": [
-    {
-      "matchId": "K031",
-      "rank": null,
-      "group": null,
-      "stage": "knockout",
-      "round": "3rd",
-      "kickoffUk": "2026-07-18T22:00:00+01:00",
-      "timeUk": "22:00 UK",
-      "timeEt": "17:00 ET",
-      "venue": {
-        "stadium": "Hard Rock Stadium",
-        "city": "Miami",
-        "country": "US"
-      },
-      "broadcast": {
-        "uk": "ITV1",
-        "us": "FOX"
-      },
-      "teamA": "FRA",
-      "teamB": "ENG",
-      "scoreA": 4,
-      "scoreB": 6,
-      "score": "4-6"
-    }
-  ],
-  "today": [
     {
       "matchId": "K032",
       "rank": null,
@@ -60,18 +34,26 @@
       },
       "teamA": "ESP",
       "teamB": "ARG",
-      "weather": "27°C · mostly sunny",
-      "facts": {
-        "home": "Spain’s squad trains at the RFEF Ciudad del Fútbol in Las Rozas near Madrid.",
-        "away": "Alfredo Di Stéfano, Argentina-born legend, never played at a World Cup finals tournament."
+      "scoreA": 1,
+      "scoreB": 0,
+      "score": "1-0",
+      "scorers": "Ferran Torres 106' (ESP)",
+      "note": "🟥 Enzo Fernández (ARG)",
+      "analysis": {
+        "lines": [
+          "Spain controlled possession and pressed tirelessly, creating the clearest openings.",
+          "Torres' extra-time strike secured Spain's second World Cup, denying Argentina a title defence."
+        ],
+        "source": "BBC Sport match report"
       }
     }
   ],
+  "today": [],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "Major diplomatic meeting addresses food and energy security",
-    "body": "Leaders met to discuss coordinated responses to rising food and energy risks. Talks focused on supply resilience and emergency measures.",
-    "source": "Source: Reuters, 19 Jul 2026"
+    "headline": "US strikes Iranian targets as Tehran reports tanker explosions",
+    "body": "The United States carried out strikes on Iranian sites after recent attacks on American personnel, while Iran's Revolutionary Guards reported explosions on two tankers in the southern Strait of Hormuz. International calls for restraint grew as governments urged de-escalation to avoid a wider regional conflict.",
+    "source": "Source: Reuters, 20 Jul 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

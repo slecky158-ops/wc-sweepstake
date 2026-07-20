@@ -3071,6 +3071,14 @@
       "uk": "BBC One",
       "us": "FOX"
     },
-    "status": "tbd"
+    "status": "completed",
+    "result": {
+      "scoreA": 1,
+      "scoreB": 0,
+      "scorers": "Ferran Torres 106' (ESP)",
+      "notes": [
+        "🟥 Enzo Fernández (ARG)"
+      ]
+    }
   }
 ]

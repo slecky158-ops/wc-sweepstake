@@ -7217,5 +7217,64 @@
       "source": "Source: Reuters, 19 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260720": {
+    "generatedAt": "2026-07-20T10:48:52.247785+01:00",
+    "dateLong": "Monday, 20 July 2026",
+    "dateDay": "Mon 20 Jul",
+    "dateRest": "Tournament Day 40",
+    "yesterdayCount": "1 match",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": {
+      "headline": "Torres extra-time strike crowns Spain world champions",
+      "subtitle": "Spain defeat Argentina 1-0 after extra time to claim second World Cup"
+    },
+    "todayStoryline": {
+      "headline": "Players granted recovery day",
+      "subtitle": "No fixtures scheduled; squads rest, recover and begin post-tournament routines"
+    },
+    "yesterday": [
+      {
+        "matchId": "K032",
+        "rank": null,
+        "group": null,
+        "stage": "knockout",
+        "round": "F",
+        "kickoffUk": "2026-07-19T20:00:00+01:00",
+        "timeUk": "20:00 UK",
+        "timeEt": "15:00 ET",
+        "venue": {
+          "stadium": "MetLife Stadium",
+          "city": "New York",
+          "country": "US"
+        },
+        "broadcast": {
+          "uk": "BBC One",
+          "us": "FOX"
+        },
+        "teamA": "ESP",
+        "teamB": "ARG",
+        "scoreA": 1,
+        "scoreB": 0,
+        "score": "1-0",
+        "scorers": "Ferran Torres 106' (ESP)",
+        "note": "🟥 Enzo Fernández (ARG)",
+        "analysis": {
+          "lines": [
+            "Spain controlled possession and pressed tirelessly, creating the clearest openings.",
+            "Torres' extra-time strike secured Spain's second World Cup, denying Argentina a title defence."
+          ],
+          "source": "BBC Sport match report"
+        }
+      }
+    ],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "US strikes Iranian targets as Tehran reports tanker explosions",
+      "body": "The United States carried out strikes on Iranian sites after recent attacks on American personnel, while Iran's Revolutionary Guards reported explosions on two tankers in the southern Strait of Hormuz. International calls for restraint grew as governments urged de-escalation to avoid a wider regional conflict.",
+      "source": "Source: Reuters, 20 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
