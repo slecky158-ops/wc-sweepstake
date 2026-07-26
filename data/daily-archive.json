@@ -7371,5 +7371,24 @@
       "source": "Source: Reuters, 25 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260726": {
+    "generatedAt": "2026-07-26T10:06:36.762085+01:00",
+    "dateLong": "Sunday, 26 July 2026",
+    "dateDay": "Sun 26 Jul",
+    "dateRest": "Tournament Day 46",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Typhoon Noul lashes southern China, authorities warn of severe flooding",
+      "body": "Typhoon Noul made landfall in Guangdong, unleashing gale-force winds and torrential rain that forced mass relocations and suspended flights. Authorities issued top-level flood alerts and warned of continued heavy rain as the storm moved inland.",
+      "source": "Source: Reuters, 26 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
