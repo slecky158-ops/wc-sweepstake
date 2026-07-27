@@ -1,19 +1,22 @@
 {
-  "generatedAt": "2026-07-26T10:06:36.762085+01:00",
-  "dateLong": "Sunday, 26 July 2026",
-  "dateDay": "Sun 26 Jul",
-  "dateRest": "Tournament Day 46",
+  "generatedAt": "2026-07-27T11:31:51.418361+01:00",
+  "dateLong": "Monday, 27 July 2026",
+  "dateDay": "Mon 27 Jul",
+  "dateRest": "Tournament Day 47",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
-  "todayStoryline": null,
+  "todayStoryline": {
+    "headline": "Managers finalise tactics during layoff day",
+    "subtitle": "Teams use the unexpected break to check fitness and tweak line-ups before next fixtures."
+  },
   "yesterday": [],
   "today": [],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "Typhoon Noul lashes southern China, authorities warn of severe flooding",
-    "body": "Typhoon Noul made landfall in Guangdong, unleashing gale-force winds and torrential rain that forced mass relocations and suspended flights. Authorities issued top-level flood alerts and warned of continued heavy rain as the storm moved inland.",
-    "source": "Source: Reuters, 26 Jul 2026"
+    "headline": "Wall St futures rise as US, Iran pause hostilities",
+    "body": "Markets rallied after reports the United States and Iran agreed to pause hostilities, sending oil prices lower. The move eased investor concerns ahead of bank earnings and central bank decisions.",
+    "source": "Source: Reuters, 27 Jul 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

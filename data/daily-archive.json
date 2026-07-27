@@ -7390,5 +7390,27 @@
       "source": "Source: Reuters, 26 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260727": {
+    "generatedAt": "2026-07-27T11:31:51.418361+01:00",
+    "dateLong": "Monday, 27 July 2026",
+    "dateDay": "Mon 27 Jul",
+    "dateRest": "Tournament Day 47",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": {
+      "headline": "Managers finalise tactics during layoff day",
+      "subtitle": "Teams use the unexpected break to check fitness and tweak line-ups before next fixtures."
+    },
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Wall St futures rise as US, Iran pause hostilities",
+      "body": "Markets rallied after reports the United States and Iran agreed to pause hostilities, sending oil prices lower. The move eased investor concerns ahead of bank earnings and central bank decisions.",
+      "source": "Source: Reuters, 27 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
