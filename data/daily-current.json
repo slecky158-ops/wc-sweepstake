@@ -1,22 +1,19 @@
 {
-  "generatedAt": "2026-07-27T11:31:51.418361+01:00",
-  "dateLong": "Monday, 27 July 2026",
-  "dateDay": "Mon 27 Jul",
-  "dateRest": "Tournament Day 47",
+  "generatedAt": "2026-07-28T10:30:01.551242+01:00",
+  "dateLong": "Tuesday, 28 July 2026",
+  "dateDay": "Tue 28 Jul",
+  "dateRest": "Tournament Day 48",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
-  "todayStoryline": {
-    "headline": "Managers finalise tactics during layoff day",
-    "subtitle": "Teams use the unexpected break to check fitness and tweak line-ups before next fixtures."
-  },
+  "todayStoryline": null,
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · POLITICS",
-    "headline": "Wall St futures rise as US, Iran pause hostilities",
-    "body": "Markets rallied after reports the United States and Iran agreed to pause hostilities, sending oil prices lower. The move eased investor concerns ahead of bank earnings and central bank decisions.",
-    "source": "Source: Reuters, 27 Jul 2026"
+    "kicker": "REUTERS · US",
+    "headline": "Severe storms batter Chicago, trigger flooding and power outages",
+    "body": "Severe storms swept the Chicago area on July 27, 2026, producing tornado warnings, heavy rain and hail. Emergency services reported widespread flooding, downed trees and large-scale power outages while crews worked to restore services.",
+    "source": "Source: Reuters, 28 Jul 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
