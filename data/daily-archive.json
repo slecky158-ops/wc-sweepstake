@@ -7431,5 +7431,24 @@
       "source": "Source: Reuters, 28 Jul 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260729": {
+    "generatedAt": "2026-07-29T10:31:57.502627+01:00",
+    "dateLong": "Wednesday, 29 July 2026",
+    "dateDay": "Wed 29 Jul",
+    "dateRest": "Tournament Day 49",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Britain opens probe into fast‑fashion 'green' claims",
+      "body": "Britain's competition watchdog said it will investigate whether major fashion retailers are misleading shoppers with environmental claims. The probe targets firms including ASOS, Boohoo and George at Asda over vague 'sustainable' labelling.",
+      "source": "Source: Reuters, 29 Jul 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
