@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-30T10:24:16.386172+01:00",
-  "dateLong": "Thursday, 30 July 2026",
-  "dateDay": "Thu 30 Jul",
-  "dateRest": "Tournament Day 50",
+  "generatedAt": "2026-07-31T10:36:15.754808+01:00",
+  "dateLong": "Friday, 31 July 2026",
+  "dateDay": "Fri 31 Jul",
+  "dateRest": "Tournament Day 51",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · POLITICS",
-    "headline": "U.S. moves to curb Chinese robot and inverter imports",
-    "body": "The U.S. announced bans on imports of new Chinese humanoid robots and power inverters, citing national security and supply‑chain concerns. Officials said the measures are intended to protect America’s AI buildout and encourage domestic production of critical technologies.",
-    "source": "Source: Reuters, 30 Jul 2026"
+    "kicker": "REUTERS · BUSINESS",
+    "headline": "SpaceX plans fresh Starship attempt after last‑second abort",
+    "body": "SpaceX said it was targeting another Starship launch after a last‑second abort halted a recent liftoff and knocked down the company’s market value. Regulators closed a probe into an earlier mishap, clearing the way for a new test flight, Reuters reports.",
+    "source": "Source: Reuters, 31 Jul 2026."
   },
   "footerNote": "All times converted from official kickoffs"
 }
