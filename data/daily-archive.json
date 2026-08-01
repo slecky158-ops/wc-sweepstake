@@ -7488,5 +7488,24 @@
       "source": "Source: Reuters, 31 Jul 2026."
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260801": {
+    "generatedAt": "2026-08-01T09:59:21.829088+01:00",
+    "dateLong": "Saturday, 1 August 2026",
+    "dateDay": "Sat 1 Aug",
+    "dateRest": "Tournament Day 52",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · ECONOMY",
+      "headline": "Indonesia to raise crypto transaction taxes from August 1",
+      "body": "Indonesia will raise taxes on cryptocurrency transactions starting August 1, 2026, aiming to capture revenue from its growing digital trading sector. The finance ministry's regulation raises the tax on sales via domestic exchanges to 0.21% and imposes a 1% levy on trades through overseas platforms, while removing a special mining tax effective in 2026.",
+      "source": "Source: Reuters, 1 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
