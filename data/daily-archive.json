@@ -7507,5 +7507,27 @@
       "source": "Source: Reuters, 1 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260802": {
+    "generatedAt": "2026-08-02T10:04:12.634645+01:00",
+    "dateLong": "Sunday, 2 August 2026",
+    "dateDay": "Sun 2 Aug",
+    "dateRest": "Tournament Day 53",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": {
+      "headline": "Quiet day across host cities",
+      "subtitle": "Players recover as coaches tweak tactics and fitness ahead of next matches"
+    },
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "EU transparency rules for AI take effect",
+      "body": "Article 50 of the EU Artificial Intelligence Act requires providers to label AI-generated content and disclose AI use from August 2, 2026. The new transparency duties aim to curb deepfakes and give users clearer information about how AI systems operate.",
+      "source": "Source: Reuters, 2 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

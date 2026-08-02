@@ -1,19 +1,22 @@
 {
-  "generatedAt": "2026-08-01T09:59:21.829088+01:00",
-  "dateLong": "Saturday, 1 August 2026",
-  "dateDay": "Sat 1 Aug",
-  "dateRest": "Tournament Day 52",
+  "generatedAt": "2026-08-02T10:04:12.634645+01:00",
+  "dateLong": "Sunday, 2 August 2026",
+  "dateDay": "Sun 2 Aug",
+  "dateRest": "Tournament Day 53",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
-  "todayStoryline": null,
+  "todayStoryline": {
+    "headline": "Quiet day across host cities",
+    "subtitle": "Players recover as coaches tweak tactics and fitness ahead of next matches"
+  },
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · ECONOMY",
-    "headline": "Indonesia to raise crypto transaction taxes from August 1",
-    "body": "Indonesia will raise taxes on cryptocurrency transactions starting August 1, 2026, aiming to capture revenue from its growing digital trading sector. The finance ministry's regulation raises the tax on sales via domestic exchanges to 0.21% and imposes a 1% levy on trades through overseas platforms, while removing a special mining tax effective in 2026.",
-    "source": "Source: Reuters, 1 Aug 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "EU transparency rules for AI take effect",
+    "body": "Article 50 of the EU Artificial Intelligence Act requires providers to label AI-generated content and disclose AI use from August 2, 2026. The new transparency duties aim to curb deepfakes and give users clearer information about how AI systems operate.",
+    "source": "Source: Reuters, 2 Aug 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
