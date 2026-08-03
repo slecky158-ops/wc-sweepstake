@@ -1,22 +1,19 @@
 {
-  "generatedAt": "2026-08-02T10:04:12.634645+01:00",
-  "dateLong": "Sunday, 2 August 2026",
-  "dateDay": "Sun 2 Aug",
-  "dateRest": "Tournament Day 53",
+  "generatedAt": "2026-08-03T11:31:26.498350+01:00",
+  "dateLong": "Monday, 3 August 2026",
+  "dateDay": "Mon 3 Aug",
+  "dateRest": "Tournament Day 54",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
-  "todayStoryline": {
-    "headline": "Quiet day across host cities",
-    "subtitle": "Players recover as coaches tweak tactics and fitness ahead of next matches"
-  },
+  "todayStoryline": null,
   "yesterday": [],
   "today": [],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "EU transparency rules for AI take effect",
-    "body": "Article 50 of the EU Artificial Intelligence Act requires providers to label AI-generated content and disclose AI use from August 2, 2026. The new transparency duties aim to curb deepfakes and give users clearer information about how AI systems operate.",
-    "source": "Source: Reuters, 2 Aug 2026"
+    "headline": "Trump urges Senate to cancel August recess over voting bill",
+    "body": "President Donald Trump pressed Senate Republican leaders to keep lawmakers in Washington until the SAVE America Act is passed, escalating pressure ahead of the midterms. Senate leaders said cancelling the recess is unlikely without a clear path to victory, leaving the dispute unresolved as August begins.",
+    "source": "Source: Reuters, 3 Aug 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

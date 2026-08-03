@@ -7529,5 +7529,24 @@
       "source": "Source: Reuters, 2 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260803": {
+    "generatedAt": "2026-08-03T11:31:26.498350+01:00",
+    "dateLong": "Monday, 3 August 2026",
+    "dateDay": "Mon 3 Aug",
+    "dateRest": "Tournament Day 54",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Trump urges Senate to cancel August recess over voting bill",
+      "body": "President Donald Trump pressed Senate Republican leaders to keep lawmakers in Washington until the SAVE America Act is passed, escalating pressure ahead of the midterms. Senate leaders said cancelling the recess is unlikely without a clear path to victory, leaving the dispute unresolved as August begins.",
+      "source": "Source: Reuters, 3 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
