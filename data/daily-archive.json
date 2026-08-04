@@ -7548,5 +7548,24 @@
       "source": "Source: Reuters, 3 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260804": {
+    "generatedAt": "2026-08-04T10:32:16.692236+01:00",
+    "dateLong": "Tuesday, 4 August 2026",
+    "dateDay": "Tue 4 Aug",
+    "dateRest": "Tournament Day 55",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "U.S. joins Japan in rare coordinated yen-buying intervention",
+      "body": "Japan and the United States conducted a coordinated yen-buying intervention on Aug. 3-4, 2026, Tokyo said, aiming to halt a sharp fall in the currency. Markets reacted with a firmer yen and moves in government bond yields as investors reassessed exchange-rate risks.",
+      "source": "Source: Reuters, 4 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
