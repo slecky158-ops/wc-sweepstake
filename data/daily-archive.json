@@ -7567,5 +7567,24 @@
       "source": "Source: Reuters, 4 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260805": {
+    "generatedAt": "2026-08-05T10:29:14.116219+01:00",
+    "dateLong": "Wednesday, 5 August 2026",
+    "dateDay": "Wed 5 Aug",
+    "dateRest": "Tournament Day 56",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Markets cling on as ceasefire is tested",
+      "body": "Global markets held largely steady as a fragile ceasefire in the Middle East showed signs of strain and oil prices rose. Diplomats and investors watched for further developments after comments from U.S. leaders and regional actors, weighing the risk to supply and geopolitical stability.",
+      "source": "Source: Reuters, 5 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
