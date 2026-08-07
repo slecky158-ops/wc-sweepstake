@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-06T10:33:33.974399+01:00",
-  "dateLong": "Thursday, 6 August 2026",
-  "dateDay": "Thu 6 Aug",
-  "dateRest": "Tournament Day 57",
+  "generatedAt": "2026-08-07T09:05:00.260891+01:00",
+  "dateLong": "Friday, 7 August 2026",
+  "dateDay": "Fri 7 Aug",
+  "dateRest": "Tournament Day 58",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · POLITICS",
-    "headline": "U.S. budget talks intensify amid shutdown risk",
-    "body": "Lawmakers from both parties clashed over spending levels, raising the possibility of a partial government shutdown. Negotiators said talks would continue into the weekend as leaders seek a last‑minute compromise to avert disruption.",
-    "source": "Source: Reuters, 6 Aug 2026"
+    "kicker": "REUTERS · SCIENCE",
+    "headline": "SpaceX Falcon 9 upper stage crashes into the Moon",
+    "body": "A discarded Falcon 9 upper stage struck the Moon on Aug. 5, 2026, impacting near Einstein crater. Scientists said the event provided a rare opportunity to study lunar impact ejecta and prompted coordinated telescope observations worldwide.",
+    "source": "Source: Reuters, 7 Aug 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
