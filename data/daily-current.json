@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-07T09:05:00.260891+01:00",
-  "dateLong": "Friday, 7 August 2026",
-  "dateDay": "Fri 7 Aug",
-  "dateRest": "Tournament Day 58",
+  "generatedAt": "2026-08-08T08:39:29.533770+01:00",
+  "dateLong": "Saturday, 8 August 2026",
+  "dateDay": "Sat 8 Aug",
+  "dateRest": "Tournament Day 59",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · SCIENCE",
-    "headline": "SpaceX Falcon 9 upper stage crashes into the Moon",
-    "body": "A discarded Falcon 9 upper stage struck the Moon on Aug. 5, 2026, impacting near Einstein crater. Scientists said the event provided a rare opportunity to study lunar impact ejecta and prompted coordinated telescope observations worldwide.",
-    "source": "Source: Reuters, 7 Aug 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "U.S. and allies announce fresh sanctions over major cyberattacks",
+    "body": "The United States and key partners unveiled coordinated sanctions targeting individuals and entities tied to recent large-scale cyber intrusions. The measures aim to deter further attacks while signalling continued diplomatic pressure on suspected state and non-state actors.",
+    "source": "Source: Reuters, 8 Aug 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

@@ -7624,5 +7624,24 @@
       "source": "Source: Reuters, 7 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260808": {
+    "generatedAt": "2026-08-08T08:39:29.533770+01:00",
+    "dateLong": "Saturday, 8 August 2026",
+    "dateDay": "Sat 8 Aug",
+    "dateRest": "Tournament Day 59",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "U.S. and allies announce fresh sanctions over major cyberattacks",
+      "body": "The United States and key partners unveiled coordinated sanctions targeting individuals and entities tied to recent large-scale cyber intrusions. The measures aim to deter further attacks while signalling continued diplomatic pressure on suspected state and non-state actors.",
+      "source": "Source: Reuters, 8 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
