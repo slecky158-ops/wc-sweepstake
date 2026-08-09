@@ -7643,5 +7643,24 @@
       "source": "Source: Reuters, 8 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260809": {
+    "generatedAt": "2026-08-09T08:43:34.782604+01:00",
+    "dateLong": "Sunday, 9 August 2026",
+    "dateDay": "Sun 9 Aug",
+    "dateRest": "Tournament Day 60",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Nagano voters choose new governor in regional poll",
+      "body": "Voters in Nagano prefecture went to the polls on August 9, 2026, to elect a new governor. The campaign centred on economic recovery and disaster preparedness, with turnout and local policy pledges closely watched.",
+      "source": "Source: Reuters, 9 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
