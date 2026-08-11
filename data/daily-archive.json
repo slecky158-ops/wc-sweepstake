@@ -7681,5 +7681,24 @@
       "source": "Source: Reuters, 10 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260811": {
+    "generatedAt": "2026-08-11T09:01:52.952422+01:00",
+    "dateLong": "Tuesday, 11 August 2026",
+    "dateDay": "Tue 11 Aug",
+    "dateRest": "Tournament Day 62",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "US strikes Iranian targets after reported tanker explosions",
+      "body": "US forces carried out precision strikes on Iranian military positions following reports of explosions that damaged commercial tankers in the Gulf. Diplomats warned the action risks escalating regional tensions and could prompt retaliatory measures.",
+      "source": "Source: Reuters, 11 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
