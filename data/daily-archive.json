@@ -7700,5 +7700,24 @@
       "source": "Source: Reuters, 11 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260812": {
+    "generatedAt": "2026-08-12T09:07:55.588641+01:00",
+    "dateLong": "Wednesday, 12 August 2026",
+    "dateDay": "Wed 12 Aug",
+    "dateRest": "Tournament Day 63",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Total solar eclipse crosses northern Europe and northern Spain",
+      "body": "A total solar eclipse on 12 August 2026 plunged parts of Greenland, Iceland, northern Spain and a corner of Portugal into temporary darkness. Millions of visitors were expected to travel to viewing areas, prompting local authorities to issue safety guidance and bolster emergency services.",
+      "source": "Source: Reuters, 12 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
