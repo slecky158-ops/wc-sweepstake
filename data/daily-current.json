@@ -1,19 +1,22 @@
 {
-  "generatedAt": "2026-08-14T09:06:09.976223+01:00",
-  "dateLong": "Friday, 14 August 2026",
-  "dateDay": "Fri 14 Aug",
-  "dateRest": "Tournament Day 65",
+  "generatedAt": "2026-08-15T08:20:42.657375+01:00",
+  "dateLong": "Saturday, 15 August 2026",
+  "dateDay": "Sat 15 Aug",
+  "dateRest": "Tournament Day 66",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
-  "todayStoryline": null,
+  "todayStoryline": {
+    "headline": "No fixtures as teams regroup",
+    "subtitle": "Across host cities squads rest, recover and prepare for final tournament stages."
+  },
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · POLITICS",
-    "headline": "US extends work permits for Haitians and other migrants",
-    "body": "The U.S. administration extended temporary work permits for hundreds of thousands of people holding Temporary Protected Status, averting imminent expiries. Labor groups said the move will prevent workplace disruption while legal challenges continue.",
-    "source": "Source: Reuters, 14 Aug 2026"
+    "kicker": "REUTERS · MIDDLE EAST",
+    "headline": "Gaza ceasefire talks extend as mediators seek final deal",
+    "body": "Mediators said negotiations to implement a U.S.-backed ceasefire between Israel and Hamas stalled over withdrawal and hostage‑release arrangements. Talks could continue into Sunday as envoys worked to close remaining gaps ahead of a possible agreement.",
+    "source": "Source: Reuters, 15 Aug 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
