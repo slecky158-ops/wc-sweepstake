@@ -1,22 +1,19 @@
 {
-  "generatedAt": "2026-08-15T08:20:42.657375+01:00",
-  "dateLong": "Saturday, 15 August 2026",
-  "dateDay": "Sat 15 Aug",
-  "dateRest": "Tournament Day 66",
+  "generatedAt": "2026-08-16T08:22:09.948269+01:00",
+  "dateLong": "Sunday, 16 August 2026",
+  "dateDay": "Sun 16 Aug",
+  "dateRest": "Tournament Day 67",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
-  "todayStoryline": {
-    "headline": "No fixtures as teams regroup",
-    "subtitle": "Across host cities squads rest, recover and prepare for final tournament stages."
-  },
+  "todayStoryline": null,
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · MIDDLE EAST",
-    "headline": "Gaza ceasefire talks extend as mediators seek final deal",
-    "body": "Mediators said negotiations to implement a U.S.-backed ceasefire between Israel and Hamas stalled over withdrawal and hostage‑release arrangements. Talks could continue into Sunday as envoys worked to close remaining gaps ahead of a possible agreement.",
-    "source": "Source: Reuters, 15 Aug 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "Radio Nova outdoor show draws thousands in Brittany",
+    "body": "An outdoor edition of Radio Nova’s programme 'La Dernière' attracted about 5,000 people to Landerneau on August 16, 2026, Reuters reported. Organisers said the free live event is part of a summer tour celebrating local culture amid holiday crowds.",
+    "source": "Source: Reuters, 16 Aug 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
