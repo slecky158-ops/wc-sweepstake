@@ -7817,5 +7817,24 @@
       "source": "Source: Reuters, 17 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260818": {
+    "generatedAt": "2026-08-18T08:28:23.675846+01:00",
+    "dateLong": "Tuesday, 18 August 2026",
+    "dateDay": "Tue 18 Aug",
+    "dateRest": "Tournament Day 69",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "China eases fuel export curbs; July shipments rebound",
+      "body": "China's refined fuel exports rose in July after Beijing relaxed export controls imposed earlier this year, Reuters reported. The increase was led by higher diesel shipments, which helped ease tight regional fuel supplies.",
+      "source": "Source: Reuters, 18 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
