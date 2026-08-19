@@ -7836,5 +7836,24 @@
       "source": "Source: Reuters, 18 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260819": {
+    "generatedAt": "2026-08-19T08:29:03.705065+01:00",
+    "dateLong": "Wednesday, 19 August 2026",
+    "dateDay": "Wed 19 Aug",
+    "dateRest": "Tournament Day 70",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "House passes stopgap funding to avert federal shutdown",
+      "body": "The U.S. House approved a short-term funding bill to keep federal agencies open through mid-September. The measure now moves to the Senate, where passage remains uncertain amid partisan divisions.",
+      "source": "Source: Reuters, 19 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
