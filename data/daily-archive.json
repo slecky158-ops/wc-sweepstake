@@ -7855,5 +7855,27 @@
       "source": "Source: Reuters, 19 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260820": {
+    "generatedAt": "2026-08-20T08:31:18.561974+01:00",
+    "dateLong": "Thursday, 20 August 2026",
+    "dateDay": "Thu 20 Aug",
+    "dateRest": "Tournament Day 71",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": {
+      "headline": "Squads pause training ahead of final tournament phase",
+      "subtitle": "Players recuperate while coaching staffs finalise plans and fitness checks"
+    },
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "China launches large-scale military drills around Taiwan",
+      "body": "Beijing announced multi-day naval and air exercises encircling Taiwan, describing them as routine training operations. Taiwan condemned the drills and called for international diplomatic support.",
+      "source": "Source: Reuters, 20 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
