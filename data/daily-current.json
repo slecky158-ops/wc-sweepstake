@@ -1,22 +1,19 @@
 {
-  "generatedAt": "2026-08-20T08:31:18.561974+01:00",
-  "dateLong": "Thursday, 20 August 2026",
-  "dateDay": "Thu 20 Aug",
-  "dateRest": "Tournament Day 71",
+  "generatedAt": "2026-08-21T08:34:04.216015+01:00",
+  "dateLong": "Friday, 21 August 2026",
+  "dateDay": "Fri 21 Aug",
+  "dateRest": "Tournament Day 72",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
-  "todayStoryline": {
-    "headline": "Squads pause training ahead of final tournament phase",
-    "subtitle": "Players recuperate while coaching staffs finalise plans and fitness checks"
-  },
+  "todayStoryline": null,
   "yesterday": [],
   "today": [],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "China launches large-scale military drills around Taiwan",
-    "body": "Beijing announced multi-day naval and air exercises encircling Taiwan, describing them as routine training operations. Taiwan condemned the drills and called for international diplomatic support.",
-    "source": "Source: Reuters, 20 Aug 2026"
+    "headline": "U.S. sanctions Hezbollah, links group to Iran's IRGC‑Quds Force",
+    "body": "The U.S. Treasury re‑designated Lebanon’s Hezbollah and announced fresh sanctions, saying the group acted on behalf of Iran’s Islamic Revolutionary Guard Corps‑Quds Force. The measures target financing networks and couriers and aim to disrupt the group's international funding and logistics.",
+    "source": "Source: Reuters, 21 Aug 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

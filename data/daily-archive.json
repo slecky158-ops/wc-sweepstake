@@ -7877,5 +7877,24 @@
       "source": "Source: Reuters, 20 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260821": {
+    "generatedAt": "2026-08-21T08:34:04.216015+01:00",
+    "dateLong": "Friday, 21 August 2026",
+    "dateDay": "Fri 21 Aug",
+    "dateRest": "Tournament Day 72",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "U.S. sanctions Hezbollah, links group to Iran's IRGC‑Quds Force",
+      "body": "The U.S. Treasury re‑designated Lebanon’s Hezbollah and announced fresh sanctions, saying the group acted on behalf of Iran’s Islamic Revolutionary Guard Corps‑Quds Force. The measures target financing networks and couriers and aim to disrupt the group's international funding and logistics.",
+      "source": "Source: Reuters, 21 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
