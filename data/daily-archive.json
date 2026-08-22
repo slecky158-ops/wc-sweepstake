@@ -7896,5 +7896,24 @@
       "source": "Source: Reuters, 21 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260822": {
+    "generatedAt": "2026-08-22T08:22:12.859002+01:00",
+    "dateLong": "Saturday, 22 August 2026",
+    "dateDay": "Sat 22 Aug",
+    "dateRest": "Tournament Day 73",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "US, Iran keep up hostile rhetoric ahead of new sanctions",
+      "body": "The United States and Iran exchanged defiant messages ahead of a planned US announcement of new economic sanctions that could also affect Iran’s trading partners. Oil shipments through the Strait of Hormuz remained largely halted, worsening global supply concerns and keeping energy markets on edge.",
+      "source": "Source: Reuters, 22 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
