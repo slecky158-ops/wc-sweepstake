@@ -7915,5 +7915,24 @@
       "source": "Source: Reuters, 22 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260823": {
+    "generatedAt": "2026-08-23T08:23:48.294169+01:00",
+    "dateLong": "Sunday, 23 August 2026",
+    "dateDay": "Sun 23 Aug",
+    "dateRest": "Tournament Day 74",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Nvidia warns customers of AI server price rises above 15%",
+      "body": "Some of Nvidia’s largest customers were told prices of servers containing its AI chips could rise by more than 15% in many cases, Bloomberg reported. Reuters said it could not immediately verify the report and noted increases would depend on chip generation and memory configurations, affecting systems shipped early next year.",
+      "source": "Source: Reuters, 23 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

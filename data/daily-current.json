@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-22T08:22:12.859002+01:00",
-  "dateLong": "Saturday, 22 August 2026",
-  "dateDay": "Sat 22 Aug",
-  "dateRest": "Tournament Day 73",
+  "generatedAt": "2026-08-23T08:23:48.294169+01:00",
+  "dateLong": "Sunday, 23 August 2026",
+  "dateDay": "Sun 23 Aug",
+  "dateRest": "Tournament Day 74",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -11,9 +11,9 @@
   "today": [],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "US, Iran keep up hostile rhetoric ahead of new sanctions",
-    "body": "The United States and Iran exchanged defiant messages ahead of a planned US announcement of new economic sanctions that could also affect Iran’s trading partners. Oil shipments through the Strait of Hormuz remained largely halted, worsening global supply concerns and keeping energy markets on edge.",
-    "source": "Source: Reuters, 22 Aug 2026"
+    "headline": "Nvidia warns customers of AI server price rises above 15%",
+    "body": "Some of Nvidia’s largest customers were told prices of servers containing its AI chips could rise by more than 15% in many cases, Bloomberg reported. Reuters said it could not immediately verify the report and noted increases would depend on chip generation and memory configurations, affecting systems shipped early next year.",
+    "source": "Source: Reuters, 23 Aug 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
