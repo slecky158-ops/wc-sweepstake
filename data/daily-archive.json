@@ -7934,5 +7934,24 @@
       "source": "Source: Reuters, 23 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260824": {
+    "generatedAt": "2026-08-24T08:48:47.998972+01:00",
+    "dateLong": "Monday, 24 August 2026",
+    "dateDay": "Mon 24 Aug",
+    "dateRest": "Tournament Day 75",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · BUSINESS",
+      "headline": "Samsung shares slump after shareholder‑return plan disappoints investors",
+      "body": "Shares of Samsung Electronics fell sharply on Monday after the company outlined a record shareholder‑return package that fell short of market expectations. Analysts said investors had hoped for clearer buyback details and a larger immediate distribution, and the stock drop weighed on South Korea's KOSPI index.",
+      "source": "Source: Reuters, 24 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
