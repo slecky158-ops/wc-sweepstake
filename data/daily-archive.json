@@ -7953,5 +7953,24 @@
       "source": "Source: Reuters, 24 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260825": {
+    "generatedAt": "2026-08-25T08:34:55.675114+01:00",
+    "dateLong": "Tuesday, 25 August 2026",
+    "dateDay": "Tue 25 Aug",
+    "dateRest": "Tournament Day 76",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Canada to retaliate for U.S. tariffs after trade talks collapse",
+      "body": "Canada said it will impose retaliatory tariffs on a range of U.S. goods after negotiations in Washington collapsed. Prime Minister Mark Carney vowed a 'dollar-for-dollar' response, with measures planned to take effect from September 8, 2026.",
+      "source": "Source: Reuters, 25 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
