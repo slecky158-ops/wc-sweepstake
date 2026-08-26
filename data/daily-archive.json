@@ -7972,5 +7972,24 @@
       "source": "Source: Reuters, 25 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260826": {
+    "generatedAt": "2026-08-26T08:36:27.087575+01:00",
+    "dateLong": "Wednesday, 26 August 2026",
+    "dateDay": "Wed 26 Aug",
+    "dateRest": "Tournament Day 77",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "COPERNICUS · ENVIRONMENT",
+      "headline": "World's oceans hit highest temperature on record",
+      "body": "The Copernicus Climate Change Service reported the global average sea-surface temperature reached 21.1°C on August 22, the highest since satellite-era records began. Scientists warned the record, driven by a strong El Niño atop long-term warming, increases risks for marine life and extreme weather.",
+      "source": "Source: Copernicus / BBC, 24–25 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

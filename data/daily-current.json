@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-25T08:34:55.675114+01:00",
-  "dateLong": "Tuesday, 25 August 2026",
-  "dateDay": "Tue 25 Aug",
-  "dateRest": "Tournament Day 76",
+  "generatedAt": "2026-08-26T08:36:27.087575+01:00",
+  "dateLong": "Wednesday, 26 August 2026",
+  "dateDay": "Wed 26 Aug",
+  "dateRest": "Tournament Day 77",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · POLITICS",
-    "headline": "Canada to retaliate for U.S. tariffs after trade talks collapse",
-    "body": "Canada said it will impose retaliatory tariffs on a range of U.S. goods after negotiations in Washington collapsed. Prime Minister Mark Carney vowed a 'dollar-for-dollar' response, with measures planned to take effect from September 8, 2026.",
-    "source": "Source: Reuters, 25 Aug 2026"
+    "kicker": "COPERNICUS · ENVIRONMENT",
+    "headline": "World's oceans hit highest temperature on record",
+    "body": "The Copernicus Climate Change Service reported the global average sea-surface temperature reached 21.1°C on August 22, the highest since satellite-era records began. Scientists warned the record, driven by a strong El Niño atop long-term warming, increases risks for marine life and extreme weather.",
+    "source": "Source: Copernicus / BBC, 24–25 Aug 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
