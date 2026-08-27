@@ -1,19 +1,22 @@
 {
-  "generatedAt": "2026-08-26T08:36:27.087575+01:00",
-  "dateLong": "Wednesday, 26 August 2026",
-  "dateDay": "Wed 26 Aug",
-  "dateRest": "Tournament Day 77",
+  "generatedAt": "2026-08-27T18:57:40.205704+01:00",
+  "dateLong": "Thursday, 27 August 2026",
+  "dateDay": "Thu 27 Aug",
+  "dateRest": "Tournament Day 78",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
-  "todayStoryline": null,
+  "todayStoryline": {
+    "headline": "Teams regain legs before decisive fixtures",
+    "subtitle": "Squads given recovery day ahead of decisive knockout fixtures in coming days"
+  },
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "COPERNICUS · ENVIRONMENT",
-    "headline": "World's oceans hit highest temperature on record",
-    "body": "The Copernicus Climate Change Service reported the global average sea-surface temperature reached 21.1°C on August 22, the highest since satellite-era records began. Scientists warned the record, driven by a strong El Niño atop long-term warming, increases risks for marine life and extreme weather.",
-    "source": "Source: Copernicus / BBC, 24–25 Aug 2026"
+    "kicker": "REUTERS · ASIA",
+    "headline": "Record rainfall triggers flooding, landslides in Toyama and Ishikawa",
+    "body": "Record-breaking rain on August 27 caused river flooding and landslides across Toyama and Ishikawa prefectures, forcing evacuations and stranding residents. The Japan Meteorological Agency issued Level 5 emergency warnings and transport services were suspended while rescue teams responded.",
+    "source": "Source: Reuters, 27 Aug 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

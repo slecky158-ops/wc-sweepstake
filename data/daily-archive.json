@@ -7991,5 +7991,27 @@
       "source": "Source: Copernicus / BBC, 24–25 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260827": {
+    "generatedAt": "2026-08-27T18:57:40.205704+01:00",
+    "dateLong": "Thursday, 27 August 2026",
+    "dateDay": "Thu 27 Aug",
+    "dateRest": "Tournament Day 78",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": {
+      "headline": "Teams regain legs before decisive fixtures",
+      "subtitle": "Squads given recovery day ahead of decisive knockout fixtures in coming days"
+    },
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · ASIA",
+      "headline": "Record rainfall triggers flooding, landslides in Toyama and Ishikawa",
+      "body": "Record-breaking rain on August 27 caused river flooding and landslides across Toyama and Ishikawa prefectures, forcing evacuations and stranding residents. The Japan Meteorological Agency issued Level 5 emergency warnings and transport services were suspended while rescue teams responded.",
+      "source": "Source: Reuters, 27 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
