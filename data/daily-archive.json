@@ -8051,5 +8051,27 @@
       "source": "Source: Reuters, 29 Aug 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260830": {
+    "generatedAt": "2026-08-30T13:23:49.642316+01:00",
+    "dateLong": "Sunday, 30 August 2026",
+    "dateDay": "Sun 30 Aug",
+    "dateRest": "Tournament Day 81",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": {
+      "headline": "Teams use off-day for medical checks and video review",
+      "subtitle": "Coaches focus on set-pieces and recovery while sports scientists monitor fitness metrics across host cities."
+    },
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · WORLD",
+      "headline": "Kyiv region strike death toll rises to 38, Zelenskiy says",
+      "body": "A Russian strike on an ammunition depot in Ukraine's Kyiv region has killed at least 38 people and left several missing, officials said. The attack, one of the deadliest in the area this year, has raised concerns about escalating strikes on the capital and prompted sustained emergency response and contamination-control work.",
+      "source": "Source: Reuters, 30 Aug 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
