@@ -1,19 +1,22 @@
 {
-  "generatedAt": "2026-08-31T15:33:05.272473+01:00",
-  "dateLong": "Monday, 31 August 2026",
-  "dateDay": "Mon 31 Aug",
-  "dateRest": "Tournament Day 82",
+  "generatedAt": "2026-09-01T13:12:21.742334+01:00",
+  "dateLong": "Tuesday, 1 September 2026",
+  "dateDay": "Tue 1 Sep",
+  "dateRest": "Tournament Day 83",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
-  "todayStoryline": null,
+  "todayStoryline": {
+    "headline": "Analytics fine-tune final tournament selection",
+    "subtitle": "Coaches review data and fitness ahead of pivotal closing matches."
+  },
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · WORLD",
-    "headline": "Nearly 20 missing after ferry capsizes off northern Cyprus",
-    "body": "A passenger ferry carrying about 267 people capsized off Kyrenia on Aug. 30, leaving at least eight dead and nearly 20 missing, Reuters reported. Rescue teams and divers are continuing searches, and authorities have detained the vessel's captain and crew for questioning.",
-    "source": "Source: Reuters, 31 Aug 2026"
+    "kicker": "REUTERS · WEATHER",
+    "headline": "Tropical Storm Edouard nears Gulf Coast",
+    "body": "Tropical Storm Edouard strengthened over the Gulf and was forecast to approach the Texas-Louisiana coast, raising flood and wind concerns. Authorities issued warnings and emergency services prepared evacuations ahead of expected heavy rain and possible storm surge.",
+    "source": "Source: Reuters, 1 Sep 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
