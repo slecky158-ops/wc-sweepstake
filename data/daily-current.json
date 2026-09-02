@@ -1,22 +1,19 @@
 {
-  "generatedAt": "2026-09-01T13:12:21.742334+01:00",
-  "dateLong": "Tuesday, 1 September 2026",
-  "dateDay": "Tue 1 Sep",
-  "dateRest": "Tournament Day 83",
+  "generatedAt": "2026-09-02T12:49:32.895404+01:00",
+  "dateLong": "Wednesday, 2 September 2026",
+  "dateDay": "Wed 2 Sep",
+  "dateRest": "Tournament Day 84",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
-  "todayStoryline": {
-    "headline": "Analytics fine-tune final tournament selection",
-    "subtitle": "Coaches review data and fitness ahead of pivotal closing matches."
-  },
+  "todayStoryline": null,
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · WEATHER",
-    "headline": "Tropical Storm Edouard nears Gulf Coast",
-    "body": "Tropical Storm Edouard strengthened over the Gulf and was forecast to approach the Texas-Louisiana coast, raising flood and wind concerns. Authorities issued warnings and emergency services prepared evacuations ahead of expected heavy rain and possible storm surge.",
-    "source": "Source: Reuters, 1 Sep 2026"
+    "kicker": "REUTERS · BUSINESS",
+    "headline": "Sony and Warner Music sue Anthropic over alleged lyric use",
+    "body": "Sony and Warner Music publishing arms filed suit in a California federal court, alleging Anthropic used copyrighted song lyrics and compositions to train its Claude AI models. The labels are seeking damages and an injunction, Reuters reported on 2 Sep 2026.",
+    "source": "Source: Reuters, 2 Sep 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
