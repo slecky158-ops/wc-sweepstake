@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-02T12:49:32.895404+01:00",
-  "dateLong": "Wednesday, 2 September 2026",
-  "dateDay": "Wed 2 Sep",
-  "dateRest": "Tournament Day 84",
+  "generatedAt": "2026-09-03T12:49:13.931283+01:00",
+  "dateLong": "Thursday, 3 September 2026",
+  "dateDay": "Thu 3 Sep",
+  "dateRest": "Tournament Day 85",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · BUSINESS",
-    "headline": "Sony and Warner Music sue Anthropic over alleged lyric use",
-    "body": "Sony and Warner Music publishing arms filed suit in a California federal court, alleging Anthropic used copyrighted song lyrics and compositions to train its Claude AI models. The labels are seeking damages and an injunction, Reuters reported on 2 Sep 2026.",
-    "source": "Source: Reuters, 2 Sep 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "Texas Republicans turn against data centers, putting big tech on notice",
+    "body": "Republican politicians in several states, led by moves in Texas, are proposing new restrictions on data centre development amid rising local opposition. The shift signals a bipartisan backlash that could alter incentives and investment plans for major tech firms ahead of the November elections.",
+    "source": "Source: Reuters, 3 Sep 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

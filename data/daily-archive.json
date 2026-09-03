@@ -8133,5 +8133,24 @@
       "source": "Source: Reuters, 2 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260903": {
+    "generatedAt": "2026-09-03T12:49:13.931283+01:00",
+    "dateLong": "Thursday, 3 September 2026",
+    "dateDay": "Thu 3 Sep",
+    "dateRest": "Tournament Day 85",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Texas Republicans turn against data centers, putting big tech on notice",
+      "body": "Republican politicians in several states, led by moves in Texas, are proposing new restrictions on data centre development amid rising local opposition. The shift signals a bipartisan backlash that could alter incentives and investment plans for major tech firms ahead of the November elections.",
+      "source": "Source: Reuters, 3 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
