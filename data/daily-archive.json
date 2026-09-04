@@ -8152,5 +8152,24 @@
       "source": "Source: Reuters, 3 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260904": {
+    "generatedAt": "2026-09-04T12:51:07.483926+01:00",
+    "dateLong": "Friday, 4 September 2026",
+    "dateDay": "Fri 4 Sep",
+    "dateRest": "Tournament Day 86",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "China's Xi to bring large CEO delegation on US visit, sources say",
+      "body": "Chinese President Xi Jinping plans to bring a large business delegation to his Washington visit on September 24, Reuters sources said. Sources said the move is intended to signal Beijing's willingness to support investment ties despite recent regulatory crackdowns and strained US-China relations.",
+      "source": "Source: Reuters, 4 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
