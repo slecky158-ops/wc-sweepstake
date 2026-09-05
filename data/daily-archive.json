@@ -8171,5 +8171,24 @@
       "source": "Source: Reuters, 4 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260905": {
+    "generatedAt": "2026-09-05T12:00:13.999506+01:00",
+    "dateLong": "Saturday, 5 September 2026",
+    "dateDay": "Sat 5 Sep",
+    "dateRest": "Tournament Day 87",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "U.S. payrolls surprise lifts Fed‑hike odds",
+      "body": "U.S. nonfarm payrolls unexpectedly rose by 162,000 in August, pushing Treasury yields higher and prompting markets to reassess Federal Reserve policy. Markets now place a noticeably larger chance on a rate increase at the Fed meeting scheduled for Sept. 15-16, 2026.",
+      "source": "Source: Reuters, 5 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
