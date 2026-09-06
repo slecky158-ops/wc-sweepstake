@@ -8190,5 +8190,24 @@
       "source": "Source: Reuters, 5 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260906": {
+    "generatedAt": "2026-09-06T12:24:51.461578+01:00",
+    "dateLong": "Sunday, 6 September 2026",
+    "dateDay": "Sun 6 Sep",
+    "dateRest": "Tournament Day 88",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · WORLD",
+      "headline": "Explosions rock Bolivian military barracks near La Paz",
+      "body": "An explosion at an army barracks in Viacha on Sept 4 killed at least two people and injured dozens, officials said. Authorities said the blast originated in a defence ministry fireworks stockpile, and emergency teams warned of lingering heat and risk of further detonations while searching for missing people.",
+      "source": "Source: Reuters, 4 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
