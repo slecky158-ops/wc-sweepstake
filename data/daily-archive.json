@@ -8209,5 +8209,24 @@
       "source": "Source: Reuters, 4 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260907": {
+    "generatedAt": "2026-09-07T14:06:27.566537+01:00",
+    "dateLong": "Monday, 7 September 2026",
+    "dateDay": "Mon 7 Sep",
+    "dateRest": "Tournament Day 89",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Far-right AfD courts conservative support after historic German state election win",
+      "body": "The Alternative for Germany (AfD) surged to first place in Saxony-Anhalt and appealed to Chancellor Friedrich Merz’s conservatives for backing. The AfD fell short of an absolute majority, winning 39 of 83 seats, and its gains have raised alarm among neighbouring countries while testing Germany’s mainstream parties' refusal to cooperate.",
+      "source": "Source: Reuters, 7 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
