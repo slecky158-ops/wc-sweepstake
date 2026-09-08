@@ -8228,5 +8228,27 @@
       "source": "Source: Reuters, 7 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260908": {
+    "generatedAt": "2026-09-08T12:51:43.210402+01:00",
+    "dateLong": "Tuesday, 8 September 2026",
+    "dateDay": "Tue 8 Sep",
+    "dateRest": "Tournament Day 90",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": {
+      "headline": "Host cities observe scheduled recovery pause",
+      "subtitle": "Stadiums quiet today; teams rest while venues undergo maintenance and community outreach."
+    },
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "UK to announce trade ban on West Bank settlement goods",
+      "body": "Britain will announce a trade ban on goods made in Israeli settlements in the occupied West Bank, a senior minister said on Tuesday as part of efforts to support a two‑state solution. The policy change will be set out in a Commons statement and could alter trade relations with Israeli businesses tied to the settlements.",
+      "source": "Source: Reuters, 8 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
