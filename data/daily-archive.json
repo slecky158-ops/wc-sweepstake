@@ -8250,5 +8250,24 @@
       "source": "Source: Reuters, 8 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260909": {
+    "generatedAt": "2026-09-09T13:01:53.751415+01:00",
+    "dateLong": "Wednesday, 9 September 2026",
+    "dateDay": "Wed 9 Sep",
+    "dateRest": "Tournament Day 91",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Iran attacks US base in Jordan, ships near Hormuz after tankers sunk",
+      "body": "Iran’s Revolutionary Guard said it fired ballistic missiles at a U.S.-used base in Jordan and struck ships near the Strait of Hormuz after U.S. forces said they destroyed five Iranian oil tankers. The exchanges represent a sharp escalation in the months‑long conflict, pushing oil prices higher and prompting regional and international concern.",
+      "source": "Source: Reuters, 9 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
