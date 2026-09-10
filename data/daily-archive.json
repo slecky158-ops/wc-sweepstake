@@ -8269,5 +8269,24 @@
       "source": "Source: Reuters, 9 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260910": {
+    "generatedAt": "2026-09-10T12:56:23.542206+01:00",
+    "dateLong": "Thursday, 10 September 2026",
+    "dateDay": "Thu 10 Sep",
+    "dateRest": "Tournament Day 92",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "U.S. marks 25th anniversary of September 11 attacks",
+      "body": "Communities across the United States held memorial ceremonies to honour the 2,977 victims of the 2001 attacks. Political leaders used events to call for unity and reflected on the attacks' lasting effects on security and foreign policy.",
+      "source": "Source: Reuters, 10 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
