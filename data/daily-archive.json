@@ -8307,5 +8307,24 @@
       "source": "Source: Reuters, 11 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260912": {
+    "generatedAt": "2026-09-12T12:21:55.800869+01:00",
+    "dateLong": "Saturday, 12 September 2026",
+    "dateDay": "Sat 12 Sep",
+    "dateRest": "Tournament Day 94",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · BUSINESS",
+      "headline": "Wall Street rallies as strong inflation data cements rate‑hike bets",
+      "body": "U.S. consumer prices rose more than expected in August, prompting traders to price in a higher chance of a Federal Reserve rate increase. Markets rallied as investors adjusted portfolios to reflect tighter monetary policy and higher yields.",
+      "source": "Source: Reuters, 12 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
