@@ -8383,5 +8383,24 @@
       "source": "Source: Reuters, 15 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260916": {
+    "generatedAt": "2026-09-16T13:17:24.979460+01:00",
+    "dateLong": "Wednesday, 16 September 2026",
+    "dateDay": "Wed 16 Sep",
+    "dateRest": "Tournament Day 98",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Oil jumps as Saudi suspends Yanbu loadings after pipeline attack",
+      "body": "Saudi Arabia suspended crude loadings at its Red Sea port of Yanbu after damage to the East–West pipeline following Houthi drone attacks, prompting refiners to seek alternative supplies. The disruption pushed Brent and WTI to multi‑month highs as markets weighed tighter global oil availability.",
+      "source": "Source: Reuters, 16 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
