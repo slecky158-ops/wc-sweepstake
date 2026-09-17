@@ -8402,5 +8402,24 @@
       "source": "Source: Reuters, 16 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260917": {
+    "generatedAt": "2026-09-17T13:17:07.029949+01:00",
+    "dateLong": "Thursday, 17 September 2026",
+    "dateDay": "Thu 17 Sep",
+    "dateRest": "Tournament Day 99",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "House passes Russia sanctions bill, sends it to Trump",
+      "body": "The U.S. House of Representatives on Sept. 16 approved a sweeping sanctions and tariff bill championed by the late senator Lindsey Graham, sending the measure to President Donald Trump. Critics warned the legislation broadens presidential tariff powers and could complicate trade relations with U.S. allies.",
+      "source": "Source: Reuters, 17 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
