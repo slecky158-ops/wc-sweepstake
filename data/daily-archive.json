@@ -8421,5 +8421,24 @@
       "source": "Source: Reuters, 17 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260918": {
+    "generatedAt": "2026-09-18T12:57:44.391020+01:00",
+    "dateLong": "Friday, 18 September 2026",
+    "dateDay": "Fri 18 Sep",
+    "dateRest": "Tournament Day 100",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "China presses Iran to help rein in Houthis after Saudi appeal",
+      "body": "China has privately asked Iran to use its influence to rein in Yemen’s Houthi fighters after Saudi Arabia appealed for help. The move follows Houthi advances along the Red Sea coast that have disrupted shipping and raised concerns about global oil supplies.",
+      "source": "Source: Reuters, 18 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
