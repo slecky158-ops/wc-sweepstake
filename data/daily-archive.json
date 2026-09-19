@@ -8440,5 +8440,24 @@
       "source": "Source: Reuters, 18 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260919": {
+    "generatedAt": "2026-09-19T12:41:30.668039+01:00",
+    "dateLong": "Saturday, 19 September 2026",
+    "dateDay": "Sat 19 Sep",
+    "dateRest": "Tournament Day 101",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Lingering feuds threaten Democrats’ bid to reclaim US Congress",
+      "body": "Deep divisions from a fractious primary season risk undermining Democrats' effort to retake the U.S. Congress in November. Several influential party figures have withheld endorsements or declined to campaign in competitive states, complicating coordinated efforts ahead of the midterms.",
+      "source": "Source: Reuters, 19 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
