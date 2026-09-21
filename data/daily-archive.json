@@ -8478,5 +8478,24 @@
       "source": "Source: Reuters, 20 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260921": {
+    "generatedAt": "2026-09-21T14:27:01.984069+01:00",
+    "dateLong": "Monday, 21 September 2026",
+    "dateDay": "Mon 21 Sep",
+    "dateRest": "Tournament Day 103",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Central banks prepare for muted global rate‑hike cycle",
+      "body": "Major central banks signalled they stand ready to raise interest rates as energy price pressures risk keeping inflation elevated. Markets and analysts expect the coming tightening cycle to be more muted than 2022–23, with policymakers taking meeting‑by‑meeting decisions.",
+      "source": "Source: Reuters, 21 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
