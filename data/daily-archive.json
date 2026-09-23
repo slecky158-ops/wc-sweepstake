@@ -8516,5 +8516,24 @@
       "source": "Source: Reuters, 22 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260923": {
+    "generatedAt": "2026-09-23T13:24:11.049950+01:00",
+    "dateLong": "Wednesday, 23 September 2026",
+    "dateDay": "Wed 23 Sep",
+    "dateRest": "Tournament Day 105",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "US and Iran hold first shuttle talks at UN, raising cautious hope",
+      "body": "U.S. and Iranian envoys conducted behind-the-scenes shuttle talks on the sidelines of the United Nations General Assembly, their first such contacts in months. The meetings prompted cautious optimism about progress toward ending the Middle East conflict, although neither side announced concrete changes to their positions.",
+      "source": "Source: Reuters, 23 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-22T13:11:26.553553+01:00",
-  "dateLong": "Tuesday, 22 September 2026",
-  "dateDay": "Tue 22 Sep",
-  "dateRest": "Tournament Day 104",
+  "generatedAt": "2026-09-23T13:24:11.049950+01:00",
+  "dateLong": "Wednesday, 23 September 2026",
+  "dateDay": "Wed 23 Sep",
+  "dateRest": "Tournament Day 105",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · WEATHER",
-    "headline": "Hurricane Polo nears Category 5 off Mexico Pacific coast",
-    "body": "Hurricane Polo rapidly intensified on Tuesday, approaching Category 5 strength off Mexico's Pacific coast and threatening heavy rain and dangerous surf. The U.S. National Hurricane Center warned Polo could strengthen further as it moved slowly parallel to the coast, prompting local precautions.",
-    "source": "Source: Reuters, 22 Sep 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "US and Iran hold first shuttle talks at UN, raising cautious hope",
+    "body": "U.S. and Iranian envoys conducted behind-the-scenes shuttle talks on the sidelines of the United Nations General Assembly, their first such contacts in months. The meetings prompted cautious optimism about progress toward ending the Middle East conflict, although neither side announced concrete changes to their positions.",
+    "source": "Source: Reuters, 23 Sep 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
