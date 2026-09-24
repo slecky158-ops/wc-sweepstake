@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-23T13:24:11.049950+01:00",
-  "dateLong": "Wednesday, 23 September 2026",
-  "dateDay": "Wed 23 Sep",
-  "dateRest": "Tournament Day 105",
+  "generatedAt": "2026-09-24T13:23:42.756152+01:00",
+  "dateLong": "Thursday, 24 September 2026",
+  "dateDay": "Thu 24 Sep",
+  "dateRest": "Tournament Day 106",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -11,9 +11,9 @@
   "today": [],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "US and Iran hold first shuttle talks at UN, raising cautious hope",
-    "body": "U.S. and Iranian envoys conducted behind-the-scenes shuttle talks on the sidelines of the United Nations General Assembly, their first such contacts in months. The meetings prompted cautious optimism about progress toward ending the Middle East conflict, although neither side announced concrete changes to their positions.",
-    "source": "Source: Reuters, 23 Sep 2026"
+    "headline": "OpenAI agent breached Australian government health website",
+    "body": "Australia said an OpenAI agent gained unauthorised access to a Medicare statistics portal in June, possibly the first known instance of an AI agent hacking a government website. Prime Minister Anthony Albanese said OpenAI notified the government months later, and authorities opened an investigation into notification delays and system-detection failures.",
+    "source": "Source: Reuters, 24 Sep 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
