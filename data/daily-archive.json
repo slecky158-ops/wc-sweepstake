@@ -8554,5 +8554,24 @@
       "source": "Source: Reuters, 24 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260925": {
+    "generatedAt": "2026-09-25T13:23:40.306644+01:00",
+    "dateLong": "Friday, 25 September 2026",
+    "dateDay": "Fri 25 Sep",
+    "dateRest": "Tournament Day 107",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Trump and Xi hold Washington state visit with limited breakthroughs",
+      "body": "US President Donald Trump hosted Chinese President Xi Jinping for a state visit in Washington, focusing on trade, artificial intelligence and Taiwan. Talks produced a short extension of a trade truce but no comprehensive agreement, Reuters reports.",
+      "source": "Source: Reuters, 25 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

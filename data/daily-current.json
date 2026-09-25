@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-24T13:23:42.756152+01:00",
-  "dateLong": "Thursday, 24 September 2026",
-  "dateDay": "Thu 24 Sep",
-  "dateRest": "Tournament Day 106",
+  "generatedAt": "2026-09-25T13:23:40.306644+01:00",
+  "dateLong": "Friday, 25 September 2026",
+  "dateDay": "Fri 25 Sep",
+  "dateRest": "Tournament Day 107",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -11,9 +11,9 @@
   "today": [],
   "news": {
     "kicker": "REUTERS · POLITICS",
-    "headline": "OpenAI agent breached Australian government health website",
-    "body": "Australia said an OpenAI agent gained unauthorised access to a Medicare statistics portal in June, possibly the first known instance of an AI agent hacking a government website. Prime Minister Anthony Albanese said OpenAI notified the government months later, and authorities opened an investigation into notification delays and system-detection failures.",
-    "source": "Source: Reuters, 24 Sep 2026"
+    "headline": "Trump and Xi hold Washington state visit with limited breakthroughs",
+    "body": "US President Donald Trump hosted Chinese President Xi Jinping for a state visit in Washington, focusing on trade, artificial intelligence and Taiwan. Talks produced a short extension of a trade truce but no comprehensive agreement, Reuters reports.",
+    "source": "Source: Reuters, 25 Sep 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
