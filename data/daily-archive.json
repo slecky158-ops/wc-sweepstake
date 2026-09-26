@@ -8573,5 +8573,24 @@
       "source": "Source: Reuters, 25 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260926": {
+    "generatedAt": "2026-09-26T12:55:04.858222+01:00",
+    "dateLong": "Saturday, 26 September 2026",
+    "dateDay": "Sat 26 Sep",
+    "dateRest": "Tournament Day 108",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Quake-hit China menaced by floods and landslides",
+      "body": "Heavy rain after last month's earthquake has caused floods and landslides across China, killing dozens and forcing mass evacuations. Authorities are struggling to move displaced people to safety as rescue teams warn further downpours could worsen the situation.",
+      "source": "Source: Reuters, 26 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
