@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-28T15:40:53.455178+01:00",
-  "dateLong": "Monday, 28 September 2026",
-  "dateDay": "Mon 28 Sep",
-  "dateRest": "Tournament Day 110",
+  "generatedAt": "2026-09-29T14:31:22.366950+01:00",
+  "dateLong": "Tuesday, 29 September 2026",
+  "dateDay": "Tue 29 Sep",
+  "dateRest": "Tournament Day 111",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · POLITICS",
-    "headline": "Russian drone strikes Kyiv science academy, killing at least one",
-    "body": "A Russian drone struck the National Academy of Sciences building in central Kyiv on Monday, killing at least one person and injuring others, officials said. The attack came amid renewed drone and missile strikes across Ukraine, raising international concern and calls for bolstered air defences.",
-    "source": "Source: Reuters, 28 Sep 2026"
+    "kicker": "REUTERS · SCIENCE",
+    "headline": "SpaceX’s Starship reaches orbit for the first time",
+    "body": "SpaceX’s Starship rocket reached orbit for the first time despite an in‑flight engine shutdown, Reuters reported. The uncrewed flight deployed a batch of Starlink satellites before a shortened mission ended with a controlled ocean touchdown, marking a milestone for reusable heavy‑lift rockets.",
+    "source": "Source: Reuters, 29 Sep 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

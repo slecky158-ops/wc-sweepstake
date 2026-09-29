@@ -8630,5 +8630,24 @@
       "source": "Source: Reuters, 28 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260929": {
+    "generatedAt": "2026-09-29T14:31:22.366950+01:00",
+    "dateLong": "Tuesday, 29 September 2026",
+    "dateDay": "Tue 29 Sep",
+    "dateRest": "Tournament Day 111",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · SCIENCE",
+      "headline": "SpaceX’s Starship reaches orbit for the first time",
+      "body": "SpaceX’s Starship rocket reached orbit for the first time despite an in‑flight engine shutdown, Reuters reported. The uncrewed flight deployed a batch of Starlink satellites before a shortened mission ended with a controlled ocean touchdown, marking a milestone for reusable heavy‑lift rockets.",
+      "source": "Source: Reuters, 29 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
