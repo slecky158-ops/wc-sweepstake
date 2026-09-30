@@ -8649,5 +8649,24 @@
       "source": "Source: Reuters, 29 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20260930": {
+    "generatedAt": "2026-09-30T14:07:40.048347+01:00",
+    "dateLong": "Wednesday, 30 September 2026",
+    "dateDay": "Wed 30 Sep",
+    "dateRest": "Tournament Day 112",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Grynspan narrowly leads informal UN secretary‑general poll",
+      "body": "An informal United Nations Security Council straw poll placed former Costa Rican vice‑president Rebeca Grynspan as the narrow frontrunner to become the next UN secretary‑general. The result increases momentum ahead of further closed‑door votes to select a successor to António Guterres, whose term ends in December 2026.",
+      "source": "Source: Reuters, 30 Sep 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

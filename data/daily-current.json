@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-29T14:31:22.366950+01:00",
-  "dateLong": "Tuesday, 29 September 2026",
-  "dateDay": "Tue 29 Sep",
-  "dateRest": "Tournament Day 111",
+  "generatedAt": "2026-09-30T14:07:40.048347+01:00",
+  "dateLong": "Wednesday, 30 September 2026",
+  "dateDay": "Wed 30 Sep",
+  "dateRest": "Tournament Day 112",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · SCIENCE",
-    "headline": "SpaceX’s Starship reaches orbit for the first time",
-    "body": "SpaceX’s Starship rocket reached orbit for the first time despite an in‑flight engine shutdown, Reuters reported. The uncrewed flight deployed a batch of Starlink satellites before a shortened mission ended with a controlled ocean touchdown, marking a milestone for reusable heavy‑lift rockets.",
-    "source": "Source: Reuters, 29 Sep 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "Grynspan narrowly leads informal UN secretary‑general poll",
+    "body": "An informal United Nations Security Council straw poll placed former Costa Rican vice‑president Rebeca Grynspan as the narrow frontrunner to become the next UN secretary‑general. The result increases momentum ahead of further closed‑door votes to select a successor to António Guterres, whose term ends in December 2026.",
+    "source": "Source: Reuters, 30 Sep 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
