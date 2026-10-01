@@ -8668,5 +8668,24 @@
       "source": "Source: Reuters, 30 Sep 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261001": {
+    "generatedAt": "2026-10-01T14:59:56.860156+01:00",
+    "dateLong": "Thursday, 1 October 2026",
+    "dateDay": "Thu 1 Oct",
+    "dateRest": "Tournament Day 113",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · BUSINESS",
+      "headline": "China suspends October fuel exports to protect domestic supplies",
+      "body": "Chinese refiners were ordered to halt oil-product exports for October, and state giant PetroChina cancelled planned cargoes, sources said. The move could tighten global fuel markets and lift prices as buyers face reduced supplies outside China.",
+      "source": "Source: Reuters, 1 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
