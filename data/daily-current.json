@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-01T14:59:56.860156+01:00",
-  "dateLong": "Thursday, 1 October 2026",
-  "dateDay": "Thu 1 Oct",
-  "dateRest": "Tournament Day 113",
+  "generatedAt": "2026-10-02T14:18:27.890826+01:00",
+  "dateLong": "Friday, 2 October 2026",
+  "dateDay": "Fri 2 Oct",
+  "dateRest": "Tournament Day 114",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · BUSINESS",
-    "headline": "China suspends October fuel exports to protect domestic supplies",
-    "body": "Chinese refiners were ordered to halt oil-product exports for October, and state giant PetroChina cancelled planned cargoes, sources said. The move could tighten global fuel markets and lift prices as buyers face reduced supplies outside China.",
-    "source": "Source: Reuters, 1 Oct 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "Global bond rout lifts US Treasury yields to multi‑decade highs",
+    "body": "A worldwide sell‑off in government bonds pushed U.S. Treasury yields to their highest levels in about 24 years, weighing on stock markets and strengthening the dollar. Investors are now focused on upcoming U.S. jobs and euro‑zone inflation data for clues on central bank policy adjustments.",
+    "source": "Source: Reuters, 2 Oct 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }

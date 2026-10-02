@@ -8687,5 +8687,24 @@
       "source": "Source: Reuters, 1 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261002": {
+    "generatedAt": "2026-10-02T14:18:27.890826+01:00",
+    "dateLong": "Friday, 2 October 2026",
+    "dateDay": "Fri 2 Oct",
+    "dateRest": "Tournament Day 114",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Global bond rout lifts US Treasury yields to multi‑decade highs",
+      "body": "A worldwide sell‑off in government bonds pushed U.S. Treasury yields to their highest levels in about 24 years, weighing on stock markets and strengthening the dollar. Investors are now focused on upcoming U.S. jobs and euro‑zone inflation data for clues on central bank policy adjustments.",
+      "source": "Source: Reuters, 2 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
