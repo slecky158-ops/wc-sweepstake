@@ -8725,5 +8725,24 @@
       "source": "Source: Reuters, 3 Oct 2026."
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261004": {
+    "generatedAt": "2026-10-04T13:55:47.434958+01:00",
+    "dateLong": "Sunday, 4 October 2026",
+    "dateDay": "Sun 4 Oct",
+    "dateRest": "Tournament Day 116",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Bosnia votes in election that could affect EU bid",
+      "body": "Voters in Bosnia and Herzegovina cast ballots on Oct. 4, 2026, in a general election that could influence the country’s stalled European Union accession prospects. Campaigns centred on corruption, the economy and competing Western and Russian influence, with new biometric voting technology used nationwide.",
+      "source": "Source: Reuters, 4 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
