@@ -8744,5 +8744,24 @@
       "source": "Source: Reuters, 4 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261005": {
+    "generatedAt": "2026-10-05T16:22:43.303163+01:00",
+    "dateLong": "Monday, 5 October 2026",
+    "dateDay": "Mon 5 Oct",
+    "dateRest": "Tournament Day 117",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Brazil headed to runoff after Bolsonaro's son leads",
+      "body": "Brazil's presidential election is set for a second-round runoff after Senator Flávio Bolsonaro held a narrow lead in Sunday's first round, projections showed. Polls point to a tight Oct. 25 runoff with incumbent Luiz Inácio Lula da Silva, and observers warned of a closely fought contest.",
+      "source": "Source: Reuters, 5 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
