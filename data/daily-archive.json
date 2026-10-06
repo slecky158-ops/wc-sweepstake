@@ -8763,5 +8763,30 @@
       "source": "Source: Reuters, 5 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261006": {
+    "generatedAt": "2026-10-06T14:44:35.412917+01:00",
+    "dateLong": "Tuesday, 6 October 2026",
+    "dateDay": "Tue 6 Oct",
+    "dateRest": "Tournament Day 118",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": {
+      "headline": "Off day before final tournament phase",
+      "subtitle": "Squads focus on recovery, analysis and light training ahead of crucial fixtures."
+    },
+    "todayStoryline": {
+      "headline": "No fixtures scheduled for tournament day 118",
+      "subtitle": "Host venues quiet; medical checks, meetings and strategy revisions take priority."
+    },
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · SCIENCE",
+      "headline": "Francis Halzen wins 2026 Nobel Prize in Physics",
+      "body": "Belgian‑American physicist Francis Halzen won the 2026 Nobel Prize in Physics for creating the IceCube observatory to detect high‑energy neutrinos. The Royal Swedish Academy said the observatory helps trace such 'ghost particles' back to cosmic events like exploding stars and black holes.",
+      "source": "Source: Reuters, 6 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
