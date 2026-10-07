@@ -8788,5 +8788,24 @@
       "source": "Source: Reuters, 6 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261007": {
+    "generatedAt": "2026-10-07T15:02:17.470155+01:00",
+    "dateLong": "Wednesday, 7 October 2026",
+    "dateDay": "Wed 7 Oct",
+    "dateRest": "Tournament Day 119",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Republican candidates distance themselves from Trump in tight races",
+      "body": "A Reuters review found about two‑thirds of Republican candidates in competitive U.S. House and Senate races have publicly distanced themselves from former president Donald Trump or downplayed ties. The analysis suggests nominees are trying to limit political damage from Trump’s unpopularity, a factor that could influence which party controls Congress after the Nov. 3 midterms.",
+      "source": "Source: Reuters, 7 Oct 2026."
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }

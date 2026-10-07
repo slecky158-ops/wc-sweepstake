@@ -1,25 +1,19 @@
 {
-  "generatedAt": "2026-10-06T14:44:35.412917+01:00",
-  "dateLong": "Tuesday, 6 October 2026",
-  "dateDay": "Tue 6 Oct",
-  "dateRest": "Tournament Day 118",
+  "generatedAt": "2026-10-07T15:02:17.470155+01:00",
+  "dateLong": "Wednesday, 7 October 2026",
+  "dateDay": "Wed 7 Oct",
+  "dateRest": "Tournament Day 119",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
-  "yesterdayStoryline": {
-    "headline": "Off day before final tournament phase",
-    "subtitle": "Squads focus on recovery, analysis and light training ahead of crucial fixtures."
-  },
-  "todayStoryline": {
-    "headline": "No fixtures scheduled for tournament day 118",
-    "subtitle": "Host venues quiet; medical checks, meetings and strategy revisions take priority."
-  },
+  "yesterdayStoryline": null,
+  "todayStoryline": null,
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · SCIENCE",
-    "headline": "Francis Halzen wins 2026 Nobel Prize in Physics",
-    "body": "Belgian‑American physicist Francis Halzen won the 2026 Nobel Prize in Physics for creating the IceCube observatory to detect high‑energy neutrinos. The Royal Swedish Academy said the observatory helps trace such 'ghost particles' back to cosmic events like exploding stars and black holes.",
-    "source": "Source: Reuters, 6 Oct 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "Republican candidates distance themselves from Trump in tight races",
+    "body": "A Reuters review found about two‑thirds of Republican candidates in competitive U.S. House and Senate races have publicly distanced themselves from former president Donald Trump or downplayed ties. The analysis suggests nominees are trying to limit political damage from Trump’s unpopularity, a factor that could influence which party controls Congress after the Nov. 3 midterms.",
+    "source": "Source: Reuters, 7 Oct 2026."
   },
   "footerNote": "All times converted from official kickoffs"
 }
