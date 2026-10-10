@@ -8845,5 +8845,30 @@
       "source": "Source: Reuters, 9 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261010": {
+    "generatedAt": "2026-10-10T14:08:10.319108+01:00",
+    "dateLong": "Saturday, 10 October 2026",
+    "dateDay": "Sat 10 Oct",
+    "dateRest": "Tournament Day 122",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": {
+      "headline": "Sports science teams busy on non-match day",
+      "subtitle": "Physios and analysts perform scans and load management across tournament hubs."
+    },
+    "todayStoryline": {
+      "headline": "Fans explore host cities during tournament pause",
+      "subtitle": "Museums, fan zones and local tours keep visitors busy as squads recover."
+    },
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Pressure mounts on India poll chief Gyanesh Kumar over voter list changes",
+      "body": "Protests and political pressure intensified in New Delhi as opposition groups demanded the resignation of Chief Election Commissioner Gyanesh Kumar over alleged widespread removals from voter rolls. The controversy follows reporting of internal objections to the verification process and could complicate preparations for upcoming elections.",
+      "source": "Source: Reuters, 10 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
