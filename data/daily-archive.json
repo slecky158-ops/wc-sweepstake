@@ -8870,5 +8870,24 @@
       "source": "Source: Reuters, 10 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261011": {
+    "generatedAt": "2026-10-11T14:37:15.467520+01:00",
+    "dateLong": "Sunday, 11 October 2026",
+    "dateDay": "Sun 11 Oct",
+    "dateRest": "Tournament Day 123",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · WORLD",
+      "headline": "Missile strike hits Riyadh airport, at least 12 killed",
+      "body": "A missile strike hit King Khalid International Airport in Riyadh on Saturday, killing at least 12 people and injuring hundreds, Saudi authorities said. Saudi Arabia blamed Yemen’s Houthi rebels and vowed a decisive response while international partners urged de-escalation.",
+      "source": "Source: Reuters, 11 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
