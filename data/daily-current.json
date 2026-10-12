@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-11T14:37:15.467520+01:00",
-  "dateLong": "Sunday, 11 October 2026",
-  "dateDay": "Sun 11 Oct",
-  "dateRest": "Tournament Day 123",
+  "generatedAt": "2026-10-12T17:15:26.496468+01:00",
+  "dateLong": "Monday, 12 October 2026",
+  "dateDay": "Mon 12 Oct",
+  "dateRest": "Tournament Day 124",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · WORLD",
-    "headline": "Missile strike hits Riyadh airport, at least 12 killed",
-    "body": "A missile strike hit King Khalid International Airport in Riyadh on Saturday, killing at least 12 people and injuring hundreds, Saudi authorities said. Saudi Arabia blamed Yemen’s Houthi rebels and vowed a decisive response while international partners urged de-escalation.",
-    "source": "Source: Reuters, 11 Oct 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "Trump announces surprise Russia‑Ukraine energy ceasefire",
+    "body": "President Donald Trump said Russia and Ukraine had agreed an 'energy ceasefire' effective immediately, but Kyiv said it had not received details and reported fresh strikes. Ukraine accused Russia of violating the claimed ceasefire after a strike on a Kharkiv energy facility, and Kyiv urged the United States to ensure Moscow complies.",
+    "source": "Source: Reuters, 12 Oct 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
