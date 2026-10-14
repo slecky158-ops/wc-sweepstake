@@ -8927,5 +8927,24 @@
       "source": "Source: Reuters, 13 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261014": {
+    "generatedAt": "2026-10-14T13:32:23.124942+01:00",
+    "dateLong": "Wednesday, 14 October 2026",
+    "dateDay": "Wed 14 Oct",
+    "dateRest": "Tournament Day 126",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "White House asks US ambassador to Greece to resign",
+      "body": "The White House said on Tuesday it had asked US ambassador to Greece Kimberly Guilfoyle to resign, with press secretary Katie Zacharia calling her \"a wonderful asset.\" The request followed reporting and lawmakers' concerns that she may have used her position improperly.",
+      "source": "Source: Reuters, 14 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
