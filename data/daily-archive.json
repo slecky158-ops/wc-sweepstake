@@ -8946,5 +8946,24 @@
       "source": "Source: Reuters, 14 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261015": {
+    "generatedAt": "2026-10-15T13:14:39.727554+01:00",
+    "dateLong": "Thursday, 15 October 2026",
+    "dateDay": "Thu 15 Oct",
+    "dateRest": "Tournament Day 127",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Ukraine accuses SpaceX of restricting Starlink services",
+      "body": "Ukraine said SpaceX imposed limits on Starlink services used for military operations, disrupting attack and air-defence drone missions. Kyiv said the limits were applied without warning and hindered several missions, escalating tensions over Western battlefield support.",
+      "source": "Source: Reuters, 15 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
