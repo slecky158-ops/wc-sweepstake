@@ -8984,5 +8984,24 @@
       "source": "Source: Reuters, 16 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261017": {
+    "generatedAt": "2026-10-17T12:14:40.181961+01:00",
+    "dateLong": "Saturday, 17 October 2026",
+    "dateDay": "Sat 17 Oct",
+    "dateRest": "Tournament Day 129",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · HEALTH",
+      "headline": "Bangladesh battles worst measles outbreak in years",
+      "body": "Bangladesh is confronting a large measles outbreak with more than 202,000 suspected cases reported since mid‑March. Health officials and the World Health Organization warn low routine vaccination coverage and gaps in outreach have fuelled rapid spread among children.",
+      "source": "Source: Reuters, 17 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
