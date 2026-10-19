@@ -9022,5 +9022,24 @@
       "source": "Source: Reuters, 18 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261019": {
+    "generatedAt": "2026-10-19T15:08:20.645888+01:00",
+    "dateLong": "Monday, 19 October 2026",
+    "dateDay": "Mon 19 Oct",
+    "dateRest": "Tournament Day 131",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · BUSINESS",
+      "headline": "China Q3 growth rebounds to 4.5% as exports surge",
+      "body": "China's economy grew 4.5% year-on-year in the third quarter, slightly beating forecasts as factory output and exports strengthened. Weak domestic investment and a deep property slump leave policymakers weighing targeted support to sustain the recovery.",
+      "source": "Source: Reuters, 19 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
