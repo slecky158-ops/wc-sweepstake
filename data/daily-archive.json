@@ -9041,5 +9041,24 @@
       "source": "Source: Reuters, 19 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261020": {
+    "generatedAt": "2026-10-20T13:22:01.945831+01:00",
+    "dateLong": "Tuesday, 20 October 2026",
+    "dateDay": "Tue 20 Oct",
+    "dateRest": "Tournament Day 132",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Trump approval falls to record low of 31% as midterms near",
+      "body": "A Reuters/Ipsos poll concluded on Oct. 19 found President Donald Trump’s approval rating at 31%, the lowest level recorded in either of his terms. The poll also showed a 47% to 35% Democratic advantage on the generic congressional ballot, indicating potential midterm gains for Democrats on Nov. 3, 2026.",
+      "source": "Source: Reuters, 20 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
