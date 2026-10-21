@@ -9060,5 +9060,24 @@
       "source": "Source: Reuters, 20 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261021": {
+    "generatedAt": "2026-10-21T13:31:52.789112+01:00",
+    "dateLong": "Wednesday, 21 October 2026",
+    "dateDay": "Wed 21 Oct",
+    "dateRest": "Tournament Day 133",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Putin hosts Trump envoy; Russia frees US detainee",
+      "body": "Russian President Vladimir Putin met US special envoy Steve Witkoff in St Petersburg on Oct 21 to discuss new proposals for ending the war in Ukraine. Russia announced the release of American detainee Stephen Hubbard as a goodwill gesture, while Western officials urged caution about the talks' prospects.",
+      "source": "Source: Reuters, 21 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
