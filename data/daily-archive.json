@@ -9079,5 +9079,24 @@
       "source": "Source: Reuters, 21 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261022": {
+    "generatedAt": "2026-10-22T13:36:15.095735+01:00",
+    "dateLong": "Thursday, 22 October 2026",
+    "dateDay": "Thu 22 Oct",
+    "dateRest": "Tournament Day 134",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Houthi strikes on Saudi targets escalate, lift oil prices",
+      "body": "Houthi attacks on Saudi facilities and an airport prompted evacuations and pushed Brent crude above $110 a barrel. The strikes raised concerns of wider regional escalation and led some countries to relocate family members from missions in the Gulf.",
+      "source": "Source: Reuters, 22 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
