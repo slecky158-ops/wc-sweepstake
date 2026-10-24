@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-23T13:14:45.276807+01:00",
-  "dateLong": "Friday, 23 October 2026",
-  "dateDay": "Fri 23 Oct",
-  "dateRest": "Tournament Day 135",
+  "generatedAt": "2026-10-24T12:42:15.134175+01:00",
+  "dateLong": "Saturday, 24 October 2026",
+  "dateDay": "Sat 24 Oct",
+  "dateRest": "Tournament Day 136",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · ASIA",
-    "headline": "Taiwan shuts down ahead of Typhoon Champi",
-    "body": "Almost all of Taiwan shut down on Friday as Typhoon Champi approached, with schools and markets closed and hundreds of flights cancelled. The storm was forecast to brush the island's northeast and gradually weaken, but authorities warned of heavy rain and strong winds.",
-    "source": "Source: Reuters, 23 Oct 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "DOJ orders California counties to set aside suspected noncitizen ballots",
+    "body": "The Justice Department sent letters to multiple California county election offices demanding they identify and set aside mail ballots linked to people it says may be noncitizens. Officials warned counties they could face legal action if they do not comply, while California election authorities said the federal list is unreliable and cannot be used to withhold ballots.",
+    "source": "Source: Reuters, 24 Oct 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
