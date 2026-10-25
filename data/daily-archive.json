@@ -9136,5 +9136,24 @@
       "source": "Source: Reuters, 24 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261025": {
+    "generatedAt": "2026-10-25T13:11:08.554470+01:00",
+    "dateLong": "Sunday, 25 October 2026",
+    "dateDay": "Sun 25 Oct",
+    "dateRest": "Tournament Day 137",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · HEALTH",
+      "headline": "Kenya reports second death from Ebola",
+      "body": "Kenya has reported a second death from Ebola and is tracing contacts after the virus surfaced in a recent traveller. Genetic links to a case detected in Nigeria have prompted regional screening and expanded contact-tracing efforts, Reuters reports.",
+      "source": "Source: Reuters, 24 Oct 2026"
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
