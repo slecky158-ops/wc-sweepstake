@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-25T13:11:08.554470+01:00",
-  "dateLong": "Sunday, 25 October 2026",
-  "dateDay": "Sun 25 Oct",
-  "dateRest": "Tournament Day 137",
+  "generatedAt": "2026-10-26T14:42:11.400745+01:00",
+  "dateLong": "Monday, 26 October 2026",
+  "dateDay": "Mon 26 Oct",
+  "dateRest": "Tournament Day 138",
   "yesterdayCount": "Rest day",
   "todayCount": "Rest day",
   "yesterdayStoryline": null,
@@ -10,10 +10,10 @@
   "yesterday": [],
   "today": [],
   "news": {
-    "kicker": "REUTERS · HEALTH",
-    "headline": "Kenya reports second death from Ebola",
-    "body": "Kenya has reported a second death from Ebola and is tracing contacts after the virus surfaced in a recent traveller. Genetic links to a case detected in Nigeria have prompted regional screening and expanded contact-tracing efforts, Reuters reports.",
-    "source": "Source: Reuters, 24 Oct 2026"
+    "kicker": "REUTERS · POLITICS",
+    "headline": "Lula wins historic fourth term in Brazil presidential runoff",
+    "body": "Luiz Inácio Lula da Silva defeated Senator Flávio Bolsonaro in the runoff, securing a fourth non-consecutive presidential term, the electoral court said. Official results showed Lula with about 51.8% of the vote to Bolsonaro’s 48.2%, and world leaders issued rapid reactions to the outcome.",
+    "source": "Source: Reuters, 26 Oct 2026"
   },
   "footerNote": "All times converted from official kickoffs"
 }
