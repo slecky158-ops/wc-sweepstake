@@ -9174,5 +9174,24 @@
       "source": "Source: Reuters, 26 Oct 2026"
     },
     "footerNote": "All times converted from official kickoffs"
+  },
+  "20261027": {
+    "generatedAt": "2026-10-27T13:50:08.133483+01:00",
+    "dateLong": "Tuesday, 27 October 2026",
+    "dateDay": "Tue 27 Oct",
+    "dateRest": "Tournament Day 139",
+    "yesterdayCount": "Rest day",
+    "todayCount": "Rest day",
+    "yesterdayStoryline": null,
+    "todayStoryline": null,
+    "yesterday": [],
+    "today": [],
+    "news": {
+      "kicker": "REUTERS · POLITICS",
+      "headline": "Trump approval inches up to 32% ahead of midterms",
+      "body": "A Reuters/Ipsos poll found President Trump’s approval rating rose to 32% in a survey that closed Oct. 26. The poll also showed Democrats leading the generic congressional ballot by roughly 9–11 points, signalling uphill tasks for Republicans before the Nov. 3 midterms.",
+      "source": "Source: Reuters, 27 Oct 2026."
+    },
+    "footerNote": "All times converted from official kickoffs"
   }
 }
